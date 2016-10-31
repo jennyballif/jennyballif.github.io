@@ -18,9 +18,9 @@
         </ul>
         ---> 
         <ul class="notepad-menu">
-            <li class="notepad-mobile-close-btn show-for-small text-right">
+            <!---<li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
-            </li>
+            </li> --->
 {% for link in site.links %}
             <li>{% if link.external %}
             <a href="{{ link.url }}">{{ link.title }}</a>
@@ -29,6 +29,7 @@
             {% endif %} </li>
 {% endfor %}            
            <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
+            <li><a href="#" class="button special">Sign Up</a></li>
         </ul>
      
     </nav>
