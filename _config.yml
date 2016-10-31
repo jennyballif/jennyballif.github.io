@@ -10,3 +10,53 @@ github_username:  jennyballif
 
 # Build settings
 markdown: kramdown
+
+
+
+
+
+
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Science Mom
+    url: /sciencemom
+  - title: Writing
+    url: /writing
+  - title: Featured Posts
+    url: /featured
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
+    
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+gems: [jekyll-paginate]
+timezone:    America/Los_Angeles
+future:      true
+highlighter: rouge
+markdown:    kramdown
+paginate:    12
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+
+
