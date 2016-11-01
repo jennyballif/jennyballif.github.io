@@ -1093,3 +1093,8 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+.div-with-bg
+{
+    background: color url('path') others;
+}
