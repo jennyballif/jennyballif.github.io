@@ -90,9 +90,13 @@ prose:
           value: "true"
       - name: "layout"
         field:
-          element: "hidden"
+          element: "select"
           label: "Layout"
-          value: "post"
+          options:
+            - name: "Science Mom"
+              value: "sciencemomlayout"
+            - name: "Post"
+              value: "post"
       - name: "title"
         field:
           label: "Title"
