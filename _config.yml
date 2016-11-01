@@ -85,14 +85,9 @@ prose:
           value: "false"
       - name: "layout"
         field:
-          element: "select"
+          element: "hidden"
           label: "Layout"
-          value: "sciencemom"
-          options:
-            - name: "Science Mom"
-              value: "sciencemom"
-            - name: "Post"
-              value: "post"         
+          value: "post"       
       - name: "title"
         field:
           label: "Title"
