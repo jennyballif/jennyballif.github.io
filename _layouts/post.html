@@ -8,7 +8,9 @@ layout: default
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
         
-
+            {% if page.videofeature != "" %}
+            {% include youtubeplayer.html id="https://www.youtube.com/embed/wSdYIu18t88" %} 
+            {% endif %}
 
         <section class="post-content">
             {{ content }}
