@@ -3,7 +3,7 @@ layout: sciencemomlayout
 videofeature: https://www.youtube.com/embed/iwqUhD47o14
 ---
 
-{% include youtubeplayer.html id="{{ scienceMomPost.videofeature }}" %} 
+{% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
 
 dddd
 
