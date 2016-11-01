@@ -143,10 +143,10 @@ prose:
           element: "text"
           label: "Featured Video youtube embed link"
           placeholder: "https://www.youtube.com/embed/iwqUhD47o14"
-      - name: "mathjax"
+      - name: "sciencemom"
         field:
           element: "checkbox"
-          label: "MathJax"
+          label: "Science Mom"
           value: true
       - name: "featured"
         field:
