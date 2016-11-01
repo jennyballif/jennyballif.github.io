@@ -6,11 +6,11 @@ layout: default
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header> 
+        <section class="post-content">
             {% if page.videofeature != "" %}
             <p><div style="text-align:center"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
             {% endif %}
-        </header> 
-        <section class="post-content">
             {{ content }}
         </section>       
         <footer>
