@@ -117,8 +117,10 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Science Mom"
-              value: sciencemom
+            - name: "Math"
+              value: math
+            - name: "Teaching"
+              value: teaching
             - name: "Fun"
               value: fun
             - name: "Writing"
@@ -151,6 +153,7 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: true
+
 
 
 
