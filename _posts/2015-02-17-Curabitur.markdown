@@ -1,6 +1,10 @@
 ---
 layout: sciencemomlayout
+videofeature: https://www.youtube.com/embed/iwqUhD47o14
 ---
+
+{% include youtubeplayer.html id="{{ scienceMomPost.videofeature }}" %} 
+
 dddd
 
 <img src="{{ site.baseurl }}/images/pic03.jpg" class="fit image">
