@@ -143,6 +143,11 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+      - name: "videofeature"
+        field:
+          element: "text"
+          label: "Featured Video youtube embed link"
+          placeholder: "https://www.youtube.com/embed/iwqUhD47o14"
       - name: "mathjax"
         field:
           element: "checkbox"
