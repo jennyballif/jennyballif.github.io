@@ -10,7 +10,7 @@ layout: default
 </section>
 <section id="main" class="wrapper style1">
     {% for post in site.posts %}
-      {% if post.videofeature != "" %}
+      {% if post.videofeature %}
         <div class="wrapper {% cycle 'style1', 'style2' %}"> 
             <header class="major">
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>               
