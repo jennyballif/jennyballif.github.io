@@ -87,9 +87,9 @@ prose:
         field:
           element: "select"
           label: "Layout"
-          placeholder: "Choose Category"
+          value: "sciencemom"
           options:
-            - name: "ScienceMom"
+            - name: "Science Mom"
               value: "sciencemom"
             - name: "Post"
               value: "post"         
