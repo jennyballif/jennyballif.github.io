@@ -1,6 +1,5 @@
 ---
-layout: sciencemomlayout
-videofeature: https://www.youtube.com/embed/iwqUhD47o14
+layout: post
 ---
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
