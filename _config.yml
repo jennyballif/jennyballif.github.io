@@ -45,10 +45,10 @@ paginate_path: "page:num"
 permalink:   /:title
 
 collections:
-  shortstories
+  shortstories:
     output: true
     permalink: /shortstories/:path/
-  sciencemom
+  sciencemom:
     output: true
     permalink: /sciencemom/:path/
     
