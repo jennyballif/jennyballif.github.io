@@ -15,7 +15,7 @@ layout: default
             <header class="major">
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>               
             </header>
-            {{ post.videofeature }}
+            {% include youtubeplayer.html id="{{ post.videofeature }}" %}
             <section class="container">
                 {{ post.excerpt }}
             </section>
