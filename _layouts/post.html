@@ -7,7 +7,7 @@ layout: default
             <h2 class="post-title">{{ page.title }}</h2>
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             {% if page.videofeature != "" %}
-            <div style="text-align:center"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div>
+            <p><div style="text-align:center"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
             {% endif %}
         </header> 
         <section class="post-content">
