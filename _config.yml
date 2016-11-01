@@ -51,7 +51,6 @@ collections:
   sciencemom:
     output: true
     permalink: /sciencemom/:path/
-    videofeature: https://www.youtube.com/embed/iwqUhD47o14 
     
 
 kramdown:
