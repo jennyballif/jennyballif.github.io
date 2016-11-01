@@ -72,7 +72,7 @@ kramdown:
 
 
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: 'https://jennyballif.github.io/' #'http://hmfaysal.github.io/Notepad/'
   relativeLinks: 'https://jennyballif.github.io/links.jsonp'
   media: 'images'
@@ -83,11 +83,6 @@ prose:
           label: "Published"
           element: "checkbox"
           value: "false"
-      - name: "sciencemom"
-        field:
-          label: "Science Mom"
-          element: "checkbox"
-          value: "true"
       - name: "layout"
         field:
           element: "select"
