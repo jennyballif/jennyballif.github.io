@@ -164,11 +164,6 @@ prose:
           label: "Published"
           element: "checkbox"
           value: "false"
-      - name: "sciencemom"
-        field:
-          label: "Science Mom"
-          element: "checkbox"
-          value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -226,7 +221,7 @@ prose:
         field:
           element: "text"
           label: "Featured Video"
-          placeholder: "text after v= in youtube embed link"
+          placeholder: "Youtube embed src"
       - name: "mathjax"
         field:
           element: "checkbox"
