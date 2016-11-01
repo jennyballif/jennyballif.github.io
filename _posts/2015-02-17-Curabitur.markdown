@@ -1,5 +1,5 @@
 ---
-layout: sciencemomlayout
+layout: post
 videofeature: https://www.youtube.com/embed/iwqUhD47o14
 ---
 
