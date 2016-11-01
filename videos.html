@@ -15,7 +15,8 @@ layout: default
             <header class="major">
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>               
             </header>
-            {% include youtubeplayer.html id="{{ post.videofeature }}" %}
+            <div style="text-align: center;"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div>
+
             <section class="container">
                 {{ post.excerpt }}
             </section>
