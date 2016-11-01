@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Science Mom Videos</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+    {% for post in site.posts %}
+      {% if post.videofeature %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}"> 
+            <header class="major">
+                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>               
+            </header>
+            <section class="container">
+                {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %}
+                {{ post.excerpt }}
+            </section>
+        </div>
+      {% endif %}
+    {% endfor %}
+</section>
