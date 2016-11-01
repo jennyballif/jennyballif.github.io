@@ -9,7 +9,7 @@ layout: default
         </header>
         
             {% if page.videofeature %}
-            {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
+            {% include youtubeplayer.html id="{{ page.videofeature }}" %} 
             {% endif %}
 
         <section class="post-content">
