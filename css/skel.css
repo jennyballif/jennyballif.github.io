@@ -63,7 +63,8 @@
 	.\-7u { margin-left: 58.3333333333% }
 	.\-6u { margin-left: 50% }
 	.\-5u { margin-left: 41.6666666667% }
-	.\-4u { margin-left: 33.3333333333% }
+	.\-4u { margin-left: 33.3333333333%
+		background: #192024;}
 	.\-3u { margin-left: 25% }
 	.\-2u { margin-left: 16.6666666667% }
 	.\-1u { margin-left: 8.3333333333% }
@@ -72,7 +73,6 @@
 
 		.row > * {
 			float: left;
-			background: #192024;
 		}
 
 		.row:after {
