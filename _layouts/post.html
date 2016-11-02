@@ -21,7 +21,6 @@ layout: default
             {% if page.next %}
             <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
         </footer>
-
+        {% include disqus_comments.html %}
     </article>
-    {% include disqus_comments.html %}
 </div>
