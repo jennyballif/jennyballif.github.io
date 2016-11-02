@@ -4,10 +4,14 @@ published: true
 sciencemom: false
 featured: false
 comments: true
-title: An Awesome Headline!
+title: Instructions
+headline: A few details
 ---
+You can share a video in a link like so:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
+
+A full page image needs the class "fit image" like so:
 
 <img src="{{ site.baseurl }}/images/pic03.jpg" class="fit image">
 
