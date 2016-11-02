@@ -1,5 +1,10 @@
 ---
 layout: post
+published: true
+sciencemom: false
+featured: false
+comments: true
+title: An Awesome Headline!
 ---
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
