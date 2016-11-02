@@ -22,15 +22,11 @@ links:
     external: false
     icon: home
   - title: Science Mom
-    url: /sciencemom
+    url: /sciencemomblog
   - title: Writing
     url: /writing
-  - title: Featured Posts
-    url: /featured
-  - title: Categories
-    url: /categories
-  - title: About
-    url: /about
+  - title: Videos
+    url: /videos
     
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 gems: [jekyll-paginate]
