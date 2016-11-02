@@ -10,6 +10,7 @@ layout: default
 </section>
 <section id="main" class="wrapper style1">
     {% for post in site.posts %}
+      {% if post.sciencemom %}
         <div class="wrapper {% cycle 'style1', 'style2' %}">
             <header class="major">
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -23,5 +24,6 @@ layout: default
                 </ul>
             </section>
         </div>
+      {% endif %}
     {% endfor %}
 </section>
