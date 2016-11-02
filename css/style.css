@@ -1101,9 +1101,9 @@ div#vidbg {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 0;
-    text-align:center
 }
 div#vidbg iframe {
+    text-align:center;
     box-sizing: border-box;
     background: url(https://resurva.com/wp-content/uploads/2015/09/ipad-video-border.png) center center no-repeat;
     background-size: contain;
