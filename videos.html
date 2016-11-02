@@ -16,7 +16,7 @@ layout: default
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>               
             </header>       
             <section class="container">
-                <div style="text-align:center"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div>
+                {{ post.excerpt }}
             </section>
         </div>
       {% endif %}
