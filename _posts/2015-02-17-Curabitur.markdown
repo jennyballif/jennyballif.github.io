@@ -7,6 +7,7 @@ comments: true
 title: Instructions
 headline: A few details
 ---
+
 You can share a video in a link like so:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
