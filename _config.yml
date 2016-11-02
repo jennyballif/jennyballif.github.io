@@ -96,7 +96,7 @@ prose:
           placeholder: "Enter post description for facebook or twitter"
       - name: "headline"
         field:
-          element: "text"
+          element: "textarea"
           label: "headline"
           placeholder: "Enter post headline for the blog feed"
       - name: "modified"
