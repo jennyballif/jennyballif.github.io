@@ -14,7 +14,7 @@
 
 	body {
 		/* min-width: (containers) */
-		min-width: 1200px;
+		min-width: 900px; /* 1200px */
 	}
 
 	.container {
@@ -22,24 +22,24 @@
 		margin-right: auto;
 		
 		/* width: (containers) */
-		width: 1200px;
+		width: 900px; /* 1200px */
 	}
 
 	/* Modifiers */
 	
 		.container.small {
 			/* width: (containers) * 0.75; */
-			width: 900px;
+			width: 675px; /* 900px */
 		}
 
 		.container.big {
 			width: 100%;
 
 			/* max-width: (containers) * 1.25; */
-			max-width: 1500px;
+			max-width: 1175px; /* 1500px */
 
 			/* min-width: (containers); */
-			min-width: 1200px;
+			min-width: 900px; /* 1200px */
 		}
 
 /* Grid */
