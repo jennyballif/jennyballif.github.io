@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jennyballif.github.io" # the base hostname & protocol for your site
 twitter_username: JennyBallif
 github_username:  jennyballif
+disqus_shortname: ScienceMom
 
 # Build settings
 
