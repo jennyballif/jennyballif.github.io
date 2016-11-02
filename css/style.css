@@ -1111,6 +1111,6 @@ div#vidbg iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 50%;
 }
