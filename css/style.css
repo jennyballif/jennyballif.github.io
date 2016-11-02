@@ -845,7 +845,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 1em 0 1em 0;
+		padding: 1em 0 1em 0; /* was 6em 0 4em 0 originally */
 	}
 
 		.wrapper.style1 {
