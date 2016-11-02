@@ -38,7 +38,7 @@ paginate:    12
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:title
+permalink:   /:categories/:title
 
 collections:
   shortstories:
