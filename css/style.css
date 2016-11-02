@@ -1101,6 +1101,7 @@ div#vidbg {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 0;
+    text-align:center
 }
 div#vidbg iframe {
     box-sizing: border-box;
