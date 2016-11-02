@@ -72,6 +72,7 @@
 
 		.row > * {
 			float: left;
+			background: #192024;
 		}
 
 		.row:after {
