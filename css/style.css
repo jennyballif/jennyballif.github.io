@@ -1098,8 +1098,8 @@
 
 div#vidbg {
     position: relative;
-    padding-top: 25px;
-    padding-bottom: 67.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 0;
 }
 div#vidbg iframe {
