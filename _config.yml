@@ -93,12 +93,12 @@ prose:
         field:
           element: "text"
           label: "Description"
-          placeholder: "Enter Post Description"
+          placeholder: "Enter post description for facebook or twitter"
       - name: "headline"
         field:
           element: "text"
           label: "headline"
-          placeholder: "Enter Post Headline"
+          placeholder: "Enter post headline for the blog feed"
       - name: "modified"
         field:
           element: "text"
