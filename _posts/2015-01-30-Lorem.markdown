@@ -5,6 +5,7 @@ sciencemom: false
 featured: false
 comments: true
 title: An Awesome Headline!
+headline: So much stuff here.
 ---
 
 <img src="{{ site.baseurl }}/images/pic02.jpg" class="fit image">
