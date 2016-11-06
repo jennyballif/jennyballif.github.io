@@ -61,12 +61,12 @@
 		    <li> Share: </li>
                     {% if site.owner.twitter %}
                     <li>
-                        <a href="https://twitter.com/{{ site.owner.twitter }}", class="button specialG">twitter
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=JennyBallif&hashtags={{ page.tags }}" target="_blank" title="Share this post on Twitter", class="button specialG">twitter
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-		    </li>	
+		    </li>href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=JennyBallif&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"	
                     {% endif %}
 		    {% if site.owner.facebook %}
 		    <li><a href="https://www.facebook.com/{{ site.owner.facebook }}" class="button special">facebook
