@@ -61,29 +61,20 @@
 		    <li> Share: </li>
                     {% if site.owner.twitter %}
                     <li>
-                        <a href="https://twitter.com/{{ site.owner.twitter }}">
+                        <a href="https://twitter.com/{{ site.owner.twitter }}", class="button specialG">twitter
                             <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                    </li>
+		    </li>	
                     {% endif %}
-                    {% if site.owner.facebook %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.owner.facebook }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-		    <li><a href="#" class="button special">facebook
+		    {% if site.owner.facebook %}
+		    <li><a href="https://www.facebook.com/{{ site.owner.facebook }}" class="button special">facebook
 			    <span class="fa-stack fa-lg">
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>	
 		    </a></li>
+		    {% endif %}
 		    <li> test </li>
                     <!--{% if site.owner.github %}
                     <li>
