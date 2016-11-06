@@ -57,10 +57,8 @@
     -->
 
 	<div class="container">
-		<ul>
-            		<li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"" class="button special"> Twitter <i class="icon fa-twitter"></i></a></li>
-        	</ul>
 		<ul class="list-inline text-center">
+		    <li> Share: </li>
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
                             <span class="fa-stack fa-lg">
@@ -100,7 +98,9 @@
                     </li>
                     {% endif %}
                 </ul>
-		
+	<\div>
+				
+	<div class="container">
 		<div class="row">
 			<div class="4u">
 				<a href="sciencemomblog.html" style="display:block;">
