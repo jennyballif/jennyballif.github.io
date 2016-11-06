@@ -813,6 +813,11 @@
 			background-color: #629DD1;
 			color: #ffffff !important;
 		}
+		input[type="button"].specialG,
+		.button.specialG {
+			background-color: #849AAE;
+			color: #ffffff !important;
+		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
@@ -820,12 +825,20 @@
 			.button.special:hover {
 				background-color: #76a9d7;
 			}
+			input[type="button"].specialG:hover,
+			.button.specialG:hover {
+				background-color: #9DAEBE;
+			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
 				background-color: #4e91cb;
+			}
+			input[type="button"].specialG:active,
+			.button.specialG:active {
+				background-color: #6A7B8B;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
