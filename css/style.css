@@ -1094,9 +1094,9 @@
 			color: #bbb;
 		}
 
-
-#footer ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
-#footer ul li { position: relative; float: left; display: block; right: 50%; }
+#footer .social { width: 100%; overflow: hidden; }
+#footer .social ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+#footer .social ul li { position: relative; float: left; display: block; right: 50%; }
 
 
 
