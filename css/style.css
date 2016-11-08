@@ -1126,13 +1126,7 @@
 #footer { text-align: center; }
 #footer ul { list-style: none; }
 #footer ul li { display: inline; }
-@media screen and (max-width: 600px) {   
-    #footer ul li {
-        float: none;
-        list-style-position: outside;
-        margin: 0;
-    }
-}
+
 
 div#vidbg {
     position: relative;
