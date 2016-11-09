@@ -57,6 +57,30 @@
     -->
 	{% if page.layout == "post" %}
 	<div class="social">
+		{% if site.owner.twitter %}
+        <a href="http://twitter.com/{{ site.owner.twitter }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if site.owner.google_plus %}
+        <a href="{{ site.owner.google_plus }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if site.owner.facebook %}
+        <a href="http://facebook.com/{{ site.owner.facebook }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
 		<ul class="social">
 		    <li> Share: </li>
                     {% if site.owner.twitter %}
