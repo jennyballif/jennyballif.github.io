@@ -20,6 +20,28 @@ layout: default
             <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
             {% if page.next %}
             <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
+            {% if site.owner.twitter %}
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=JennyBallif&hashtags={{ page.tags }}" target="_blank" title="Share this post on Twitter">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+	</a>{% endif %}{% if site.owner.google_plus %}<a href="https://plus.google.com/share?
+    				url=http://{{ site.url }}{{ page.url }}
+    				&hl=en-US" 
+    				onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+ 				target="_blank" title="Share this post on google plus">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+        </a>{% endif %}{% if site.owner.facebook %}<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
         </footer>
         {% include disqus_comments.html %}
     </article>
