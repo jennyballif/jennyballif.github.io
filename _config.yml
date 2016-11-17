@@ -54,13 +54,6 @@ paginate_path: "page:num"
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:title
 
-collections:
-  shortstories:
-    output: true
-    permalink: /shortstories/:path/
-  sciencemom:
-    output: true
-    permalink: /sciencemom/:path/
     
 
 kramdown:
