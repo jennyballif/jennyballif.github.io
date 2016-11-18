@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jennyballif.github.io" # the base hostname & protocol for your site
 owner:            
   name:           Jenny Ballif
-  email:          jenballif@gmail.comu 
+  email:          jenballif@gmail.com
   facebook:         jenny.ballif.5
   twitter:          JennyBallif
   github_username:  jennyballif
