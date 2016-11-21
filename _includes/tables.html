@@ -22,3 +22,35 @@
   </tr>
 </table></div>
 {% endif %}
+{% if post.experiment2 %}
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-e3zv">Activity</th>
+    <th class="tg-9hbo">Supplies</th>
+    <th class="tg-9hbo">Concepts</th>
+    <th class="tg-9hbo">Guide</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">{{ post.experiment2title }}<br>Time: {{ post.experiment2time }}<br><img src="images/{{ post.experiment2image }}" alt="Experiment" width="100%" max-width="150" ></td>
+    <td class="tg-yw4l">{{ post.experiment2supplies }}</td>
+    <td class="tg-yw4l">{{ post.experiment2concepts }}</td>
+    <td class="tg-yw4l"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="100%" max-width="100" ></td>
+  </tr>
+</table></div>
+{% endif %}
+{% if post.experiment3 %}
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-e3zv">Activity</th>
+    <th class="tg-9hbo">Supplies</th>
+    <th class="tg-9hbo">Concepts</th>
+    <th class="tg-9hbo">Guide</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">{{ post.experiment3title }}<br>Time: {{ post.experiment3time }}<br><img src="images/{{ post.experiment3image }}" alt="Experiment" width="100%" max-width="150" ></td>
+    <td class="tg-yw4l">{{ post.experiment3supplies }}</td>
+    <td class="tg-yw4l">{{ post.experiment3concepts }}</td>
+    <td class="tg-yw4l"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="100%" max-width="100" ></td>
+  </tr>
+</table></div>
+{% endif %}
