@@ -11,7 +11,9 @@ layout: default
 <section id="main" class="wrapper style1">
     {% for post in site.posts %}
       {% if post.sciencemom %}
+        <section class="container">
         {% include /tables.html %}
+        </section>
     <!--
         <div class="wrapper {% cycle 'style1' %}">
             <section class="container">
