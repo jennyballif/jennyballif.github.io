@@ -151,18 +151,46 @@ prose:
           element: "checkbox"
           label: "Science Mom"
           value: true
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
       - name: "comments"
         field:
           element: "checkbox"
           label: "Comments"
           value: true
-
-
+      - name: "experiment1"
+        field:
+          element: "checkbox"
+          label: "Experiment 1 Summary"
+          value: true
+      - name: "experiment1title"
+        field:
+          element: "text"
+          label: "Experiment 1 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment1time"
+        field:
+          element: "text"
+          label: "Experiment 1 Time"
+          placeholder: "10 min"
+      - name: "experiment1supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 1 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment1concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 1 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment1image"
+        field:
+          element: "text"
+          label: "Experiment 1 Image"
+          placeholder: "somefile.jpg"
+      - name: "sciencemomguideimage"
+        field:
+          element: "text"
+          label: "Science Mom Guide Image"
+          placeholder: "someotherfile.jpg"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
