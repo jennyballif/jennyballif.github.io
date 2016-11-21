@@ -156,6 +156,11 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: true
+      - name: "sciencemomguideimage"
+        field:
+          element: "text"
+          label: "Science Mom Guide Image"
+          placeholder: "someotherfile.jpg"
       - name: "experiment1"
         field:
           element: "checkbox"
@@ -186,11 +191,67 @@ prose:
           element: "text"
           label: "Experiment 1 Image"
           placeholder: "somefile.jpg"
-      - name: "sciencemomguideimage"
+      - name: "experiment2"
+        field:
+          element: "checkbox"
+          label: "Experiment 2 Summary"
+          value: true
+      - name: "experiment2title"
         field:
           element: "text"
-          label: "Science Mom Guide Image"
-          placeholder: "someotherfile.jpg"
+          label: "Experiment 2 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment2time"
+        field:
+          element: "text"
+          label: "Experiment 2 Time"
+          placeholder: "10 min"
+      - name: "experiment2supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 2 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment2concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 2 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment2image"
+        field:
+          element: "text"
+          label: "Experiment 2 Image"
+          placeholder: "somefile.jpg"
+      - name: "experiment3"
+        field:
+          element: "checkbox"
+          label: "Experiment 3 Summary"
+          value: true
+      - name: "experiment3title"
+        field:
+          element: "text"
+          label: "Experiment 3 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment3time"
+        field:
+          element: "text"
+          label: "Experiment 3 Time"
+          placeholder: "10 min"
+      - name: "experiment3supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 3 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment3concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 3 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment3image"
+        field:
+          element: "text"
+          label: "Experiment 3 Image"
+          placeholder: "somefile.jpg"
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
