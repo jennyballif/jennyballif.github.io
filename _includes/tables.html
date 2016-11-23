@@ -1,0 +1,207 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border-width:1px;border-style:solid;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-e3zv{font-weight:bold; word-wrap: break-word; max-width: 150px;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top; word-wrap: break-word; max-width: 150px;}
+.tg .tg-yw4l{vertical-align:top; word-wrap: break-word; max-width: 150px;}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+{% if post.experiment1 %}
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-e3zv">Activity</th>
+    <th class="tg-9hbo">Supplies</th>
+    <th class="tg-9hbo">Concepts</th>
+    <th class="tg-9hbo">Guide</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">{{ post.experiment1title }}<br>Time: {{ post.experiment1time }}<br><img src="images/{{ post.experiment1image }}" alt="Experiment" width="100%" max-width="150" ></td>
+    <td class="tg-yw4l">{{ post.experiment1supplies }}</td>
+    <td class="tg-yw4l">{{ post.experiment1concepts }}</td>
+    <td class="tg-yw4l"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="100%" max-width="100" ></td>
+  </tr>
+</table></div>
+{% endif %}
+{% if post.experiment2 %}
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-e3zv">Activity</th>
+    <th class="tg-9hbo">Supplies</th>
+    <th class="tg-9hbo">Concepts</th>
+    <th class="tg-9hbo">Guide</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">{{ post.experiment2title }}<br>Time: {{ post.experiment2time }}<br><img src="images/{{ post.experiment2image }}" alt="Experiment" width="100%" max-width="150" ></td>
+    <td class="tg-yw4l">{{ post.experiment2supplies }}</td>
+    <td class="tg-yw4l">{{ post.experiment2concepts }}</td>
+    <td class="tg-yw4l"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="100%" max-width="100" ></td>
+  </tr>
+</table></div>
+{% endif %}
+{% if post.experiment3 %}
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-e3zv">Activity</th>
+    <th class="tg-9hbo">Supplies</th>
+    <th class="tg-9hbo">Concepts</th>
+    <th class="tg-9hbo">Guide</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">{{ post.experiment3title }}<br>Time: {{ post.experiment3time }}<br><img src="images/{{ post.experiment3image }}" alt="Experiment" width="100%" max-width="150" ></td>
+    <td class="tg-yw4l">{{ post.experiment3supplies }}</td>
+    <td class="tg-yw4l">{{ post.experiment3concepts }}</td>
+    <td class="tg-yw4l"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="100%" max-width="100" ></td>
+  </tr>
+</table></div>
+{% endif %}
+
+
+
+
+
+
+<style>
+table#miyazaki caption {
+	font-size: 2rem;
+	color: #444;
+	margin: 1rem;
+	background-image: url(miyazaki.png), url(miyazaki2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center left, center right;
+}
+table#miyazaki {
+	border-collapse: collapse;
+	font-family: Agenda-Light;
+	font-weight: 100;
+	background: #333;
+	color: #fff;
+	text-rendering: optimizeLegibility;
+	border-radius: 5px;
+}
+table#miyazaki thead th { 
+	font-weight: 600; 
+}
+table#miyazaki thead th, 
+	table#miyazaki tbody td {
+	padding: .8rem;
+	font-size: 1.4rem; 
+}
+table#miyazaki tbody td {
+	padding: .8rem;
+	font-size: 1.4rem;
+	color: #444;
+	background: #eee;
+}
+table#miyazaki tbody tr:not(:last-child) {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd; 
+}
+@media screen and (max-width: 600px) {
+	table#miyazaki caption {
+		background-image: none;
+	}
+	table#miyazaki thead {
+		display: none; 
+	}
+	table#miyazaki tbody td {
+		display: block;
+		padding: .6rem; 
+	}
+	table#miyazaki tbody tr td:first-child {
+		background: #333;
+		color: #fff; 
+	}
+	table#miyazaki tbody td:before {
+		content: attr(data-th);
+		font-weight: bold;
+		display: inline-block;
+		width: 6rem; 
+	}
+}
+</style>
+
+
+
+{% if post.experiment1 %}
+<table id="miyazaki">
+<thead>
+	<tr>
+		<th>Activity
+		<th>Supplies
+		<th>Concepts
+		<th> Guide
+<tbody>
+	<tr>
+		<td>{{ post.experiment1title }} <br>Time: {{ post.experiment1time }} <br><img src="images/{{ post.experiment1image }}" alt="Experiment" width="150px">
+		<td>{{ post.experiment1supplies }}
+		<td>{{ post.experiment1concepts }}
+		<td>Check it out <br><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" >
+</table>
+{% endif %}
+
+{% if post.experiment2 %}
+<table id="miyazaki">
+<thead>
+	<tr>
+		<th>Activity
+		<th>Supplies
+		<th>Concepts
+		<th>Guide
+<tbody>
+	<tr>
+		<td>{{ post.experiment2title }} <br>Time: {{ post.experiment2time }} <br><img src="images/{{ post.experiment2image }}" alt="Experiment" width="150px">
+		<td>{{ post.experiment2supplies }}
+		<td>{{ post.experiment2concepts }}
+		<td>Check it out <br><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" >
+</table>
+{% endif %}
+
+{% if post.experiment3 %}
+<table id="miyazaki">
+<thead>
+	<tr>
+		<th>Activity
+		<th>Supplies
+		<th>Concepts
+		<th>Guide
+<tbody>
+	<tr>
+		<td>{{ post.experiment3title }} <br>Time: {{ post.experiment2time }} <br><img src="images/{{ post.experiment3image }}" alt="Experiment" width="150px">
+		<td>{{ post.experiment3supplies }}
+		<td>{{ post.experiment3concepts }}
+		<td>Check it out <br><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" >
+</table>
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var headertext = [];
+var headers = document.querySelectorAll("#miyazaki th"),
+tablerows = document.querySelectorAll("#miyazaki th"),
+tablebody = document.querySelector("#miyazaki tbody");
+for(var i = 0; i < headers.length; i++) {
+	var current = headers[i];
+	headertext.push( current.textContent.replace( /\r?\n|\r/,"") );
+}
+for (var i = 0, row; row = tablebody.rows[i]; i++) {
+	for (var j = 0, col; col = row.cells[j]; j++) {
+		col.setAttribute("data-th", headertext[j]);
+	}
+}
+</script>
