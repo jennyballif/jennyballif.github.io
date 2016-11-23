@@ -1,0 +1,113 @@
+<style>
+table#miyazaki caption {
+	font-size: 2rem;
+	color: #444;
+	margin: 1rem;
+	background-image: url(miyazaki.png), url(miyazaki2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center left, center right;
+}
+table#miyazaki {
+	border-collapse: collapse;
+	font-family: Agenda-Light;
+	font-weight: 100;
+	background: #333;
+	color: #fff;
+	text-rendering: optimizeLegibility;
+	border-radius: 5px;
+}
+table#miyazaki thead th { 
+	font-weight: 600; 
+}
+table#miyazaki thead th, 
+	table#miyazaki tbody td {
+	padding: .8rem;
+	font-size: 1.4rem; 
+}
+table#miyazaki tbody td {
+	padding: .8rem;
+	font-size: 1.4rem;
+	color: #444;
+	background: #eee;
+}
+table#miyazaki tbody tr:not(:last-child) {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd; 
+}
+
+
+@media screen and (max-width: 600px) {
+	table#miyazaki caption {
+		background-image: none;
+	}
+	table#miyazaki thead {
+		display: none; 
+	}
+	table#miyazaki tbody td {
+		display: block;
+		padding: .6rem; 
+	}
+	table#miyazaki tbody tr td:first-child {
+		background: #333;
+		color: #fff; 
+	}
+	table#miyazaki tbody td:before {
+		content: attr(data-th);
+		font-weight: bold;
+		display: inline-block;
+		width: 6rem; 
+	}
+}
+</style>
+
+
+
+{% if post.experiment3 %}
+<table id="miyazaki">
+<thead>
+	<tr>
+		<th>Activity
+		<th>Supplies
+		<th>Concepts
+		<th>Guide
+<tbody>
+	<tr>
+		<td>{{ post.experiment3title }} <br>Time: {{ post.experiment2time }} <br><img src="images/{{ post.experiment3image }}" alt="Experiment" width="150px">
+		<td>{{ post.experiment3supplies }}
+		<td>{{ post.experiment3concepts }}
+		<td>Check it out <br><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" >
+</table>
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var headertext = [];
+var headers = document.querySelectorAll("#miyazaki th"),
+tablerows = document.querySelectorAll("#miyazaki th"),
+tablebody = document.querySelector("#miyazaki tbody");
+for(var i = 0; i < headers.length; i++) {
+	var current = headers[i];
+	headertext.push( current.textContent.replace( /\r?\n|\r/,"") );
+}
+for (var i = 0, row; row = tablebody.rows[i]; i++) {
+	for (var j = 0, col; col = row.cells[j]; j++) {
+		col.setAttribute("data-th", headertext[j]);
+	}
+}
+</script>
