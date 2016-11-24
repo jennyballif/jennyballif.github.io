@@ -12,21 +12,10 @@ layout: default
     {% for post in site.posts %}
       {% if post.sciencemom %}
         <section class="container">
-            {% include /tableB.html %}
+            {% include /tableA.html %}
             {% include /tableB.html %}
             {% include /tableC.html %}
         </section>
-    <!--
-        <div class="wrapper {% cycle 'style1' %}">
-            <section class="container">
-              {% include /tables.html %}
-            </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul> 
-            </section>
-        </div>-->
       {% endif %}
     {% endfor %}
 </section>
