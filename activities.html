@@ -11,15 +11,17 @@ layout: default
 <section id="main" class="wrapper style1">
     {% for post in site.posts %}
       {% if post.sciencemom %}
-        <section class="container">
-            {% include /table1.html %}
-        </section>
-        <section class="container">
-            {% include /table2.html %}
-        </section>
-        <section class="container">
-            {% include /table3.html %}
-        </section>
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <section class="container">
+                {% include /table1.html %}
+            </section>
+            <section class="container">
+                {% include /table2.html %}
+            </section>
+            <section class="container">
+                {% include /table3.html %}
+            </section>
+        </div>    
       {% endif %}
     {% endfor %}
 </section>
