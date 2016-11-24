@@ -90,7 +90,7 @@ prose:
         field:
           element: "hidden"
           label: "Layout"
-          value: "post"       
+          value: "default"       
       - name: "title"
         field:
           label: "Title"
