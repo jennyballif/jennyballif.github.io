@@ -944,6 +944,21 @@
 			#header h1 a {
 				font-size: 1.25em;
 			}
+		#header h6 {
+			color: #666f77;
+			font-weight: 500;
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+
+			#header h6 a {
+				font-size: 1.25em;
+			}
 
 		#header nav {
 			height: inherit;
