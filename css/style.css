@@ -1163,17 +1163,21 @@ $breakpoint-alpha: 480px; // adjust to your needs
   min-width: 300px; // adjust to your needs
   
   tr {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
   }
   
   th {
+    font-weight: 600;
     display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!   
   }
   
   td {
     display: block; 
-    
+    padding: .8rem; font-size: 1.0rem;
+    background: 000;
     &:first-child {
       padding-top: .5em;
     }
@@ -1189,11 +1193,17 @@ $breakpoint-alpha: 480px; // adjust to your needs
       width: 6.5em; // magic number :( adjust according to your own content
       display: inline-block;
       // end options
-      
+      content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
+      font-weight: bold;
+
+      // optional stuff to make it look nicer
+      width: 6.5em; // magic number :( adjust according to your own content
+      display: inline-block;
+      // end options      
       @media (min-width: $breakpoint-alpha) {
         display: none;
       }
-    }
+    } 
   }
   
   th, td {
@@ -1238,12 +1248,16 @@ h1 {
 }
 
 .rwd-table {
-  background: #34495E;
-  color: #fff;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #eeeeee; color: #000;
+  text-rendering: optimizeLegibility;
   border-radius: .4em;
   overflow: hidden;
   tr {
-    border-color: lighten(#34495E, 10%);
+    border-color: lighten(#333, 10%);
   }
   th, td {
     margin: .5em 1em;
@@ -1252,6 +1266,10 @@ h1 {
     }
   }
   th, td:before {
-    color: #dd5;
+    color: #fff;
+    background: #444;
+  }
+  th:before {
+  color: #444; background: #eee;
   }
 }
