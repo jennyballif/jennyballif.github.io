@@ -5,6 +5,10 @@
 <style class="cp-pen-styles">
   @import "compass/css3";
   @import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table caption { 
+  font-size: 1.5rem; color: #444;
+  margin: 1rem;
+}
 .rwd-table {
   margin: 1em 0;
   min-width: 300px;
@@ -18,6 +22,7 @@
 .rwd-table th {
     font-family: Agenda-Light, sans-serif;
     font-weight: 600;
+  font-size: 1.1rem;
   display: none;
 }
 .rwd-table td {
@@ -63,7 +68,6 @@
     padding-right: 0;
   }
 }
-
 body {
   padding: 0 2em;
   font-family: Montserrat, sans-serif;
@@ -72,13 +76,11 @@ body {
   color: #444;
   background: #eee;
 }
-
 h1 {
   font-weight: normal;
   letter-spacing: -1px;
   color: #34495E;
 }
-
 .rwd-table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -113,14 +115,15 @@ h1 {
 
 {% if post.experiment2 %}
 <table class="rwd-table">
+  <caption>{{ post.experiment2title }}</caption>
   <tr>
-    <th>Activity</th>
+    <th>Time: {{ post.experiment2time }}</th>
     <th>Supplies</th>
     <th>Concepts</th>
     <th>Guide</th>
   </tr>
   <tr>
-    <td data-th="Activity">{{ post.experiment2title }} <br>Time: {{ post.experiment2time }} <br><img src="images/{{ post.experiment2image }}" alt="Experiment" width="150px" style="float: right;"></td>
+    <td data-th="Time: {{ post.experiment2time }}"><img src="images/{{ post.experiment2image }}" alt="Experiment" width="150px" style="float: right;"></td>
     <td data-th="Supplies">{{ post.experiment2supplies }}</td>
     <td data-th="Concepts">{{ post.experiment2concepts }}</td>
     <td data-th="Guide"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" style="float: right;"></td>
