@@ -79,7 +79,7 @@
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 2em;
 		line-height: 1em;
 	}
 
@@ -183,7 +183,7 @@
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1.75em;
 		margin-top: -0.75em;
 		line-height: 1.5em;
 	}
