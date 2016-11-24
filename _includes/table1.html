@@ -5,6 +5,10 @@
 <style class="cp-pen-styles">
   @import "compass/css3";
   @import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table caption { 
+  font-size: 2rem; color: #444;
+  margin: 1rem;
+}
 .rwd-table {
   margin: 1em 0;
   min-width: 300px;
@@ -114,14 +118,15 @@ h1 {
 
 {% if post.experiment1 %}
 <table class="rwd-table">
+  <caption>{{ post.experiment1title }}</caption>
   <tr>
-    <th>Activity</th>
+    <th>Time: {{ post.experiment1time }}</th>
     <th>Supplies</th>
     <th>Concepts</th>
     <th>Guide</th>
   </tr>
   <tr>
-    <td data-th="Activity">{{ post.experiment1title }} <br>Time: {{ post.experiment1time }} <br><img src="images/{{ post.experiment1image }}" alt="Experiment" width="150px" style="float: right;"></td>
+    <td data-th="Time: {{ post.experiment1time }}"><img src="images/{{ post.experiment1image }}" alt="Experiment" width="150px" style="float: right;"></td>
     <td data-th="Supplies">{{ post.experiment1supplies }}</td>
     <td data-th="Concepts">{{ post.experiment1concepts }}</td>
     <td data-th="Guide"><img src="images/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" style="float: right;"></td>
