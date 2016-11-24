@@ -76,7 +76,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://jennyballif.github.io/' #'http://hmfaysal.github.io/Notepad/'
+  siteurl: 'https://jennyballif.github.io/' #'http://hmfaysal.github.io/Notepad/'
   relativeLinks: 'https://jennyballif.github.io/links.jsonp'
   media: 'images'
   metadata:
