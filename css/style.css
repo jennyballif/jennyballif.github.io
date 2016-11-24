@@ -1178,6 +1178,7 @@ $breakpoint-alpha: 480px; // adjust to your needs
     display: block; 
     padding: .8rem; font-size: 1.0rem;
     background: 000;
+    vertical-align: top;
     &:first-child {
       padding-top: .5em;
     }
@@ -1266,8 +1267,8 @@ h1 {
     }
   }
   th, td:before {
-    color: #fff;
-    background: #444;
+    color: #444;
+    background: #eee; 
   }
   th:before {
   color: #444; background: #eee;
