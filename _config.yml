@@ -43,6 +43,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 gems: 
   - jekyll-paginate
+  - jekyll-seo-tag
 timezone:    America/Los_Angeles
 future:      true
 highlighter: rouge
