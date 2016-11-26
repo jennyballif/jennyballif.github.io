@@ -251,6 +251,31 @@ prose:
           element: "text"
           label: "Experiment 3 Image"
           placeholder: "somefile.jpg"
+      - name: "guide0"
+        field:
+          element: "text"
+          label: "Wide image"
+          placeholder: "SMG1wide.png"
+      - name: "guide1"
+        field:
+          element: "text"
+          label: "8.5x11 pdf file"
+          placeholder: "SMG1-1.pdf"
+      - name: "guide2"
+        field:
+          element: "text"
+          label: "11x17 pdf file"
+          placeholder: "SMG1-2.pdf"
+      - name: "guide3"
+        field:
+          element: "text"
+          label: "A4 pdf file"
+          placeholder: "SMG1-3.pdf"
+      - name: "guide4"
+        field:
+          element: "text"
+          label: "A3 pdf file"
+          placeholder: "SMG1-4.pdf"
 
 
 include: [".htaccess"]
