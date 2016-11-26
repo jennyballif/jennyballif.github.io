@@ -14,11 +14,17 @@ layout: default
         <section class="post-content">
             {{ content }}
             <style>#scroll {width:100%;height:300px;margin:10px auto;background:#111111;border:2px solid #000;overflow:auto;white-space:nowrap;box-shadow:0 0 10px #000;} #scroll img {margin:10px 10px 0 10px;height:260px}</style>
-{% if page.wideguide %}
-<p><div id="scroll">
-  <img src="{{site.baseurl}}/images/{{ page.wideguide }}"> 
-</div></p>
-{% endif %}
+            {% if page.wideguide %}
+            <p><div id="scroll">
+              <img src="{{site.baseurl}}/images/{{ page.guide0 }}"> 
+            </div></p>
+            <ul class="actions">
+            <li><a href="{{site.baseurl}}/images/{{ page.guide1 }}" class="button alt">8.5" &times; 11"</a></li>
+            <li><a href="{{site.baseurl}}/images/{{ page.guide2}}" class="button alt">11" &times; 17"&nbsp;</a></li>
+            <li><a href="{{site.baseurl}}/images/{{ page.guide3 }}" class="button alt">A4 paper</a></li>
+            <li><a href="{{site.baseurl}}/images/{{ page.guide3 }}" class="button alt">A3 paper</a></li>
+            </ul>
+            {% endif %}
             <script id="dsq-count-scr" src="//{{ site.owner.disqus_shortname }}.disqus.com/count.js" async></script>
         </section>       
         <footer>            
