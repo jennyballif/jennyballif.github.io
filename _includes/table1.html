@@ -123,7 +123,7 @@ body {
     <td data-th="Time: {{ post.experiment1time }}"><img src="images/{{ post.folder }}/{{ post.experiment1image }}" alt="Experiment" width="150px" style="float: right;"></td>
     <td data-th="Supplies">{{ post.experiment1supplies }}</td>
     <td data-th="Concepts">{{ post.experiment1concepts }}</td>
-    <td data-th="Guide"><a href="{{ site.url }}/{{ post.url }}"><img src="images/{{ post.folder }}/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" style="float: right;"></a></td>
+    <td data-th="Guide"><a href="{{ site.url }}{{ post.url }}"><img src="images/{{ post.folder }}/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" style="float: right;"></a></td>
   </tr>
 </table>
 {% endif %}
