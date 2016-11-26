@@ -156,6 +156,10 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: true
+        field:
+          element: "text"
+          label: "Image Folder"
+          placeholder: "SMG1"
       - name: "sciencemomguideimage"
         field:
           element: "text"
