@@ -156,6 +156,7 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: true
+      - name: "folder"
         field:
           element: "text"
           label: "Image Folder"
