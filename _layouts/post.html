@@ -11,9 +11,6 @@ layout: default
             <p><div style="text-align: center;"><iframe width="560" height="315" src="{{ page.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
             {% endif %}
         </header>
-            {% if page.videofeature %}
-                {% include youtubeplayer.html id="{{ page.videofeature }}" %}
-            {% endif %} 
         <section class="post-content">
             {{ content }}
             <script id="dsq-count-scr" src="//{{ site.owner.disqus_shortname }}.disqus.com/count.js" async></script>
