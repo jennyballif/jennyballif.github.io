@@ -12,9 +12,6 @@ layout: default
             {% endif %}
         </header>
         <section class="post-content">
-            {% if page.videofeature %}
-                {% include youtubeplayer.html id={{ page.videofeature }} %}
-            {% endif %} 
             {{ content }}
             <script id="dsq-count-scr" src="//{{ site.owner.disqus_shortname }}.disqus.com/count.js" async></script>
         </section>       
