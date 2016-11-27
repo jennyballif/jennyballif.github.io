@@ -42,10 +42,6 @@
   font-weight: bold;
   width: 6.5em;
   display: inline-block;
-  content: attr(data-th) ": ";
-  font-weight: bold;
-  width: 6.5em;
-  display: inline-block;
 }
 @media (min-width: 480px) {
   .rwd-table td:before {
@@ -68,7 +64,6 @@
     padding-right: 0;
   }
 }
-
 body {
   padding: 0 2em;
   font-family: Montserrat, sans-serif;
@@ -77,7 +72,6 @@ body {
   color: #444;
   background: #eee;
 }
-
 .rwd-table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -115,13 +109,19 @@ body {
   color: #444;
   background: #eee;
 }
-.rwd-table th:before {
-  color: #444;
-  background: #eee;
-}
+
 .rwd-table:hover th:before {
   color: #444;
   background: #ccc;
+}
+.rwd-table:hover td:before {
+  color: #444;
+  background: #ddd;
+}
+
+.rwd-table:hover th {
+  color: #ccc;
+  background: #222;
 }
 </style>
 
