@@ -147,6 +147,28 @@ body {
 </a>
 {% endif %}
 
+{% if page.experiment1 %}
+<a href="{{ site.url }}{{ page.url }}" style="text-decoration:none;">
+<div>
+<table class="rwd-table">
+  <caption>{{ page.experiment1title }}</caption>
+  <tr>
+    <th>Time: {{ page.experiment1time }}</th>
+    <th>Supplies</th>
+    <th>Concepts</th>
+    <th>Guide</th>
+  </tr>
+  <tr>
+    <td data-th="Time: {{ page.experiment1time }}"><img src="images/{{ page.folder }}/{{ page.experiment1image }}" alt="Experiment" width="150px" style="float: right;"></td>
+    <td data-th="Supplies">{{ page.experiment1supplies }}</td>
+    <td data-th="Concepts">{{ page.experiment1concepts }}</td>
+    <td data-th="Guide"><img src="images/{{ page.folder }}/{{ page.sciencemomguideimage }}" alt="Science Mom Guide" width="150px" style="float: right;"></td>
+  </tr>
+</table>
+</div>
+</a>
+{% endif %}
+
 
 
 
