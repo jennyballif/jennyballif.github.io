@@ -1292,7 +1292,6 @@ body {
 	height:0;
 	overflow:hidden;
 	text-align: center;
-	max-width: 560px;
 }
 .video-container iframe, .video-container object, .video-container embed {
 	position:absolute;
