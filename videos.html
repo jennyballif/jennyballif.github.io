@@ -19,7 +19,25 @@ layout: default
                 <div style="text-align:center"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div>
             </section>
             <section class="container">
-                {% include youtubeplayer.html id="post.videofeature" %}
+                <style>
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	text-align: center;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+</style>
+
+<p><div class="video-container"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
             </section>
         </div>
       {% endif %}
