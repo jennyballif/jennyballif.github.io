@@ -8,7 +8,17 @@ layout: default
             <h2 class="post-title">{{ page.title }}</h2>
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             {% if page.videofeature %}
-            <p><div style="text-align: center;"><iframe width="560" height="315" src="{{ page.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
+        <style>
+		html,body        {height:100%;}
+		.vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
+		.h_iframe        {position:relative; padding-top: 56%;}
+		.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+		</style>
+		<p><div class="vidwrapper">
+		    <div class="h_iframe">
+			<iframe height="400" width="2" src="{{ page.videofeature }}" frameborder="0" allowfullscreen></iframe>
+		    </div>
+		</div></p>
             {% endif %}
         </header>
         <section class="post-content">
