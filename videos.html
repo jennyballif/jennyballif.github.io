@@ -16,24 +16,17 @@ layout: default
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>               
             </header>       
             <section class="container">
-<script>
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-	text-align: center;
-}
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-}
-</script>
-<p><div class="video-container"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
+		<style>
+		html,body        {height:100%;}
+		.vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
+		.h_iframe        {position:relative; padding-top: 56%;}
+		.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+		</style>
+		<p><div class="vidwrapper">
+		    <div class="h_iframe">
+			<iframe height="400" width="2" src="{{ post.videofeature }}" frameborder="0" allowfullscreen></iframe>
+		    </div>
+		</div></p>
             </section>
         </div>
       {% endif %}
