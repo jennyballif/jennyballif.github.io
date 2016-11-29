@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Science Mom Videos</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+    {% for post in site.posts %}
+      {% if post.videofeature %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}"> 
+            <header class="major">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>               
+            </header>       
+            <section class="container">
 <script>
 .video-container {
 	position:relative;
@@ -19,22 +33,6 @@ layout: default
 	height:100%;
 }
 </script>
-
-
-<!-- Banner -->
-<section id="banner">
-    <div class="inner">
-        <h2>Science Mom Videos</h2>
-    </div>
-</section>
-<section id="main" class="wrapper style1">
-    {% for post in site.posts %}
-      {% if post.videofeature %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}"> 
-            <header class="major">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>               
-            </header>       
-            <section class="container">
 <p><div class="video-container"><iframe width="560" height="315" src="{{ post.videofeature }}" frameborder="0" allowfullscreen="allowfullscreen"> &nbsp; </iframe></div></p>
             </section>
         </div>
