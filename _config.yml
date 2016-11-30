@@ -166,11 +166,6 @@ prose:
           element: "text"
           label: "Science Mom Guide Image"
           placeholder: "someotherfile.jpg"
-      - name: "experiment1"
-        field:
-          element: "checkbox"
-          label: "Experiment 1 Summary"
-          value: true
       - name: "experiment1title"
         field:
           element: "text"
@@ -196,11 +191,6 @@ prose:
           element: "text"
           label: "Experiment 1 Image"
           placeholder: "somefile.jpg"
-      - name: "experiment2"
-        field:
-          element: "checkbox"
-          label: "Experiment 2 Summary"
-          value: true
       - name: "experiment2title"
         field:
           element: "text"
@@ -226,11 +216,6 @@ prose:
           element: "text"
           label: "Experiment 2 Image"
           placeholder: "somefile.jpg"
-      - name: "experiment3"
-        field:
-          element: "checkbox"
-          label: "Experiment 3 Summary"
-          value: true
       - name: "experiment3title"
         field:
           element: "text"
