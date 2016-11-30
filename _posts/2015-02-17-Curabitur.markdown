@@ -51,7 +51,7 @@ A full page image needs the class "fit image" like so:
 
 <img src="{{ site.baseurl }}/images/pic03.jpg" class="medium image">
 
-{% include imagemedium.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %}
+{% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" maxwidth="300px" %}
 
 Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.
 
