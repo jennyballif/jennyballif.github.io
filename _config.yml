@@ -139,7 +139,7 @@ prose:
       - name: "imagefeature"
         field:
           element: "text"
-          label: "Featured Image"
+          label: "Featured Image (should be square for twitter card)"
           placeholder: "somefile.jpg"
       - name: "videofeature"
         field:
