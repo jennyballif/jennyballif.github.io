@@ -492,6 +492,16 @@
 				display: block;
 				width: 100%;
 			}
+		.image.medium {
+			display: block;
+			margin: 0 0 2em 0;
+			max-width: 300px;
+		}
+
+			.image.medium img {
+				display: block;
+				width: 100%;
+			}
 
 /* List */
 
