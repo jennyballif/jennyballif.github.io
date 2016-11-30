@@ -43,7 +43,7 @@ You can share a video in a link like so:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
 
-{% include image.html url="{{ site.baseurl }}/images/pic03.jpg" description="a picture of something" %}
+{% include imagemedium.html url="{{ site.baseurl }}/images/pic03.jpg" description="a picture of something" %}
 
 Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.
 
