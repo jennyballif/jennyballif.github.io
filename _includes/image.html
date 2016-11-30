@@ -11,10 +11,11 @@
   display:block;
   text-align: center;
   margin: auto;
+  max-width: 100%; 
 }
 </style>
 
 
 <div class="image-wrapper">
-    <img src="{{ include.url }}" alt="{{ include.description }}" style="max-width:{{ include.maxwidth }} !important;">
+    <img src="{{ include.url }}" alt="{{ include.description }}" style="width:{{ include.maxwidth }} !important;">
 </div>
