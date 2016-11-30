@@ -43,6 +43,8 @@ You can share a video in a link like so:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
 
+{% include image.html url="https://github.com/jennyballif/jennyballif.github.io/images/Water1a.png" description="octocat" maxwidth="300px" %}
+
 Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.
 
 A full page image needs the class "fit image" like so:
@@ -52,8 +54,6 @@ A full page image needs the class "fit image" like so:
 <img src="{{ site.baseurl }}/images/pic03.jpg" class="medium image">
 
 {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" maxwidth="300px" %}
-
-{% include image.html url="{{ site.baseurl }}/images/pic03.jpg" description="octocat" maxwidth="300px" %}
 
 Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.
 
