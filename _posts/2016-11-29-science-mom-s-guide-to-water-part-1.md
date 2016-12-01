@@ -15,19 +15,20 @@ Water is so abundant, we often take for granted how remarkable and unusual it is
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1a.png" description="water picture alt text" maxwidth="500px" %}
 
 Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it ****humidity****. The more water vapor in the air, the more humid it is.
-The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand, it’s everywhere. Just look at this view of our world:
+The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand? It’s everywhere. Just look at this view of our world:
 
 ![A view of earth centered on the pacific ocean. From this perspective the planet appears almost entirely blue.]({{site.baseurl}}/images/SMG1b.png)
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1b.png" description="water picture alt text" maxwidth="500px" %}
 
-Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, those aren’t the only unique things about water. Water has seven other incredible properties: 
+Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, they aren’t the only unique things about water. Water has seven other incredible properties: 
 
 ![Cartoon depiction of water's properties of cohesion, adhesion, and capillary action.]({{site.baseurl}}/images/SMG1c.png)
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1c.png" description="water picture alt text" maxwidth="500px" %}
 
-![Cartoon depiction of water's properties of being "the universal solvent" and having a high specific heat.]({{site.baseurl}}/images/SMG1d.png)
+![Cartoon depiction of water's properties of being the "universal solvent" and having a high specific heat.]({{site.baseurl}}/images/SMG1d.png)
+
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1d.png" description="water picture alt text" maxwidth="500px" %}
 
@@ -41,9 +42,11 @@ In our first video and guide we use three fun investigations to explore ****cohe
 
 [VIDEO]
 
-You can preview the accompanying guide here by scrolling through the pages shown below. If you want to print your own copy, just select your preferred size of paper and download the pdf: (A3 [link] or A4 [link], 11 x 17[link] or 8½ x 11[link]). Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right. For instructions on folding check out my How to make a 14 page book from one piece of paper video. [link]
+You can preview the accompanying guide here by scrolling through the pages here: 
 
-Join us next time for Science Mom’s Guide to Water, Part 2[link], where we’ll investigate surface tension. And if you’re interested in learning more about water, check out these other educational videos and resources:
+If you want to print your own copy, just select your preferred size of paper and download the pdf: (A3 [link] or A4 [link], 11 x 17[link] or 8½ x 11[link]). Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right. For instructions on folding, check out: How to make a 14 page book from one piece of paper. [link]
+
+Join us next time for Science Mom’s Guide to Water, Part 2(coming soon), where we’ll investigate surface tension. And if you’re interested in learning more about water, here are a few links to other educational videos and resources:
 
 For younger people:
 
