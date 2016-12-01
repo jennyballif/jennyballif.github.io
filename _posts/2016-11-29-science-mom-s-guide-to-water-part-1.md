@@ -10,26 +10,34 @@ title: 'Science Mom''s Guide to Water, Part 1'
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
-![Water1small.png]({{site.baseurl}}/images/Water1small.png)
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Water1a.png" description="water picture alt text" maxwidth="500px" %}
+![Water as a solid (ice, snow), liquid (from the tap), and gas (invisible).]({{site.baseurl}}/images/SMG1a.png)
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1a.png" description="water picture alt text" maxwidth="500px" %}
 
 Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it ****humidity****. The more water vapor in the air, the more humid it is.
 The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand, it’s everywhere. Just look at this view of our world:
 
-![Water2small.png]({{site.baseurl}}/images/Water2small.png)
+![A view of earth centered on the pacific ocean. From this perspective the planet appears almost entirely blue.]({{site.baseurl}}/images/SMG1b.png)
 
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1b.png" description="water picture alt text" maxwidth="500px" %}
 
 Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, those aren’t the only unique things about water. Water has seven other incredible properties: 
 
-![WATER2.png]({{site.baseurl}}/images/WATER2.png)
+![Cartoon depiction of water's properties of cohesion, adhesion, and capillary action.]({{site.baseurl}}/images/SMG1c.png)
 
-![WATER3.png]({{site.baseurl}}/images/WATER3.png)
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1c.png" description="water picture alt text" maxwidth="500px" %}
 
-![WATER4.png]({{site.baseurl}}/images/WATER4.png)
+![Cartoon depiction of water's properties of being "the universal solvent" and having a high specific heat.]({{site.baseurl}}/images/SMG1d.png)
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1d.png" description="water picture alt text" maxwidth="500px" %}
+
+![Cartoon depiction of water's properties of capillary action and the solid being less dense than the liquid.]({{site.baseurl}}/images/SMG1e.png)
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1e.png" description="water picture alt text" maxwidth="500px" %}
 
 Not only are these attributes of water essential for life on earth—they’re the key to a lot of fun investigations and science experiments. So join me for SCIENCE MOM’S GUIDE TO WATER, where we learn about the incredible chemistry of water through hands-on activities. 
 
-In our first video and guide we use three fun activities to investigate ****cohesion****—the ability of water molecules to stick to each other. 
+In our first video and guide we use three fun investigations to explore ****cohesion****—the ability of water molecules to stick to each other. 
 
 [VIDEO]
 
