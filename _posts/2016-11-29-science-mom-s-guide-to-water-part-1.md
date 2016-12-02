@@ -7,6 +7,7 @@ experiment1: true
 experiment2: true
 experiment3: true
 title: 'Science Mom''s Guide to Water, Part 1'
+description: Water is cool.
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
