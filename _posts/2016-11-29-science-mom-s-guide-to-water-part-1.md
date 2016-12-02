@@ -33,7 +33,7 @@ Oceans cover most of the earth’s surface, and so does another layer of water: 
 
 Not only are these attributes of water essential for life on earth—they’re the key to a lot of fun investigations and science experiments. So join me for SCIENCE MOM’S GUIDE TO WATER, where we learn about the incredible chemistry of water through hands-on activities. 
 
-In our first video and guide we use three fun investigations to explore ****cohesion****—the ability of water molecules to stick to each other. 
+In our first video and guide we use three fun investigations to explore **cohesion**—the ability of water molecules to stick to each other. 
 
 [VIDEO]
 
