@@ -27,14 +27,14 @@
 
 			// XLarge.
 				xlarge: {
-					range: '-1680',
+					range: '-1200', //-1680
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
 					containers: 900 //1200
 				},
 
 			// Large.
 				large: {
-					range: '-1280',
+					range: '-980',//-1280
 					href: '{{ site.baseurl }}/css/style-large.css',
 					containers: 800,//960
 					grid: {
@@ -49,7 +49,7 @@
 
 			// Medium.
 				medium: {
-					range: '-980',
+					range: '-780', //-980
 					href: '{{ site.baseurl }}/css/style-medium.css',
 					containers: '90%',
 					grid: {
@@ -59,7 +59,7 @@
 
 			// Small.
 				small: {
-					range: '-736',
+					range: '-640', // -736
 					href: '{{ site.baseurl }}/css/style-small.css',
 					containers: '90%',
 					grid: {
