@@ -16,7 +16,7 @@
 				global: {
 					range: '*',
 					href: '{{ site.baseurl }}/css/style.css',
-					containers: 1000,//1400
+					containers: 800,//1400
 					grid: {
 						gutters: {
 							vertical: '4em',
@@ -27,16 +27,16 @@
 
 			// XLarge.
 				xlarge: {
-					range: '-1200', //-1680
+					range: '-1000', //-1680
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
-					containers: 900 //1200
+					containers: 700 //1200
 				},
 
 			// Large.
 				large: {
-					range: '-980',//-1280
+					range: '-780',//-1280
 					href: '{{ site.baseurl }}/css/style-large.css',
-					containers: 800,//960
+					containers: 550,//960
 					grid: {
 						gutters: {
 							vertical: '2.5em'
@@ -49,7 +49,7 @@
 
 			// Medium.
 				medium: {
-					range: '-780', //-980
+					range: '-640', //-980
 					href: '{{ site.baseurl }}/css/style-medium.css',
 					containers: '90%',
 					grid: {
@@ -59,7 +59,7 @@
 
 			// Small.
 				small: {
-					range: '-640', // -736
+					range: '-550', // -736
 					href: '{{ site.baseurl }}/css/style-small.css',
 					containers: '90%',
 					grid: {
