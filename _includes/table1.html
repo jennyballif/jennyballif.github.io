@@ -4,7 +4,7 @@
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
 <style class="cp-pen-styles">
   
-$breakpoint-alpha: 380px; // adjust to your needs
+$breakpoint-alpha: 480px; // adjust to your needs
   
   @import "compass/css3";
   @import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
@@ -14,7 +14,7 @@ $breakpoint-alpha: 380px; // adjust to your needs
 }
 .rwd-table {
   margin: 1em 0;
-  min-width: 250px;
+  min-width: 200px;
 }
 .rwd-table tr {
   border-top: 2px solid #ddd;
@@ -46,7 +46,7 @@ $breakpoint-alpha: 380px; // adjust to your needs
   width: 6.5em;
   display: inline-block;
 }
-@media (min-width: 480px) {
+@media (min-width: 680px) {
   .rwd-table td:before {
     display: none;
   }
@@ -55,7 +55,7 @@ $breakpoint-alpha: 380px; // adjust to your needs
   text-align: left;
   vertical-align: top;
 }
-@media (min-width: 480px) {
+@media (min-width: 680px) {
   .rwd-table th, .rwd-table td {
     display: table-cell;
     padding: .25em .5em;
@@ -112,7 +112,6 @@ body {
   color: #444;
   background: #eee;
 }
-
 .rwd-table:hover th:before {
   color: #444;
   background: #ccc;
@@ -121,7 +120,6 @@ body {
   color: #444;
   background: #ddd;
 }
-
 .rwd-table:hover th {
   color: #ccc;
   background: #222;
