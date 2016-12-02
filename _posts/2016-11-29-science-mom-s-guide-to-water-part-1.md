@@ -17,11 +17,11 @@ Water is so abundant, we often take for granted how remarkable and unusual it is
 Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it ****humidity****. The more water vapor in the air, the more humid it is.
 The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand? It’s everywhere. Just look at this view of our world:
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1bJennyBallif.png" description="water picture alt text" maxwidth="500px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1bJennyBallif.png" description="View of Pacific Ocean." maxwidth="500px" %}
 
 Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, they aren’t the only unique things about water. Water has seven other incredible properties: 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1cJennyBallif.png" description="water picture alt text" maxwidth="500px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1cJennyBallif.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="500px" %}
 
 ![Cartoon depiction of water's properties of being the "universal solvent" and having a high specific heat.]({{site.baseurl}}/images/SMG1d.png)
 
