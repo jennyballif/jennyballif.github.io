@@ -27,8 +27,6 @@ twitter:
 
 
 links:
-  - title: Home
-    url: /
     external: false
     icon: home
   - title: Science Mom
