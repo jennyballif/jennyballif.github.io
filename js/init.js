@@ -36,7 +36,7 @@
 				large: {
 					range: '-1280',//-1280
 					href: '{{ site.baseurl }}/css/style-large.css',
-					containers: 750,//960
+					containers: 800,//960
 					grid: {
 						gutters: {
 							vertical: '2.5em'
