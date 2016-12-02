@@ -14,7 +14,8 @@ Water is so abundant, we often take for granted how remarkable and unusual it is
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1aJennyBallif.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
-Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it ****humidity****. The more water vapor in the air, the more humid it is.
+Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it **humidity**. The more water vapor in the air, the more humid it is.
+
 The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand? It’s everywhere. Just look at this view of our world:
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1bJennyBallif.png" description="View of Pacific Ocean." maxwidth="800px" %}
