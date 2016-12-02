@@ -22,14 +22,14 @@ The only other things on earth that come close to existing in all three states o
 
 Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, they aren’t the only unique things about water. Water has seven other incredible properties: 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1cJennyBallif.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMGwater1.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
 
 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1dJennyBallif.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1water2.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1eJennyBallif.png" description="Cartoon depiction of water having capillary action and ice being less dense than liquid water." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMGwater3.png" description="Cartoon depiction of water having capillary action and ice being less dense than liquid water." maxwidth="600px" %}
 
 Not only are these attributes of water essential for life on earth—they’re the key to a lot of fun investigations and science experiments. So join me for SCIENCE MOM’S GUIDE TO WATER, where we learn about the incredible chemistry of water through hands-on activities. 
 
