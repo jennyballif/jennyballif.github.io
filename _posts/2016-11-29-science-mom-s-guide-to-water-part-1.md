@@ -10,9 +10,9 @@ title: 'Science Mom''s Guide to Water, Part 1'
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
-![Water as a solid (ice, snow), liquid (from the tap), and gas (invisible).]({{site.baseurl}}/images/SMG1a.png)
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1a.png" description="water picture alt text" maxwidth="500px" %}
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1a.png" description="Water as a solid (ice, snow), liquid (from the tap), and gas (invisible)." maxwidth="500px" %}
 
 Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it ****humidity****. The more water vapor in the air, the more humid it is.
 The only other things on earth that come close to existing in all three states of matter are mercury, acetic acid, and carbon dioxide. And while all three states of matter are __possible__ with each of these, they don’t occur __naturally__. Water, on the other hand? It’s everywhere. Just look at this view of our world:
@@ -63,7 +63,3 @@ This 11 minute video is targeted to an older audience, but has humor and a good 
 https://www.youtube.com/watch?v=HVT3Y3_gHGg&list=PL3EED4C1D684D3ADF&index=2
 
 TED-Ed lesson on Polarity. Aimed at high school or college aged audience, this one is a little more on the dry side, but has some nice learning questions in the “dig deeper” portion. http://ed.ted.com/lessons/how-polarity-makes-water-behave-strangely-christina-kleinberg#digdeeper
-
-
-
-
