@@ -7,7 +7,17 @@ experiment1: true
 experiment2: true
 experiment3: true
 title: 'Science Mom''s Guide to Water, Part 1'
-description: Water is cool.
+description: >-
+  Water is the only substance on earth that exists naturally as a solid, liquid,
+  and gas. 
+modified: '2016-12-03'
+sciencemomguideimage: smg1 cover.png
+imagefeature: smg1 cover.png
+experiment1title: Gravity Defying Lid
+experiment1time: 10 min
+experiment1supplies: 'Water, Cup, Lid (plastic lid or piece of cardboard or cardstock)'
+experiment1concepts: 'Physics: balanced forces; Chemistry: Cohesion of water'
+experiment1image: Gravity Defying Lid Thumbnail.png
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
