@@ -39,7 +39,7 @@ guide4: ''
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
-![pic01.jpg]({{site.baseurl}}/images/pic01.jpg){:height="36px" width="36px"}
+![pic01.jpg]({{site.baseurl}}/images/pic01.jpg){:max-width="500px" width="100%"}
 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1aJennyBallif.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
