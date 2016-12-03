@@ -41,6 +41,8 @@ Water is so abundant, we often take for granted how remarkable and unusual it is
 
 ![pic01.jpg]({{site.baseurl}}/images/pic01.jpg){:style="max-width: calc(100% - 20px); width=500px; text-align:center"}
 
+![pic01.jpg]({{site.baseurl}}/images/pic01.jpg){:style="max-width: 600; text-align:center"}
+
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1aJennyBallif.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
