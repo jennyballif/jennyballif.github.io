@@ -11,7 +11,7 @@ description: Water is cool.
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1aJennyBallif.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1a.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
 Gaseous water, or water vapor, is invisible. There's always some of it in the air around us and we call it **humidity**. The more water vapor in the air, the more humid it is.
 
