@@ -8,8 +8,38 @@ experiment2: true
 experiment3: true
 title: 'Science Mom''s Guide to Water, Part 1'
 description: Water is cool.
+headline: ''
+modified: ''
+categories: ''
+tags: ''
+imagefeature: ''
+videofeature: ''
+folder: ''
+sciencemomguideimage: ''
+experiment1title: ''
+experiment1time: ''
+experiment1supplies: ''
+experiment1concepts: ''
+experiment1image: ''
+experiment2title: ''
+experiment2time: ''
+experiment2supplies: ''
+experiment2concepts: ''
+experiment2image: ''
+experiment3title: ''
+experiment3time: ''
+experiment3supplies: ''
+experiment3concepts: ''
+experiment3image: ''
+guide0: ''
+guide1: ''
+guide2: ''
+guide3: ''
+guide4: ''
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
+
+![pic01.jpg]({{site.baseurl}}/images/pic01.jpg){:height="36px" width="36px"}
 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1aJennyBallif.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
