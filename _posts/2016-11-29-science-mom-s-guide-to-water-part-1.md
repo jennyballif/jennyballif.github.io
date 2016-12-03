@@ -21,7 +21,7 @@ The only other things on earth that come close to existing in all three states o
 
 Oceans cover most of the earth’s surface, and so does another layer of water: clouds. At any given moment between 60 to 70% of the planet is under cloud cover. But as impressive as those facts are, they aren’t the only unique things about water. Water has seven other incredible properties: 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMGwater1.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1c.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
 
 
 
