@@ -25,7 +25,7 @@ Oceans cover most of the earth’s surface, and so does another layer of water: 
 
 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1water2.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1d.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMGwater3.png" description="Cartoon depiction of water having capillary action and ice being less dense than liquid water." maxwidth="600px" %}
