@@ -41,9 +41,8 @@ guide2: 11x17SMG1.pdf
 guide3: A4SMG1.pdf
 guide4: A3SMG1.pdf
 headline: >-
-  What is the only compound that exists naturally on earth as a solid, liquid,
-  and a gas? Come explore cohesion and the basic physics of forces with THE
-  GRAVITY DEFYING LID, a MAGIC SCREEN, and HOT AND COLD WATER CUPS.
+  Come explore cohesion and the basic physics of forces with **The Gravity
+  Defying Lid**, a **Magic Screen**, and **Hot and Cold Water Cups**.
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
