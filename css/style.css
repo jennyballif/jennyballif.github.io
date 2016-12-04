@@ -1040,10 +1040,10 @@
 		background-color: #666666;
 		background-image: url("../images/banner.jpg");
 		background-size: cover;
-		background-position: center top;
+		background-position: center bottom;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
-		padding: 4em 0;
+		padding: 0em 0;
 		text-align: center;
 		position: relative;
 	}
