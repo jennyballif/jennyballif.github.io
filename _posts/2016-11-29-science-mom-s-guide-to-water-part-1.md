@@ -8,8 +8,8 @@ experiment2: true
 experiment3: true
 title: 'Science Mom''s Guide to Water, Part 1'
 description: >-
-  Water is the only substance on earth that exists naturally as a solid, liquid,
-  and gas. 
+  Not only are the unique properties of water essential for life on earth,
+  they're also the key to a lot of fun investigations and science experiments.
 modified: '2016-12-03'
 sciencemomguideimage: SMG1cover1.png
 imagefeature: SMG1square.png
@@ -40,6 +40,10 @@ guide1: 8.5x11SMG1.pdf
 guide2: 11x17SMG1.pdf
 guide3: A4SMG1.pdf
 guide4: A3SMG1.pdf
+headline: >-
+  What is the only compound that exists naturally on earth as a solid, liquid,
+  and a gas? Come explore cohesion and the basic physics of forces with THE
+  GRAVITY DEFYING LID, a MAGIC SCREEN, and HOT AND COLD WATER CUPS.
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
