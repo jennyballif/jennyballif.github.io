@@ -35,6 +35,7 @@ experiment3supplies: >-
 experiment3concepts: Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
 experiment3image: Thumbnail3.png
 guide0: 0.png
+folder: SMG1
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
