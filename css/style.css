@@ -1060,6 +1060,7 @@
 
 		#banner .inner {
 			position: relative;
+			top: 10;
 			z-index: 1;
 		}
 
