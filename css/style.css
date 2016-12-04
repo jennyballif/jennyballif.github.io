@@ -1060,7 +1060,10 @@
 
 		#banner .inner {
 			position: absolute;
+			left: 0;
 			top: 10%;
+			width: 100%;
+			text-align: center;
 			z-index: 1;
 		}
 
