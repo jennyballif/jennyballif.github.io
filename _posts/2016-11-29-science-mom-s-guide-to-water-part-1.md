@@ -12,7 +12,7 @@ description: >-
   and gas. 
 modified: '2016-12-03'
 sciencemomguideimage: SMG1cover1.png
-imagefeature: smg1square.png
+imagefeature: SMG1square.png
 experiment1title: Gravity Defying Lid
 experiment1time: 10 min
 experiment1supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.
@@ -72,4 +72,4 @@ You can preview the accompanying guide here by scrolling through the pages here:
 
 If you want to print your own copy, just select your preferred size of paper and download the pdf: (A3 [link] or A4 [link], 11 x 17[link] or 8½ x 11[link]). Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right. For instructions on folding, check out: How to make a 14 page book from one piece of paper. [link]
 
-Join us next time for Science Mom’s Guide to Water, Part 2(coming soon), where we’ll investigate surface tension. 
+Join us next time for Science Mom’s Guide to Water, Part 2(coming soon), where we’ll investigate surface tension.
