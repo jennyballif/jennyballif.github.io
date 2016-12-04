@@ -15,17 +15,26 @@ sciencemomguideimage: SMG1cover.png
 imagefeature: smg1square.png
 experiment1title: Gravity Defying Lid
 experiment1time: 10 min
-experiment1supplies: 'Water, Cup, Lid (plastic lid or piece of cardboard or cardstock)'
-experiment1concepts: 'Physics: balanced forces; Chemistry: Cohesion of water'
+experiment1supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.
+experiment1concepts: Balanced forces(Physics); Pressure(Physics); Cohesion of water(Chemistry).
 experiment1image: Thumbnail1.png
 experiment2title: Magic Screen
 experiment2time: 10 min
 experiment2supplies: >-
-  Water, Jar with metal ring or cup and rubberband, screen or mesh cloth, lid or
-  cardboard
-experiment2concepts: 'Physics: balanced forces; Chemistry: cohesion and surface tension of water'
+  Water; Jar with metal ring or cup and rubberband; Screen or mesh cloth; Lid or
+  cardboard.
+experiment2concepts: >-
+  Balanced forces(Physics); Pressure(Physics); Cohesion and surface tension of
+  water(Chemistry).
 experiment2image: Thumbnail2.png
 experiment3title: Hot and Cold Water Cups
+experiment3time: 10 min to 6 hours
+experiment3supplies: >-
+  Water of different temperatures; Identical-sized clear cups; Food coloring;
+  Flat lid or cardstock.
+experiment3concepts: Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
+experiment3image: Thumbnail3.png
+guide0: 0.png
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
