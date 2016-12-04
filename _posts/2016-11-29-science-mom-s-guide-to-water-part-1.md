@@ -9,7 +9,8 @@ experiment3: true
 title: 'Science Mom''s Guide to Water, Part 1'
 description: >-
   Not only are the unique properties of water essential for life on earth,
-  they're also the key to a lot of fun investigations and science experiments.
+  they're also the key to a lot of fun science experiments. In Science Mom's
+  Guide to Water, Part 1 we explore cohesion with three hands-on activities.
 modified: '2016-12-03'
 sciencemomguideimage: SMG1cover1.png
 imagefeature: SMG1square.png
