@@ -87,17 +87,17 @@ prose:
         field:
           label: "Title"
           element: "text"
-          value: "An Awesome Headline!"
+          value: "An Awesome Title"
       - name: "description"
         field:
           element: "text"
-          label: "Description"
+          label: "Description for twitter"
           placeholder: "Enter post description for facebook or twitter"
       - name: "headline"
         field:
           element: "textarea"
-          label: "headline"
-          placeholder: "Enter post headline for the blog feed"
+          label: "Headline for the blog feed"
+          placeholder: "Come explore cohesion and the basic physics of forces with <b>The Gravity Defying Lid</b>, a <b>Magic Screen</b>, and <b>Hot and Cold Water Cups</b>."
       - name: "modified"
         field:
           element: "text"
