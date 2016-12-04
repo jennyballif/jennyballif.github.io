@@ -11,7 +11,7 @@ description: >-
   Water is the only substance on earth that exists naturally as a solid, liquid,
   and gas. 
 modified: '2016-12-03'
-sciencemomguideimage: SMG1cover.png
+sciencemomguideimage: SMG1cover1.png
 imagefeature: smg1square.png
 experiment1title: Gravity Defying Lid
 experiment1time: 10 min
