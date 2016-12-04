@@ -11,24 +11,20 @@ description: >-
   Water is the only substance on earth that exists naturally as a solid, liquid,
   and gas. 
 modified: '2016-12-03'
-sciencemomguideimage: >-
-  https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/smg1
-  cover.png
-imagefeature: smg1 cover.png
+sciencemomguideimage: SMG1cover.png
+imagefeature: smg1square.png
 experiment1title: Gravity Defying Lid
 experiment1time: 10 min
 experiment1supplies: 'Water, Cup, Lid (plastic lid or piece of cardboard or cardstock)'
 experiment1concepts: 'Physics: balanced forces; Chemistry: Cohesion of water'
-experiment1image: >-
-  https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/Gravity
-  Defying Lid Thumbnail.png
+experiment1image: Thumbnail1.png
 experiment2title: Magic Screen
 experiment2time: 10 min
 experiment2supplies: >-
   Water, Jar with metal ring or cup and rubberband, screen or mesh cloth, lid or
   cardboard
 experiment2concepts: 'Physics: balanced forces; Chemistry: cohesion and surface tension of water'
-experiment2image: Magic Screen Shumbnail.png
+experiment2image: Thumbnail2.png
 experiment3title: Hot and Cold Water Cups
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
