@@ -72,6 +72,6 @@ In our first video and guide we use three fun investigations to explore **cohesi
 
 [VIDEO]
 
-You can preview the accompanying guide here by scrolling through the pages in the viewer below and then print your own copy on 8½ x 11, 11 x 17, A3 or A4 size paper. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ For instructions on folding, check out: How to make a 14 page book from one piece of paper. [link]
+You can preview the accompanying guide here by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ x 11, 11 x 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ For instructions on folding, check out: How to make a 14 page book from one piece of paper. [link]
 
 And join us next time for Science Mom’s Guide to Water, Part 2[link], where we investigate **surface tension**.
