@@ -35,12 +35,12 @@ experiment3supplies: >-
   Flat lid or cardstock.
 experiment3concepts: Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
 experiment3image: Thumbnail3.png
-guide0: 0.png
+guide0: SMG1-wide.png
 folder: SMG1
-guide1: 8.5x11SMG1.pdf
-guide2: 11x17SMG1.pdf
-guide3: A4SMG1.pdf
-guide4: A3SMG1.pdf
+guide1: SMG1-8.5x11.pdf
+guide2: SMG1-11x17.pdf
+guide3: SMG1-A4.pdf
+guide4: SMG1-A3.pdf
 headline: >-
   Come explore cohesion and the basic physics of forces with <b>The Gravity
   Defying Lid</b>, a <b>Magic Screen</b>, and <b>Hot and Cold Water Cups</b>.
