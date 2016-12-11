@@ -242,22 +242,22 @@ prose:
         field:
           element: "text"
           label: "8.5x11 pdf file"
-          placeholder: "SMG1-1.pdf"
+          placeholder: "SMG1-8.5x11.pdf"
       - name: "guide2"
         field:
           element: "text"
           label: "11x17 pdf file"
-          placeholder: "SMG1-2.pdf"
+          placeholder: "SMG1-11x17.pdf"
       - name: "guide3"
         field:
           element: "text"
           label: "A4 pdf file"
-          placeholder: "SMG1-3.pdf"
+          placeholder: "SMG1-A4.pdf"
       - name: "guide4"
         field:
           element: "text"
           label: "A3 pdf file"
-          placeholder: "SMG1-4.pdf"
+          placeholder: "SMG1-A3.pdf"
 
 
 include: [".htaccess"]
