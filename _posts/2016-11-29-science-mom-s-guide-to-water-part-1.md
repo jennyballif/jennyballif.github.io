@@ -35,7 +35,7 @@ experiment3supplies: >-
   Flat lid or cardstock.
 experiment3concepts: Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
 experiment3image: Thumbnail3.png
-guide0: SMG1wide.png
+guide0: smg1wide.png
 folder: SMG1
 guide1: SMG1-8.5x11.pdf
 guide2: SMG1-11x17.pdf
