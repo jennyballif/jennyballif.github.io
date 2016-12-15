@@ -11,7 +11,7 @@ description: >-
   Not only are the unique properties of water essential for life on earth,
   they're also the key to a lot of fun science experiments. In this guide we
   explore cohesion with three hands-on activities.
-modified: '2016-12-03'
+modified: '2016-12-14'
 sciencemomguideimage: SMG1cover1.png
 imagefeature: SMG1square.png
 experiment1title: Gravity Defying Lid
