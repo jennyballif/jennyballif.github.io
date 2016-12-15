@@ -7,7 +7,7 @@ layout: default
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            {% if page.videofeature %}
+            <!--{% if page.videofeature %}
         <style>
 		html,body        {height:100%;}
 		.vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
@@ -19,7 +19,7 @@ layout: default
 			<iframe height="400" width="2" src="{{ page.videofeature }}" frameborder="0" allowfullscreen></iframe>
 		    </div>
 		</div></p>
-            {% endif %}
+            {% endif %}-->
         </header>
         <section class="post-content">
             {{ content }}
