@@ -45,6 +45,8 @@ headline: >-
   Come explore cohesion and the basic physics of forces with <b>The Gravity
   Defying Lid</b>, a <b>Magic Screen</b>, and <b>Hot and Cold Water Cups</b>.
 videofeature: 'https://www.youtube.com/embed/Ggilc8VqmKI'
+categories: ''
+tags: ''
 ---
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
 
@@ -71,7 +73,7 @@ Not only are these attributes of water essential for life on earth—they’re t
 
 In our first video and guide we use three fun investigations to explore **cohesion**—the ability of water molecules to stick to each other. 
 
-{% include youtubeplayer.html id="{{ page.videofeature }}" %}
+{% include youtubeplayer.html id="https://www.youtube.com/embed/Ggilc8VqmKI" %}
 
 You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ x 11, 11 x 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or check my video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
 
