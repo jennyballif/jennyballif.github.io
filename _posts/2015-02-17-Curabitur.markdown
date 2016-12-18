@@ -13,6 +13,7 @@ description: ''
 modified: ''
 categories: ''
 tags: ''
+fbimage: ''
 imagefeature: ''
 videofeature: ''
 folder: ''
@@ -44,6 +45,9 @@ You can share a video in a link like so:
 {% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Water1a.png" description="water picture" maxwidth="300px" %}
+
+
+8.5" &#215; 11"
 
 Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.
 
