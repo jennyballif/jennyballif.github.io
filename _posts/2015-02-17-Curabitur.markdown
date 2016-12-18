@@ -47,8 +47,6 @@ You can share a video in a link like so:
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Water1a.png" description="water picture" maxwidth="300px" %}
 
 
-8.5" &times; 11"
-
 Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.
 
 A full page image needs the class "fit image" like so:
@@ -59,8 +57,6 @@ A full page image needs the class "fit image" like so:
 
 {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" maxwidth="300px" %}
 
-Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.
+You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or check my video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
 
-Pellentesque feugiat ex non ligula commodo, eget varius tortor pellentesque. Pellentesque id tortor felis. Cras fringilla ante eget orci laoreet, non consequat urna suscipit. Pellentesque luctus ac nulla vitae porttitor. Proin sed tortor quis magna efficitur efficitur a id leo. Donec efficitur augue et laoreet maximus. Ut semper egestas porttitor. Phasellus sagittis vulputate sem at laoreet.
-
-Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.
+And join us next time for Science Mom’s Guide to Water, Part 2[coming Jan 1, 2017], where we investigate **surface tension**.
