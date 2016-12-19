@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Science Mom, Writer, Language Enthusiast 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jennyballif.github.io" # the base hostname & protocol for your site
+enforce_ssl: jennyballif.com
 owner:            
   name:           Jenny Ballif
   email:          jenballif@gmail.com
