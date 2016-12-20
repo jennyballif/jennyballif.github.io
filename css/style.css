@@ -1295,4 +1295,8 @@ $breakpoint-alpha: 480px; // adjust to your needs
 }
 
 
+/* Code added to get rid of white space */
+#skel-layers-inactiveWrapper {
+    display: none !important;
+}
 
