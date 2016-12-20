@@ -29,7 +29,7 @@
 				xlarge: {
 					range: '-2080', //-1680
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
-					containers: 800 //1200
+					containers: 1200 //1200
 				},
 
 			// Large.
