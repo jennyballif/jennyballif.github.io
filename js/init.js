@@ -27,7 +27,7 @@
 
 			// XLarge.
 				xlarge: {
-					range: '-2080', //-1680
+					range: '-1680', //-1680
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
 					containers: 1200 //1200
 				},
