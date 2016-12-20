@@ -16,7 +16,7 @@
 				global: {
 					range: '*',
 					href: '{{ site.baseurl }}/css/style.css',
-					containers: 900,//1400
+					containers: 1400,//1400
 					grid: {
 						gutters: {
 							vertical: '4em',
