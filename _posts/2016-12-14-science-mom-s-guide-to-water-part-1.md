@@ -12,7 +12,7 @@ description: >-
   they're also the key to a lot of fun science experiments. In this guide we
   explore cohesion with three hands-on activities.
 modified: '2016-12-14'
-sciencemomguideimage: SMG1cover1.png
+sciencemomguideimage: SMG1cover.png
 imagefeature: SMG1square.png
 experiment1title: Gravity Defying Lid
 experiment1time: 10 min
