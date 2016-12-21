@@ -8,5 +8,4 @@ description: Currently up on Patreon. Coming here January 2017.
 headline: This guide is currently available on Patreon and will come here January 2017.
 ---
 ## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Currently, this guide is only available at www.Patreon.com/JennyBallif. It will be posted here at the beginning of January, 2017.
