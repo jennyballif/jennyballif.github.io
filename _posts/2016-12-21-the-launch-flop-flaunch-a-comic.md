@@ -35,4 +35,4 @@ guide2: ''
 guide3: ''
 guide4: ''
 ---
-![Flaunch.png]({{site.baseurl}}/images/Flaunch.png)
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Flaunch.png" description="A comic strip about a launch flop." maxwidth="800px" %}
