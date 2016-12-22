@@ -24,7 +24,7 @@ layout: default
         <section class="post-content">
             {{ content }}
             <style>#scroll {width:100%;height:300px;margin:10px auto;background:#111111;border:2px solid #000;overflow:auto;white-space:nowrap;box-shadow:0 0 10px #000;} #scroll img {margin:10px 10px 0 10px;height:260px}</style>
-            {% if page.guide0 %}
+            {% if page.guide0 != '' %}
 	    <ul class="actions">
             <li><a href="{{site.baseurl}}/images/{{ page.folder }}/{{ page.guide1 }}" class="button alt">8.5" &times; 11"</a></li>
             <li><a href="{{site.baseurl}}/images/{{ page.folder }}/{{ page.guide2 }}" class="button alt">11" &times; 17"&nbsp;</a></li>
