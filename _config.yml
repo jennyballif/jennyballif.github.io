@@ -148,7 +148,7 @@ prose:
         field:
           element: "checkbox"
           label: "Science Mom"
-          value: true
+          value: false
       - name: "comments"
         field:
           element: "checkbox"
