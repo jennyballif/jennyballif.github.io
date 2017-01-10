@@ -31,6 +31,16 @@ layout: default
             {% include /table4.html %}
         </section> 
         {% endif %}
+        {% if post.experiment5image %}
+        <section class="container">
+            {% include /table5.html %}
+        </section> 
+        {% endif %}
+         {% if post.experiment6image %}
+        <section class="container">
+            {% include /table6.html %}
+        </section> 
+        {% endif %}
       {% endif %}
     {% endfor %}
 </section>
