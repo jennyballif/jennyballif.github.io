@@ -32,18 +32,33 @@ experiment3time: 10 to 30 minutes
 experiment3supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
 experiment3concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
 experiment3image: SMG2c.png
+experiment4title: Soap Boat
+experiment4time: 10 to 30 minutes
+experiment4supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
+experiment4concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+experiment4image: SMG2d.png
+experiment5title: Floating Pin
+experiment5time: 10 to 30 minutes
+experiment5supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
+experiment5concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+experiment5image: SMG2e.png
+experiment6title: Floating Paperclip
+experiment6time: 10 to 30 minutes
+experiment6supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
+experiment6concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+experiment6image: SMG2f.png
 guide1: SMG2-8.5x11.pdf
 guide2: SMG2-11x17.pdf
 guide3: SMG2-A4.pdf
 guide4: SMG2-A3.pdf
 ---
-Water has the strongest surface tension of any liquid—well, any liquid that’s not a metal. Mercury has much stronger surface tension than water. But for the rest of the liquids we come in contact with, water is the surface tension champion. Whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid—water stands above the crowd. Literally.
+For most of the liquids we come in contact with, water is the surface tension champion. It has the strongest surface tension of any non-metalic fluid. So whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog1.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
-Water forms beautiful domes on waxed paper while other liquids remain rather flat. And we can poke those drops or try to squash them with our fingers, and (so long as our fingers are clean), the drops will keep their dome-like shape. But if we dip a toothpick in soap and touch those droplets? Then the surface tension of the water changes dramatically:
+Water forms beautiful domes on waxed paper while other liquids remain rather flat. We can poke those drops or try to squash them with our fingers, and (so long as our fingers are clean), the drops will keep their dome-like shape. But if we dip a toothpick in soap and touch them? Then the surface tension of the water changes dramatically:
 
-To learn more about why surface tension works and to see 4 fun investigations you can do with surface tension, watch Science Mom’s Guide to Water, Part 2:
+To learn more about why surface tension works and to see several fun investigations you can do with surface tension, watch Science Mom’s Guide to Water, Part 2:
 
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/IsvHQon2IqQ" %}
