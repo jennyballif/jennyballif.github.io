@@ -59,6 +59,8 @@ Water has the strongest surface tension of any non-metalic fluid. So for most of
 
 Water forms beautiful domes on waxed paper while other liquids remain rather flat. We can poke those drops or try to squash them with our fingers, and (so long as our fingers are clean), the drops will keep their dome-like shape. But if we dip a toothpick in soap and touch them? Then the surface tension of the water changes dramatically:
 
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog2.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
+
 To learn more about why surface tension works and to see several fun investigations you can do with surface tension, watch Science Mom’s Guide to Water, Part 2:
 
 
