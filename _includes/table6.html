@@ -1,0 +1,46 @@
+
+
+{% if post.experiment6title %}
+<a href="{{ site.url }}{{ post.url }}" style="text-decoration:none;">
+<div>
+<table class="rwd-table">
+  <caption>{{ post.experiment6title }}</caption>
+  <tr>
+    <th>Time: {{ post.experiment6time }}</th>
+    <th>Supplies</th>
+    <th>Concepts</th>
+    <th>Guide</th>
+  </tr>
+  <tr>
+    <td data-th="Time: {{ post.experiment6time }}"><img src="images/{{ post.folder }}/{{ post.experiment6image }}" alt="Experiment" width="160px" style="float: right;"></td>
+    <td data-th="Supplies">{{ post.experiment6supplies }}</td>
+    <td data-th="Concepts">{{ post.experiment6concepts }}</td>
+    <td data-th="Guide"><img src="images/{{ post.folder }}/{{ post.sciencemomguideimage }}" alt="Science Mom Guide" width="160px" style="float: right;"></td>
+  </tr>
+</table>
+</div>
+</a>
+{% endif %}
+
+{% if page.experiment6 %}
+<div>
+<table class="rwd-table">
+  <caption>{{ page.experiment6title }}</caption>
+  <tr>
+    <th>Time: {{ page.experiment6time }}</th>
+    <th>Supplies</th>
+    <th>Concepts</th>
+    <th>Guide</th>
+  </tr>
+  <tr>
+    <td data-th="Time: {{ page.experiment6time }}"><img src="images/{{ page.folder }}/{{ page.experiment6image }}" alt="Experiment" width="160px" style="float: right;"></td>
+    <td data-th="Supplies">{{ page.experiment6supplies }}</td>
+    <td data-th="Concepts">{{ page.experiment6concepts }}</td>
+    <td data-th="Guide"><img src="images/{{ page.folder }}/{{ page.sciencemomguideimage }}" alt="Science Mom Guide" width="160px" style="float: right;"></td>
+  </tr>
+</table>
+</div>
+{% endif %}
+
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
