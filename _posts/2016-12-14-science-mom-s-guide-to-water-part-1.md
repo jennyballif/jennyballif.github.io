@@ -15,12 +15,12 @@ modified: '2016-12-14'
 sciencemomguideimage: SMG1coverThumbnail.png
 imagefeature: SMG1square.png
 experiment1title: Gravity Defying Lid
-experiment1time: 10 min
+experiment1time: 10 - 30 min
 experiment1supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.
 experiment1concepts: Balanced forces(Physics); Pressure(Physics); Cohesion of water(Chemistry).
 experiment1image: Thumbnail1.png
 experiment2title: Magic Screen
-experiment2time: 10 min
+experiment2time: 10 - 30 min
 experiment2supplies: >-
   Water; Jar with metal ring or cup and rubberband; Screen or mesh cloth; Lid or
   cardboard.
