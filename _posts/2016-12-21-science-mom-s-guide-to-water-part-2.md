@@ -61,6 +61,8 @@ Water forms beautiful domes on waxed paper while other liquids remain rather fla
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog2.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
+In the picture above, I touched every other drop with the soapy toothpick, and you can see how flat they got in comparison to their non-soapy neighbors! It doesn't take very much soap to make a huge difference to the surface tension.
+
 To learn more about why surface tension works and to see several fun investigations you can do with surface tension, watch Science Mom’s Guide to Water, Part 2:
 
 
