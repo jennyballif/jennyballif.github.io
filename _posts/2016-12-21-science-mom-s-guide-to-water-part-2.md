@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 sciencemom: true
 comments: true
 title: 'Science Mom''s Guide to Water, Part 2'
