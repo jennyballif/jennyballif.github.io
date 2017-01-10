@@ -53,7 +53,7 @@ guide3: SMG2-A4.pdf
 guide4: SMG2-A3.pdf
 videofeature: 'https://www.youtube.com/embed/OeYYiSsPf4I'
 ---
-For most of the liquids we come in contact with, water is the surface tension champion. It has the strongest surface tension of any non-metalic fluid. So whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
+Water has the strongest surface tension of any non-metalic fluid. So for most of the liquids we come in contact with, water is the surface tension champion. Whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog1.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
 
