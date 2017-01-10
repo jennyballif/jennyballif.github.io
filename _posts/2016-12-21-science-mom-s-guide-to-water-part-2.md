@@ -51,6 +51,7 @@ guide1: SMG2-8.5x11.pdf
 guide2: SMG2-11x17.pdf
 guide3: SMG2-A4.pdf
 guide4: SMG2-A3.pdf
+videofeature: 'https://www.youtube.com/embed/OeYYiSsPf4I'
 ---
 For most of the liquids we come in contact with, water is the surface tension champion. It has the strongest surface tension of any non-metalic fluid. So whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
 
@@ -61,7 +62,7 @@ Water forms beautiful domes on waxed paper while other liquids remain rather fla
 To learn more about why surface tension works and to see several fun investigations you can do with surface tension, watch Science Mom’s Guide to Water, Part 2:
 
 
-{% include youtubeplayer.html id="https://www.youtube.com/embed/IsvHQon2IqQ" %}
+{% include youtubeplayer.html id="https://www.youtube.com/embed/OeYYiSsPf4I" %}
 
 You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
 
