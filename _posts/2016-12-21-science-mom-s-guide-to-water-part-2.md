@@ -5,8 +5,9 @@ sciencemom: true
 comments: true
 title: 'Science Mom''s Guide to Water, Part 2'
 description: >-
-  Water has the strongest surface tension of any non-metallic liquid. But if you
-  add a surfactant? Then the surface tension changes dramatically!
+  Water has the strongest surface tension of any non-metallic liquid. In this
+  guide we explore just how strong surface tension is--and how it can
+  change--through several hands-on activities.
 headline: >-
   Water has the strongest surface tension of any non-metallic liquid. In this
   guide we explore just how strong surface tension is--and how it can
