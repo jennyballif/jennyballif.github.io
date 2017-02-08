@@ -47,7 +47,7 @@ guide2: SMG3-11x17.pdf
 guide3: SMG3-A4.pdf
 guide4: SMG3-A3.pdf
 imagefeature: SMG3square2.png
-fbimage: walkingwater.001.png
+fbimage: WalkingWater.001.png
 ---
 ## Science Mom's Guide to Water, Part 3
 
