@@ -36,6 +36,11 @@ experiment3time: 10 - 20 min
 experiment3supplies: 'Bendable drinking straws, Cups, Water'
 experiment3concepts: 'Siphons (Physics), Momentum (Physics), Gravity'
 experiment3image: strawsiphon.png
+experiment4title: Fountain in a Bottle
+experiment4time: 30 - 90 min
+experiment4supplies: 'Plastic Bottle, Plastic Tubing, Drill or knife, Glue and Tape'
+experiment4concepts: 'Siphons (Physics), Momentum (Physics), Air Pressure (Physcis), Gravity'
+experiment4image: bottlefountain.png
 guide0: SMG3wide.png
 guide1: SMG3-8.5x11.pdf
 guide2: SMG3-11x17.pdf
