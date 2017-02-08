@@ -18,7 +18,7 @@ categories:
 tags: 'Siphons, Paper Towels, Water, Food Coloring, Capillary Action, Adhesion'
 videofeature: 'https://www.youtube.com/embed/4OgcPI7S8_o'
 folder: SMG3
-sciencemomguideimage: SMG3thumbnail.png
+sciencemomguideimage: SMG3.png
 experiment1title: Ink Chromatography
 experiment1time: 30 - 90 min
 experiment1supplies: 'Markers, Paper towels, Water'
