@@ -9,7 +9,7 @@ layout: landing-page
     border: 3px solid #73AD21;
     background: url(paper.gif);
     background-position: left top;
-    padding: 20px;
+    padding: 0px;
     width: 200px;
     height: 150px;
 }
