@@ -10,7 +10,7 @@ layout: landing-page
     background: url(paper.gif);
     background-position: left top;
     padding: 0px;
-    width: 200px;
+    width: 150px;
     height: 150px;
 }
 </style>
