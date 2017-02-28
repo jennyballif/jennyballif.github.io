@@ -6,7 +6,7 @@ layout: landing-page
 <style>
 #rcorners3 {
     border-radius: 25px;
-    border: 3px solid #73AD21;
+    border: 5px solid #629DD1;
     background: url(paper.gif);
     background-position: left top;
     padding: 0px;
