@@ -21,7 +21,7 @@ layout: landing-page
 			<div class="4u">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
-					<img id="rcorners3" src="images/JennyBallif.png" style="width:200px;height: 150px;">
+					<img id="rcorners3" src="images/JennyBallif.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
 					<h3>Science Mom Guides</h3>
 					<p>Printable coloring books with directions for hands-on science activities.</p>
