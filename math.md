@@ -15,7 +15,7 @@ layout: default
 .boxx div{
   text-align:center;
 	position:relative;
-	top:60px;  
+	top:50px;  
 }
 .boxx {
 	width:90%;
