@@ -6,7 +6,7 @@ layout: default
 .boxx form{
   text-align:center;
 	position: relative; 
-	top:40px;
+	top:35px;
   max-width:60%;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ layout: default
 .boxx div{
   text-align:center;
 	position:relative;
-	top:41px;  
+	top:30px;  
 }
 .boxx {
 	width:90%;
@@ -93,10 +93,10 @@ $('#pwd').keyup(function(){
 <form>
     Enter the passcode to unlock new content:
     <input id="pwd" type="text" name="pwd" />
-    </form>
-    <div id="content" style="display:none;">
+</form>
+<div id="content" style="display:none;">
     testing 123
-    </div>  
+</div>  
   
 </div>
 </div>
