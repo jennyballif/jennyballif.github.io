@@ -89,7 +89,7 @@ $('#pwd').keyup(function(){
 </script>
 
 <div class="container">
-<div class="boxx">
+<div class="boxx effect7">
 
 <form>
     Enter the passcode to unlock new content:
