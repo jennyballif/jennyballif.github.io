@@ -19,7 +19,7 @@ layout: default
 }
 .boxx {
 	width:90%;
-	min-height:200px;
+	min-height:min-content;
 	background:#FFF;
 	margin:20px auto;
   background-image: url('https://github.com/jennyballif/jennyballif.github.io/blob/master/images/Gnome.png?raw=true');
