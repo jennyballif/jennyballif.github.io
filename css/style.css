@@ -1323,7 +1323,7 @@ body {background:#ccc}
 	min-height:200px;
 	background:#FFF;
 	margin:20px auto;
-  background-image: url('https://github.com/jennyballif/jennyballif.github.io/blob/master/images/Gnome.png?raw=true');
+  background-image: url("../images/Gnome.png");
   background-repeat: no-repeat;
   background-attachment: relative;
   background-position: 5% 50%;
