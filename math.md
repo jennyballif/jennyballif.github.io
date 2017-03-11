@@ -6,7 +6,7 @@ layout: default
 .boxx form{
   text-align:center;
 	position: relative; 
-	top:35px;
+	top:15%;
   max-width:60%;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ layout: default
 .boxx div{
   text-align:center;
 	position:relative;
-	top:30px;  
+	top:20%;  
 }
 .boxx {
 	width:90%;
