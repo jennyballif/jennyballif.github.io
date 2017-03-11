@@ -1304,7 +1304,7 @@ $breakpoint-alpha: 480px; // adjust to your needs
 body {background:#ccc}
 -------------------------*/
 
-.box form{
+.boxx form{
   text-align:center;
 	position: relative; 
 	top:60px;
@@ -1313,12 +1313,12 @@ body {background:#ccc}
   margin-right: auto;
   padding: 0 0 0 50px;
 }
-.box div{
+.boxx div{
   text-align:center;
 	position:relative;
 	top:80px;  
 }
-.box {
+.boxx {
 	width:90%;
 	min-height:200px;
 	background:#FFF;
