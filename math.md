@@ -3,6 +3,31 @@ layout: default
 ---
 
 <style>
+.boxx form{
+  text-align:center;
+	position: relative; 
+	top:60px;
+  max-width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 0 50px;
+}
+.boxx div{
+  text-align:center;
+	position:relative;
+	top:80px;  
+}
+.boxx {
+	width:90%;
+	min-height:200px;
+	background:#FFF;
+	margin:20px auto;
+  background-image: url('https://github.com/jennyballif/jennyballif.github.io/blob/master/images/Gnome.png?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: 5% 50%;
+}
+
 
 /*==================================================
  * Effect 7
@@ -62,28 +87,13 @@ $('#pwd').keyup(function(){
 </script>
 
 <div class="container">
-<div class="box effect7" style="width:90%;
-	min-height:200px;
-	background:#FFF;
-	margin:20px auto;
-  background-image: url('https://github.com/jennyballif/jennyballif.github.io/blob/master/images/Gnome.png?raw=true');
-  background-repeat: no-repeat;
-  background-attachment: relative;
-  background-position: 5% 50%;">
+<div class="boxx effect7">
 
-<form style="text-align:center;
-	position: relative; 
-	top:60px;
-  max-width:60%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 0 0 50px;">
+<form>
     Enter the passcode to unlock new content:
     <input id="pwd" type="text" name="pwd" />
     </form>
-    <div id="content" style="display:none; text-align:center;
-	position:relative;
-	top:80px;">
+    <div id="content" style="display:none;">
     testing 123
     </div>  
   
