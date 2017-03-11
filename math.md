@@ -19,6 +19,7 @@ layout: default
 }
 .boxx {
 	width:90%;
+	height:200px;
 	min-height:min-content;
 	background:#FFF;
 	margin:20px auto;
