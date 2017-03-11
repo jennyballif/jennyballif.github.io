@@ -22,7 +22,7 @@ layout: default
 	height: 200px;
 	max-height:200px;
 	background:#FFF;
-	margin:20px auto;
+
   background-image: url('images/Gnome.png');
   background-repeat: no-repeat;
   background-attachment: relative;
