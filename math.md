@@ -20,7 +20,8 @@ layout: default
 .boxx {
 	width:90%;
 	height: auto !important;
-	min-height:min-content+40px;
+	height: 200px;
+	max-height:200px;
 	background:#FFF;
 	margin:20px auto;
   background-image: url('images/Gnome.png');
