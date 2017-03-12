@@ -23,15 +23,6 @@ layout: default
   margin-right: auto;
   padding: 0 0 0 50px;
 }
-.boxx button{
-  text-align:center;
-	position:relative;
-    display: block;
-	top:0px;  
-  margin-left: 55%;
-  margin-right: auto;
-  padding: 0 0 0 0px;
-}
 .boxx {
 	width:90%;
   height:250px;
@@ -140,7 +131,7 @@ function myFunction() {
 <form>  
   Enter the passcode to unlock new content:
 <input type="text" id="txtSearch" onkeypress="return searchKeyPress(event);" />
-<input type="button" id="btnSearch" style="display:none;"Value="Search" onclick="myFunction();" />
+<input type="button" id="btnSearch" style="display:none" Value="Search" onclick="myFunction();" />
   </form>
   <div id="demo"></div>
 
