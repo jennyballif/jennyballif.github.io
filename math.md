@@ -5,9 +5,9 @@ layout: default
 <style>
 .boxx form{
   text-align:center;
-	position: relative; 
-    display: block;
-	top:20px; 
+  position: relative; 
+  display: block;
+  top:20px; 
   max-width:60%;
   margin-left: auto;
   margin-right: auto;
@@ -15,9 +15,13 @@ layout: default
 }
 .boxx div{
   text-align:center;
-	position:relative;
-    display: block;
-	top:0px;  
+  position:relative;
+  display: block;
+  top:0px;  
+  max-width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 0 50px;
 }
 .boxx {
 	width:90%;
