@@ -123,9 +123,8 @@ function myFunction() {
 </section>
 <section id="main" class="wrapper style1">
 
-
-<h2>Gnomes of Grid</h2>
 <div class="container">
+<h2>Gnomes of Grid</h2>
 <div class="boxx effect7">
 
 <form>  
