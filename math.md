@@ -107,8 +107,7 @@ $('#pwd').keyup(function(){
     </div>  
   
 </div>
-  
 </div>
-</div>
+
 
 </section>
