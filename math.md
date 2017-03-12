@@ -85,23 +85,25 @@ layout: default
 }
 </style>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
-<script type='text/javascript'>//<![CDATA[
-$(window).load(function(){
-$('#pwd').keyup(function(){
-    if($(this).val() == 'smelly jelly bean')
-       $('#content').show(); 
-});
-});//]]> 
-
+<script>
+function searchKeyPress(e)
+{
+    // look for window.event in case event isn't passed in
+    e = e || window.event;
+    if (e.keyCode == 13)
+    {
+        document.getElementById('btnSearch').click();
+        return false;
+    }
+    return true;
+}
 </script>
-
-
+  
 
 <script>
 function myFunction() {
     var text;
-    var fruits = document.getElementById("myInput").value;
+    var fruits = document.getElementById("txtSearch").value;
 
     switch(fruits) {
         case "Banana":
@@ -119,6 +121,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = text;
 }
 </script>
+ 
 
 
 <!-- Banner -->
@@ -134,29 +137,14 @@ function myFunction() {
 <div class="container">
 <div class="boxx effect7">
 
-<form>
-    Enter the passcode to unlock new content:
-    <input id="pwd" type="text" name="pwd" />
-    </form>
-    <div id="content" style="display:none;">
-    testing 123
-    </div>  
-  
-</div>
-
-
-
-<div class="boxx effect7">
-
-<form>
+<form>  
   Enter the passcode to unlock new content:
-<input id="myInput" type="text">
+<input type="text" id="txtSearch" onkeypress="return searchKeyPress(event);" />
+<input type="button" id="btnSearch" style="display:none;"Value="Search" onclick="myFunction();" />
   </form>
+  <div id="demo"></div>
 
-<button onclick="myFunction()">Submit</button>
-
-<div id="demo"></div>
-</div>  
+</div>
 </div>
 
 
