@@ -23,6 +23,15 @@ layout: default
   margin-right: auto;
   padding: 0 0 0 50px;
 }
+.boxx button{
+  text-align:center;
+	position:relative;
+    display: block;
+	top:0px;  
+  margin-left: 55%;
+  margin-right: auto;
+  padding: 0 0 0 0px;
+}
 .boxx {
 	width:90%;
   height:250px;
@@ -89,16 +98,39 @@ $('#pwd').keyup(function(){
 
 
 
+<script>
+function myFunction() {
+    var text;
+    var fruits = document.getElementById("myInput").value;
+
+    switch(fruits) {
+        case "Banana":
+            text = "Banana is good!";
+        break;
+        case "Orange":
+        text = "I am not a fan of orange.";
+        break;
+        case "Apple":
+        text = "How you like them apples?";
+        break;
+        default:
+        text = "I have never heard of that fruit...";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <h2>Gnomes of Grid</h2>
+        <h2>Science Mom</h2>
     </div>
 </section>
 <section id="main" class="wrapper style1">
 
 
-
+<h2>Gnomes of Grid</h2>
 <div class="container">
 <div class="boxx effect7">
 
@@ -111,7 +143,23 @@ $('#pwd').keyup(function(){
     </div>  
   
 </div>
+
+
+
+<div class="boxx effect7">
+
+<form>
+  Enter the passcode to unlock new content:
+<input id="myInput" type="text">
+  </form>
+
+<button onclick="myFunction()">Submit</button>
+
+<div id="demo"></div>
+</div>  
 </div>
+
+
 
 
 </section>
