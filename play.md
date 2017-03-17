@@ -17,7 +17,7 @@ layout: landing-page
 			
 
 <div class="container">
-		<div class="row 25%">
+		<div class="row 200%">
 			<div class="4u">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
@@ -50,7 +50,7 @@ layout: landing-page
 	</div>
 	
 <div class="container">
-		<div class="row uniform 0%">
+		<div class="row 0%">
 			<div class="2u">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
