@@ -31,11 +31,7 @@
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
 					containers: 800 //1200
 				},
-				xlarge: "(max-width: 1680px)",
-				large:  "(max-width: 1280px)",
-    				medium: "(max-width: 980px)",
-    				small:  "(max-width: 736px)",
-    				xsmall: "(max-width: 480px)",
+
 
 			// Large.
 				large: {
