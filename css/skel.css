@@ -29,7 +29,7 @@
 	
 		.container.small {
 			/* width: (containers) * 0.75; */
-			width: 675px; /* 900px */
+			width: 375px; /* 900px 675*/
 		}
 
 		.container.big {
