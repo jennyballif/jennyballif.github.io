@@ -17,7 +17,7 @@ layout: landing-page
 			
 
 <div class="container">
-		<div class="row">
+		<div class="row 25%">
 			<div class="4u">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
