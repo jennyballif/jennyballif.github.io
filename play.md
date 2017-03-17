@@ -114,8 +114,9 @@ layout: landing-page
 		</div>
 	</div>
 	
-	<div class="container">
-	<div class="row">
+<div class="container">
+
+<div class="row">
     <div class="6u 12u$(medium)">
         <h3>Welcome!</h3>
         <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.</p>
@@ -159,6 +160,5 @@ layout: landing-page
     <div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">5</span></div>
     <div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">6</span></div>
 </div>
-	</div>
-  
+</div>
 
