@@ -93,26 +93,26 @@
 			margin-bottom: 0;
 		}
 
-		/* Normal */
+		/* Normal 4em*/
 
 			.row > * {
 				/* padding-left: (gutters.vertical) */
-				padding-left: 4em;
+				padding-left: 1em;
 			}
 
 			.row + .row > * {
 				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
-				padding: 0 0 0 4em;
+				padding: 0 0 0 1em;
 			}
 
 			.row {
 				/* margin-left: -(gutters.vertical) */
-				margin-left: -4em;
+				margin-left: -1em;
 			}
 
 			.row + .row.uniform > * {
 				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
-				padding: 4em 0 0 4em;
+				padding: 1em 0 0 1em;
 			}
 
 		/* Flush */
