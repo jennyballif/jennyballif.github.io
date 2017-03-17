@@ -19,7 +19,7 @@
 					containers: 2700,//1400
 					grid: {
 						gutters: {
-							vertical: '4em',
+							vertical: '1em', //4em
 							horizontal: 0
 						}
 					}
@@ -39,7 +39,7 @@
 					containers: 800,//960
 					grid: {
 						gutters: {
-							vertical: '2.5em'
+							vertical: '1em' //2.5em
 						}
 					},
 					viewport: {
@@ -64,7 +64,7 @@
 					containers: '90%',
 					grid: {
 						gutters: {
-							vertical: '1.25em'
+							vertical: '1em'//1.25em
 						}
 					}
 				},
