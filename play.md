@@ -50,7 +50,7 @@ layout: landing-page
 	</div>
 	
 <div class="container">
-		<div class="row">
+		<div class="row uniform 0%">
 			<div class="2u">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
