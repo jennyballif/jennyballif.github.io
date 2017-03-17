@@ -48,5 +48,70 @@ layout: landing-page
 			</div>
 		</div>
 	</div>
+	
+<div class="container">
+		<div class="row">
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+			<div class="2u">
+				<a href="sciencemom.html" style="display:block; text-decoration:none;">
+				<section class="special box">
+					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
+					<!--<i class="icon fa-rocket major"></i>-->
+					<h3>Science Mom Guides</h3>
+					<p>Printable coloring books with directions for hands-on science activities.</p>
+				</section>
+				</a>
+			</div>
+		</div>
+	</div>
   
 
