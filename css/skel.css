@@ -97,22 +97,22 @@
 
 			.row > * {
 				/* padding-left: (gutters.vertical) */
-				padding-left: 1em;
+				padding-left: 4em;
 			}
 
 			.row + .row > * {
 				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
-				padding: 0 0 0 1em;
+				padding: 0 0 0 4em;
 			}
 
 			.row {
 				/* margin-left: -(gutters.vertical) */
-				margin-left: -1em;
+				margin-left: -4em;
 			}
 
 			.row + .row.uniform > * {
 				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
-				padding: 1em 0 0 1em;
+				padding: 4em 0 0 4em;
 			}
 
 		/* Flush */
