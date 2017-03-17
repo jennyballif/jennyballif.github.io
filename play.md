@@ -51,7 +51,7 @@ layout: landing-page
 	
 <div class="container">
 		<div class="row 0%">
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -61,7 +61,7 @@ layout: landing-page
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -71,7 +71,7 @@ layout: landing-page
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -81,7 +81,7 @@ layout: landing-page
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -91,7 +91,7 @@ layout: landing-page
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -101,7 +101,7 @@ layout: landing-page
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u(small) 12u$(xsmall)">
+			<div class="4u 6u$(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
