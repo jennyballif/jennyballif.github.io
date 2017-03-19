@@ -53,7 +53,7 @@ layout: landing-page
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
 					<h3>Coloring Books</h3>
-					<p>Printable miniature books you can fold from a single piece of paper.</p>
+					<p>Printable, miniature, foldable books.</p>
 				</section>
 				</a>
 			</div>
@@ -62,7 +62,7 @@ layout: landing-page
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Math Investigatoins</h3>
+					<h3>Math Investigations</h3>
 					<p>Gnomes of Grid comics and activities</p>
 				</section>
 				</a>
