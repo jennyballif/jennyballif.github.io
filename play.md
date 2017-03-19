@@ -62,7 +62,7 @@ layout: landing-page
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Math</h3>
+					<h3>Math Investigatoins</h3>
 					<p>Gnomes of Grid comics and activities</p>
 				</section>
 				</a>
@@ -72,8 +72,8 @@ layout: landing-page
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Patreon</h3>
-					<p>Other initiatives and support options</p>
+					<h3>Science Mom Journey</h3>
+					<p>Miscellaneous initiatives and support options</p>
 				</section>
 				</a>
 			</div>
