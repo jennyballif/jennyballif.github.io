@@ -33,7 +33,7 @@ layout: landing-page
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
 					<!--<i class="icon fa-rocket major"></i>-->
 					<h3>Science Activities</h3>
-					<p>A summary table of all activities and their required supplies.</p>
+					<p>A summary table of all activities and required supplies.</p>
 				</section>
 				</a>
 			</div>
