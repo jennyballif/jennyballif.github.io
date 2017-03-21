@@ -19,19 +19,19 @@ experiment1title: Oil Cube vs. Ice Cube
 experiment1time: 30 - 60 min
 experiment1supplies: 'Water, Oil, Ice cube tray, Freezer'
 experiment1concepts: Density (Physics); Changes of state (Chemistry)
-experiment1image: Thumbnail1.png
+experiment1image: Thumbnail1.PNG
 experiment2title: Frost Wedging
 experiment2time: 2 - 4 days
 experiment2supplies: 'Containers, balloons, Plaster of Paris, Water, Freezer'
 experiment2concepts: 'Changes of state (Chemistry), Force (Physics),'
-experiment2image: Thumbnail2.png
+experiment2image: Thumbnail2.PNG
 imagefeature: TwitterSMG4.png
 fbimage: FBThumbnail1.png
 experiment3title: Instant Slushy
 experiment3time: 2 - 3 hours
 experiment3supplies: 'Bottled soda, Freezer, Ice'
 experiment3concepts: 'Supercooling of liquids (Physics and Chemistry), Changes of state (Chemistry)'
-experiment3image: Thumbnail3.png
+experiment3image: Thumbnail3.PNG
 guide0: SMG4wide.png
 guide1: SMG4-8.5x11.pdf
 guide2: SMG4-11x17.pdf
@@ -41,14 +41,14 @@ experiment4title: Lift Ice with Salt
 experiment4time: 10 - 20 min
 experiment4supplies: 'Ice, Salt, Matches or Toothpicks or String'
 experiment4concepts: 'Changes of state (Chemistry), Thermodynamics'
-experiment4image: Thumbnail4.png
+experiment4image: Thumbnail4.PNG
 experiment5title: Freeze Ice Cream in a Can
 experiment5time: 1 hr
 experiment5supplies: >-
   2 cans of different sizes with lids, Ice, Salt, Ingredients for Ice Cream
   (Coconut milk, dates, cocoa powder), Duct tape
 experiment5concepts: 'Changes of state (Chemistry), Thermodynamics'
-experiment5image: Thumbnail5.png
+experiment5image: Thumbnail5.PNG
 ---
 ## Science Mom's Guide to Water, Part 4
 
