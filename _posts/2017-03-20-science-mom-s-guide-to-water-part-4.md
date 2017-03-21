@@ -54,7 +54,7 @@ There are a few other elements and compounds that also expand when frozen (such 
 To learn more about why and how water freezes, watch Science Mom's Guide to Water, part 4:
 
 
-{% include youtubeplayer.html id="<"https://www.youtube.com/embed/4Y7SWqUJJ9A"%}
+{% include youtubeplayer.html id="https://www.youtube.com/embed/4Y7SWqUJJ9A"%}
 
 You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
 
