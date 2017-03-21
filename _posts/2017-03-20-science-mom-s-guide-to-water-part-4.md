@@ -47,7 +47,7 @@ experiment4image: Thumbnail4.png
 
 Water is one of the few substances that expands when it freezes. And this expansion makes ice is less dense than liquid water, which means that ice floats! This is strange behavior when compared to how most other compounds behave. If you drop a piece of solid iron into liquid or molten iron, it will sink before it melts. Same thing happens when you drop frozen oil into liquid oil: the solid sinks. Most solids are more dense than their liquids.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog1.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG4/FBThumbnail1.png" description="Cartoon depiction of ice floating." maxwidth="600px" %}
 
 There are a few other elements and compounds that also expand when frozen (such as silicon,bismuth, gallium, geranium, and antimony). But a lot of these elements don't ever occur naturally in their pure forms, so for all practical intents and purposes, water is just about the only thing we deal with that expands when frozen.
 
