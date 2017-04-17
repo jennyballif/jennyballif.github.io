@@ -25,6 +25,7 @@ layout: landing-page
 /*To solve overlap bug at the edges during magnification*/
 .small { display: block; }</style>
 
+<div class="container">
 <!-- Lets make a simple image magnifier -->
 <div class="magnify">
 	
@@ -34,6 +35,7 @@ layout: landing-page
 	<!-- This is the small image -->
 	<img class="small" src="http://thecodeplayer.com/uploads/media/iphone.jpg" width="200"/>
 	
+</div>
 </div>
 <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script>$(document).ready(function(){
