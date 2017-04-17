@@ -1,7 +1,7 @@
 ---
 layout: landing-page
 ---
-
+<div class="container">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
 <style class="cp-pen-styles">/*Some CSS*/
 * {margin: 0; padding: 0;}
@@ -25,7 +25,7 @@ layout: landing-page
 /*To solve overlap bug at the edges during magnification*/
 .small { display: block; }</style>
 
-<div class="container">
+
 <!-- Lets make a simple image magnifier -->
 <div class="magnify">
 	
