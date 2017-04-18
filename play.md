@@ -16,8 +16,16 @@ layout: landing-page
 </style>
 
 
-{% include periodictable.html %}
 
+<div class="magnify">
+  
+  <!-- container of the magnify glass with original/large version -->
+  <div class="large"></div>
+  
+  <!-- This is the small image -->
+  <img class="small" src="https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg" width="500" height="500" />
+  
+ </div>
 
 	
 <div class="container">
