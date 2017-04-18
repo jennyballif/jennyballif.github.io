@@ -22,7 +22,7 @@ layout: landing-page
   <div class="large"></div>
   
   <!-- This is the small image -->
-  <img class="small" src="/images/fbsquare.jpg" width="500" height="500" />
+  <img class="small" src="/images/fbsquare.jpg" width="200" />
   
  </div>
 
