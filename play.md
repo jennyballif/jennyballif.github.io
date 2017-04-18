@@ -16,6 +16,11 @@ layout: landing-page
 </style>
 
 
+<img id="zoom_01" src='images/pic01.jpg' data-zoom-image="images/pic01.jpg"/>
+
+<script>
+    $('#zoom_01').elevateZoom();
+</script>
 
 
 	
