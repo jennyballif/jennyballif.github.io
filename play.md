@@ -19,7 +19,7 @@ layout: landing-page
 <img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
 </div>
 <script>
-    $('#zoom_01').elevateZoom();
+    $('#zoom_01').elevateZoom({responsive : true});
 </script>
 
 <div class="container">
@@ -27,6 +27,7 @@ layout: landing-page
 </div>
 <script>
 $("#zoom_02").elevateZoom({
+  responsive : true,
   zoomType				: "inner",
   cursor: "crosshair"
 });
@@ -38,6 +39,7 @@ $("#zoom_02").elevateZoom({
 <script>
 $("#zoom_03").elevateZoom({
   zoomType				: "lens",
+  responsive : true,
   lensShape : "square",
   lensSize    : 200
 });
@@ -50,6 +52,7 @@ $("#zoom_03").elevateZoom({
 $("#zoom_04").elevateZoom({
   zoomType				: "lens",
   easing : true
+  responsive : true,
 });
 </script>
 
@@ -59,6 +62,7 @@ $("#zoom_04").elevateZoom({
 <script>
 $("#zoom_05").elevateZoom({
   zoomType				: "lens",
+  responsive : true,
   scrollZoom : true
 });
 </script>
