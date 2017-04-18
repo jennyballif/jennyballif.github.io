@@ -38,7 +38,7 @@ $("#zoom_02").elevateZoom({
 <script>
 $("#zoom_03").elevateZoom({
   zoomType				: "lens",
-  lensShape : "round",
+  lensShape : "square",
   lensSize    : 200
 });
 </script>
@@ -49,8 +49,6 @@ $("#zoom_03").elevateZoom({
 <script>
 $("#zoom_04").elevateZoom({
   zoomType				: "lens",
-  lensShape : "round",
-  lensSize    : 200
   easing : true
 });
 </script>
@@ -61,8 +59,6 @@ $("#zoom_04").elevateZoom({
 <script>
 $("#zoom_05").elevateZoom({
   zoomType				: "lens",
-  lensShape : "round",
-  lensSize    : 200
   scrollZoom : true
 });
 </script>
