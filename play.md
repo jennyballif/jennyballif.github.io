@@ -16,7 +16,7 @@ layout: landing-page
 </style>
 
 
-
+{% include periodictable.html %}
 
 
 	
