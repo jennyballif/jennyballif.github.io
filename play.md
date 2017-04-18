@@ -16,7 +16,7 @@ layout: landing-page
 </style>
 
 <div class="container">
-<img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" style="width=20%"/>
+<img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" style="width:20%"/>
 </div>
 <script>
     $('#zoom_01').elevateZoom();
