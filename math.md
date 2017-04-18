@@ -136,8 +136,6 @@ function myFunction() {
 
 </div>
 
-
-{% include periodictable.html %}
 </div>
 
 
