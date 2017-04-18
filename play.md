@@ -7,7 +7,7 @@ layout: landing-page
 #rcorners3 {
     border-radius: 25px;
     border: 5px solid #629DD1;
-    background: url(paper.gif);
+    background: url(/images/fbsquare.jpg);
     background-position: left top;
     padding: 0px;
     width: 150px;
