@@ -15,9 +15,9 @@ layout: landing-page
 }
 </style>
 
-<div class="container">
+
 {% include periodictable.html %}
-</div>
+
 
 	
 <div class="container">
