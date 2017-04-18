@@ -51,8 +51,8 @@ $("#zoom_03").elevateZoom({
 <script>
 $("#zoom_04").elevateZoom({
   zoomType				: "lens",
-  easing : true
-  responsive : true,
+  easing : true,
+  responsive : true
 });
 </script>
 
