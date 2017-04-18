@@ -15,26 +15,6 @@ layout: landing-page
 }
 </style>
 
-<style>
-.magnify {
-width: 275px;
-margin: 50px auto;
-position: relative;
-}
-.large {
-width: 150px;
-height: 150px;
-position: absolute;
-border-radius: 100%;
-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),  0 0 7px 7px rgba(0, 0, 0, 0.25),  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-background: url('p5.jpg') no-repeat;
-display: none;
-}
-.small {
-display: block;
-}
-</style>
-
 
 <div class="magnify">
   
