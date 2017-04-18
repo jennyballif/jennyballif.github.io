@@ -14,6 +14,11 @@ layout: landing-page
     height: 150px;
 }
 </style>
+
+<div class="container">
+{% include periodictable.html %}
+</div>
+
 	
 <div class="container">
 		<div class="row 0%">
