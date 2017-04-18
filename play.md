@@ -16,15 +16,7 @@ layout: landing-page
 </style>
 
 
-<div class="magnify">
-  
-  <!-- container of the magnify glass with original/large version -->
-  <div class="large"></div>
-  
-  <!-- This is the small image -->
-  <img class="small" src="/images/fbsquare.jpg" width="200" />
-  
- </div>
+
 
 	
 <div class="container">
