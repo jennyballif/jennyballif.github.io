@@ -22,6 +22,51 @@ layout: landing-page
     $('#zoom_01').elevateZoom();
 </script>
 
+<div class="container">
+<img id="zoom_02" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
+</div>
+<script>
+$("#zoom_02").elevateZoom({
+  zoomType				: "inner",
+  cursor: "crosshair"
+});
+</script>
+
+<div class="container">
+<img id="zoom_03" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
+</div>
+<script>
+$("#zoom_03").elevateZoom({
+  zoomType				: "lens",
+  lensShape : "round",
+  lensSize    : 200
+});
+</script>
+
+<div class="container">
+<img id="zoom_04" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
+</div>
+<script>
+$("#zoom_04").elevateZoom({
+  zoomType				: "lens",
+  lensShape : "round",
+  lensSize    : 200
+  easing : true
+});
+</script>
+
+<div class="container">
+<img id="zoom_05" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
+</div>
+<script>
+$("#zoom_05").elevateZoom({
+  zoomType				: "lens",
+  lensShape : "round",
+  lensSize    : 200
+  scrollZoom : true
+});
+</script>
+
 
 	
 <div class="container">
