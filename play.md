@@ -19,17 +19,17 @@ layout: landing-page
 <img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
 </div>
 <script>
-    $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 11, zoomWindowOffetx: 100, zoomWindowHeight: 200, zoomWindowWidth:200, borderSize: 0, easing:true});
+    $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 6, zoomWindowOffetx: 100, zoomWindowHeight: 200, zoomWindowWidth:200, borderSize: 0, easing:true});
 </script>
+
+<div id="demo-container" style="text-align:center"></div>
 
 <div class="container">
 <img id="zoom_02" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
 </div>
 <script>
 $("#zoom_02").elevateZoom({
-  responsive : true,
-  zoomType				: "inner",
-  cursor: "crosshair"
+  responsive : true, zoomWindowPosition: "demo-container", zoomWindowHeight: 200, zoomWindowWidth:200, borderSize: 0, easing:true
 });
 </script>
 
