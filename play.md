@@ -22,7 +22,7 @@ layout: landing-page
     $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 6, zoomWindowOffetx: 100, zoomWindowHeight: 200, zoomWindowWidth:200, borderSize: 0, easing:true});
 </script>
 
-<div id="demo-container" style="text-align:center"></div>
+<div id="demo-container" align="center"></div>
 
 <div class="container">
 <img id="zoom_02" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:90%; text-align: center;"/>
