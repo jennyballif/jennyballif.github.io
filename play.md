@@ -20,7 +20,7 @@ layout: landing-page
 </div>
 
 <script>
-$("#zoom_01").elevateZoom({zoomWindowPosition: 4, zoomWindowOffsetx:-300});
+$("#zoom_01").elevateZoom({zoomWindowPosition: 4, zoomWindowOffsetx:-300px});
 </script>
 
 
