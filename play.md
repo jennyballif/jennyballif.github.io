@@ -19,7 +19,7 @@ layout: landing-page
 <img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
 </div>
 <script>
-    $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 14,zoomWindowHeight: 100, zoomWindowWidth:100, borderSize: 0, easing:true});
+    $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 11, zoomWindowOffetx: 100, zoomWindowHeight: 200, zoomWindowWidth:200, borderSize: 0, easing:true});
 </script>
 
 <div class="container">
