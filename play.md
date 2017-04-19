@@ -22,6 +22,8 @@ layout: landing-page
     $('#zoom_01').elevateZoom({responsive : true, zoomWindowPosition: 6, zoomWindowOffsetx: 100, zoomWindowOffsety: -100, zoomWindowHeight: 300, zoomWindowWidth:300, borderSize: 0, easing:true});
 </script>
 
+$("#zoom_01").elevateZoom({zoomWindowPosition: 6});
+
 <div id="demo-container" align="center"> text </div>
 
 <div class="container">
