@@ -16,7 +16,7 @@ layout: landing-page
 </style>
 
 <div class="container">
-<img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatronslarge.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
+<img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatrons.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
 </div>
 
 <script>
