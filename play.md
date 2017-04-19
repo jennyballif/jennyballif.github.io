@@ -26,6 +26,21 @@ $("#zoom_01").elevateZoom({responsive:true, zoomWindowPosition: 13,zoomWindowHei
 
 
 
+<div class="container">
+<img id="zoom_07" src='images/periodictableofpatrons.png' data-zoom-image="images/periodictableofpatrons.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
+</div>
+
+<script>
+$("#zoom_07").elevateZoom({
+  zoomType				: "lens",
+  lensShape : "square",
+  lensSize    : 200
+});
+</script>
+
+
+
+
 	
 <div class="container">
 		<div class="row 0%">
