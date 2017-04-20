@@ -42,12 +42,12 @@ $("#zoom_07").elevateZoom({
 
 
 <div class="row uniform 50%">
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">1</span></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">2</span></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">3</span></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">4</span></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">5</span></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">6</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">1</div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">2</div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">3</div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">4</div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">5</div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">6</div>
 </div>
 
 
