@@ -41,10 +41,21 @@ $("#zoom_07").elevateZoom({
 
 
 
+<div class="row uniform 50%">
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">1</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">2</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">3</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">4</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">5</span></div>
+	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)"><span class="thumbnail">6</span></div>
+</div>
+
+
+
 	
 <div class="container">
 		<div class="row 0%">
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -54,7 +65,7 @@ $("#zoom_07").elevateZoom({
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -64,7 +75,7 @@ $("#zoom_07").elevateZoom({
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -74,7 +85,7 @@ $("#zoom_07").elevateZoom({
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -84,7 +95,7 @@ $("#zoom_07").elevateZoom({
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
@@ -94,7 +105,7 @@ $("#zoom_07").elevateZoom({
 				</section>
 				</a>
 			</div>
-			<div class="4u 6u$(xsmall)">
+			<div class="4u 6u(xsmall)">
 				<a href="sciencemom.html" style="display:block; text-decoration:none;">
 				<section class="special box">
 					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
