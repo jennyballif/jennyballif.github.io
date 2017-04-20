@@ -40,7 +40,7 @@ $("#zoom_07").elevateZoom({
 
 
 
-
+<div class="container">
 <div class="row uniform 50%">
 	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">1</div>
 	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">2</div>
@@ -49,7 +49,7 @@ $("#zoom_07").elevateZoom({
 	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">5</div>
 	<div class="2u 3u(medium) 4u(small) 6u(xxsmall)">6</div>
 </div>
-
+</div>
 
 
 	
