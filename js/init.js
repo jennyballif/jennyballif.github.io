@@ -27,7 +27,7 @@
 
 			// XLarge.
 				xlarge: {
-					range: '-2680', //-1680
+					range: -1680,//'-2680', //-1680
 					href: '{{ site.baseurl }}/css/style-xlarge.css',
 					containers: 800 //1200
 				},
@@ -37,7 +37,7 @@
 				large: {
 					range: '-1280',//-1280
 					href: '{{ site.baseurl }}/css/style-large.css',
-					containers: 800,//960
+					containers: 700,//800,//960
 					grid: {
 						gutters: {
 							vertical: '1em' //2.5em
