@@ -43,11 +43,11 @@ $("#zoom_07").elevateZoom({
 <div class="container">
 <div class="row uniform 50%">
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">1</section></div>
-	<div class="2u$ 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">2</section></div>
+	<div class="6u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">2</section></div>
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">3</section></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">4</section></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">5</section></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">6</section></div>
+	<div class="2u$ 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">4</section></div>
+	<div class="8u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">5</section></div>
+	<div class="4u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">6</section></div>
 </div>
 </div>
 
@@ -55,7 +55,7 @@ $("#zoom_07").elevateZoom({
 <div class="row uniform 50%">
 	<div class="12u"><section class="special box">1</section></div>
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">2</section></div>
-	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">3</section></div>
+	<div class="4u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">3</section></div>
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">4</section></div>
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">5</section></div>
 	<div class="2u 3u(medium) 4u(small) 6u(xsmall)"><section class="special box">6</section></div>
