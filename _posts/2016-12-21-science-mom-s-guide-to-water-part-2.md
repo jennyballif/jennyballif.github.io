@@ -55,6 +55,7 @@ guide4: SMG2-A3.pdf
 videofeature: 'https://www.youtube.com/embed/OeYYiSsPf4I'
 guide0: SMG2wide.png
 ---
+
 Water has the strongest surface tension of any non-metalic fluid. So for most of the liquids we come in contact with, water is the surface tension champion. Whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog1.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}
@@ -70,6 +71,6 @@ To learn more about why surface tension works and to see several fun investigati
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/OeYYiSsPf4I" %}
 
-You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
+You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s).
 
 And join us next time for Science Mom’s Guide to Water, Part 3 [coming February, 2017], where we investigate **capillary action** and **adhesion**.

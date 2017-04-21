@@ -11,4 +11,5 @@ headline: >-
   A comic about science, a website launch that flopped, Bradon Sanderson, and
   Klingons...
 ---
+
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/LaunchFail.png" description="A comic strip about a launch flop." maxwidth="800px" %}

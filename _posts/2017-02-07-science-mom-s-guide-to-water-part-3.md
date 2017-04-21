@@ -49,6 +49,7 @@ guide4: SMG3-A3.pdf
 imagefeature: SMG3square2.png
 fbimage: WalkingWater.001.png
 ---
+
 ## Science Mom's Guide to Water, Part 3
 
 Capillary action allows water to flow uphill, against the flow of gravity. It takes effect in small spaces and around things that water is attracted to. But water is attracted to a lot of things: plants, rocks, glass, plastic, most cloths and plenty of other materials too. This ability of water to move through small spaces has big effects in biology and geology, and it allows us to do some great science activities too.
@@ -58,6 +59,6 @@ To learn more about capillary action and adhesion, watch Science Mom's Guide to 
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/4OgcPI7S8_o" %}
 
-You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
+You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s).
 
 And join us next time for Science Mom’s Guide to Water, Part 4 [coming March, 2017], where we investigate why **water expands when frozen**.

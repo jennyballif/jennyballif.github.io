@@ -42,7 +42,7 @@ guide4: ''
 
 You can share a video in a link like so:
 
-{% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %} 
+{% include youtubeplayer.html id="https://www.youtube.com/embed/iwqUhD47o14" %}
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Water1a.png" description="water picture" maxwidth="300px" %}
 
@@ -57,6 +57,6 @@ A full page image needs the class "fit image" like so:
 
 {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" maxwidth="300px" %}
 
-You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or check my video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s). 
+You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ &times; 11, 11 &times; 17, A3 or A4. __Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.__ To fold the book, either print the two-page document double sided and follow the instructions on the back, or check my video: [How to Fold A Book from One Piece of Paper](https://www.youtube.com/watch?v=E0sS59oMBe0&t=3s).
 
 And join us next time for Science Mom’s Guide to Water, Part 2[coming Jan 1, 2017], where we investigate **surface tension**.
