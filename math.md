@@ -97,8 +97,8 @@ function myFunction() {
     var fruits = document.getElementById("txtSearch").value;
 
     switch(fruits) {
-        case "Banana":
-            text = "Banana is good!";
+        case "smelly jelly bean":
+            text = "Excellent. The next adventure is at ...";
         break;
         case "Orange":
         text = "I am not a fan of orange.";
@@ -107,7 +107,7 @@ function myFunction() {
         text = "How you like them apples?";
         break;
         default:
-        text = "I have never heard of that fruit...";
+        text = "I don't recognize that code.";
     }
     document.getElementById("demo").innerHTML = text;
 }
@@ -124,7 +124,7 @@ function myFunction() {
 <section id="main" class="wrapper style1">
 
 <div class="container">
-<h2>Gnomes of Grid</h2>
+<h2>Gnomes of Grid --- Under Construction</h2>
 <div class="boxx effect7">
 
 <form>  

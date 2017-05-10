@@ -1,156 +1,88 @@
 <!-- Footer -->
-<footer id="footer">
-	<!--
+  <footer id="footer">
     <div class="container">
-        <div class="row double">
-            <div class="6u">
-                <div class="row collapse-at-2">
-                    <div class="6u">
-                        <h3>Accumsan</h3>
-                        <ul class="alt">
-                            <li><a href="#">Nascetur nunc varius</a></li>
-                            <li><a href="#">Vis faucibus sed tempor</a></li>
-                            <li><a href="#">Massa amet lobortis vel</a></li>
-                            <li><a href="#">Nascetur nunc varius</a></li>
-                        </ul>
-                    </div>
-                    <div class="6u">
-                        <h3>Faucibus</h3>
-                        <ul class="alt">
-                            <li><a href="#">Nascetur nunc varius</a></li>
-                            <li><a href="#">Vis faucibus sed tempor</a></li>
-                            <li><a href="#">Massa amet lobortis vel</a></li>
-                            <li><a href="#">Nascetur nunc varius</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="6u">
-                <h2>Aliquam Interdum</h2>
-                <p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
-                <ul class="icons">
-                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="4u 6u(medium) 12u$(small)">
+          <a href="sciencemom.html" style="display:block; text-decoration:none;">
+          <div class="box">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-map-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <b>Science Mom Guides</b>
+          </div>
+          </a>
         </div>
-        <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li>
-            <li>Design: <a href="https://templated.co">TEMPLATED</a></li>
-            <li>Images: <a href="https://unsplash.com">Unsplash</a></li>
-            <li>Jekyll Template: <a href="https://cloudcannon.com">Cloud Cannon</a></li>
-        </ul>
-    </div> 
-	
-	<div class="container">
-		<ul class="icons">
-                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-                </ul>
-	</div>
-	{% if page.layout == "post" %}
-	<div class="container">
-		{% if site.owner.twitter %}
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=JennyBallif&hashtags={{ page.tags }}" target="_blank" title="Share this post on Twitter">
+    		<div class="4u 6u$(medium) 12u$(small)">
+          <a href="videos.html" style="display:block; text-decoration:none;">
+          <div class="box">
             <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
             </span>
-	</a>{% endif %}{% if site.owner.google_plus %}<a href="https://plus.google.com/share?
-    				url={{ site.url }}{{ page.url }}
-    				&hl=en-US" 
-    				onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
- 				target="_blank" title="Share this post on google plus">
+            <b>Educational Videos</b>
+          </div>
+        </div>
+    		<div class="4u$ 6u(medium) 12u$(small)">
+          </a>
+          <a href="activities.html" style="display:block; text-decoration:none;">
+          <div class="box">
             <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-google-plus fa-stack-1x"></i>
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
             </span>
-        </a>{% endif %}{% if site.owner.facebook %}<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+            <b>Science Activities</b>
+          </div>
+          </a>
+        </div>
+    		<div class="4u 6u$(medium) 12u$(small)">
+          <a href="{{ site.baseurl}}/A-failed-Launch.html" style="display:block; text-decoration:none;">
+          <div class="box">
             <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-paint-brush fa-stack-1x fa-inverse"></i>
             </span>
-        </a>
-        {% endif %}
-		<ul class="social">
-		    <li> Share: </li>
-                    {% if site.owner.twitter %}
-                    <li>
-                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=JennyBallif&hashtags={{ page.tags }}" target="_blank" title="Share this post on Twitter", class="button specialG">twitter
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-		    </li>	
-                    {% endif %}
-		    {% if site.owner.facebook %}
-		    <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="button special">facebook
-			    <span class="fa-stack fa-lg">
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>	
-		    </a></li>
-		    {% endif %}
-		    <li>
-                        <a href="https://plus.google.com/share?
-    				url=/{{ site.url }}{{ page.url }}
-    				&hl=en-US" 
-    				onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
- 				target="_blank" title="Share this post on google plus", class="button specialB">google+
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-		    </li>
-                    {% if site.owner.github %}
-                    <li>
-                        <a href="https://github.com/{{ site.owner.github }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-	</div>
-	{% endif %}
-	-->
-	<div class="container">
-		<div class="row">
-			<div class="4u">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<i class="icon fa-rocket major"></i>
-					<h3>Science Mom Guides</h3>
-					<p>Printable coloring books with directions for hands-on science activities.</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u">
-				<a href="activities.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<i class="icon fa-pencil-square-o major"></i>
-					<h3>Science Activities</h3>
-					<p>A summary table of all the science activities and their required supplies.</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u">
-				<a href="videos.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<i class="icon fa-youtube-play major"></i>
-					<h3>Science Mom Videos</h3>
-					<p>Watch science mom teach lessons corresponding with each guide</p>
-				</section>
-				</a>
-			</div>
-		</div>
-	</div>
+          <b>Comics</b>
+          </div>
+          </a>
+        </div>
+    		<div class="4u 6u(medium) 12u$(small)">
+          <a href="math.html" style="display:block; text-decoration:none;">
+          <div class="box">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <b>Math Investigations</b>
+          </div>
+          </a>
+        </div>
+    		<div class="4u$ 6u$(medium) 12u$(small)">
+          <a href="blog.html" style="display:block; text-decoration:none;">
+          <div class="box">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <b>Blog</b>
+          </div>
+          </a>
+    		</div>
+    </div>
+  </div>
 
-</footer>
+
+    <div class="copyright">
+      &copy; Jenny Ballif. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Scripts -->
+
+  <script id="dsq-count-scr" src="//{{ site.owner.disqus_shortname }}.disqus.com/count.js" async></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script src="assets/js/skel.min.js" type="text/javascript"></script>
+  <script src="assets/js/main.js" type="text/javascript"></script>
+  <script src='assets/js/jquery-1.8.3.min.js' type="text/javascript"></script>

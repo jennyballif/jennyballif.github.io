@@ -3,31 +3,23 @@ layout: landing-page
 ---
 
 
-<style>
-#rcorners3 {
-    border-radius: 25px;
-    border: 5px solid #629DD1;
-    background: url(/images/fbsquare.jpg);
-    background-position: left top;
-    padding: 0px;
-    width: 150px;
-    height: 150px;
-}
-</style>
 
-<div class="container">
-<img id="zoom_01" src='images/periodictableofpatronssmall.png' data-zoom-image="images/periodictableofpatrons.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
+
+<div id="main" class="container">
+  <p>Have you ever wondered why water expands when it freezes? Is black ink really black? How can you make the mentos and coke eruption even bigger? These are the types of questions Science Mom investigates.</p>
+
+  <p>The world needs more curiosity, wonder, and investigative thinking—and that’s just what my videos and Science Mom Guides aim to encourage. They're all free! Download the guides and make as many copies as you like. Share them with your kids, parents, classroom, teachers, and friends.</p>
+
+  <p><span class="image left" style="width:150px; max-width:30%"><img src="images/JennyBallifSquare.png" alt="Science Mom smiling while leaning on her workbench" /></span></p>
+  <p>I'm Jenny Ballif, a.k.a Science Mom. I create content for kids to learn science and math. My mission in life is to make the world a better place by bringing science to every home and by providing engaging lessons to educators.  If you'd like to support my work, please subscribe to the <a href="https://www.youtube.com/channel/UC-QcZISbFb9EiIEQ41cVhxw"> Science Mom youtube channel</a> and consider becoming a patron on <a href="https://patreon.com/jennyballif" >Patreon</a>.  Hover over the image below to view some of my patrons.</p>
 </div>
 
-<script>
-$("#zoom_01").elevateZoom({responsive:true, zoomWindowPosition: 7,zoomWindowHeight: 200, zoomWindowWidth:200});
-</script>
 
-
-
-
+<section class="wrapper style2">
 <div class="container">
-<img id="zoom_07" src='images/periodictableofpatrons.png' data-zoom-image="images/periodictableofpatrons.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
+<h2> Periodic Table of Patrons </h2>
+
+<img id="zoom_07" src='images/PeriodicTableOfPatrons.png' data-zoom-image="images/PeriodicTableOfPatrons.png" alt="Periodic Table of Patrons" style="width:100%; text-align: center;"/>
 </div>
 
 <script>
@@ -37,73 +29,4 @@ $("#zoom_07").elevateZoom({
   lensSize    : 200
 });
 </script>
-
-
-
-
-	
-<div class="container">
-		<div class="row 0%">
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Science Mom Guides</h3>
-					<p>Science lessons with hands-on investigations</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Science Activities</h3>
-					<p>A summary table of all activities and supplies.</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Education Videos</h3>
-					<p>Watch science lessons, tips for teachers, and more.</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Coloring Books</h3>
-					<p>Printable, miniature, foldable books.</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Math Investigations</h3>
-					<p>Gnomes of Grid comics and activities</p>
-				</section>
-				</a>
-			</div>
-			<div class="4u 6u$(xsmall)">
-				<a href="sciencemom.html" style="display:block; text-decoration:none;">
-				<section class="special box">
-					<img id="rcorners3" src="images/SMG1/SMG1square.png" style="width:150px;height: 150px;">
-					<!--<i class="icon fa-rocket major"></i>-->
-					<h3>Science Mom Journey</h3>
-					<p>Miscellaneous initiatives and support options</p>
-				</section>
-				</a>
-			</div>
-		</div>
-	</div>
-	
+</section>

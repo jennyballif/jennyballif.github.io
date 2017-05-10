@@ -1,5 +1,6 @@
 # Site settings
 title: Jenny Ballif
+author: 'Jenny Ballif'
 email: jenballif@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Science Mom, Writer, Language Enthusiast
@@ -27,6 +28,9 @@ twitter:
 
 
 
+
+
+
 links:
   - title: Science Mom
     url: /sciencemom
@@ -45,7 +49,7 @@ paginate:    12
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:title
+permalink:  /:title
 
 
 
