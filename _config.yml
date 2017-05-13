@@ -146,7 +146,17 @@ prose:
       - name: "sciencemom"
         field:
           element: "checkbox"
-          label: "Science Mom"
+          label: "Science Mom Post"
+          value: false
+      - name: "blog"
+        field:
+          element: "checkbox"
+          label: "Blog Post"
+          value: false
+      - name: "comic"
+        field:
+          element: "checkbox"
+          label: "Comic Post"
           value: false
       - name: "comments"
         field:
