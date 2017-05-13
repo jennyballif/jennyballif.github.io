@@ -5,11 +5,26 @@ layout: default
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <h2>Jenny's blog feed</h2>
+        <h2>Jenny's Blog Feed</h2>
     </div>
 </section>
 <section id="main" class="wrapper style1">
+    {% for post in site.posts %}
+      {% if post.blog %}
         <div class="wrapper {% cycle 'style1', 'style2' %}">
-            Coming soon...
+            <header class="major">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <section class="container">
+                {{ post.headline }}
+               <!-- {{ post.excerpt }} -->
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
         </div>
+      {% endif %}
+    {% endfor %}
 </section>
