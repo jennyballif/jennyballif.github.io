@@ -11,6 +11,7 @@ headline: Answers to some of the questions Science Mom hears most often.
 modified: '2017-05-14'
 imagefeature: TwitterFAQ.jpeg
 fbimage: FacebookFAQ.jpeg
+folder: FAQ
 ---
 ## Frequently Asked Questions
 
