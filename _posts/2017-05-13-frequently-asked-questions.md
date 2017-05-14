@@ -46,9 +46,9 @@ If I visited a school every time someone asked, then I wouldn't have time to mak
 
 #### WHAT KIND OF PRESENTATIONS DO YOU DO?
 
-All kinds. I've presented to whole school assemblies and to individual classrooms, and I've done lessons as short as 10 minutes and as long as 3 hours. I've presented to ages from pre-K to college level, and to special education students and mainstream. Here's what I do most often:
+All kinds. I've presented to whole school assemblies and to individual classrooms, and I've done lessons as short as 10 minutes and as long as 3 hours. I've presented to ages from pre-K to college, but most of my visits are in elementary schools. Here's what I do most often:
 
-The school provides a cart for supplies and a schedule with lessons every 30 minutes, and I spend the day and travel from classroom to classroom. I can bring the lesson, and I have a large variety to choose from. Most of my prepared material teaches basic concepts in chemistry and physics. My tower of math knowledge is also a popular activity. 
+The school provides a cart for supplies, and I spend the day there and travel from classroom to classroom teaching lessons every 30 minutes. I can bring the lesson, and I have a large variety to choose from. Most of my prepared material teaches basic concepts in chemistry and physics. My tower of math knowledge is also a popular activity. 
 
 But one of my favorite things to do is have a class pick between 3 and 5 items -- they can be anything -- and provide me with a dozen sheets of cardstock or poster board. After I see the items the class picked, I take about 15 minutes of preparation to draw some cartoons and design a lesson. Then I teach a science lesson using the supplies the class provided. 
 
@@ -65,7 +65,9 @@ I did! I made it all the way to Calculus 2, and Calc 2 was a really cool class. 
 
 I've released a video each month where I talk specifically about YouTubing and how things are going with trying to get "Science Mom" to be something that generates income. Check out the "[Behind the Scenes](https://www.youtube.com/playlist?list=PLQhmXCBXSI0zwY8zdCi-Xp6MWlTaB37Aa)" playlist to see those. 
 
-It's a LOT of work and a long road to earn a living as a YouTuber. I don't recommend it as a vocation unless it's something that you're passionate about. My total earnings from YouTube during my first six months of making videos was 1 dollar and 1 cent. During that six months, I put more than 360 hours of work into my channel. I pulled all nighters editing videos and drawing cartoons because there simply wasn't enough time to do things during the day. Our family ate Panda Express for Thanksgiving Dinner because my husband and I were too busy getting the website ready and filming SMG1 (Science Mom's Guide to Water, Part 1) ... you get the idea. So if I'd started the channel because I wanted to make money rather than because I wanted to share science with the world... I would have been very disappointed! 
+It's a LOT of work and a long road to earn a living as a YouTuber. I don't recommend it as a vocation unless it's something that you're passionate about. My total earnings from YouTube during my first six months of making videos was 1 dollar and 1 cent. 
+
+During that six months, I put more than 360 hours of work into my channel. I pulled all nighters editing videos and drawing cartoons because there simply wasn't enough time to do things during the day. Our family ate Panda Express for Thanksgiving Dinner because my husband and I were too busy getting the website ready and filming SMG1 (Science Mom's Guide to Water, Part 1) to cook the traditional turkey dinner... you get the idea. So if I'd started the channel because I wanted to make money rather than because I wanted to share science with the world... I would have been very disappointed! 
 
 
 #### WHERE DO YOU GET YOUR IDEAS FOR SCIENCE PROJECTS?
@@ -74,9 +76,9 @@ The internet! The internet is a crowded and messy place full of both treasure an
 
 #### HOW LONG DOES IT TAKE TO MAKE A VIDEO?
 
-That all depends on the video! But it takes WAY longer than most people think. It's not unusual for one of my Science Mom Guide videos, which are 10 to 15 minutes long, to require between 50 to 80 hours of work. The editing takes longer than the filming, but exactly how long all depends on the project. In general, the longer the video and the more cartoons and pictures the video has, the more time it took to make. 
+That all depends on the video. But it takes WAY longer than most people think. It's not unusual for one of my Science Mom Guide videos, which are 10 to 15 minutes long, to require between 50 to 80 hours of work. The editing takes longer than the filming, but exactly how long all depends on the project. In general, the longer the video and the more cartoons and illustrations the video has, the more time it took to make. 
 
-#### WHY DO YOU DO BOOK RECOMMENDATIONS AFTER YOUR SCIENCE MOM VIDEOS?
+#### WHY DO YOU DO BOOK RECOMMENDATIONS AFTER YOUR SCIENCE MOM GUIDE VIDEOS?
 
 Why not? The honest answer is that I can't help myself. I love talking about books. We don't have a TV in our house -- or netflix or other streaming services. A lot of the recreation time in our family is spent reading, both individually, and together.
 
@@ -100,7 +102,7 @@ I have a few other novels and middle grade books in the rough draft phases, and 
 #### WAIT, DID YOU SAY YOU'VE HAD CANCER?
 
 Yep. I was diagnosed with Hodgkin's Lymphoma when I was 20 years old, and went through six months of chemotherapy and radiation. Lost my hair and had terrible nausea... all that stuff. 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Bald.jpg" description="Jenny Ballif smiling while bald after chemotherapy" maxwidth="300px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Bald.jpg" description="Jenny Ballif bald after chemotherapy" maxwidth="300px" %}
 
 
 After the birth of my third child, I had post-partum depression. And the depression was worse than the cancer. That's a whole different topic than Science Mom stuff, but the upshot is that depression is a very real illness. If you or someone you know is struggling with depression, be kind and patient with them. Reach out for help, and know that you're not alone.
