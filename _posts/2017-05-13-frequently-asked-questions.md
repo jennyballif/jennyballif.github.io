@@ -18,7 +18,7 @@ fbimage: FacebookFAQ.jpeg
 
 Kids ask me this question a lot, and usually what they really mean by this is, "Do you work in a secret lab and blow things up?"
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/RealScientist.png" description="Scientist in Secret Lab." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/RealScientist.png" description="Scientist in Secret Lab." maxwidth="400px" %}
 
 
 And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected how the plants flowered. More importantly, I am dedicated to curiosity and trying to understand our world through careful observation and learning. I don't blow things up too often.
