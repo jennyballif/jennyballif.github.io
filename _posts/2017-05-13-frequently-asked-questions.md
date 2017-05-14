@@ -16,7 +16,7 @@ fbimage: FacebookFAQ.jpeg
 
 #### ARE YOU A REAL SCIENTIST?
 
-Kids ask me this question a lot, and usually what they really mean by this is, "Do you work in a secret lab and blow things up?"
+Kids ask me this question a lot. What they usually mean by this is, "Do you work in a secret lab and blow things up?"
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/SecretLab.png" description="Scientist in Secret Lab." maxwidth="600px" %}
 
