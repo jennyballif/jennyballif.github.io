@@ -18,7 +18,7 @@ fbimage: FacebookFAQ.jpeg
 
 Kids ask me this question a lot, and usually what they really mean by this is, "Do you work in a secret lab and blow things up?"
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/RealScientist.png" description="Scientist in Secret Lab." maxwidth="400px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/SecretLab.png" description="Scientist in Secret Lab." maxwidth="600px" %}
 
 
 And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected how the plants flowered. More importantly, I am dedicated to curiosity and trying to understand our world through careful observation and learning. I don't blow things up too often.
@@ -100,8 +100,8 @@ I have a few other novels and middle grade books in the rough draft phases, and 
 #### WAIT, DID YOU SAY YOU'VE HAD CANCER?
 
 Yep. I was diagnosed with Hodgkin's Lymphoma when I was 20 years old, and went through six months of chemotherapy and radiation. Lost my hair and had terrible nausea... all that stuff. 
-
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Bald.jpg" description="Jenny Ballif smiling while bald after chemotherapy" maxwidth="300px" %}
+
 
 After the birth of my third child, I had post-partum depression. And the depression was worse than the cancer. That's a whole different topic than Science Mom stuff, but the upshot is that depression is a very real illness. If you or someone you know is struggling with depression, be kind and patient with them. Reach out for help, and know that you're not alone.
 
