@@ -37,7 +37,7 @@ Folding these little books can be challenging, especially if you don't have a lo
 
 #### HOW'D YOU GET THE NAME SCIENCE MOM?
 
-In 2012, I volunteered to do weekly science demonstrations in my son's first grade class. The kids started calling me Science Mom. The name stuck, and the job grew. Within a year I was visiting ten classrooms a week, all in the school where my kids attended. In 2016 I started a YouTube channel and began visiting other schools outside of my hometown.
+In 2013, I volunteered to do weekly science demonstrations in my son's first grade class. The kids started calling me Science Mom. The name stuck, and the job grew. Within a year I was visiting ten classrooms a week, all in the school where my kids attended. In late 2016, I started a YouTube channel and began visiting other schools outside of my hometown.
 
 #### CAN YOU COME TO MY SCHOOL? WHEN AND HOW MUCH?
 
