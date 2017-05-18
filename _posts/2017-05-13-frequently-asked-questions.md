@@ -96,7 +96,7 @@ I write in a variety of genres. I have a memoir (unpublished) about my experienc
 
 That survey was a great experience and I learned two things: First, the book needed a significant edit before I would send it out to literary agents again or consider self publishing it. And second... maybe I didn't want to have such a personal memoir published? I put it on the shelf and decided I would revisit it after finishing my novel.
 
-I started my first novel in late 2013. The first draft was junk, and I tossed it. The second draft was less junky, but what it really needed was a prequel to explain how two very different societies came into existence. So I wrote the prequel, and then broke that prequel into two books. So the single novel has now grown into a trilogy, and I'm still working on a revision of what is now book 1 of 3...
+I started my first novel in late 2013. The first draft was junk, and I tossed it. The second draft was less junky, but what it really needed was a prequel to explain how two very different societies came into existence. I wrote the prequel, and then broke that prequel into two books. So the single novel has now grown into a trilogy, and I'm still working on a revision of what is now book 1 of 3...
 
 I have a few other novels and middle grade books in the rough draft phases, and I'm also planning to make a compilation of the Science Mom Guides with more comics and information.
 
@@ -112,4 +112,4 @@ After the birth of my third child, I had post-partum depression. And the depress
 
 If you want to keep in touch with what projects are coming up, you can follow me on social media. I post announcements of new videos on [instagram](https://www.instagram.com/jennyballif) (@jennyballif), [TheScienceMom facebook page](https://facebook.com/TheScienceMom) and [twitter](https://twitter.com/jennyballif) (@JennyBallif). 
 
-But to get the BEST scoop on upcoming projects, subscribe to [my Patreon page](https://www.patreon.com/JennyBallif)! It costs as little as $2 a month, and I put more detailed posts about upcoming projects there. I also send out a monthly newsletter to my $5 and up patrons that has more personal notes about what I'm working on and sneak peaks about what will be coming next. 
+But to get the BEST scoop on upcoming projects, subscribe to [my Patreon page](https://www.patreon.com/JennyBallif)! It costs as little as $2 a month, and I put more detailed posts about upcoming projects there. I also send out a monthly newsletter to my $5 and up patrons that has more personal notes about what I'm working on and sneak peaks about what will be coming next.
