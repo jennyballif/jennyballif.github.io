@@ -17,7 +17,7 @@ fbimage: JenSerge.jpeg
 ---
 ## Sergium
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Sergium.jpeg" description="Serge teaching math." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Sergium.jpeg" description="Serge teaching math." maxwidth="200px" %}
 
 The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Other nicknames include "hairy armed assistant," because you can see his arm and hand helping in a few videos (SMG1 and What color is blood REALLY?). 
 
