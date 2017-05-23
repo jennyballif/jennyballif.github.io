@@ -21,7 +21,7 @@ fbimage: JenSerge.jpeg
 
 The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Other nicknames include "hairy armed assistant," because you can see his arm and hand helping in a few videos (SMG1 and What color is blood REALLY?). 
 
-He has a PhD in mathematics and a real gift for inventing games (some of our family favorites are "zig zag," "commando," and "the ground is lava.") When we lived in graduate student housing it wasn't unusual for kids to knock on our door and ask, "Can Serge come out and play?"
+He has a PhD in mathematics and a real gift for inventing games (some of our family favorites are "zig zag," "commando," and "the ground is lava.") 
 
 Without further adieu, here is a brief interview:
 
