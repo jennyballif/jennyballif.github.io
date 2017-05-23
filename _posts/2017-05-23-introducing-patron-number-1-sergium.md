@@ -17,7 +17,7 @@ fbimage: JenSerge.jpeg
 ---
 ## Sergium
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Sergium.jpeg" description="Serge teaching math." maxwidth="200px" %}
+<span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
 
 The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Other nicknames include "hairy armed assistant," because you can see his arm and hand helping in a few videos (SMG1 and What color is blood REALLY?). 
 
@@ -27,38 +27,43 @@ For this post we did a short interview:
 
 Math Dad: It's the first formula I ever published--I wrote up a short filler article when I was an undergraduate student at Utah State University, and it got published in American Mathematical Monthly. 
 
-**Science Mom: Which was super exciting. I remember cheering when we found out you were going to be in the Monthly. Explain why this equation is so neat.**
+**Which was super exciting. I remember cheering when we found out you were going to be in the Monthly. Explain why this equation is so neat.**
 
-Math Dad: There are infinitely many numbers being added together, but in one sum the individual terms are squared. Yet both sums are equal. I'll rewrite it for you to make it more clear.
+There are infinitely many numbers being added together, but in one sum the individual terms are squared. Yet both sums are equal. I'll rewrite it for you to make it more clear.
 
 ![Two infinite geometric series with the same sum. The second series just squares the terms of the first series.](http://mathurl.com/le5en5d.png)
 
-**Science Mom: That is really cool.  What kind of mathematician are you?**
+**That is really cool! And counterintuitive. How can both sides add to 3 when one side is squared and the other side isn't?**
 
-Math Dad: I'm an algebraist/combinatorist. 
+It's kind of complicated, but basically on the right side the terms start bigger but get smaller faster. 
 
-**Science Mom: How would you explain that to a first grader?**
+**Really neat. So what kind of mathematician are you?**
+ 
+I'm an algebraist/combinatorist. 
 
-Math Dad: I work with cool number systems and use neat counting techniques to solve problems.
+**How would you explain that to a first grader?**
 
-**Science Mom: If you could have lunch with any scientist, dead or living, who would you meet with, and why?**
+I work with cool number systems and use neat counting techniques to solve problems.
 
-Math Dad: Hmm. That's a tough one. Paul Erdős, maybe? He was a character, and a real legend in mathematics. He was something of a jack of all trades, and he was absolutely brilliant in combinatorics. He spent his whole life traveling the world from university to university, living out of his suitcase while collaborating with other mathematicians.
+**If you could have lunch with any scientist, dead or living, who would you meet with, and why?**
 
-**Science Mom: Isn't he the one who couldn't cut his own grapefruit?**
+Hmm. That's a tough one. Paul Erdős, maybe? He was a character, and a real legend in mathematics. He was something of a jack of all trades, and he was absolutely brilliant in combinatorics. He spent his whole life traveling the world from university to university, living out of his suitcase while collaborating with other mathematicians.
 
-Math Dad (laughing) Yep. He's the one.
+**Isn't he the one who couldn't cut his own grapefruit?**
 
-**Science Mom: And he referred to children as epsilons - the greek letter that mathematicians use for small quantities?**
+(laughing) Yep. He's the one.
 
-Math Dad: That's him. Lunch with Erdős would be amazing.
+**And he referred to children as epsilons - the greek letter that mathematicians use for small quantities?**
 
-**Science Mom: And funny.**
+That's him. Lunch with Erdős would be amazing.
 
-Math Dad: Definitely.
+**And funny.**
+
+Definitely.
 
 ~
 
 Thank you again to the number 1 patron - Serge Ballif, a.k.a. Math Dad.
-You can read his blog posts about math and teaching here: https://sergeballif.github.io/
-Follow him on twitter here: https://twitter.com/sergeballif
+You can read his blog posts about math and teaching here: [https://sergeballif.github.io/](https://sergeballif.github.io/)
+
+Follow him on twitter here: [https://twitter.com/sergeballif](https://twitter.com/sergeballif)
