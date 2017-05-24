@@ -58,13 +58,13 @@ Hmm. That's a tough one. Paul Erdős, maybe? He was a character, and a real lege
 
 That's him. Lunch with Erdős would be amazing.
 
-**And funny.**
+**And entertaining.**
 
 Definitely.
 
 ~
 
-Thank you again to the number 1 patron - Serge Ballif, a.k.a. Math Dad.
+Thank you again, and welcome to the Periodic Table of Patrons Serge Ballif, a.k.a. Math Dad.
 You can read his blog posts about math and teaching here: [https://sergeballif.github.io/](https://sergeballif.github.io/)
 
 Follow him on twitter here: [https://twitter.com/sergeballif](https://twitter.com/sergeballif)
