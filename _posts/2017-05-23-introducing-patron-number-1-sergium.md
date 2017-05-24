@@ -18,9 +18,9 @@ fbimage: JenSerge.jpeg
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
 
-The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Another nickname he's had is "hairy armed assistant," because you can see his arm and hand helping in a few videos (SMG1 and What color is blood REALLY?). 
+The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Another nickname he's had is "hairy armed assistant," because you can see his arm and hand helping in a few videos ([SMG1](https://youtu.be/IsvHQon2IqQ) and [What color is blood REALLY?](https://youtu.be/zr0fejFPK5A)). 
 
-He has a PhD in mathematics and a real gift for inventing games (some of our family favorites that he made up are called "zig zag," "commando," and "the ground is lava.") 
+He has a PhD in mathematics and a real gift for inventing games (some of our family favorites that he made up are called "zig zag," and "commando.") 
 
 Without further adieu, here is a brief interview:
 
