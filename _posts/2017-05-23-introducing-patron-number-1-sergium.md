@@ -15,7 +15,6 @@ tags: Patrons
 imagefeature: Sergium.jpeg
 fbimage: JenSerge.jpeg
 ---
-## Sergium
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
 
