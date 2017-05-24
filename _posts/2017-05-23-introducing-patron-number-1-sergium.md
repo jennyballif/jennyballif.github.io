@@ -17,7 +17,7 @@ fbimage: JenSerge.jpeg
 ---
 ## Sergium
 
-<span class="image left" style="width:300px; max-width:50%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
+<span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
 
 The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Other nicknames include "hairy armed assistant," because you can see his arm and hand helping in a few videos (SMG1 and What color is blood REALLY?). 
 
