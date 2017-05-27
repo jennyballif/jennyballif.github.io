@@ -22,7 +22,7 @@ Kids ask me this question a lot. What they usually mean by this is, "Do you work
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/SecretLab.png" description="Scientist in Secret Lab." maxwidth="600px" %}
 
 
-And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected how the plants flowered. More importantly, I am dedicated to curiosity and trying to understand our world through careful observation and learning. I don't blow things up too often.
+And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected flowering. More importantly, I am dedicated to curiosity and trying to understand our world through careful observation and learning. I don't blow things up too often.
 
 #### DID YOU DRAW THAT?
 
@@ -37,7 +37,7 @@ Folding these little books can be challenging, especially if you don't have a lo
 
 #### HOW'D YOU GET THE NAME SCIENCE MOM?
 
-In 2013, I volunteered to do weekly science demonstrations in my son's first grade class. The kids started calling me Science Mom. The name stuck, and the job grew. Within a year I was visiting ten classrooms a week, all in the school where my kids attended. In late 2016, I started a YouTube channel and began visiting other schools outside of my hometown.
+In 2013, I volunteered to do weekly science demonstrations in my son's first grade class. The kids started calling me "Science Mom" instead of "Andrew's mom." The name stuck and the job grew. Within a year I was visiting ten classrooms a week, all in the school where my kids attended. In late 2016, I started a YouTube channel and began visiting other schools outside of my hometown.
 
 #### CAN YOU COME TO MY SCHOOL? WHEN AND HOW MUCH?
 
@@ -57,6 +57,9 @@ But one of my favorite things to do is have a class pick between 3 and 5 items -
 
 I'm married to a mathematician, so "Math Dad" is a better name for him than Science Dad. He is a science enthusiast as well, but his favorite branch of the sciences--by far--is mathematics. 
 
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/JenSerge.jpeg" description="Scientist in Secret Lab." maxwidth="600px" %}
+
+Follow [this link](https://jennyballif.com/introducing-patron-number-1-sergium) to read a short interview with Math Dad (and see the cartoon I drew for his Patron card in the Periodic Table of Patrons).
 
 #### HOW FAR DID YOU MAKE IT UP THE TOWER OF MATH KNOWLEDGE? DID YOU GET TO THE AWESOME MATH THAT COMES AFTER CALCULUS?
 
@@ -77,11 +80,11 @@ The internet! The internet is a crowded and messy place full of both treasure an
 
 #### HOW LONG DOES IT TAKE TO MAKE A VIDEO?
 
-That all depends on the video. But it takes WAY longer than most people think. It's not unusual for one of my Science Mom Guide videos, which are 10 to 15 minutes long, to require between 50 to 80 hours of work. The editing takes longer than the filming, but exactly how long all depends on the project. In general, the longer the video and the more cartoons and illustrations the video has, the more time it took to make. 
+That all depends on the video. But it takes WAY longer than most people think. It's not unusual for one of my Science Mom Guide videos, which are 10 to 15 minutes long, to require between 50 to 90 hours of work. The editing takes longer than the filming, but exactly how long all depends on the project. In general, the longer the video and the more cartoons and illustrations the video has, the more time it took to make. 
 
 #### WHY DO YOU DO BOOK RECOMMENDATIONS AFTER YOUR SCIENCE MOM GUIDE VIDEOS?
 
-Why not? The honest answer is that I can't help myself. I love talking about books. We don't have a TV in our house -- or netflix or other streaming services. A lot of the recreation time in our family is spent reading, both individually, and together.
+Why not? The honest answer is that I can't help myself. I love talking about books. We don't have a TV in our house -- or netflix or other streaming services. A lot of our family's recreation time is spent reading, both individually, and together.
 
 
 #### WILL YOU REVIEW MY BOOK IN ONE OF YOUR VIDEOS IF I SEND YOU A FREE COPY?
@@ -106,7 +109,7 @@ Yep. I was diagnosed with Hodgkin's Lymphoma when I was 20 years old, and went t
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Bald.jpg" description="Jenny Ballif bald after chemotherapy" maxwidth="300px" %}
 
 
-After the birth of my third child, I had post-partum depression. And the depression was worse than the cancer. That's a whole different topic than Science Mom stuff, but the upshot is that depression is a very real illness. If you or someone you know is struggling with depression, be kind and patient with them. Reach out for help, and know that you're not alone.
+After the birth of my third child, I had post-partum depression. And the depression was worse than the cancer. That's a whole different topic than Science Mom stuff, but the upshot is that depression is a very real and very difficult illness. If you or someone you know is struggling with depression, be kind and patient with them. Reach out for help, and know that you're not alone.
 
 #### WHAT ARE YOU WORKING ON NEXT?
 
