@@ -59,7 +59,7 @@ But one of my favorite things to do is have a class pick between 3 and 5 items -
 
 I'm married to a mathematician, so "Math Dad" is a better name for him than Science Dad. He is a science enthusiast as well, but his favorite branch of the sciences--by far--is mathematics. Here are a couple pictures of the two of us, taken when we were young and newly married:
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/JenSerge.jpeg" description="Jenny and Serge." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/JenSerge.jpeg" description="Jenny and Serge." maxwidth="600px" %}
 
 Follow [this link](https://jennyballif.com/introducing-patron-number-1-sergium) to read a short interview with Math Dad (and see the cartoon I drew for his Patron card in the Periodic Table of Patrons).
 
