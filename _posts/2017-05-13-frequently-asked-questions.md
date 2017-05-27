@@ -22,7 +22,9 @@ Kids ask me this question a lot. What they usually mean by this is, "Do you work
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/SecretLab.png" description="Scientist in Secret Lab." maxwidth="600px" %}
 
 
-And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected flowering. More importantly, I am dedicated to curiosity and trying to understand our world through careful observation and learning. I don't blow things up too often.
+And the answer is "no" to the secret lab and "yes", I am a real scientist. I have a master's degree in Plant Science with an emphasis in Molecular Biology. I spent several years working in a lab with little mustard plants (_Arabidopsis thaliana_) trying to understand how a small piece of DNA affected flowering. 
+
+And even more importantly than my degree, I am a scientist because I am curious, I love learning and I'm dedicated to seeking truth and making careful observations. I don't blow things up too often.
 
 #### DID YOU DRAW THAT?
 
@@ -55,9 +57,9 @@ But one of my favorite things to do is have a class pick between 3 and 5 items -
 
 #### IF YOU'RE SCIENCE MOM, THEN WHERE'S SCIENCE DAD?
 
-I'm married to a mathematician, so "Math Dad" is a better name for him than Science Dad. He is a science enthusiast as well, but his favorite branch of the sciences--by far--is mathematics. 
+I'm married to a mathematician, so "Math Dad" is a better name for him than Science Dad. He is a science enthusiast as well, but his favorite branch of the sciences--by far--is mathematics. Here are a couple pictures of the two of us, taken when we were young and newly married:
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/JenSerge.jpeg" description="Scientist in Secret Lab." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/JenSerge.jpeg" description="Jenny and Serge." maxwidth="600px" %}
 
 Follow [this link](https://jennyballif.com/introducing-patron-number-1-sergium) to read a short interview with Math Dad (and see the cartoon I drew for his Patron card in the Periodic Table of Patrons).
 
