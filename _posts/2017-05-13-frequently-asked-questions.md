@@ -63,9 +63,6 @@ I'm married to a mathematician, so "Math Dad" is a better name for him than Scie
 
 Follow [this link](https://jennyballif.com/introducing-patron-number-1-sergium) to read a short interview with Math Dad (and see the cartoon I drew for his Patron card in the Periodic Table of Patrons).
 
-#### HOW FAR DID YOU MAKE IT UP THE TOWER OF MATH KNOWLEDGE? DID YOU GET TO THE AWESOME MATH THAT COMES AFTER CALCULUS?
-
-I did! I made it all the way to Calculus 2, and Calc 2 was a really cool class. But I stopped math there because there were so many science classes that I wanted to take. My husband has studied most of the "awesome math" that comes after calculus. And over the years he's taught courses in topology, astract algebra, complex analysis, linear algebra, differential equations, and some other higher math topics. 
 
 #### HOW DO YOU START A YOUTUBE CHANNEL?
 
