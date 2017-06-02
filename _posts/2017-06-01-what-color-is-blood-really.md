@@ -23,6 +23,6 @@ And then one of my patrons told me that something I'd believed all my life was n
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/jPvo7DkrFjo"%}
 
-My mother, who consistently tells me that my videos are quite good but much too long, suggested I shorten it. So, just for her, I released an abbreviated 6 minute version:  
+My mom says she prefers shorter videos. So, just for her, I released an abbreviated 6 minute version:  
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/zr0fejFPK5A"%}
