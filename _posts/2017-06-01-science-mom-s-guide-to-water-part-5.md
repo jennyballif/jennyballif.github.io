@@ -15,8 +15,8 @@ headline: >-
   dissolve: oil. In this instalment we explore some of the amazing things you
   can do with these two very different liquids.
 tags: Science Mom Guide
-fbimage: SMG5-fbSMG5.png
-imagefeature: SMG5-twitterSMG5.png
+fbimage: fbSMG5.png
+imagefeature: twitterSMG5.png
 videofeature: 'https://www.youtube.com/embed/KPjp2qg8SA4'
 folder: SMG5
 sciencemomguideimage: SMG5cover.png
