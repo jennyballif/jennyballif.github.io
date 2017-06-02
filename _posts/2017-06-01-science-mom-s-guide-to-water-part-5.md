@@ -8,8 +8,8 @@ comments: true
 title: 'Science Mom''s Guide to Water, Part 5'
 modified: '2017-01-06'
 description: >-
-  How can 2 spoonfulls of water make a fireball? Join Science Mom to find the
-  answer to that question, and more, in Part 5 of the water series.
+  How can 2 tablespoons of water make a fireball? Find the answer to that
+  question, and more, in Part 5 of the water series.
 headline: >-
   Water is known as the "universal solvent," but there's one thing it does not
   dissolve: oil. In this instalment we explore some of the amazing things you
