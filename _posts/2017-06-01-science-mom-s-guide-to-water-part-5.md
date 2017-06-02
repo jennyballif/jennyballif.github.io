@@ -49,7 +49,7 @@ guide4: SMG-A3.pdf
 ---
 Water is so good at dissolving things, that it's earned the label of "Universal Solvent." But one thing water _doesn't_ dissolve is oil. 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG5/Solvent.jpeg" description="Cartoon depiction of ice floating." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG5/Solvent.jpeg" description="Cartoon depiction of ice floating." maxwidth="400px" %}
 
 In Science Mom's Guide to Water, Part 5, we explore why oil and water don't mix with four investigations: Ocean in a bottle, Lava lamp, Oil lamp, and a grease fire explosion. 
 
