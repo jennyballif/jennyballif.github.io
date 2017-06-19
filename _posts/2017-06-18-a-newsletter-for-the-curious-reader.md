@@ -72,12 +72,12 @@ Being a memoir, the book is not a plot-based adventure with a clear "conquer thi
 
 My 11 year old started this series when we were volunteering with the National Park Service in Death Valley. He was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. I agreed, thinking that he would get tired of walking while holding a book and put it away. But he didn't. He kept reading until he'd finished, walking more than three miles with his nose in the book.
 
-And then he pestered me constantly the next day-taking away the other book I was reading and telling me I had to read Menagerie instead-until I started the book myself. I finished it in two days and when we got home we requested the next two books from the library. They were a great series and a lot of fun to read.
+And then he pestered me constantly the next day, taking away the other book I was reading and telling me I had to read Menagerie instead, until I started the book myself. I finished it in two days and when we got home we requested the next two books from the library. They were a great series and a lot of fun to read.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Hiking.jpeg" description="Hiking while reading." maxwidth="600px" %}
 
 
-The Menagerie series follows a boy who discovers a preserve of magical creatures in Montana. And—something that I appreciated about the book that my son didn’t notice—the main character is Black, and he has both parents (Although the mom is missing at the beginning of the series and finding her is part of the arc). 
+The Menagerie series follows a boy who discovers a preserve of magical creatures in Montana. And — something that I appreciated about the book that my son didn’t notice — the main character is Black, and he has both parents (Although the mom is missing at the beginning of the series and finding her is part of the arc). 
 
 Yay for diverse book characters and for a middle grade book with parents!
 
