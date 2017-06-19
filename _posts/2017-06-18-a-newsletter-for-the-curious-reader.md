@@ -58,17 +58,21 @@ That person or creation might not be who or what I expected, and it's because of
 
 And last, but not least, we have book reviews! I’ve arranged the books by age with younger reader levels first.
 
-_Real Friends_ by Shannon Hale and LeUyen Pham
+**_Real Friends_ by Shannon Hale and LeUyen Pham**
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/RealFriends.jpeg" alt="Book cover of Real Friends" /></span></p>
 
-This graphic novel is a touching portrayal of growing with that middle child feeling of being left out and forgotten, and yearning for a true friend. It follows Shannon through an elementary school journey that is painful-at-times. Kids can be so unkind to each other. One of my favorite things about this book is that there are a few scenes where we're able to see that the unkindness is born more out of insecurity and vulnerability than malice. The book was a good discussion point for a variety of topics in our family, and we all loved the illustrations.
+This graphic novel portrays growing with that middle child feeling of being left out and forgotten, and yearning for a true friend. It follows Shannon through an elementary school journey that is painful-at-times. Kids can be so unkind to each other. One of my favorite things about this book is that there are a few scenes where we're able to see that the unkindness is born more out of insecurity and vulnerability than malice. 
 
-_The Menagerie_ by Tui and Kari Sutherland
+Being a memoir, the book is not a plot-based adventure with a clear "conquer this obstacle" story arc. But it drew me in none-the-less, and I enjoyed watching the main character grow and learn. The book was a good discussion point for a variety of topics in our family. We all loved the illustrations, and there was a great author's note at the end about memories and their fallability and meaning.
 
-My 11 year old started this series when we were volunteering with the National Park Service in Death Valley, and he was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. So he walked for three miles like this:
+**_The Menagerie_ by Tui and Kari Sutherland**
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Menagerie.jpeg" description="Hiking while reading, and Menagerie book covers." maxwidth="600px" %}
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Megagerie2.jpeg" alt="Book covers of the Menagerie trilogy." /></span></p>
+
+My 11 year old started this series when we were volunteering with the National Park Service in Death Valley. He was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. So he walked for three miles like this:
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Hiking.jpeg" description="Hiking while reading." maxwidth="600px" %}
 
 And then he pestered me constantly the next day--taking away the other book I was reading and telling me I had to read Menagerie instead--until I started the book myself. I finished it in two days and when we got home we requested the next two books from the library. They were a great series and a lot of fun to read.
 
@@ -76,7 +80,7 @@ The Menagerie series follows a boy who discovers a preserve of magical creatures
 
 Yay for diverse book characters and for a middle grade book with parents!
 
-_Dragonwatch_ by Brandon Mull
+**_Dragonwatch_ by Brandon Mull**
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Dragonwatch.jpeg" alt="Book cover of Dragonwatch." /></span></p>
 
@@ -84,7 +88,7 @@ Everyone in our family is a fan of Brandon Mull. We’ve read all of his books a
 
 Dragonwatch is a fantasy adventure about two siblings who are involved with a series of magical preserves for mythical creatures. It's a quick read. There were some interesting ideas planted and I'm looking forward to seeing where the rest of the books go. If you’re a reader who doesn’t like to wait to finish a series, then don’t start this one yet. It will be several years before it’s finished.
 
-_The Collected Works of T.S. Spivet_ by Reif Larsen
+**_The Collected Works of T.S. Spivet_ by Reif Larsen**
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Spivet.jpeg" alt="Book cover of The Collected Works of T.S. Spivet." /></span></p>
 
@@ -98,7 +102,7 @@ A couple quotes:
 
 And then my preference for satisfying endings came into play at the end. There was some resolution, to be sure, but there were plenty of threads that seemed unconnected or tangential. And a few of those were ones that I very much wanted to see brought back in, so I felt lukewarm and a little let-down about the ending. But I did love the illustrations and thoughts about mapping sprinkled throughout the book.
 
-_The Night Watch_ by Terry Pratchett
+**_The Night Watch_ by Terry Pratchett**
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/NightWatch.jpeg" alt="Book cover of The Night Watch." /></span></p>
 
@@ -110,7 +114,7 @@ This was a good read about a cop who gets transported back in time and ends up t
 
 _The Night Watch_ didn't have quite that same draw or as many laugh-out-loud moments as _Going Postal_, but it was still a good read and I enjoyed seeing more of Discworld.
 
-_The World's Religions_ by Huston Smith
+**_The World's Religions_ by Huston Smith**
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Religions.jpeg" alt="Book cover of The World's Religions." /></span></p>
 
