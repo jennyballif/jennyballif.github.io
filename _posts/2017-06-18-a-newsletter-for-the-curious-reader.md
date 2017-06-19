@@ -49,9 +49,10 @@ This happens in my writing too--I'll have thoughts or scenes that feel like true
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Sketch2.jpeg" description="A drawing before and after being inked and colored." maxwidth="600px" %}
 
-I think this yin-yang tug of disappointment and happy discovery is a natural part of the creative process. And when we do have a day where that transition from imagined to definite leaves us gloomy, or there's an ache for the loss of shadow lines that hinted at larger possibilities--I find it helpful to think of the finished product as being akin to meeting a new person. That person or creation might not be who or what I expected, and it's because of that, not despite it, that I look forward to the introduction. Each creation has its own story and gifts to share.
+I think this yin-yang tug of disappointment and happy discovery is a natural part of the creative process. And when we do have a day where that transition from imagined to definite leaves us gloomy, or there's an ache for the loss of shadow lines that hinted at larger possibilities--I find it helpful to think of the finished product as being akin to meeting a new person. 
 
-Thank you again for your support and patronage. It means a great deal to me. I couldn't pursue this dream of doing school visits and making science videos without you!
+That person or creation might not be who or what I expected, and it's because of that, not despite it, that I look forward to the introduction. Each creation has its own story and gifts to share.
+
 
 ## BOOK REVIEWS
 
