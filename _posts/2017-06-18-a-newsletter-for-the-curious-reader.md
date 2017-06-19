@@ -44,12 +44,12 @@ The sketch points to a variety of possibilities: it could come to life with pain
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Sketch1.jpeg" description="A drawing before and after being inked and colored." maxwidth="600px" %}
 
-This happens in my writing too--I'll have thoughts or scenes that feel like true gems, and when I wrestle them onto paper, they change. Sometimes they dim and tarnish, the actual art falls so short of its inspiration. But sometimes I'll discover something new as I'm working, and I end up with something different and perhaps better than what I aimed for initially.
+This happens in my writing too-I'll have thoughts or scenes that feel like true gems, and when I wrestle them onto paper, they change. Sometimes they dim and tarnish, the actual art falls so short of its inspiration. But sometimes I'll discover something new as I'm working, and I end up with something different and perhaps better than what I aimed for initially.
 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Sketch2.jpeg" description="A drawing before and after being inked and colored." maxwidth="600px" %}
 
-I think this yin-yang tug of disappointment and happy discovery is a natural part of the creative process. And when we do have a day where that transition from imagined to definite leaves us gloomy, or there's an ache for the loss of shadow lines that hinted at larger possibilities--I find it helpful to think of the finished product as being akin to meeting a new person. 
+I think this yin and yang tug of disappointment and happy discovery is a natural part of the creative process. And when we do have a day where that transition from imagined to definite leaves us gloomy, or there's an ache for the loss of shadow lines that hinted at larger possibilities-I find it helpful to think of the finished product as being akin to meeting a new person. 
 
 That person or creation might not be who or what I expected, and it's because of that, not despite it, that I look forward to the introduction. Each creation has its own story and gifts to share.
 
@@ -62,7 +62,7 @@ And last, but not least, we have book reviews! I’ve arranged the books by age 
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/RealFriends.jpeg" alt="Book cover of Real Friends" /></span></p>
 
-This graphic novel portrays growing with that middle child feeling of being left out and forgotten, and yearning for a true friend. It follows Shannon through an elementary school journey that is painful-at-times. Kids can be so unkind to each other. One of my favorite things about this book is that there are a few scenes where we're able to see that the unkindness is born more out of insecurity and vulnerability than malice. 
+This graphic novel portrays growing with that middle child feeling of being left out and forgotten, and yearning for a true friend. It follows Shannon through an elementary school journey that is painful at times. Kids can be so unkind to each other. One of my favorite things about this book is that there are a few scenes where we're able to see that the unkindness is born more out of insecurity and vulnerability than malice. 
 
 Being a memoir, the book is not a plot-based adventure with a clear "conquer this obstacle" story arc. But it drew me in none-the-less, and I enjoyed watching the main character grow and learn. The book was a good discussion point for a variety of topics in our family. We all loved the illustrations, and there was a great author's note at the end about memories and their fallability and meaning.
 
@@ -72,12 +72,12 @@ Being a memoir, the book is not a plot-based adventure with a clear "conquer thi
 
 My 11 year old started this series when we were volunteering with the National Park Service in Death Valley. He was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. I agreed, thinking that he would get tired of walking while holding a book and put it away. But he didn't. He kept reading until he'd finished the book, walking more than three miles with his nose in the book.
 
-And then he pestered me constantly the next day--taking away the other book I was reading and telling me I had to read Menagerie instead--until I started the book myself. I finished it in two days and when we got home we requested the next two books from the library. They were a great series and a lot of fun to read.
+And then he pestered me constantly the next day-taking away the other book I was reading and telling me I had to read Menagerie instead-until I started the book myself. I finished it in two days and when we got home we requested the next two books from the library. They were a great series and a lot of fun to read.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Hiking.jpeg" description="Hiking while reading." maxwidth="600px" %}
 
 
-The Menagerie series follows a boy who discovers a preserve of magical creatures in Montana. And—-something that I appreciated about the book that my son didn’t notice—-the main character is Black, and he has both parents (Although the mom is missing at the beginning of the series and finding her is part of the arc). 
+The Menagerie series follows a boy who discovers a preserve of magical creatures in Montana. And—something that I appreciated about the book that my son didn’t notice—the main character is Black, and he has both parents (Although the mom is missing at the beginning of the series and finding her is part of the arc). 
 
 Yay for diverse book characters and for a middle grade book with parents!
 
