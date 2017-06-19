@@ -28,10 +28,9 @@ And now, the body of the newsletter: The photo of the month, notes from my deskt
 
 ## PHOTO OF THE MONTH
 
+We went looking for Joshua Tree flowers. They are edible, so we wanted to try a petal or two and see what they tasted like. And the answer is, fairly bitter. Kind of like fresh peas plus unripe cucumbers? Or maybe cauliflower plus a banana peel? You could definitely eat them if starving, but I wouldn’t snack on them voluntarily. 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/JoshuaTree.jpeg" description="Picking a Joshua Tree flower and a close-up view of the bloom." maxwidth="600px" %}
-
-We went looking for Joshua Tree flowers. They are edible, so we wanted to try a petal or two and see what they tasted like. And the answer is, fairly bitter. Kind of like fresh peas plus unripe cucumbers? Or maybe cauliflower plus a banana peel? You could definitely eat them if starving, but I wouldn’t snack on them voluntarily. 
 
 We didn’t find flowers that were close to the ground until after we’d made a couple human ladders to check out tall blooms, which the kids thought was tons of fun. And fortunately for us, no one fell off my shoulders or stumbled onto a cactus.
 
