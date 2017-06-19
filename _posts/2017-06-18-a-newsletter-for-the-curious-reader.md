@@ -70,7 +70,7 @@ Being a memoir, the book is not a plot-based adventure with a clear "conquer thi
 
 <p><span class="image left" style="width:350px; max-width:50%"><img src="images/Patron/CuriousReader/Menagerie2.jpeg" alt="Book covers of the Menagerie trilogy." /></span></p>
 
-My 11 year old started this series when we were volunteering with the National Park Service in Death Valley. He was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. So he walked for three miles like this:
+My 11 year old started this series when we were volunteering with the National Park Service in Death Valley. He was so hooked that when we went for an evening hike to the marble dunes, he only agreed to come on condition that he could keep reading. I agreed, thinking that he would get tired of walking while holding a book and put it away. But he didn't. He walked for three miles like this:
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/CuriousReader/Hiking.jpeg" description="Hiking while reading." maxwidth="600px" %}
 
