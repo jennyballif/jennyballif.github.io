@@ -60,7 +60,7 @@ And last, but not least, we have book reviews! I’ve arranged the books by age 
 
 _Real Friends_ by Shannon Hale and LeUyen Pham
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/RealFriends.jpeg" alt="Book cover of Real Friends" /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/RealFriends.jpeg" alt="Book cover of Real Friends" /></span></p>
 
 This graphic novel is a touching portrayal of growing with that middle child feeling of being left out and forgotten, and yearning for a true friend. It follows Shannon through an elementary school journey that is painful-at-times. Kids can be so unkind to each other. One of my favorite things about this book is that there are a few scenes where we're able to see that the unkindness is born more out of insecurity and vulnerability than malice. The book was a good discussion point for a variety of topics in our family, and we all loved the illustrations.
 
@@ -78,7 +78,7 @@ Yay for diverse book characters and for a middle grade book with parents!
 
 _Dragonwatch_ by Brandon Mull
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/Dragonwatch.jpeg" alt="Book cover of Dragonwatch." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Dragonwatch.jpeg" alt="Book cover of Dragonwatch." /></span></p>
 
 Everyone in our family is a fan of Brandon Mull. We’ve read all of his books and Dragonwatch did not disappoint. Although Dragonwatch could stand alone, I recommend reading the Fablehaven series first, because there are a lot of details that you appreciate more if you’ve read those books first. 
 
@@ -86,7 +86,7 @@ Dragonwatch is a fantasy adventure about two siblings who are involved with a se
 
 _The Collected Works of T.S. Spivet_ by Reif Larsen
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/Spivet.jpeg" alt="Book cover of The Collected Works of T.S. Spivet." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Spivet.jpeg" alt="Book cover of The Collected Works of T.S. Spivet." /></span></p>
 
 This is a book where you simply must have the actual book--the audio will not do. It's full of intricate illustrations, footnotes, and scribblings in the margin. For me, the begining was enchanting. I loved the character and voice so much, and there were many times I read a line and then re-read it, thinking to myself that I just loved the way an idea was phrased.
 
@@ -100,7 +100,7 @@ And then my preference for satisfying endings came into play at the end. There w
 
 _The Night Watch_ by Terry Pratchett
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/NightWatch.jpeg" alt="Book cover of The Night Watch." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/NightWatch.jpeg" alt="Book cover of The Night Watch." /></span></p>
 
 This was a good read about a cop who gets transported back in time and ends up training his younger self. It didn't resonate with me quite as strongly as _Going Postal_. When I was reading _Going Postal_, I picked up the book every chance I had, and a couple times when I was reading late at night in bed, I woke my husband up after he'd gone to sleep because I couldn't help laughing out loud.
 
@@ -112,7 +112,7 @@ _The Night Watch_ didn't have quite that same draw or as many laugh-out-loud mom
 
 _The World's Religions_ by Huston Smith
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/Religions.jpeg" alt="Book cover of The World's Religions." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/Patron/CuriousReader/Religions.jpeg" alt="Book cover of The World's Religions." /></span></p>
 
 I've been reading this book slowly over several months time, and it's been a wonderful and thought provoking journey. 
 
