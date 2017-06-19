@@ -16,7 +16,7 @@ fbimage: JoshuaTree.jpeg
 imagefeature: Sketch2.jpeg
 folder: Patron/CuriousReader
 ---
-## May 2017
+## MAY 2017
 
 May was a rather extraordinary month of activity in our household with Science Mom doing over 100 school visits, Math Dad putting together a tenure portfolio, and both of us working on a redesign of this website and an overhaul of the Patreon reward tiers and homepage. Consequently, the first Curious Reader email (which was drafted in February and scheduled to be released in May) was bumped back a month, which means this newsletter has two month's worth of book reviews for your perusal. :)
 
