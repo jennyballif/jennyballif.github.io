@@ -7,35 +7,14 @@ comic: false
 comments: true
 title: A Newsletter for the Curious Reader
 description: A Newsletter for the Curious Reader
-headline: 'Notes from May 2017, photos, and a handful of book reviews.'
+headline: >-
+  A sample of the monthly newsletter I send my patrons, this post has notes from
+  May 2017, photos, and book reviews.
 modified: '2017-06-18'
 tags: 'Patreon, Curious Reader,'
 fbimage: JoshuaTree.jpeg
 imagefeature: Sketch2.jpeg
 folder: Patron/CuriousReader
-categories: ''
-videofeature: ''
-sciencemomguideimage: ''
-experiment1title: ''
-experiment1time: ''
-experiment1supplies: ''
-experiment1concepts: ''
-experiment1image: ''
-experiment2title: ''
-experiment2time: ''
-experiment2supplies: ''
-experiment2concepts: ''
-experiment2image: ''
-experiment3title: ''
-experiment3time: ''
-experiment3supplies: ''
-experiment3concepts: ''
-experiment3image: ''
-guide0: ''
-guide1: ''
-guide2: ''
-guide3: ''
-guide4: ''
 ---
 ## May 2017
 
