@@ -17,7 +17,8 @@ imagefeature: Meganese.jpeg
 fbimage: Meganese.jpeg
 folder: Patron
 ---
-<span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Meganese.jpeg" alt="Patron 25 on the Periodic Table of Patrons - Meganese" /></span>
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Meganese.jpeg" description="Element 25 from the Periodic Tabel of Patrons: Meganese." maxwidth="600px" %}
+
 
 Manganese from the Periodic Table of Elements is a trace mineral important for several aspects of our biology. It's essential but works behind the scenes, well hidden. 
 
