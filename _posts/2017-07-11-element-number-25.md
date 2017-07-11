@@ -20,6 +20,6 @@ folder: Patron
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Meganese.jpeg" description="Element 25 from the Periodic Tabel of Patrons: Meganese." maxwidth="600px" %}
 
 
-Manganese from the Periodic Table of Elements is a trace mineral important for several aspects of our biology. It's essential but works behind the scenes, well hidden. 
+The element Manganese from the Periodic Table of Elements is a trace mineral important for several aspects of our biology. It's essential but works behind the scenes, well hidden. 
 
 Meganese from the Periodic Table of Patrons is also somewhat secretive and hard to find. So there's no interview here or direct link to this patron's website or social media handles. Just this cartoon, from which you might deduce that this element is most in her element when gardening.
