@@ -12,7 +12,7 @@ description: >-
   question, and more, in Part 5 of the water series.
 headline: >-
   Water is known as the "universal solvent," but there's one thing it does not
-  dissolve: oil. In this instalment we explore some of the amazing things you
+  dissolve: oil. In this installment we explore some of the amazing things you
   can do with these two very different liquids.
 tags: Science Mom Guide
 fbimage: fbSMG5.png
