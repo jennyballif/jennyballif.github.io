@@ -3371,7 +3371,7 @@ $breakpoint-alpha: 480px; // adjust to your needs
 	a#social { display: none; }  /* show it on small screens */
 }
 
-@media screen and (min-width: 401px) and (max-width: 1024px) {
+@media screen and (min-width: 401px) {
   #socialside { display: none; }   /* hide it elsewhere */
 	a#socialside { display: none; }
 }
