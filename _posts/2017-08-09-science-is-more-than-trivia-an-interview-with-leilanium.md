@@ -18,7 +18,9 @@ folder: Patron/Leilanium
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Leilanium.jpeg" alt="Patron 3 on the Periodic Table of Patrons - Leilanium" /></span>
 
-Leilanium is named in honor of Sarah Harris, who teaches electrical engineering at the University of Nevada, Las Vegas. In addition to being an #ActualLivingScientist, she is also the mother of three energetic children. This week she sat down with me for a quick interview:
+Leilanium is named in honor of Sarah Harris, who teaches electrical engineering at the University of Nevada, Las Vegas. In addition to being an #ActualLivingScientist, she is also the mother of three energetic children, who were part of the inspiration behind her Patron card. 
+
+This week, she sat down with me for a quick interview:
 
 **You’re in a field that doesn’t have a lot of women. How do people typically react when you tell them you’re an electrical engineer?**
 
