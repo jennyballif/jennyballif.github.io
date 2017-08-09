@@ -5,7 +5,7 @@ sciencemom: false
 blog: true
 comic: false
 comments: true
-title: Element Number 25
+title: Patron Number 25
 description: 'A peek at patron 25: the secretive element Meganese.'
 headline: >-
   Manganese from the Periodic Table of Elements is a trace mineral that works
