@@ -6,14 +6,15 @@ blog: true
 comic: false
 comments: true
 title: Science is More than Trivia - an interview with Leilanium
-description: Sarah Harris sits down to talk a little about engineering and science.
+description: >-
+  Sarah Harris sits down to talk a little about engineering and science--which
+  is more than trivia.
 headline: Patron number 3 shares thoughts about science and effective teaching.
 modified: '2018-08-09'
 fbimage: SarahHarris.JPG
 imagefeature: Leilanium.jpeg
 folder: Patron/Leilanium
 ---
-## A New Post
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Leilanium.jpeg" alt="Patron 3 on the Periodic Table of Patrons - Leilanium" /></span>
 
