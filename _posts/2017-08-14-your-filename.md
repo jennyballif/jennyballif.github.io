@@ -7,7 +7,9 @@ comic: false
 comments: true
 title: Amandite
 description: 'Patron Number 10, Amandite.'
-headline: 'The 10th member of the table is Amandite, a nurse and author.'
+headline: >-
+  The 10th member of the table is Amandite, author, nurse, and one of the
+  earliest Science Mom patrons.
 modified: '2018-08-14'
 fbimage: Amandite.001.jpeg
 imagefeature: Amandite.001.jpeg
