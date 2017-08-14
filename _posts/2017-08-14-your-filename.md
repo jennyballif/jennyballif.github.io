@@ -6,8 +6,8 @@ blog: true
 comic: false
 comments: true
 title: ''
-description: 'Amandite, Patron 10 on the Periodic Table of Patrons'
-headline: 'Patron 10: Amandite'
+description: 'Patron Number 10, Amandite.'
+headline: 'The 10th member of the table is Amandite, a nurse and author.'
 modified: '2018-08-14'
 fbimage: Amandite.001.jpeg
 imagefeature: Amandite.001.jpeg
@@ -15,7 +15,7 @@ folder: Patron
 ---
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Amandite.001.jpeg" alt="Patron 10 on the Periodic Table of Patrons - Amandite" /></span>
 
-Amandite is named in honor of Amanda Skenadore, a nurse and author. Her first book Between Earth and Sky will be published in May 2018. 
+Amandite is named in honor of Amanda Skenadore, a nurse and author. Her first book, _Between Earth and Sky_, will be published in May 2018. 
 
 When I asked her which scientist she would like to enjoy lunch with, she said:
 
