@@ -20,10 +20,10 @@ I love plants, and when we go hiking I'm often stopping to snap pictures and exc
 
 And I know she does the same thing, because she'll often tell me "I saw this, and thought of you," or send me pictures of plants. 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/EveningPrimrose.jpeg" description="An evening primrose blooming on a sand dune." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/EveningPrimrose.jpg" description="An evening primrose blooming on a sand dune." maxwidth="600px" %}
 
 It's really nice to have someone you can share pictures of flowers with, or tell about the BIGGEST sagebrush you saw EVER.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Sagebrush.jpeg" description="The largest and tallest sagebrush we've ever seen, by far." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/Sagebrush.jpg" description="The largest and tallest sagebrush we've ever seen, by far." maxwidth="600px" %}
 
 Thank you, mom. For being a Science Mom Patron, and for teaching me how to stop and see the beauty and wonder in the natural world.
