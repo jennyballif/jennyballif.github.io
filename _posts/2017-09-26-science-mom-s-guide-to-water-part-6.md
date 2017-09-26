@@ -128,12 +128,13 @@ I'd recommend adding some flavoring to your rock candy, because the sugar flavor
 
 ### Suggested recipe (makes 2)
 
-2 quart size mason jars
-2 cake pop sticks or popsicle sticks
-2 coffee filters
-6 cups sugar
-2 cups water
-flavoring and food coloring (optional)
+- 2 quart size mason jars
+- 2 cake pop sticks or popsicle sticks
+- 2 coffee filters
+- 6 cups sugar
+- 2 cups water
+- flavoring and food coloring (optional)
+
 
 If you want to grow rock candy as quickly as possible, you can use the fully saturated 8 cups of water to 2 cups of sugar. But this will crystalize very quickly (within a few hours), and if you leave it too long, you won't be able to get it out of the jar. The ratio of 7 cups of sugar into 2 cups of water will usually be done by the end of one day, but 6 cups seems to be the right balance to me. It has the benefit of being able to see visible progress but progresses slowly enough that you're not being in danger of having the crystals get away from you and get stuck to the jar.
 
@@ -143,19 +144,18 @@ And, like you saw in the short video above, making sugar gemstones is, in my opi
 
 Citric acid and epsom salts can be found in some grocery stores, but it's probably easiest (as with the alum) to order them online. 
 
-Suggested recipe (makes about 8 small bath bombs)
+### Suggested recipe (makes about 8 small bath bombs)
+- 1/2 c baking soda
+- 1/3 c cornstarch
+- 1/4 c epsom salt
+- 1/4 c citric acid
+- 1 Tbsp water
+- 1 Tbsp oil (any kind)
+- 20 or so drops of essential oil
+- a couple drops food coloring (optional)
 
-1/2 c baking soda
-1/3 c cornstarch
-1/4 c epsom salt
-1/4 c citric acid
 
-1 Tbsp water
-1 Tbsp oil (any kind)
-20 or so drops of essential oil
-a couple drops food coloring (optional)
-
-Mix the dry ingredients and wet ingredients in separate bowls. For oil I recommend using whatever unsaturated cooking oil you have on hand (canola, olive, vegetable), or if you'd like to purchase a nicer cosmetic oil (such as jojoba oil or castor oil), that's a perfectly good option too. 
+Mix the dry ingredients and wet ingredients in separate bowls. For the tablespoon of oil I recommend using whatever unsaturated cooking oil you have on hand (canola, olive, vegetable). If you'd like to purchase a nicer cosmetic oil (such as jojoba oil or castor oil), that's a perfectly good option too. 
 
 Use a whisk to slowly combine the dry ingredients into the wet ingredients until the mixture has a sandy texture. You can pack the bathbombs with your hands into spheres or small bricks and let them sit for 48 hours, and they will work just fine. But if you want them to look like the type you'd find in a store, use small bath bomb molds. I thought plastic easter eggs would be a great hack for this -- but it turns out that they're almost impossible to get out of the eggs once you've packed them in and they've dried. I had to dump the whole egg in water and use the bath bomb to get it out. Just so you know. ;) 
 
