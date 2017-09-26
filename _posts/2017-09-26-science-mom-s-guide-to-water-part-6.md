@@ -48,9 +48,11 @@ Like I mentioned in the above video, we went through those six activities really
 
 Tip 1: **The slower the crystal growth, the larger the size of the crystals**. There are two ways you can slow the growth: by having a less concentrated solution, or by having the temperature decrease more slowly.
 
-If you pour the solution of alum or borax or sugar into a glass jar when it's very hot (BE SURE TO TEMPER THE GLASS FIRST by adding just one spoonful of hot liquid and swirling it around the bottom of the jar so the glass doesn't break), then it's going to cool more slowly than it would in the pan. The pan conducts heat very efficiently and the water is also more spread out and has a larger surface area in the pan. So it cools down much more quickly. 
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/temper.jpeg" description="Pouring a spoonful of hot liquid into the glass first." maxwidth="600px" %}
 
-Are you trying to grow larger size crystals? Then you'll either want to put the solution into the container when it's still very hot, or reduce the amount of solute you use and wait longer for crystal growth. If, on the other hand, you want a smaller size of crystal, then you'll want to let the solution cool down in the pan before adding it to the jar. 
+If you pour your solution into a glass jar when it's very hot, BE SURE TO TEMPER THE GLASS FIRST. Do this by adding just one spoonful of hot liquid and swirling it around the bottom of the jar. This heats the glass so it doesn't break when you add the rest of the liquid. Hot water in the jar will cool more slowly than it would in the pot. The pot conducts heat very efficiently and the water is also more spread out and has a larger surface area. So it cools down much more quickly. 
+
+If you want to grow larger size crystals then you'll either want to put the solution into the container when it's still very hot, or reduce the amount of solute you use and wait longer for crystal growth. If, on the other hand, you want a smaller size of crystal, then you'll want to let the solution cool down in the pot before adding it to the jar. 
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/egshells.jpeg" description="Eggshell geodes with different textures from different temperatures." maxwidth="600px" %}
 
@@ -79,10 +81,14 @@ But for salt crystals all clumped together in a jar? These are fairly easy. It j
 
 When you make your halocline, be sure that the top layer of water doesn't splash into the salt water too much. If you create currents or stick a spoon into the jar and mix it, then of course the salt and fresh water will mix and the halocline will disappear. But if you pour the fresh water in slowly and let the stream of water land on a spoon before it touches the salt water, then it should work. After several hours, the salt water loses it's cloudy appearance and it almost looks like a magic trick to see this egg hovering in the middle of the jar.
 
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/halocline.jpeg" description="Eggs in freshwater (left), resting on a halocline (middle), and salt water (right)." maxwidth="600px" %}
+
 
 ## EGGSHELL GEODES
 
-With the eggshells in the above picture, it looked like seeding did help to promote more uniform crystal growth. But in subsequent batches, I didn't get very consistent results and I concluded that the texture of the eggshells plays just as large a roll--if not a bigger one--than seeding. I think scratching the inside of the shell lightly would probably do just as much to promote crystal formation inside the egg as seeding it with dry alum.
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/largealum.jpeg" description="An eggshell with an unusual growth of alum crystals." maxwidth="600px" %}
+
+With the eggshells in the picture under tip 1, it looked like seeding did help to promote more uniform crystal growth. But in subsequent batches, I didn't get very consistent results. Take the crystal above, for example, which had been seeded with alum and then placed in very hot water and grew crystals on only a few locations. With hot water especially (which perhaps melts off the glue anyway?) I concluded that the texture of the eggshells plays an even bigger role than seeding. I think scratching the inside of the shell lightly would probably do just as much to promote crystal formation inside the shell as seeding it with dry alum.
 
 Ratio: 1 part alum to 2 parts water
 
