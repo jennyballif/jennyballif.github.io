@@ -41,7 +41,7 @@ guide3: SMG6-A4.pdf
 guide4: SMG6-A3.pdf
 sciencemomguideimage: SMG6cover.jpeg
 ---
-In Part 5 of the water series we learned that although water is called the "Universal Solvent," it doesn't dissolve oil. But what about the things water can dissolve? In Science Mom's Guide to Water, Part 6, we explore what dissovles in water with several crystal growing activities:
+In Part 5 of the water series we learned that although water is called the "Universal Solvent," it doesn't dissolve oil. But what about the things water can dissolve? In Science Mom's Guide to Water, Part 6, we explore what dissolves in water with several crystal growing activities:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/5pAuxot2sEY"%}
 
@@ -71,7 +71,7 @@ And now, a few quick notes and recipes. You can also find the recipes on the fol
 
 ## SALT CRYSTALS
 
-In theory, you should be able to place a seed crystal into a saturated solution of salt water and grow an even larger crystal. In practice, I was never able to get this one to work. Each time I played my seed crystal into solution, it dissolved, and I was left with an empty loop of floss or string like you see in the picture below. If you're able to grow a large salt crystal, please leave a comment or send me a message. I'd love to see a picture!
+In theory, you should be able to place a seed crystal into a saturated solution of salt water and grow an even larger crystal. In practice, I was never able to get this one to work. Each time I placed my seed crystal into solution, it dissolved, and I was left with an empty loop of floss or string like you see in the picture below. If you're able to grow a large salt crystal, please leave a comment or send me a message. I'd love to see a picture!
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/saltcrystal.jpeg" description="My salt crystals that dissolved." maxwidth="600px" %}
 
