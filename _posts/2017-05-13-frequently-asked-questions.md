@@ -29,17 +29,6 @@ And even more importantly than my degree, I am a scientist because I am curious,
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Snake.jpg" description="Science Mom holding a python." maxwidth="600px" %}
 
-#### DID YOU DRAW THAT?
-
-Yep. I draw all my own comics and illustrations for the Science Mom Guides.
-
-
-#### HELP! MY FOLDABLE BOOK DIDN'T TURN OUT RIGHT!
-
-Folding these little books can be challenging, especially if you don't have a lot of practice with spacial puzzles or oragami. But don't fret! I have a video you can watch--it's the very first video I ever made--and it shows how to fold the books. Hopefully it helps you out. Sometimes a little practice is all you need. But if you find that you're still struggling to get it to turn out right, you can always cut the paper into 4 horizontal strips and glue it together by page numbers. 
-
-{% include youtubeplayer.html id="https://www.youtube.com/embed/E0sS59oMBe0"%}
-
 #### HOW'D YOU GET THE NAME SCIENCE MOM?
 
 In 2014, I volunteered to do weekly science demonstrations in my son's second grade class. The kids started calling me "Science Mom" instead of "Andrew's mom." The name stuck and the job grew. Within a year I was visiting ten classrooms a week, all in the school where my kids attended. In late 2016, I started a YouTube channel and began visiting other schools outside of my hometown.
@@ -58,43 +47,44 @@ _Note: For spring 2017, my calendar for school visits in the Las Vegas area has 
 
 All kinds! I've presented to whole school assemblies and to individual classrooms, and I've done lessons as short as 10 minutes and as long as 3 hours. I've presented to ages from pre-K to college, but most of my visits are in elementary schools. Here's are seven of my favorite presentations:
 
-1. Tower of Math Knowledge and Chemistry of Water
+**1. Tower of Math Knowledge and Chemistry of Water**
 
 Math is the key to science, but people sometimes run into trouble with their math journey because math is something that builds, and one weak concept can cause the whole thing to come crashing down. This fun visual exercise helps teach how vital practice is for building a strong math foundation. 
 
 Water is one of the most incredible substances on the planet. Science Mom displays three hands-on investigations that are easy to replicate at home, showing just how extraordinary this ordinary substance really is. 
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/TowerofMath.jpeg" description="The Tower of Math Knowledge." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/TowerofMath.jpeg" description="The Tower of Math Knowledge." maxwidth="400px" %}
 
-2. Light is Amazing
+**2. Light is Amazing**
 
 You've probably seen that white light can be split into a rainbow of color, but did you know you can combined colored light to make white? Light is one of the most mysterious and interesting things we interact with every day. We still don't understand exactly what it is. But we do know that it travels in waves, and understanding a bit about those different wavelengths can enrich our understanding of this extraordinary phenomenon by a lot.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/LIGHT.jpeg" description="Colored light combining to make white." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/LIGHT.jpeg" description="Colored light combining to make white." maxwidth="400px" %}
 
-3. Epic Electric
+**3. Epic Electric**
 
 Electricity is something you use every day, but have you stopped to think about what things conduct current, and which things don't? With a plasma ball Science Mom demonstrates which things resist and conduct electricity and explains how this important phenomenon works. We also take a look at static electricity, moving balloons and cans without touching them, and making orbs of tinsel levitate in the air.
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/FAQ/Class4.jpg" alt="Sticking a balloon to the wall with static electricity." /></span></p>
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Class4.jpg" description="Sticking a balloon to the wall with Static Electricity." maxwidth="300px" %}
 
-4. Bernoulli, Blowers, and Bags
+**4. Bernoulli, Blowers, and Bags**
 
 What does a scientist from long ago have to do with airplanes and floating ping pong balls? As it turns out, quite a lot! Science Mom explains the Bernoulli effect and how a single principle of physics allows us to predict and manipulate one of the most dynamic and interesting fluids we interact with: air.
 
-5. Foaming Reactions
+**5. Foaming Reactions**
 
 Mentos plus soda has become an iconic example of a chemical reaction. But what causes it? Is it a chemical reaction, or a physical reaction? And if mentos work, then what about other materials like sugar, salt, or sand? Science Mom unpacks the scientific method and how it can help us get to the truth of the matter in this sticky experiment. _This demonstration must be done outside._
 
-6. When Ice is Dry
+**6. When Ice is Dry**
 
 Water ice can float and melt and change before our eyes, but what happens if you freeze carbon dioxide into ice? States of matter becomes a magical topic as we make quarters dance and sing, create iridescent bubbles that burst with white fog, put out candles with invisible forces, and learn about the importance of safety precautions and applied knowledge. There's no other word for it, this lesson is sublime.
 
-7. The Write Questions
+**7. The Write Questions**
 
 How does a book or video get from idea to publication? When do you know if an idea is a good one or a dud, and can one turn into the other? Storytelling is a universal art, and video production and book publishing share many interesting parallels. But there are also fascinating differences in how we create and view books versus videos. Science Mom shares her own expeirence as an author and YouTuber to teach how stories can be created, shared, and change the world around us. _Best for ages 9 and older._
 
-Most often, the school provides a cart for supplies and I spend the day there and travel from classroom to classroom teaching lessons every 30 minutes. 
+Most often, the school provides a cart for supplies and I spend the day there and travel from classroom to classroom teaching lessons every 30 minutes. I also have experience presenting to adults. Contact me for more information about my workshops and talks developed for homeschoolers, educators, and writers.
+
 
 #### IF YOU'RE SCIENCE MOM, THEN WHERE'S SCIENCE DAD?
 
@@ -103,6 +93,17 @@ I'm married to a mathematician, so "Math Dad" is a better name for him than Scie
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/Patron/JenSerge.jpeg" description="Jenny and Serge." maxwidth="600px" %}
 
 Follow [this link](https://jennyballif.com/introducing-patron-number-1-sergium) to read a short interview with Math Dad (and see the cartoon I drew for his Patron card in the Periodic Table of Patrons). You can see more of Math Dad in the weekly "Science Mom vs. Math Dad" videos we post each Friday.
+
+#### DID YOU DRAW THAT?
+
+Yep. I draw all my own comics and illustrations for the Science Mom Guides.
+
+#### HELP! MY FOLDABLE BOOK DIDN'T TURN OUT RIGHT!
+
+Folding these little books can be challenging, especially if you don't have a lot of practice with spacial puzzles or oragami. But don't fret! I have a video you can watch--it's the very first video I ever made--and it shows how to fold the books. Hopefully it helps you out. Sometimes a little practice is all you need. But if you find that you're still struggling to get it to turn out right, you can always cut the paper into 4 horizontal strips and glue it together by page numbers. 
+
+{% include youtubeplayer.html id="https://www.youtube.com/embed/E0sS59oMBe0"%}
+
 
 
 #### HOW DO YOU START A YOUTUBE CHANNEL?
