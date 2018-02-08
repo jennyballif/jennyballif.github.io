@@ -5078,10 +5078,11 @@ button.bg-dark:focus {
 .p-5 {
   padding: 4.5rem !important; }
 
-.pt-5 {
+.pt-5,
+.py-5 {
   padding-top: 4.5rem !important; }
 
-.py-5 {
+.banner {
     padding-top: 1.5rem !important;
     padding-bottom: 6.5rem !important; }
 
@@ -5089,7 +5090,8 @@ button.bg-dark:focus {
 .px-5 {
   padding-right: 4.5rem !important; }
 
-.pb-5 {
+.pb-5,
+.py-5 {
   padding-bottom: 4.5rem !important; }
 
 .pl-5,
