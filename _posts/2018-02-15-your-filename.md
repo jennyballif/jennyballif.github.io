@@ -4,10 +4,16 @@ published: true
 categories:
   - personal
 sciencemom: false
-blog: false
+blog: true
 comic: false
 comments: true
-title: ''
+title: Noelanium
+description: Welcome to the Periodic Table of Patrons Noelanium!
+headline: An arborist with Hawaiian roots.
+modified: '2018-02-15'
+fbimage: patron.011.jpeg
+imagefeature: patron.011.jpeg
+folder: PeriodicTable
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.011.jpeg" description="Element 11 from the Periodic Tabel of Patrons: Noelanium." maxwidth="600px" %}
 
