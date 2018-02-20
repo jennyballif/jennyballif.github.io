@@ -11,7 +11,7 @@ title: Angelicum
 description: Welcome to the table Angelicum!
 headline: >-
   An outstanding science teacher with quick kicking skills and good taste in
-  sports
+  sports.
 modified: '2018-02-20'
 fbimage: patron.035.jpeg
 imagefeature: patron.035.jpeg
