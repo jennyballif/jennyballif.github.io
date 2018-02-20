@@ -14,7 +14,7 @@ headline: >-
   sports
 modified: '2018-02-20'
 fbimage: Patron.035.jpeg
-imagefeature: Patreon.035.jpeg
+imagefeature: Patron.035.jpeg
 folder: PeriodicTable
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/Patron.035.jpeg" description="Element 35 from the Periodic Tabel of Patrons: Angelicum." maxwidth="600px" %}
