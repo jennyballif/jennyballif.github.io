@@ -39,7 +39,7 @@ Sit, and watch the world turn.
 
 Welcome to the table Redondite! I hope you enjoy many a beautiful moment in the desert this season, and always.
 
-.
-.
-.
+
+
+
 _Claim your own place on the Periodic Table of Patrons at_ www.patreon.com/JennyBallif
