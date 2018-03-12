@@ -17,7 +17,9 @@ folder: PeriodicTable
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.016.jpeg" description="Element 16 from the Periodic Tabel of Patrons: Redondite." maxwidth="600px" %}
 
-This card is for a patron who absolutely loves the Mojave Desert. While I was drawing this landscape, the phrase "The desert, she has secrets" came to mind, and it wouldn't leave my mind. So I wrote a poem to go along with the picture:
+This card is for a patron who absolutely loves the Mojave Desert. 
+
+While I was drawing this landscape, the phrase "The desert, she has secrets" came to mind, and it wouldn't leave my mind. So I wrote a poem for Redondite:
 
 ## The desert, she has secrets
 
