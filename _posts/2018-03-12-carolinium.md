@@ -22,7 +22,7 @@ You don't need to spend more than a few minutes with Caroline to realize that sh
 
 Welcome to the table Caroline! 
 
-.
-.
-.
+
+
+
 _Claim your own place on the Periodic Table of Patrons at_ www.patreon.com/JennyBallif
