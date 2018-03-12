@@ -14,6 +14,8 @@ modified: '2018-08-09'
 fbimage: SarahHarris.JPG
 imagefeature: Leilanium.jpeg
 folder: Patron/Leilanium
+categories:
+  - personal
 ---
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Leilanium.jpeg" alt="Patron 3 on the Periodic Table of Patrons - Leilanium" /></span>
@@ -71,3 +73,4 @@ Sarha's Webpage: [https://faculty.unlv.edu/sarahharris/](https://faculty.unlv.ed
 
 The Amazon page for [Sarah and David's excellent engineering textbook:](https://www.amazon.com/Digital-Design-Computer-Architecture-Second/dp/0123944244)
 
+_To claim your own place on the Periodic Table of Patrons, visit_ www.patreon.com/JennyBallif
