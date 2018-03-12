@@ -13,6 +13,7 @@ headline: A music teacher who brings harmony to everyday living.
 fbimage: patron.014.jpeg
 imagefeature: patron.014.jpeg
 folder: PeriodicTable
+modified: '2018-03-12'
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.014.jpeg" description="Element 14 from the Periodic Tabel of Patrons: Ballifium." maxwidth="600px" %}
 
