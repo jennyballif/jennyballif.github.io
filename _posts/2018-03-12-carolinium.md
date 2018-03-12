@@ -18,7 +18,7 @@ folder: PeriodicTable
 
 This card is named for a patron who is a connector. And I mean "connector" in the Malcom Gladwell sense of the word: a person with a truly extraoridnary knack for making friends, a person who links us with the world, a person with a special gift for bringing the world together.
 
-You don't need to spend more than a few minutes with Caroline to realize that she has a gift for seeing people, caring about them, and bringing them together. With a black belt in Taekwondo, incredible energy and warmth, and a hillarious sense of humor, this Homeschooling Mama is an unstoppable force for good.
+You don't need to spend more than a few minutes with Caroline to realize that she has a talent for seeing people, caring about them, and bringing them together. With a black belt in Taekwondo, incredible energy and warmth, and a hillarious sense of humor, this Homeschooling Mama is an unstoppable force for good.
 
 Welcome to the table Caroline! 
 
