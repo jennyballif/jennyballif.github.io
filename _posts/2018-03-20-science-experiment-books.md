@@ -57,7 +57,7 @@ If I were to be forced to pick one book to recommend (So hard! Don't make me do 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/smg1cover.jpeg" alt="Science Mom's Guide to Water 1 cover." /></span></p>
 
 ## Science Mom Guides
-I almost left these off the list, because I wrote them. But honestly, I think they're rather fantastic activity books. So if you haven't checked them out, then you should! And if you write a review on Amazon I'll be forever grateful. With between 4 and 6 science activities per book, these arne't a one-stop shop for science experiment ideas, but a more in-depth activity book that lets you really explore each concept thoroughly.
+I almost left these off the list, because I wrote them. But honestly, I think they're rather fantastic activity books. So if you haven't checked them out, then you should! With between 4 and 6 science activities per book, these aren't a one-stop shop for science experiment ideas, but they offer a more in-depth approach and the activities and writing portions invite you to really explore each concept thoroughly.
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
 
