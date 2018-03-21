@@ -74,10 +74,12 @@ A fun collection of edible experiments and an introducting into the chemistry of
 ## Pet Bugs and More Pet Bugs by Sally Kneidel
 A fabulous set of books with detailed descriptions of a multitude of insects, where to find them, how to catch and keep them as pets. At first glance, you might think this book doesn't belong with science experiments, but observing insects is great scientific study and these guides are a wonderful introduction to entymology.
 
-Alright, those seven books are my favorites, but that doesn't mean they need to be your favorites. There are several newer books on my "hope to buy sometime soon" list. Even when most of the experiments are ones I've seen before, I love looking through a well put together science experiment book. And now, a few quick notes about a few of the others in my collection:
+Alright, those seven books are my favorites, but that doesn't mean they need to be your favorites. 
+
+I have several newer books on my "hope to buy sometime soon" list, and as those come in I'll update this compliation here. And now, a few quick notes about a few of the other books in my collection:
 
 ## Theodor Gray's Completely Mad Science 
-Experiments you should do at home but probably shouldn't. This truly isn't a how-to book, but a beautifully illustrated and fun tour of a fantastic series of experiments, almost all of which are definitely too dangerous (or expensive) to do at home. Great reading, but not a how-to book by any means.
+Experiments you should do at home but probably shouldn't. This isn't a how-to book at all. It's a beautifully illustrated and fun tour of a fantastic series of experiments, almost all of which are too dangerous (or expensive) to do at home. Both entertaining and informative, it's a great read.
 
 ## Rosie Revere's Big Project Book for Bold Engineers by Andrea Beaty
 Geared for a younger scientist, perhaps age 5 to 8, this book is a fun compliation of simple engineering activities. There are pictures to be drawn, word puzzles to be solved, and more.
