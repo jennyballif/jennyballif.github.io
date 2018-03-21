@@ -47,22 +47,22 @@ I've gathered a decent collection of science activity books in the last several 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/365Science.jpg" alt="Book cover of 365 Science Experiments." /></span></p>
 
 ## 365 Science Experiments by Glen Singleton. 
-This one is definitely the book that my kids pick up and read the most. Perhaps because of the large size? The format is appealing with simple explanations and fun "Did you know?" boxes that accompany each experiment description.
+This one is definitely the book that my kids pick up and read the most. Perhaps because of the large size and the nice spiral binding? The format is appealing with simple explanations and fun "Did you know?" boxes that accompany each experiment description. It doesn't appear to be in print anymore, which means you might be looking at purchasing it used if you'd like to add it to your collection. 
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/101Science.jpg" alt="101 Science Book Cover." /></span></p>
 
 ## 101 Great Science Experiments by Neil Ardley.
-If I were to be forced to pick one book to recommend (So hard! Don't make me do it!) then it might be this one. All my classic favorites are here, it has detailed instructions with full-color photos, and it covers a wide variety of subjects.
+If I were to be forced to pick one book to recommend (So hard! Don't make me do it!) then it _might_ be this one. Many of my classic favorite experiments are here, it has detailed instructions with full-color photos, and it covers a wide variety of subjects. The photos  are very nicely done, and their step-by-step layout makes it easy to see at a glance what materials are involved in each experiment.
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/smg1cover.jpeg" alt="Science Mom's Guide to Water 1 cover." /></span></p>
 
 ## Science Mom Guides
-I almost left these off the list, because I wrote them. But honestly, I think they're fantastic activity books that have a lot to offer. So if you haven't checked them out, then you should! And if you write a review on Amazon I'll be forever grateful.
+I almost left these off the list, because I wrote them. But honestly, I think they're rather fantastic activity books. So if you haven't checked them out, then you should! And if you write a review on Amazon I'll be forever grateful. With between 4 and 6 science activities per book, these arne't a one-stop shop for science experiment ideas, but a more in-depth activity book that lets you really explore each concept thoroughly.
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
 
 ## The Everything Kids' Science Experiment Book by Tom Robinson.
-While the above books have great instructions for science activities, they don't ask the reader questions or take that step from being an instruction manual to being a workbook. The Everything Kid's Science Experiment Book makes that step, having a "questions for the scientist" section after each lesson and offering follow up experiments. There are places to record observations and answer questions, but while the book adds significant thinking opportunities with its questions, it lacks pictures and has very few drawings. So I reference this one more than my kids do.
+The Everything Kid's Science Experiment Book includes instructions for science activities as well as questions and space to record your observations and answers. With a "questions for the scientist" section after each lesson and offering follow up experiments, this book takes the potential learning a level deeper with it's workbook-like layout. I've referenced this book several times when preparing lessons, but my kids haven't spent much time with it--they prefer other books in the collection. Most likely because The Everything Kid's book lacks pictures and has very few drawings, and the text-heavy layout makes it a more laborious to read. 
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
 
