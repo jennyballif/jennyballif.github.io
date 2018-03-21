@@ -9,34 +9,11 @@ comic: false
 comments: true
 title: Science Experiment Books
 description: Some of my favorite science experiment books
-headline: Selections from my collection of science experiment books.
+headline: Favorite titles from my collection of science experiment books.
 modified: 2018*03*20
 fbimage: Bookstack.jpeg
 imagefeature: Bookstack.jpeg
 folder: SciencePost
-tags: ''
-videofeature: ''
-sciencemomguideimage: ''
-experiment1title: ''
-experiment1time: ''
-experiment1supplies: ''
-experiment1concepts: ''
-experiment1image: ''
-experiment2title: ''
-experiment2time: ''
-experiment2supplies: ''
-experiment2concepts: ''
-experiment2image: ''
-experiment3title: ''
-experiment3time: ''
-experiment3supplies: ''
-experiment3concepts: ''
-experiment3image: ''
-guide0: ''
-guide1: ''
-guide2: ''
-guide3: ''
-guide4: ''
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SciencePost/Bookstack.jpeg" description="A stack of my most-used science activity books." maxwidth="600px" %}
 
@@ -62,7 +39,7 @@ I almost left these off the list, because I wrote them. But honestly, I think th
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
 
 ## The Everything Kids' Science Experiment Book by Tom Robinson.
-The Everything Kid's Science Experiment Book includes instructions for science activities as well as questions and space to record your observations and answers. With a "questions for the scientist" section after each lesson, this book takes the potential learning a level deeper with it's workbook-like layout. I've referenced this book several times when preparing lessons, but my kids haven't spent much time with it--they prefer other books in the collection. Most likely because The Everything Kid's book lacks pictures and has very few drawings. The text-heavy layout does makes it more laborious to read. 
+The Everything Kid's Science Experiment Book includes instructions for science activities as well as questions and space to record your observations and answers. With a "questions for the scientist" section after each lesson, this book takes the potential learning a level deeper with its workbook-like layout. I've referenced this book several times when preparing lessons, but my kids haven't spent much time with it--they prefer other books in the collection. Most likely because The Everything Kid's book lacks pictures and has very few drawings. The text-heavy layout does makes it more laborious to read. 
 
 <p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
 
@@ -83,7 +60,7 @@ A fabulous set of books with detailed descriptions of a multitude of insects, wh
 
 Alright, those seven books are my favorite-favorites, but that doesn't mean they need to be your favorites! 
 
-I have several newer books on my "hope to buy sometime soon" list, and as those come in I'll update this compliation here. And now, a few quick notes about some of the other favorite books in my collection:
+I have several newer books on my "hope to buy sometime soon" list, and as those come in I'll update this compliation here. And now, a few quick notes about some of the other books in my collection:
 
 ## Theodor Gray's Completely Mad Science 
 Experiments you should do at home but probably shouldn't. This isn't a how-to book at all. It's a beautifully illustrated and fun tour of a fantastic series of experiments, almost all of which are too dangerous (or expensive) to do at home. Both entertaining and informative, it's a great read.
