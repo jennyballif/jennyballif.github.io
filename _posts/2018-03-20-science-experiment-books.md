@@ -44,7 +44,7 @@ I've gathered a decent collection of science activity books in the last several 
 
 ## 365 Science Experiments by Glen Singleton. 
 This one is definitely the book that my kids pick up and read the most. Perhaps because of the large size? The format is appealing with simple explanations and fun "Did you know?" boxes that accompany each experiment description.
-<p><span class="image left" style="width:350px; max-width:50%"><img src="images/SciencePost/365Science.jpg" alt="Book cover of 365 Science Experiments." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/365Science.jpg" alt="Book cover of 365 Science Experiments." /></span></p>
 
 ## 101 Great Science Experiments by Neil Ardley.
 If I were to be forced to pick one book to recommend (So hard! Don't make me do it!) then it might be this one. All my classic favorites are here, it has detailed instructions with full-color photos, and it covers a wide variety of subjects.
@@ -59,17 +59,17 @@ I almost left these off the list, because I wrote them. But honestly, I think th
 ## The Everything Kids' Science Experiment Book by Tom Robinson.
 While the above books have great instructions for science activities, they don't ask the reader questions or take that step from being an instruction manual to being a workbook. The Everything Kid's Science Experiment Book makes that step, having a "questions for the scientist" section after each lesson and offering follow up experiments. There are places to record observations and answer questions, but while the book adds significant thinking opportunities with its questions, it lacks pictures and has very few drawings. So I reference this one more than my kids do.
 
-<p><span class="image left" style="width:350px; max-width:50%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
 
 ## Kitchen Science Lab for kids by Liz Lee Hienecke
 52 fun experiments in this book on a wide variety of subjects. With photos, great little "science behind the fun" sections, great questions to encourage critical thinking and reasoning in the "creative enrichment" sections, this is a great book. If I were forced to pick one book to recommend (So hard! Don't make me do it!) It might be this one.
 
-<p><span class="image left" style="width:350px; max-width:50%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
 
 ## Science Experiments You Can Eat by Vicki Cobb
 A fun collection of edible experiments and an introducting into the chemistry of cooking all in one. From the carageenan stabilization in chocolate putdding to emulsions in salad dressings, these experiments will teach a lot. More in depth explanations than the previous books mentioned, but with clear instructions and explanations. No color photos and scant illustrations, so not quite as inviting as Kitchen Science or 101 Great Science Experiments, but still a great resource. And for the young scientist who really enjoys cooking? It's perfect.
 
-<p><span class="image left" style="width:350px; max-width:50%"><img src="images/SciencePost/Eat.jpg" alt="Book covers of the Menagerie trilogy." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/Eat.jpg" alt="Book covers of the Menagerie trilogy." /></span></p>
 
 ## Pet Bugs and More Pet Bugs by Sally Kneidel
 A fabulous set of books with detailed descriptions of a multitude of insects, where to find them, how to catch and keep them as pets. At first glance, you might think this book doesn't belong with science experiments, but observing insects is great scientific study and these guides are a wonderful introduction to entymology.
