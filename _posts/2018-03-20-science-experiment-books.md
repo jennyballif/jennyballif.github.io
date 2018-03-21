@@ -10,7 +10,7 @@ comments: true
 title: Science Experiment Books
 description: Some of my favorite science experiment books
 headline: Favorite titles from my collection of science experiment books.
-modified: 2018*03*20
+modified: 2018/03/20
 fbimage: Bookstack.jpeg
 imagefeature: Bookstack.jpeg
 folder: SciencePost
