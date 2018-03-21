@@ -40,43 +40,48 @@ guide4: ''
 ---
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SciencePost/Bookstack.jpeg" description="A stack of my most-used science activity books." maxwidth="600px" %}
 
+Whenever I present at schools, someone will ask me where I get ideas for my science experiments. I've found several while researching topics on the internet, but while there's a plethora of resources online, a lot of my inspiration comes from science books too.
+
 I've gathered a decent collection of science activity books in the last several years, and when someone at a recent conference asked for recommendations, I told them I'd put together a list for them. Here it is! 
+
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/365Science.jpg" alt="Book cover of 365 Science Experiments." /></span></p>
 
 ## 365 Science Experiments by Glen Singleton. 
 This one is definitely the book that my kids pick up and read the most. Perhaps because of the large size? The format is appealing with simple explanations and fun "Did you know?" boxes that accompany each experiment description.
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/365Science.jpg" alt="Book cover of 365 Science Experiments." /></span></p>
+
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/101Science.jpg" alt="101 Science Book Cover." /></span></p>
 
 ## 101 Great Science Experiments by Neil Ardley.
 If I were to be forced to pick one book to recommend (So hard! Don't make me do it!) then it might be this one. All my classic favorites are here, it has detailed instructions with full-color photos, and it covers a wide variety of subjects.
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/101Science.jpg" alt="101 Science Book Cover." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/smg1cover.jpeg" alt="Science Mom's Guide to Water 1 cover." /></span></p>
 
 ## Science Mom Guides
 I almost left these off the list, because I wrote them. But honestly, I think they're fantastic activity books that have a lot to offer. So if you haven't checked them out, then you should! And if you write a review on Amazon I'll be forever grateful.
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/smg1cover.jpeg" alt="Science Mom's Guide to Water 1 cover." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
 
 ## The Everything Kids' Science Experiment Book by Tom Robinson.
 While the above books have great instructions for science activities, they don't ask the reader questions or take that step from being an instruction manual to being a workbook. The Everything Kid's Science Experiment Book makes that step, having a "questions for the scientist" section after each lesson and offering follow up experiments. There are places to record observations and answer questions, but while the book adds significant thinking opportunities with its questions, it lacks pictures and has very few drawings. So I reference this one more than my kids do.
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/EverythingScience.jpg" alt="Book cover of Everything Kids' Science" /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
 
 ## Kitchen Science Lab for kids by Liz Lee Hienecke
 52 fun experiments in this book on a wide variety of subjects. With photos, great little "science behind the fun" sections, great questions to encourage critical thinking and reasoning in the "creative enrichment" sections, this is a great book. If I were forced to pick one book to recommend (So hard! Don't make me do it!) It might be this one.
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/KitchenScience.jpg" alt="Book cover of Kitchen Science." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/Eat.jpg" alt="Book cover of Science experiments you can eat." /></span></p>
 
 ## Science Experiments You Can Eat by Vicki Cobb
 A fun collection of edible experiments and an introducting into the chemistry of cooking all in one. From the carageenan stabilization in chocolate putdding to emulsions in salad dressings, these experiments will teach a lot. More in depth explanations than the previous books mentioned, but with clear instructions and explanations. No color photos and scant illustrations, so not quite as inviting as Kitchen Science or 101 Great Science Experiments, but still a great resource. And for the young scientist who really enjoys cooking? It's perfect.
 
-<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/Eat.jpg" alt="Book covers of the Menagerie trilogy." /></span></p>
+<p><span class="image left" style="width:150px; max-width:30%"><img src="images/SciencePost/PetBugs.jpg" alt="Pet Bugs book cover." /></span></p>
 
 ## Pet Bugs and More Pet Bugs by Sally Kneidel
 A fabulous set of books with detailed descriptions of a multitude of insects, where to find them, how to catch and keep them as pets. At first glance, you might think this book doesn't belong with science experiments, but observing insects is great scientific study and these guides are a wonderful introduction to entymology.
 
-Alright, those seven books are my favorites, but that doesn't mean they need to be your favorites. 
+Alright, those seven books are my favorites, but that doesn't mean they need to be your favorites! 
 
-I have several newer books on my "hope to buy sometime soon" list, and as those come in I'll update this compliation here. And now, a few quick notes about a few of the other books in my collection:
+I have several newer books on my "hope to buy sometime soon" list, and as those come in I'll update this compliation here. And now, a few quick notes about a few of the other favorite books in my collection:
 
 ## Theodor Gray's Completely Mad Science 
 Experiments you should do at home but probably shouldn't. This isn't a how-to book at all. It's a beautifully illustrated and fun tour of a fantastic series of experiments, almost all of which are too dangerous (or expensive) to do at home. Both entertaining and informative, it's a great read.
