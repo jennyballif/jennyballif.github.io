@@ -25,7 +25,7 @@ imagefeature: smg7square.jpeg
 ---
 It's finally here! The concluding installment in the water series, a look at evaporative cooling, changes of state, and how water has an impressively high specific heat capacity:
 
-{% include youtubeplayer.html id="https://youtu.be/0gqXZJtXgmg" %}
+{% include youtubeplayer.html id="https://www.youtube.com/embed/0gqXZJtXgmg" %}
 
 Out of all the little cartoons I made for various properties of water (which were explored in the first six videos), High Specific Heat is my favorite.
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1c.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
