@@ -1,6 +1,11 @@
 ---
 layout: post
 published: true
+categories:
+  - experiments
+  - science
+  - foldable
+  - video
 sciencemom: true
 comments: true
 experiment1: true
@@ -12,6 +17,7 @@ description: >-
   they're also the key to a lot of fun science experiments. In this guide we
   explore cohesion with three hands-on activities.
 modified: '2016-12-14'
+tags: experiments foldable video
 sciencemomguideimage: SMG1coverThumbnail.png
 imagefeature: SMG1square.png
 experiment1title: Gravity Defying Lid
@@ -37,6 +43,11 @@ experiment3concepts: Density(Physics); Thermohaline circulation(Ecology); Lake t
 experiment3image: Thumbnail3.png
 guide0: SMG1wide.png
 folder: SMG1
+worksheets:
+ - SMG1-8.5x11.pdf
+ - SMG1-11x17.pdf
+ - SMG1-A4.pdf
+ - SMG1-A3.pdf
 guide1: SMG1-8.5x11.pdf
 guide2: SMG1-11x17.pdf
 guide3: SMG1-A4.pdf
@@ -45,6 +56,9 @@ headline: >-
   Come explore cohesion and the basic physics of forces with <b>The Gravity
   Defying Lid</b>, a <b>Magic Screen</b>, and <b>Hot and Cold Water Cups</b>.
 videofeature: 'https://www.youtube.com/embed/IsvHQon2IqQ'
+blog: false
+comic: false
+tags: 'experiments, foldable guide, video'
 ---
 
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.

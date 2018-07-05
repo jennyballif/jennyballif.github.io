@@ -15,12 +15,12 @@ fbimage: SarahHarris.JPG
 imagefeature: Leilanium.jpeg
 folder: Patron/Leilanium
 categories:
-  - personal
+  - patron
 ---
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Leilanium.jpeg" alt="Patron 3 on the Periodic Table of Patrons - Leilanium" /></span>
 
-Leilanium is named in honor of Sarah Harris, who teaches electrical engineering at the University of Nevada, Las Vegas. In addition to being an #ActualLivingScientist, she is also the mother of three energetic children, who were part of the inspiration behind her Patron card. 
+Leilanium is named in honor of Sarah Harris, who teaches electrical engineering at the University of Nevada, Las Vegas. In addition to being an #ActualLivingScientist, she is also the mother of three energetic children, who were part of the inspiration behind her Patron card.
 
 This week, she sat down with me for a quick interview:
 
@@ -36,7 +36,7 @@ I think it's the math and the way it's taught. It's often taught in way that's i
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Bookcover.jpg" alt="Bookcover for Digital Design and Computer Architecture, Second Edition." /></span>
 
-I've always wanted to write THAT textbook - since my undergrad. Because it's FUN and creative – you get to design circuits and then test them. It's freakin fun. The book started when my colleague David Harris--not related 
+I've always wanted to write THAT textbook - since my undergrad. Because it's FUN and creative – you get to design circuits and then test them. It's freakin fun. The book started when my colleague David Harris--not related
 
 **(Laughing) I love how you say that all in one breath. People must ask if you’re related all the time.**
 
@@ -58,9 +58,9 @@ It’s done pretty well. I’ve heard people say you don't make any money doing 
 
 **Do you feel like science is sometimes reduced to trivia?**
 
-Way too often. And it bugs me. I was at an engineering competition once when a fellow judge started really nitpicking a contestant’s project, asking what the part numbers were for various pieces, and when the student didn’t know, he lorded it over them, saying something like, “It’s a 7432. How come I know that and you don’t?” 
+Way too often. And it bugs me. I was at an engineering competition once when a fellow judge started really nitpicking a contestant’s project, asking what the part numbers were for various pieces, and when the student didn’t know, he lorded it over them, saying something like, “It’s a 7432. How come I know that and you don’t?”
 
-The answer is because he’s been working on this for more than 40 years! Experts will always know more trivia than novices, but that’s not what’s at the heart of the science. The equations are important - and I value them, but if you don't understand them, they're useless. The application is where you get to really understand, and teaching is most effective when it’s connected to a real application. 
+The answer is because he’s been working on this for more than 40 years! Experts will always know more trivia than novices, but that’s not what’s at the heart of the science. The equations are important - and I value them, but if you don't understand them, they're useless. The application is where you get to really understand, and teaching is most effective when it’s connected to a real application.
 
 
 **And for our last question, If you could have lunch with any scientist, living or dead, who would you choose and why?**

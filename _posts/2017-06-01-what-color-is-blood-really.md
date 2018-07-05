@@ -15,6 +15,9 @@ fbimage: TitleSlide.003.png
 imagefeature: TitleSlide.003.png
 videofeature: 'https://www.youtube.com/embed/jPvo7DkrFjo'
 folder: BloodColor
+categories:
+  - science
+  - video
 ---
 This project all started the day before Valentine's day, 2017. I woke up with an idea to make a little foldable book about how heart's work. I enthusiastically got to work drawing little cartoons and coloring, and (barely) finished the book and little video clip in time for Valentine's Day.
 

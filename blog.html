@@ -1,50 +1,80 @@
 ---
 layout: default
+title: Category Index
+tags: [Categories]
+description: "An archive of posts sorted by categories."
 ---
 
+<!-- Container -->
+<div class="container">
 
-<section id="main" class="wrapper style1">
-    {% for post in site.posts %}
-      {% if post.blog or post.sciencemom %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-          {% if post.imagefeature %}
-            <div class="container">
-              <div class="row">
-                <div class="4u 12u$(small)">
-                  <img src="{{ site.baseurl }}/images/{{ post.folder }}/{{ post.imagefeature }}" alt="post.description" style="width:200px; display: block; margin: auto;">
-                </div>
-                <div class="8u$ 12u$(small)">
-                  <header class="major">
-                      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                  </header>
-                  <section>
-                      {{ post.headline }}
-                     <!-- {{ post.excerpt }} -->
-                  </section>
-                  <section class="special">
-                      <ul class="actions">
-                          <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                      </ul>
-                  </section>
-                </div>
-              </div>
-            </div>
+<!-- Tags -->
+<div class="widget">
+  <h3 class="title">Blog posts by category</h3>
+  <div class="widget-tags">
+    {% assign tags_list = site.categories %}
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+      <a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %}
+      <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+      {% endfor %}
+    {% endif %}
+    {% assign tags_list = nil %}
+  </div>
+</div>
+<!-- /Tags -->
 
-          {% else %}
-            <header class="major">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
-            <section class="container">
-                {{ post.headline }}
-               <!-- {{ post.excerpt }} -->
-            </section>
-            <section class="special">
-                <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
-                </ul>
-            </section>
-          {% endif %}
+{% for tag in site.categories %}
+
+<!-- Portfolio -->
+<div id="portfolio" class="section sm-padding bg-grey">
+
+  <!-- Container -->
+  <div class="container">
+
+    <!-- Row -->
+    <div class="row">
+
+      <!-- Section header -->
+      <div class="section-header text-center">
+        <h2 class="title" id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+      </div>
+      <!-- /Section header -->
+
+      {% assign pages_list = tag[1] %}
+      {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+      <!-- Work -->
+      <a href="{{ site.url }}{{ post.url }}">
+        <div class="col-md-4 col-xs-6 work">
+          <img class="img-responsive" src="{{ site.baseurl }}/images/{{ post.folder }}/{{ post.imagefeature }}" alt="{{ post.description }}">
+          <div class="overlay"></div>
+          <div class="work-content">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description }}</p>
+          </div>
         </div>
+      </a>
+      <!-- /Work -->
+      {% endif %}
       {% endif %}
     {% endfor %}
-</section>
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+   </div>
+    <!-- /Row -->
+
+  </div>
+  <!-- /Container -->
+
+</div>
+<!-- /Portfolio -->
+{% endfor %}
+
+
+</div>
+<!-- /Container -->

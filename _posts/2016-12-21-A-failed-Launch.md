@@ -12,6 +12,8 @@ headline: >-
   Klingons...
 blog: false
 comic: true
+categories:
+  - random
 ---
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/LaunchFail.png" description="A comic strip about a launch flop." maxwidth="800px" %}

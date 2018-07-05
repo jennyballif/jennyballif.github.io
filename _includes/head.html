@@ -1,9 +1,33 @@
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Science Mom</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/periodic.css" />
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!-- Owl Carousel -->
+  <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+  <!-- Magnific Popup -->
+  <link type="text/css" rel="stylesheet" href="assets/css/magnific-popup.css" />
+
+  <!-- Periodic Table -->
+  <link type="text/css" rel="stylesheet" href="assets/css/periodic.css" />
+
+  <!-- Font Awesome Icon -->
+	<!--<link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
@@ -71,6 +95,17 @@
     ga('send', 'pageview');
 
   </script>
+
+  <!--Script to randomize post suggestions-->
+  <script type="text/javascript">
+
+    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsFolder = [{% for post in site.posts %}"{{ post.folder }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsImage = [{% for post in site.posts %}"{{ post.imagefeature }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+  </script>
+
 
   <script src="assets/js/jquery.min.js" type="text/javascript"></script>
   <script src='assets/js/jquery.elevatezoom.js' type="text/javascript"></script>

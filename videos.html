@@ -1,31 +1,67 @@
 ---
 layout: default
+title: Posts with Videos
+description: "An archive of posts with videos"
 ---
 
 
-<section id="main" class="wrapper style1">
-    {% for post in site.posts %}
-      {% if post.sciencemom %}
-      {% if post.videofeature %}
-        <div class="wrapper {% cycle 'style1', 'style2' %}">
-            <header class="major">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
-            <section class="container">
-		<style>
-		html,body        {height:100%;}
-		.vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
-		.h_iframe        {position:relative; padding-top: 56%;}
-		.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
-		</style>
-		<p><div class="vidwrapper">
-		    <div class="h_iframe">
-			<iframe height="400" width="2" src="{{ post.videofeature }}" frameborder="0" allowfullscreen></iframe>
-		    </div>
-		</div></p>
-            </section>
+<div class="container">
+
+  <!-- Row -->
+  <div class="row">
+
+    {% for post in site.categories.video %}
+    <div class="{% cycle 'bg-grey', 'bg-dark' %}">
+      <header class="major text-center">
+          <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      </header>
+      <section class="container">
+        <!-- div col-sm-8 -->
+        <div class="col-sm-8">
+  <style>
+  html,body        {height:100%;}
+  .vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
+  .h_iframe        {position:relative; padding-top: 56%;}
+  .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+  </style>
+            <p><div class="vidwrapper">
+              <div class="h_iframe">
+            <iframe height="400" width="2" src="{{ post.videofeature }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div></p>
+
+          </div>
+          <!-- /div col-sm-8 -->
+
+          <!-- div col-sm-8 -->
+          <div class="col-sm-4">
+            <!-- blog worksheets -->
+            {% assign worksheetsize = post.worksheets.size %}
+            {% if worksheetsize != 0 %}
+            <div class="blog-worksheets">
+              <h5>Worksheets:</h5>
+              {% for tag in post.worksheets %}
+              <a href="{{ site.url }}/images/" data-toggle="tooltip" title="download {{ tag }}" rel="tag"><i class="far fa-map"></i>{{ tag }}</a>
+              {% endfor %}
+            </div>
+            {% endif %}
+            <!-- /blog worksheets -->
+
+            <!-- Tags
+            <div class="widget">
+              <div class="blog-tags">
+                <h5>Tags :</h5>
+                {% for tag in post.categories %}
+                <a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag"><i class="fas fa-tag"></i>{{ tag }}</a>
+                {% endfor %}
+              </div>
+            </div>
+             /Tags -->
+          </div>
+          <!-- /div col-sm-8 -->
         </div>
-      {% endif %}
-      {% endif %}
-    {% endfor %}
-</section>
+        {% endfor %}
+      </section>
+  </div >
+  <!-- /Row -->
+</div>

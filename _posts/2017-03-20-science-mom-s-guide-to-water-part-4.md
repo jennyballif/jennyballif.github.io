@@ -9,8 +9,6 @@ headline: >-
   investigations (and enjoy some homemade ice cream too).
 description: 'Science Mom''s Guide to Water, Part 4'
 modified: '2017-03-20'
-categories:
-  - Science Mom Guide
 tags: 'Water, Science Mom Guide'
 videofeature: 'https://www.youtube.com/embed/4Y7SWqUJJ9A'
 folder: SMG4
@@ -32,6 +30,16 @@ experiment3time: 2 - 3 hours
 experiment3supplies: 'Bottled soda, Freezer, Ice'
 experiment3concepts: 'Supercooling of liquids (Physics and Chemistry), Changes of state (Chemistry)'
 experiment3image: Thumbnail3.PNG
+categories:
+  - experiments
+  - science
+  - foldable
+  - video
+worksheets:
+ - SMG4-8.5x11.pdf
+ - SMG4-11x17.pdf
+ - SMG4-A4.pdf
+ - SMG4-A3.pdf
 guide0: SMG4wide.png
 guide1: SMG4-8.5x11.pdf
 guide2: SMG4-11x17.pdf

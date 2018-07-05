@@ -1,8 +1,6 @@
 ---
 layout: post
 published: true
-categories:
-  - personal
 sciencemom: false
 blog: true
 comic: false
@@ -14,10 +12,13 @@ modified: '2018-03-12'
 fbimage: patron.016.jpeg
 imagefeature: patron.016.jpeg
 folder: PeriodicTable
+categories:
+  - patron
 ---
+
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.016.jpeg" description="Element 16 from the Periodic Tabel of Patrons: Redondite." maxwidth="600px" %}
 
-This card is for a patron who absolutely loves the Mojave Desert. 
+This card is for a patron who absolutely loves the Mojave Desert.
 
 While I was drawing this landscape, the phrase "The desert, she has secrets" came to mind, and it wouldn't leave my mind. So I wrote a poem for Redondite:
 
@@ -33,8 +34,8 @@ Listen to rocks tell stories, of eras long dead and past,
 The call of hawk and coyote, in a country both cramped and vast.
 
 Time pauses for no man, but the desert? He waits for her.
-Join Him in evening for sunset. 
-Sit, and watch the world turn. 
+Join Him in evening for sunset.
+Sit, and watch the world turn.
 
 
 Welcome to the table Redondite! I hope you enjoy many a beautiful moment in the desert this season, and always.

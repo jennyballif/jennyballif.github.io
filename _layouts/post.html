@@ -5,86 +5,235 @@
 
 	<body id="top">
 
-        {% include header.html %}
+        {% include postheader.html %}
         <!-- Main -->
-        <div class="wrapper style1">
-            <article class="container">
-                <header class="major">
-                    <h2 class="post-title">{{ page.title }}</h2>
-                        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-                </header>
-                <section class="post-content">
-                    {{ content }}
-                </section>
-                    {% if page.guide0 %}
-                    <div class="row">
-                      <div class="6u 12u$(small)">
-                        <ul class="actions fit" style="margin-bottom: 0;">
-                          <li class="3u 6u(small)"><a href="{{ site.baseurl }}/images/{{ page.folder }}/{{ page.guide1 }}" class="button alt fit">8.5" &times; 11"</a></li>
-                          <li class="3u 6u$(small)"><a href="{{ site.baseurl }}/images/{{ page.folder }}/{{ page.guide2 }}" class="button alt fit">11" &times; 17"&nbsp;</a></li>
-                        </ul>
-                      </div>
-                      <div class="6u 12u$(small)">
-                        <ul class="actions fit"  style="margin-bottom: 0;">
-                          <li class="3u 6u(small)"><a href="{{ site.baseurl }}/images/{{ page.folder }}/{{ page.guide3 }}" class="button alt fit">A3 paper</a></li>
-                          <li class="3u$ 6u$(small)"><a href="{{ site.baseurl }}/images/{{ page.folder }}/{{ page.guide4 }}" class="button alt fit ">A4 paper</a></li>
-                        </ul>
-                      </div>
-                    </div>
 
-                    <p><div id="scroll">
-                      <img src="images/{{ page.folder }}/{{ page.guide0 }}">
-                    </div></p>
-                    {% endif %}
+            <header>
+
+
+              <!-- header wrapper -->
+          		<div class="header-wrapper sm-padding bg-grey">
+          			<div class="container">
+          				<h2>{{ page.title }}</h2>
+          				<ul class="breadcrumb">
+          					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          					<li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+          					<li class="breadcrumb-item active">{{ page.title }}</li>
+          				</ul>
+          			</div>
+          		</div>
+          		<!-- /header wrapper -->
+
+
+        <!-- Blog -->
+      	<div id="blog" class="section sm-padding">
+
+      		<!-- Container -->
+      		<div class="container">
+
+      			<!-- Row -->
+      			<div class="row">
+
+      				<!-- Main -->
+      				<main id="main" class="col-md-9">
+      					<div class="blog">
+
+              <div class="blog-content">
+                <ul class="blog-meta">
+                  <li><i class="fas fa-user"></i>Jenny Ballif</li>
+                  <li><i class="far fa-clock"></i>{{ page.date | date: "%b %-d, %Y" }}</li>
+                </ul>
+
+                {{ content }}
+              </div>
+
+                {% if page.guide0 %}
+                <p><div id="scroll">
+                  <img src="images/{{ page.folder }}/{{ page.guide0 }}">
+                </div></p>
+                {% endif %}
+
+                <!-- blog worksheets -->
+                {% assign worksheetsize = page.worksheets.size %}
+                {% if worksheetsize != 0 %}
+                <div class="blog-worksheets">
+                  <h5>Worksheets:</h5>
+                  {% for worksheet in page.worksheets %}
+                  <a href="{{ site.url }}/images/{{ page.folder }}/{{ worksheet | cgi_encode }}" data-toggle="tooltip" title="Worksheet to download {{ worksheet }}" rel="worksheet"><i class="far fa-map"></i>{{ worksheet }}</a>
+                  {% endfor %}
+                </div>
+                {% endif %}
+      					<!-- /blog worksheets -->
+
+                <!-- blog tags -->
+                {% assign tagsize = page.categories.size %}
+                {% if tagsize != 0 %}
+                <div class="blog-tags">
+                  <h5>Tags:</h5>
+                  {% for tag in page.categories %}
+                  <a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag"><i class="fas fa-tag"></i>{{ tag }}</a>
+                  {% endfor %}
+                </div>
+                {% endif %}
+      					<!-- blog tags -->
+
+
+
+    						<!-- blog author -->
+    						<div class="blog-author">
+    							<div class="media">
+    								<div class="media-left">
+    									<img class="media-object" style="max-width:150px;" src="images/JennyBallifSquare.png" alt="Author's profile picture">
+    								</div>
+    								<div class="media-body">
+    									<div class="media-heading">
+    										<h3>Jenny Ballif</h3>
+    										<div class="author-social">
+    											<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
+                              onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fab fa-facebook"></i></a>
+    											<a href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}"
+                              onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+    											<a href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
+                             onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fab fa-google-plus"></i></a>
+    										</div>
+    									</div>
+    									<p>Jenny Ballif has worked as a molecular biologist and a wild land firefighter, and at several jobs that fall in between wearing a lab coat and wielding a chainsaw. She is the mother of three kids, wife of one mathematician, and author of several books.</p>
+    								</div>
+    							</div>
+    						</div>
+    						<!-- /blog author -->
+
+                <!-- Navigation Arrows -->
+                <div class="PageNavigation">
+                  {% if page.previous.url %}
+                    <a class="prev" href="{{ site.baseurl }}{{ page.previous.url }}"> &larr; {{ page.previous.title }}</a>
+                  {% else %}
+                    <a class="prev"></a>
+                  {% endif %}
+                  {% if page.next.url %}
+                    <a class="next" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+                  {% endif %}
+                </div>
+                <!-- /Navigation Arrows -->
+
+          </main>
+
+                <!-- Aside -->
+        				<aside id="aside" class="col-md-3">
+
+        					<!--
+        					<div class="widget">
+        						<div class="widget-search">
+        							<input class="search-input" type="text" placeholder="search">
+        							<button class="search-btn" type="button"><i class="fa fa-search"></i></button>
+        						</div>
+        					</div>
+        					 /Search -->
+
+                  <!-- Category -->
+        					<div class="widget">
+        						<h3 class="title">Category</h3>
+        						<div class="widget-category">
+                      {% assign tags_list = site.categories %}
+                        {% if tags_list.first[0] == null %}
+                          {% for tag in tags_list %}
+        							      <a href="#{{ tag }}">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a>
+                          {% endfor %}
+                        {% else %}
+                          {% for tag in tags_list %}
+                            <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a>
+                          {% endfor %}
+                        {% endif %}
+                      {% assign tags_list = nil %}
+                    </div>
+        					</div>
+        					<!-- /Category -->
+
+        					<!-- Posts sidebar -->
+        					<div class="widget">
+        						<h3 class="title">Random Posts</h3>
+
+                    <!-- single post -->
+        						<div class="widget-post">
+                    <script type="text/javascript">
+
+                        var randomIndexUsed = [];
+                        var counter = 0;
+                        var numberOfPosts = 3;
+
+                        while (counter < numberOfPosts)
+                        {
+                            var randomIndex;
+                            var postHREF;
+                            var postTitle;
+                            var postFolder;
+                            var postImage;
+
+                            randomIndex = Math.floor(Math.random() * postsHREF.length);
+
+                            if (randomIndexUsed.indexOf(randomIndex) == "-1")
+                            {
+                                postHREF = postsHREF[randomIndex];
+                                postTitle = postsTitle[randomIndex];
+                                postFolder = postsFolder[randomIndex];
+                                postImage = postsImage[randomIndex];
+
+                                if (counter == (numberOfPosts - 1))
+                                {
+                                    document.write('<a href="' + postHREF + '">' + '<img class="img-responsive" src="/images/' + postFolder + '/' + postImage + '">' + postTitle + '</a><hr />');
+                                }
+                                else
+                                {
+                                  document.write('<a href="' + postHREF + '">' + '<img class="img-responsive" src="/images/' + postFolder + '/' + postImage + '">' + postTitle + '</a><hr />');
+                                }
+
+                                randomIndexUsed.push(randomIndex);
+
+                                counter++;
+                            }
+                        }
+
+                    </script>
+        						</div>
+                    <!-- /single post -->
+
+
+        					</div>
+        					<!-- /Posts sidebar -->
+
+        					<!-- Tags -->
+        					<div class="widget">
+        						<h3 class="title">Posts by Tag</h3>
+        						<div class="widget-tags">
+        							<a href="{{ site.baseurl }}/blog.html#experiments">Experiments</a>
+        							<a href="{{ site.baseurl }}/blog.html#science">Science</a>
+        							<a href="{{ site.baseurl }}/blog.html#science">Science</a>
+        							<a href="{{ site.baseurl }}/blog.html#foldable">Foldable</a>
+                      <a href="{{ site.baseurl }}/blog.html#video">Video</a>
+                      <a href="{{ site.baseurl }}/blog.html#random">Random</a>
+                      <a href="{{ site.baseurl }}/blog.html#patron">Patron</a>
+        						</div>
+        					</div>
+        					<!-- /Tags -->
+
+        				</aside>
+        				<!-- /Aside -->
+
+        			</div>
+        			<!-- /Row -->
+
+
+
+
 
                  <footer class="post-footer">
-                                 <section class="author">
-                                 	<header> <a href="{{ site.baseurl }}"> <img class="profile" src="images/JennyBallifSquare.png" alt="Author's profile picture"></a></header>
-                                 	<article>
-                                 		<!-- Author Name -->
-                                     	<h4> Jenny Ballif </h4>
-                                     	<!-- Author Bio -->
-                                     	<p>
-                                        Jenny Ballif has worked as a molecular biologist and a wild land firefighter, and at several jobs that fall in between wearing a lab coat and wielding a chainsaw. She is the mother of three kids, wife of one mathematician, and author of several books.  
-                                     	</p>
-                                     </article>
-                                 </section>
-
-                             <section class="share">
-                                 <h4>Share this post</h4>
-                                 <a href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}"
-                                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                                 <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
-                                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="social icon fa-facebook" ><span class="label">Facebook</span></a>
-                                 <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
-                                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="icon fa-google-plus" ><span class="label">Youtube</span></a>
-                             </section>
-
-                             <div class="PageNavigation">
-                               {% if page.previous.url %}
-                                 <a class="prev" href="{{ site.baseurl }}{{ page.previous.url }}"> &larr; {{ page.previous.title }}</a>
-                               {% else %}
-                                 <a class="prev"></a>
-                               {% endif %}
-                               {% if page.next.url %}
-                                 <a class="next" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
-                               {% endif %}
-                             </div>
-
-
 
                              {% include disqus_comments.html %}
 
                          </footer>
 
                 {% include disqus_comments.html %}
-        	<style>
-        #skel-layers-inactiveWrapper {
-            display: none !important;
-        }
-        </style>
-            </article>
-        </div>
+
         {% include footer.html %}
 
     </body>

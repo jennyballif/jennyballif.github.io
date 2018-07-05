@@ -12,21 +12,23 @@ headline: >-
   The first patron to join the Periodic Table of Patrons, Serge is a
   mathematician and chess enthusiast.
 tags: Patrons
+categories:
+  - patron
 imagefeature: Sergium.jpeg
 fbimage: JenSerge.jpeg
 ---
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Sergium.jpeg" alt="Patron 1 on the Periodic Table of Patrons - Sergium" /></span>
 
-The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Another nickname he's had is "hairy armed assistant," because you can see his arm and hand helping in a few videos ([SMG1](https://youtu.be/IsvHQon2IqQ) and [What color is blood REALLY?](https://youtu.be/zr0fejFPK5A)). 
+The element Sergium is named in honor of Serge Ballif. He is both my number one patron and my other half (Math Dad!). Another nickname he's had is "hairy armed assistant," because you can see his arm and hand helping in a few videos ([SMG1](https://youtu.be/IsvHQon2IqQ) and [What color is blood REALLY?](https://youtu.be/zr0fejFPK5A)).
 
-He has a PhD in mathematics and a real gift for inventing games (some of our family favorites that he made up are called "zig zag," and "commando.") 
+He has a PhD in mathematics and a real gift for inventing games (some of our family favorites that he made up are called "zig zag," and "commando.")
 
 Without further adieu, here is a brief interview:
 
 **Science Mom: Can you tell me a little bit about the equation in your patron card?**
 
-Math Dad: It's the first formula I ever published--I wrote up a short filler article when I was an undergraduate student at Utah State University, and it got published in American Mathematical Monthly. 
+Math Dad: It's the first formula I ever published--I wrote up a short filler article when I was an undergraduate student at Utah State University, and it got published in American Mathematical Monthly.
 
 **Which was super exciting. I remember cheering when we found out you were going to be in the Monthly. Explain why this equation is so neat.**
 
@@ -36,11 +38,11 @@ There are infinitely many numbers being added together, but in one sum the indiv
 
 **That is really cool! And counterintuitive. How can both sides add to 3 when one side is squared and the other side isn't?**
 
-It's kind of complicated, but basically on the right side the terms start bigger but get smaller faster. 
+It's kind of complicated, but basically on the right side the terms start bigger but get smaller faster.
 
 **Really neat. So what kind of mathematician are you?**
- 
-I'm an algebraist/combinatorist. 
+
+I'm an algebraist/combinatorist.
 
 **How would you explain that to a first grader?**
 

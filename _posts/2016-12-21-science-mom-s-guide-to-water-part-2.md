@@ -1,6 +1,11 @@
 ---
 layout: post
 published: true
+categories:
+  - experiments
+  - science
+  - foldable
+  - video
 sciencemom: true
 comments: true
 title: 'Science Mom''s Guide to Water, Part 2'
@@ -13,8 +18,6 @@ headline: >-
   guide we explore just how strong surface tension is--and how it can
   change--through several hands-on activities.
 modified: '2017-01-09'
-categories:
-  - Chemistry of Water
 imagefeature: SMG2twitter.png
 folder: SMG2
 sciencemomguideimage: SMG2coverThumbnail.png
@@ -48,6 +51,11 @@ experiment6time: 10 to 30 minutes
 experiment6supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
 experiment6concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
 experiment6image: SMG2f.png
+worksheets:
+ - SMG2-8.5x11.pdf
+ - SMG2-11x17.pdf
+ - SMG2-A4.pdf
+ - SMG2-A3.pdf
 guide1: SMG2-8.5x11.pdf
 guide2: SMG2-11x17.pdf
 guide3: SMG2-A4.pdf

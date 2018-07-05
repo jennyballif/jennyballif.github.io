@@ -108,20 +108,24 @@ prose:
           element: "multiselect"
           label: "Add categories"
           placeholder: "Choose categories"
-          value: personal
+          value: experiments
           options:
-            - name: "Personal"
-              value: personal
+            - name: "Video"
+              value: video
+            - name: "Experiments"
+              value: experiments
             - name: "Math"
               value: math
-            - name: "Teaching"
-              value: teaching
-            - name: "Fun"
-              value: fun
+            - name: "Science"
+              value: science
+            - name: "Foldable"
+              value: foldable
             - name: "Writing"
               value: writing
-            - name: "Interesting"
-              value: interesting
+            - name: "Random"
+              value: random
+            - name: "Patron"
+              value: patron
           alterable: true
       - name: "tags"
         field:
@@ -163,6 +167,13 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: true
+      - name: "worksheets"
+        field:
+          element: "multiselect"
+          label: "Add worksheets"
+          placeholder: "Type exact worksheet file names in the field below."
+          value: filename.pdf
+          alterable: true
       - name: "folder"
         field:
           element: "text"
@@ -253,26 +264,7 @@ prose:
           element: "text"
           label: "Wide image"
           placeholder: "SMG1wide.png"
-      - name: "guide1"
-        field:
-          element: "text"
-          label: "8.5x11 pdf file"
-          placeholder: "SMG1-8.5x11.pdf"
-      - name: "guide2"
-        field:
-          element: "text"
-          label: "11x17 pdf file"
-          placeholder: "SMG1-11x17.pdf"
-      - name: "guide3"
-        field:
-          element: "text"
-          label: "A4 pdf file"
-          placeholder: "SMG1-A4.pdf"
-      - name: "guide4"
-        field:
-          element: "text"
-          label: "A3 pdf file"
-          placeholder: "SMG1-A3.pdf"
+
 
 
 include: [".htaccess"]
