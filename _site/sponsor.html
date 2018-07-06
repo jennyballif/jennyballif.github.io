@@ -195,13 +195,13 @@ ul > ul { margin: 2px;}
 
   <h4 style="margin-top: 1em;">The Benefits </h4>
   <p>When you sponsor a classroom, you give:</p>
-  <ul>
+  <ul class="sponsor-list">
   <li>An engaging 30 minute science lesson. </li>
   <li>A science activity book for each child. </li>
   </ul>
   <p>You receive:</p>
 
-<ul>
+<ul class="sponsor-list">
 <li>A thank you post from Science Mom on Twitter, Instagram, and Facebook.</li>
 <li>A personalized sticker on the back of each book with your name, company logo, contact info.</li>
 <li>Your name or company logo listed on my website.</li>
@@ -233,14 +233,14 @@ It was awesome! My class was super engaged and excited throughout the entire les
 <dl>
   <dt>Silver Sponsor:</dt>
   <dd>
-  <ul><li>Give books to between 1 and 32 students ($5 to $160)</li></ul>
+  <ul class="sponsor-list"><li>Give books to between 1 and 32 students ($5 to $160)</li></ul>
 </dd>
   <dt>Gold Sponsor:</dt>
   <dd>
-  <ul>
+  <ul class="sponsor-list">
     <li>An entire classroom $165</li>
     <li>An entire grade level $825</li>
-  </ul>
+  </ul class="sponsor-list">
 </dd>
   <dt>Platinum Sponsor:</dt>
   <dd>
@@ -249,7 +249,7 @@ It was awesome! My class was super engaged and excited throughout the entire les
 </dl>
 
 <p>All sponsors receive social media posts if they select the "public" option. To reach Gold or Platinum Sponsor status (which includes a personalized sticker with a company logo on each book), donate at one of the following levels: </p>
-<ul>
+<ul class="sponsor-list">
   <li>
     33 books (classroom)
   </li>
@@ -285,49 +285,62 @@ Science Mom Activity Guides have comics, coloring pages, and engaging explanatio
 </div>
 
 
-        <!-- Footer -->
-<footer id="footer" class="sm-padding bg-dark">
+        
+<!-- Footer -->
+<footer id="footer" class="page-footer font-small bg-dark darken-3 mt-4 sm-padding">
 
-  <!-- Container -->
-  <div class="container">
+    <!-- Footer Elements -->
+    <div class="container">
 
-    <!-- Row -->
-    <div class="row">
+      <!-- footer logo -->
+      <div class="footer-logo">
+        <a href="index.html"><img src="images/HorizontalLogoWhite.png" alt="logo"></a>
+      </div>
+      <!-- /footer logo -->
 
-      <div class="col-md-12">
+      <!-- Grid row-->
+      <div class="row">
 
-        <!-- footer logo -->
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="images/HorizontalLogoWhite.png" alt="logo"></a>
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <ul class="footer-follow">
+              <li><a href="https://facebook.com/TheScienceMom">
+              <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a></li>
+              <li><a href="https://twitter.com/jennyballif">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a></li>
+              <li><a href="https://www.instagram.com/jennyballif">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a></li>
+              <li><a href="https://www.youtube.com/sciencemom">
+              <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a></li>
+              <li><a href="https://www.patreon.com/JennyBallif">
+              <i class="fab fa-patreon fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a></li>
+            </ul>
+          </div>
         </div>
-        <!-- /footer logo -->
-
-        <!-- footer follow -->
-        <ul class="footer-follow">
-          <li><a href="https://facebook.com/TheScienceMom"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/jennyballif"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/jennyballif"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://www.youtube.com/sciencemom"><i class="fab fa-youtube"></i></a></li>
-          <li><a href="https://www.patreon.com/JennyBallif"><i class="fab fa-patreon"></i> </a></li>
-        </ul>
-        <!-- /footer follow -->
-
-        <!-- footer copyright -->
-        <div class="footer-copyright">
-          <p>Copyright © 2018 Science Mom</p>
-        </div>
-        <!-- /footer copyright -->
+        <!-- Grid column -->
 
       </div>
+      <!-- Grid row-->
 
     </div>
-    <!-- /Row -->
+    <!-- Footer Elements -->
 
-  </div>
-  <!-- /Container -->
+    <!-- footer copyright -->
+    <div class="footer-copyright">
+      <p>Copyright © 2018 Science Mom</p>
+    </div>
+    <!-- /footer copyright -->
 
-</footer>
-<!-- /Footer -->
+  </footer>
+  <!-- Footer -->
+
+
 
 <!-- Back to top -->
 <div id="back-to-top"></div>
