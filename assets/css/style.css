@@ -135,6 +135,19 @@ ul, ol {
 }
 
 
+/* Carousel Fixed Height
+Limit height on a carousel using inline background style
+*/
+.slider-size {
+  height: 300px;
+}
+
+.backmask{
+  border-radius: 5px;
+  background: rgba(0, 0, 0, .5);
+}
+
+
 /* --  background section  -- */
 
 .bg-grey {
