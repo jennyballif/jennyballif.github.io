@@ -8,15 +8,17 @@ comments: true
 title: Ballifium
 description: Welcome to the table Ballifium!
 headline: A music teacher who brings harmony to everyday living.
-fbimage: patron.014.jpeg
-imagefeature: patron.014.jpeg
+fbimage: patron.036.jpeg
+imagefeature: patron.036.jpeg
 folder: PeriodicTable
 modified: '2018-03-12'
 categories:
   - patron
 ---
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.014.jpeg" description="Element 14 from the Periodic Tabel of Patrons: Ballifium." maxwidth="600px" %}
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.036.jpeg" description="Element  from the Periodic Tabel of Patrons: Ballifium." maxwidth="600px" %}
+
 
 Ballifium is for my wonderful mother-in-law, an energetic go-getter with a passion for music education. She's a professional singer and music instructor, currently blessing the lives of many students at an elementary school in northern Utah.
 
