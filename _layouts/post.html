@@ -71,7 +71,7 @@
                 <div class="blog-tags">
                   <h5>Tags:</h5>
                   {% for tag in page.categories %}
-                  <a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag"><i class="fas fa-tag"></i>{{ tag }}</a>
+                  <a href="{{ site.url }}/blog#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag"><i class="fas fa-tag"></i>{{ tag }}</a>
                   {% endfor %}
                 </div>
                 {% endif %}
@@ -137,11 +137,11 @@
                       {% assign tags_list = site.categories %}
                         {% if tags_list.first[0] == null %}
                           {% for tag in tags_list %}
-        							      <a href="#{{ tag }}">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a>
+        							      <a href="{{ site.url }}/blog#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a>
                           {% endfor %}
                         {% else %}
                           {% for tag in tags_list %}
-                            <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a>
+                            <a href="{{ site.url }}/blog#{{ tag[0] | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag[0] }}" rel="tag">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a>
                           {% endfor %}
                         {% endif %}
                       {% assign tags_list = nil %}
@@ -200,21 +200,6 @@
 
         					</div>
         					<!-- /Posts sidebar -->
-
-        					<!-- Tags -->
-        					<div class="widget">
-        						<h3 class="title">Posts by Tag</h3>
-        						<div class="widget-tags">
-        							<a href="{{ site.baseurl }}/blog.html#experiments">Experiments</a>
-        							<a href="{{ site.baseurl }}/blog.html#science">Science</a>
-        							<a href="{{ site.baseurl }}/blog.html#science">Science</a>
-        							<a href="{{ site.baseurl }}/blog.html#foldable">Foldable</a>
-                      <a href="{{ site.baseurl }}/blog.html#video">Video</a>
-                      <a href="{{ site.baseurl }}/blog.html#random">Random</a>
-                      <a href="{{ site.baseurl }}/blog.html#patron">Patron</a>
-        						</div>
-        					</div>
-        					<!-- /Tags -->
 
         				</aside>
         				<!-- /Aside -->
