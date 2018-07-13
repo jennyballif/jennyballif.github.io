@@ -1,0 +1,87 @@
+---
+layout: default
+title: Posts with Videos
+description: "An archive of posts with videos"
+---
+
+
+<div class="container">
+
+  <!-- Row -->
+  <div class="row">
+    {% assign vids = site.data.videos | group_by: 'category' %}
+    {% for cat in vids %}
+      <h2 style="padding: 1em;">{{ cat.name | capitalize }} Videos</h2>
+    {% assign items = cat.items | sort: 'order' %}
+    {% for video in items %}
+    <div class="{% cycle 'bg-grey', 'bg-dark' %}">
+      <header class="major text-center">
+        {% if video.posturl %}
+          <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ video.posturl }}">{{ video.title }}</a></h3>
+        {% else %}
+          <h3 style="padding: 1em;">{{ video.title }}</h3>
+        {% endif %}
+      </header>
+      <section class="container">
+        <!-- div col-sm-8 -->
+        <div class="col-sm-8">
+  <style>
+  html,body        {height:100%;}
+  .vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
+  .h_iframe        {position:relative; padding-top: 56%;}
+  .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+  </style>
+            <p><div class="vidwrapper">
+              <div class="h_iframe">
+            <iframe height="400" width="2" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div></p>
+
+          </div>
+          <!-- /div col-sm-8 -->
+
+          <!-- div col-sm-8 -->
+          <div class="col-sm-4">
+            <!-- blog worksheets -->
+            <div class="blog-worksheets">
+              <h5>Supplements:</h5>
+              {% if video.folder %}
+              {% for worksheet in video.worksheets %}
+                <a href="{{ site.url }}/{{ video.folder }}/{{ worksheet | cgi_encode }}" data-toggle="tooltip" title="download {{ worksheet }}" rel="tag"><i class="fas fa-file-alt"></i>{{ worksheet }}</a>
+              {% endfor %}
+              {% for foldable in video.foldables %}
+                <a href="{{ site.url }}/{{ video.folder }}/{{ foldable | cgi_encode }}" data-toggle="tooltip" title="download {{ foldable }}" rel="tag"><i class="far fa-map"></i>{{ foldable }}</a>
+              {% endfor %}
+              {% endif %}
+              {% if video.tryit %}
+                <a href="{{ video.tryit | cgi_encode }}" data-toggle="tooltip" title="Try it out on Desmos" rel="tag" target="_blank"><i class="fas fa-desktop"></i>Try it</a>
+              {% endif %}
+              {% if video.teacher %}
+                <a href="{{ video.teacher | cgi_encode }}" data-toggle="tooltip" title="Create it for students on Desmos" rel="tag" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Teacher Link</a>
+              {% endif %}
+              {% if video.posturl %}
+                <a href="{{ video.posturl | cgi_encode }}" data-toggle="tooltip" title="Create it for students on Desmos" rel="tag" target="_blank"><i class="far fa-newspaper"></i>Blog Post</a>
+              {% endif %}
+              {% if video.vidlinks %}
+              {% for vid in video.vidlinks %}
+                <a href="{{ vid.url }}" data-toggle="tooltip" target="_blank" rel="tag"><i class="fas fa-video"></i>{{ vid.name }}</a>
+              {% endfor %}
+              {% endif %}
+              {% if video.patreon %}
+                <a href="{{ video.patreon | cgi_encode }}" data-toggle="tooltip" title="Content only available to patrons" rel="tag" target="_blank"><i class="fab fa-patreon"></i>Patron-only content</a>
+              {% endif %}
+            </div>
+            <!-- /blog worksheets -->
+          </div>
+          <!-- /div col-sm-8 -->
+        </div>
+        {% endfor %}
+      </section>
+      {% endfor %}
+  </div >
+  <!-- /Row -->
+
+
+
+
+</div>

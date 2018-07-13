@@ -1,0 +1,28 @@
+---
+layout: post
+published: true
+categories:
+  - personal
+sciencemom: false
+blog: true
+comic: false
+comments: true
+title: Devonite
+description: Welcome to the table Devonite!
+headline: This teacher tends both gardens and souls.
+modified: '2018-02-27'
+fbimage: patron.012.jpeg
+imagefeature: patron.012.jpeg
+folder: PeriodicTable
+categories:
+  - patron
+---
+
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.012.jpeg" description="Element 12 from the Periodic Tabel of Patrons: Devonite." maxwidth="600px" %}
+
+This element is named in honor of a beautiful woman with a love for nature and gardening. Headmaster of a small private school, she delights and inspires wherever she goes. Whether you're one of her chickens, a child at school, or a coworker or friend, she'll take you under her wing and you'll know that whatever else happens in this world, here's a lady who loves you.
+
+Welcome to the table Devonite!
+
+
+_To claim your own place on the Periodic Table of Patrons, visit_ www.patreon.com/JennyBallif

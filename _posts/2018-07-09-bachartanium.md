@@ -13,9 +13,9 @@ imagefeature: patron.014.jpeg
 folder: PeriodicTable
 categories:
   - patron
---- 
+---
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.014.jpeg" description="Element 14 from the Periodic Tabel of Patrons: Bachartanium." maxwidth="600px" %}
+{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.014.jpeg" description="Element 14 from the Periodic Table of Patrons: Bachartanium." maxwidth="600px" %}
 
 
 Bachartanium is a named after a generous patron who knows how to cook ribs and host a fun party.

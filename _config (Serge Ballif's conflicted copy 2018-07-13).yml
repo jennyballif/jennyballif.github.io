@@ -1,0 +1,271 @@
+# Site settings
+title: Jenny Ballif
+author: 'Jenny Ballif'
+email: jenballif@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Science Mom, Writer, Language Enthusiast
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jennyballif.com" # the base hostname & protocol for your site
+enforce_ssl: jennyballif.com
+owner:
+  name:           Jenny Ballif
+  email:          jenballif@gmail.com
+  facebook:         TheScienceMom
+  twitter:          JennyBallif
+  github_username:  jennyballif
+  disqus_shortname: jennyballif
+  google_plus:    jenballif
+
+# post sharing
+twitter:
+  username: JennyBallif
+
+# Build settings
+
+
+
+
+
+
+
+
+
+
+links:
+  - title: Science Mom
+    url: /sciencemom
+  - title: Contact
+    url: /contact
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+timezone:    America/Los_Angeles
+future:      true
+highlighter: rouge
+markdown:    kramdown
+paginate:    12
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:  /:title
+
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+
+
+
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://jennyballif.github.io/' #'http://hmfaysal.github.io/Notepad/'
+  relativeLinks: 'https://jennyballif.github.io/links.jsonp'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "false"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description for twitter"
+          placeholder: "Enter post description for facebook or twitter"
+      - name: "headline"
+        field:
+          element: "textarea"
+          label: "Headline for the blog feed"
+          placeholder: "Come explore cohesion and the basic physics of forces with <b>The Gravity Defying Lid</b>, a <b>Magic Screen</b>, and <b>Hot and Cold Water Cups</b>."
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: experiments
+          options:
+            - name: "Video"
+              value: video
+            - name: "Experiments"
+              value: experiments
+            - name: "Math"
+              value: math
+            - name: "Science"
+              value: science
+            - name: "Foldable"
+              value: foldable
+            - name: "Writing"
+              value: writing
+            - name: "Random"
+              value: random
+            - name: "Patron"
+              value: patron
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "fbimage"
+        field:
+          element: "text"
+          label: "Facebook Image (should be large, landscape image for facebook)"
+          placeholder: "SMG1-fb.jpg"
+      - name: "imagefeature"
+        field:
+          element: "text"
+          label: "Featured Image (should be square for twitter card)"
+          placeholder: "SMG1-twitter.jpg"
+      - name: "videofeature"
+        field:
+          element: "text"
+          label: "Featured Video youtube embed link"
+          placeholder: "https://www.youtube.com/embed/iwqUhD47o14"
+      - name: "sciencemom"
+        field:
+          element: "checkbox"
+          label: "Science Mom Post"
+          value: false
+      - name: "blog"
+        field:
+          element: "checkbox"
+          label: "Blog Post"
+          value: false
+      - name: "comic"
+        field:
+          element: "checkbox"
+          label: "Comic Post"
+          value: false
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Comments"
+          value: true
+      - name: "worksheets"
+        field:
+          element: "multiselect"
+          label: "Add worksheets"
+          placeholder: "Type exact worksheet file names in the field below."
+          value: filename.pdf
+          alterable: true
+      - name: "folder"
+        field:
+          element: "text"
+          label: "Image Folder"
+          placeholder: "SMG1"
+      - name: "sciencemomguideimage"
+        field:
+          element: "text"
+          label: "Science Mom Guide Image"
+          placeholder: "someotherfile.jpg"
+      - name: "experiment1title"
+        field:
+          element: "text"
+          label: "Experiment 1 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment1time"
+        field:
+          element: "text"
+          label: "Experiment 1 Time"
+          placeholder: "10 min"
+      - name: "experiment1supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 1 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment1concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 1 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment1image"
+        field:
+          element: "text"
+          label: "Experiment 1 Image"
+          placeholder: "somefile.jpg"
+      - name: "experiment2title"
+        field:
+          element: "text"
+          label: "Experiment 2 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment2time"
+        field:
+          element: "text"
+          label: "Experiment 2 Time"
+          placeholder: "10 min"
+      - name: "experiment2supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 2 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment2concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 2 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment2image"
+        field:
+          element: "text"
+          label: "Experiment 2 Image"
+          placeholder: "somefile.jpg"
+      - name: "experiment3title"
+        field:
+          element: "text"
+          label: "Experiment 3 Title"
+          placeholder: "Gravity Defying Lid"
+      - name: "experiment3time"
+        field:
+          element: "text"
+          label: "Experiment 3 Time"
+          placeholder: "10 min"
+      - name: "experiment3supplies"
+        field:
+          element: "textarea"
+          label: "Experiment 3 Supplies"
+          placeholder: "1 cup water"
+      - name: "experiment3concepts"
+        field:
+          element: "textarea"
+          label: "Experiment 3 Concepts"
+          placeholder: "Properties of water: cohesion"
+      - name: "experiment3image"
+        field:
+          element: "text"
+          label: "Experiment 3 Image"
+          placeholder: "somefile.jpg"
+      - name: "guide0"
+        field:
+          element: "text"
+          label: "Wide image"
+          placeholder: "SMG1wide.png"
+
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
