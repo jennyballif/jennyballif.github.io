@@ -164,6 +164,11 @@ Limit height on a carousel using inline background style
    color: #6195FF;
 }
 
+.bg-dark h3 {
+   color: #FFFFFF;
+}
+
+
 
 /* --  background image section  -- */
 
@@ -284,7 +289,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .navbar-brand .logo, .navbar-brand .logo-alt {
     max-height: 50px;
     display: block;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
@@ -1164,6 +1169,26 @@ header {
 }
 
 .blog .blog-meta li i {
+    color: #6195FF;
+    margin-right: 5px;
+}
+
+.blog-content {
+    padding: 10px 20px 10px;
+}
+
+.blog-meta {
+    margin-bottom: 0px;
+}
+
+.blog-meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: #10161A;
+    margin-right: 10px;
+}
+
+.blog-meta li i {
     color: #6195FF;
     margin-right: 5px;
 }
