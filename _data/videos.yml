@@ -1,7 +1,33 @@
+
+
+- title: Teach Electricity with a Plasma Ball
+  url: https://www.youtube.com/embed/PcgzbUNCD0M
+  category: curiosity
+
+
+- title: A Tour of the Heart
+  url: https://www.youtube.com/embed/xV4Jw1n6cqE
+  category: curiosity
+  folder: images/Worksheets/ScienceWorksheets
+  foldables:
+    - HeartBook.pdf
+
+
 # -----------Math Videos------------
 - title: The Math Behind Spot it!
   url: https://www.youtube.com/embed/lhTMr8RzUr8
   category: math
+
+- title: Magic Bacteria&#58; A Cautionary Tale
+  url: https://www.youtube.com/embed/LZTeYrdq3aA
+  category: math
+  folder: images/Worksheets/ScienceWorksheets
+  worksheets:
+    - MagicBacteria.pdf
+  tryit: https://student.desmos.com/?prepopulateCode=4jwa84
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b48d1e390a8aa0ff19551dc
+
+
 
 - title: Math Dad vs Science Mom 1
   url: https://www.youtube.com/embed/YROnuqG3lQ8
