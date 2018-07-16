@@ -25,17 +25,11 @@ description: "An archive of posts with videos"
       <section class="container">
         <!-- div col-sm-8 -->
         <div class="col-sm-8">
-  <style>
-  html,body        {height:100%;}
-  .vidwrapper      {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC; text-align: center}
-  .h_iframe        {position:relative; padding-top: 56%;}
-  .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
-  </style>
-            <p><div class="vidwrapper">
-              <div class="h_iframe">
-            <iframe height="400" width="2" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div></p>
+          <div class="vidwrapper">
+          	<div class="youtube" data-embed="{{ video.id }}">
+          		<div class="play-button"></div>
+          	</div>
+          </div>
 
           </div>
           <!-- /div col-sm-8 -->
@@ -85,3 +79,8 @@ description: "An archive of posts with videos"
 
 
 </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
