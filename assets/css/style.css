@@ -2134,6 +2134,7 @@ input[type=submit]:hover {
 
 .vidwrapper {
 	max-width: 680px;
+  width:100%;
 	margin: 0px auto;
 	padding: 0 0 10px 0;
 }
