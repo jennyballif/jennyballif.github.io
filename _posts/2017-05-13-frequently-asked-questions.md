@@ -13,6 +13,7 @@ imagefeature: TwitterFAQ.jpeg
 fbimage: FacebookFAQ.jpeg
 folder: FAQ
 categories:
+  - experiments
   - random
 ---
 
@@ -38,15 +39,16 @@ In 2014, I volunteered to do weekly science demonstrations in my son's second gr
 
 #### CAN YOU COME TO MY SCHOOL? WHEN AND HOW MUCH?
 
-Maybe! I don't charge for school visits. Education is already underfunded and it's a matter of principle for me to keep my visits free. However, keeping things free means that I tend to have much more interest in visits than I have time available to do them!
+Maybe! I charge $200 to do a school visit. I bring my own supplies for some great science demonstrations and come for the entire day. I'll do as many presentations as the school would like me to do. A typical format is to present lessons to combined classes every 30 minutes, but I'm very flexible. I've done whole-school assemblies and conducted hands-on workshops with a half-dozen students, and everything in between. 
 
-If I visited a school every time someone asked, then I wouldn't have time to make science videos or write. So I have to be fairly firm with my schedule. Having said that, I do a LOT of visits each year (1 each week, on average). If you're in the Las Vegas area, chances are good I'll be able to get you on the calendar. If you're outside the Las Vegas area, the chances are smaller that I'll visit, but there's still a chance. I travel regularly into Utah and California and Arizona to visit friends and family, and once or twice a year I attend conferences in other parts of the country. If your school is en route and I have the time, I'd be happy to drop in.
+Once a month, I give away a free school visit, thanks to the support of my Patrons on Patreon. If you'd like to enter into a drawing for that visit, fill out and submit [this form](https://docs.google.com/forms/d/e/1FAIpQLScpfQh0THoecU7Flsnu7uvE-07zKYYOJhtLBFViR4ZY3erFuQ/viewform) before the 10th of the month. 
 
-_Note: For spring 2017, my calendar for school visits in the Las Vegas area has just one opening left. Email me if you're interested. I'll open up my 2018/2019 school visit calendar in May._
+If you're in the Las Vegas area, chances are good I'll be able to get you on the calendar. If you're outside the Las Vegas area, the chances are smaller that I'll visit, but there's still a chance. I travel regularly into Utah and California and Arizona to visit friends and family, and once or twice a year I attend conferences in other parts of the country. 
+
 
 #### WHAT KIND OF PRESENTATIONS DO YOU DO?
 
-All kinds! I've presented to whole school assemblies and to individual classrooms, and I've done lessons as short as 10 minutes and as long as 3 hours. I've presented to ages from pre-K to college, but most of my visits are in elementary schools. Here's are seven of my favorite presentations:
+All kinds! I've done lessons as short as 10 minutes and as long as 3 hours. I've presented to ages from pre-K to college, but most of my visits are in elementary schools. Here's are seven of my favorite presentations:
 
 **1. Tower of Math Knowledge and Chemistry of Water**
 
@@ -64,7 +66,8 @@ You've probably seen that white light can be split into a rainbow of color, but 
 
 **3. Epic Electric**
 
-Electricity is something you use every day, but have you stopped to think about what things conduct current, and which things don't? With a plasma ball Science Mom demonstrates which things resist and conduct electricity and explains how this important phenomenon works. We also take a look at static electricity, moving balloons and cans without touching them, and making orbs of tinsel levitate in the air.
+Electricity is something we use every day, but how often do we stop to think about what things conduct current, and why? With a plasma ball, Science Mom demonstrates which materials conduct electricity and explains how this fascinating phenomenon works. During the workshop, we’ll also take a look at static electricity, moving balloons and cans without touching them, and making orbs of tinsel levitate into the air.
+
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/Class4.jpg" description="Sticking a balloon to the wall with static electricity." maxwidth="400px" %}
 
 
@@ -109,8 +112,6 @@ Folding these little books can be challenging, especially if you don't have a lo
 
 #### HOW DO YOU START A YOUTUBE CHANNEL?
 
-I've released a video each month where I talk specifically about YouTubing and how things are going with trying to get "Science Mom" to be something that generates income. Check out the "[Behind the Scenes](https://www.youtube.com/playlist?list=PLQhmXCBXSI0zwY8zdCi-Xp6MWlTaB37Aa)" playlist to see those. In 2018 I moved the Behind the Scenes videos to my [Patreon page](https://www.patreon.com/JennyBallif), so to continue seeing those and getting the "month by numbers" report, you'd need to sign up and become a patron on Patren.
-
 The short answer is that it's a LOT of work and a long road to earn a living as a YouTuber. I don't recommend it as a vocation unless it's something that you're passionate about. My total earnings from YouTube during my first six months of making videos was 1 dollar and 1 cent.
 
 During that six months, I put more than 360 hours of work into my channel. I pulled all nighters editing videos and drawing cartoons because there simply wasn't enough time to do things during the day. Our family ate Panda Express for Thanksgiving Dinner because my husband and I were too busy getting the website ready and filming SMG1 (Science Mom's Guide to Water, Part 1) to cook the traditional turkey dinner... you get the idea. So if I'd started the channel because I wanted to make money rather than because I wanted to share science with the world... I would have been very disappointed!
@@ -126,13 +127,13 @@ That all depends on the video. But it takes WAY longer than most people think. I
 
 #### WHAT DO YOU WRITE AND WHEN CAN I READ YOUR BOOKS?
 
-I write in a variety of genres, and my first published books can be seen [here](https://www.amazon.com/Jenny-Ballif/e/B078852KYR/ref=sr_ntt_srch_lnk_1?qid=1513284606&sr=8-1). I've also written several books which have not been published. I wrote a memoir about my experience with cancer and postpartum depression. I did a big reader survey back in 2013 where I printed 100 copies and gathered feedback from more than 100 readers, half of whom had not met me personally before reading the book.
+I write in a variety of genres, and my first published books can be seen [here](https://www.amazon.com/Jenny-Ballif/e/B078852KYR/ref=sr_ntt_srch_lnk_1?qid=1513284606&sr=8-1). I've also written several books which have not yet been published. In 2012 I wrote a memoir about my experience with cancer and postpartum depression. I did a big reader survey in 2013 where I printed 100 copies and gathered feedback from more than 100 readers, half of whom had not met me personally before reading the book.
 
 That survey was a great experience and I learned two things: First, the book needed a significant edit before I would send it out to literary agents again or consider self publishing it. And second... maybe I didn't want to have such a personal memoir published? I put it on the shelf and decided I would revisit it after finishing my novel.
 
-I started my first novel in late 2013. The first draft was junk, and I tossed it. The second draft was less junky, but what it really needed was a prequel to explain how two very different societies came into existence. I wrote the prequel, and then broke that prequel into two books. So the single novel has now grown into a trilogy, and I'm still working on a revision of what is now book 1 of 3...
+I started my first novel in late 2013. The first draft was junk, and I tossed it. The second draft was less junky, but what it really needed was a prequel to explain how two very different societies came into existence. I wrote the prequel, and then broke that prequel into two books. So the single novel grew into a trilogy, and is currently sitting on a shelf because I'm not in the mood to write about a post-apocalyptic setting when our current affairs are rather disheartening, to say the least.
 
-I have a few other novels and middle grade books in the rough draft phases.
+Currently, I'm working on a few middle grade novels.
 
 #### WAIT, DID YOU SAY YOU'VE HAD CANCER?
 
