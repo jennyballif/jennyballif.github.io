@@ -398,7 +398,7 @@ layout: landing-page
 
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
-					<form class="contact-form" method="POST">
+					<form class="contact-form" id="contactform" method="POST">
 						<input type="text" class="input" name="name" placeholder="Name">
 						<input type="email" class="input" name="_replyto" placeholder="Your email">
 						<input type="hidden" name="_subject" value="Website contact" />
@@ -408,7 +408,7 @@ layout: landing-page
 					</form>
 				</div>
 				<script>
-				    var contactform =  document.getElementById('contact-form');
+				    var contactform =  document.getElementById('contactform');
 				    contactform.setAttribute('action', '//formspree.io/' + 'jenballif' + '@' + 'gmail' + '.' + 'com');
 				</script>
 				<!-- /contact form -->
