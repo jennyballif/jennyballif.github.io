@@ -41,7 +41,7 @@ In 2014, I volunteered to do weekly science demonstrations in my son's second gr
 
 Maybe! I charge $200 to do a school visit. I bring my own supplies for some great science demonstrations and come for the entire day. I'll do as many presentations as the school would like me to do. A typical format is to present lessons to combined classes every 30 minutes, but I'm very flexible. I've done whole-school assemblies and conducted hands-on workshops with a half-dozen students, and everything in between. 
 
-Once a month, I give away a free school visit, thanks to the support of my Patrons on Patreon. If you'd like to enter into a drawing for that visit, fill out and submit [this form](https://docs.google.com/forms/d/e/1FAIpQLScpfQh0THoecU7Flsnu7uvE-07zKYYOJhtLBFViR4ZY3erFuQ/viewform) before the 10th of the month. 
+Once a month, I give away a free school visit, thanks to the support of my Patrons on Patreon. If you'd like to enter into a drawing for that visit, fill out and submit [this form](https://goo.gl/forms/WlWIAJTHrqdK4XOg1) before the 10th of the month. 
 
 If you're in the Las Vegas area, chances are good I'll be able to get you on the calendar. If you're outside the Las Vegas area, the chances are smaller that I'll visit, but there's still a chance. I travel regularly into Utah and California and Arizona to visit friends and family, and once or twice a year I attend conferences in other parts of the country. 
 
@@ -60,7 +60,7 @@ Water is one of the most incredible substances on the planet. Science Mom displa
 
 **2. Light is Amazing**
 
-You've probably seen that white light can be split into a rainbow of color, but did you know you can combined colored light to make white? Light is one of the most mysterious and interesting things we interact with every day. We still don't understand exactly what it is. But we do know that it travels in waves, and understanding a bit about those different wavelengths can enrich our understanding of this extraordinary phenomenon by a lot.
+You've probably seen that white light can be split into a rainbow of color, but did you know you can combine colored light to make white? Light is one of the most mysterious and interesting things we interact with every day. We still don't understand exactly what it is. But we do know that it travels in waves, and understanding a bit about those different wavelengths can enrich our understanding of this extraordinary phenomenon by a lot.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/FAQ/LIGHT.jpeg" description="Colored light combining to make white." maxwidth="400px" %}
 
