@@ -53,7 +53,7 @@ description: "An archive of posts with videos"
                 <a href="{{ video.teacher | cgi_encode }}" data-toggle="tooltip" title="Create it for students on Desmos" rel="tag" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Teacher Link</a>
               {% endif %}
               {% if video.posturl %}
-                <a href="{{ video.posturl | cgi_encode }}" data-toggle="tooltip" title="Create it for students on Desmos" rel="tag" target="_blank"><i class="far fa-newspaper"></i>Blog Post</a>
+                <a href="{{ video.posturl | cgi_encode }}" data-toggle="tooltip" title="See the blog post" rel="tag" target="_blank"><i class="far fa-newspaper"></i>Blog Post</a>
               {% endif %}
               {% if video.vidlinks %}
               {% for vid in video.vidlinks %}
@@ -62,6 +62,11 @@ description: "An archive of posts with videos"
               {% endif %}
               {% if video.patreon %}
                 <a href="{{ video.patreon | cgi_encode }}" data-toggle="tooltip" title="Content only available to patrons" rel="tag" target="_blank"><i class="fab fa-patreon"></i>Patron-only content</a>
+              {% endif %}
+              {% if video.bonus %}
+              {% for bonus in video.bonus %}
+                <a href="{{ bonus.bonusurl | cgi_encode }}" data-toggle="tooltip" title="Bonus Content" rel="tag" target="_blank"><i class="{{ bonus.bonusicon }}"></i>{{ bonus.bonustext }}</a>
+              {% endfor %}
               {% endif %}
             </div>
             <!-- /blog worksheets -->

@@ -89,6 +89,10 @@
       url: https://www.youtube.com/watch?v=03XCb99gl8s
     - name: DNA Extraction Explained
       url: https://www.youtube.com/watch?v=vdyNebSxX6I
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/19908770
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
 
 - title: Squishing Food for Science
   id: 03XCb99gl8s
