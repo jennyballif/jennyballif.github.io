@@ -1,4 +1,19 @@
 
+- title: Mendel and Heredity - Famous Science Experiments
+  id: TtQYc1jmEWA
+  category: curiosity
+  bonus:
+    - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+    - bonusurl: https://www.patreon.com/posts/22436306
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5bd68d7b709236479c3fcbbe
+
+- title: Why Mentos and Soda React
+  id: usDy8-xFYKk
+  category: experiment
 
 
 - title: Steamboat Geyser Eruption with Science Mom - 06/04/18

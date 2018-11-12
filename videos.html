@@ -5,12 +5,23 @@ description: "An archive of posts with videos"
 ---
 
 <div class="container">
+  <!-- Tags -->
+  <div class="widget">
+    <h3 class="title">Videos by category</h3>
+    <div class="widget-tags">
+      {% assign vids = site.data.videos | group_by: 'category' %}
+      {% for cat in vids %}
+        <a href="#{{ cat.name }}">{{ cat.name | capitalize }} <span>{{ cat.name.size }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- /Tags -->
 
   <!-- Row -->
   <div class="row">
     {% assign vids = site.data.videos | group_by: 'category' %}
     {% for cat in vids %}
-      <h2 style="padding: 1em;">{{ cat.name | capitalize }} Videos</h2>
+      <h2 id="{{ cat.name }}" style="padding: 1em;">{{ cat.name | capitalize }} Videos</h2>
     {% assign items = cat.items | sort: 'order' %}
     {% for video in items %}
     <div class="{% cycle 'bg-grey', 'bg-dark' %}">
