@@ -55,7 +55,7 @@ description: "An archive of posts with videos"
             <div class="blog-worksheets">
               <h5>Downloads:</h5>
               {% if print.url %}
-                <a href="{{ print.url | cgi_encode }}" data-toggle="tooltip" title="Get the printable file" rel="tag" target="_blank"><i class="far fa-newspaper"></i>Get the file</a>
+                <a href="{{ print.url | cgi_encode }}" data-toggle="tooltip" title="Get the printable file" rel="tag" target="_blank"><i class="{% if print.linkicon %}{{ print.linkicon }}{% else %} far fa-newspaper  {% endif %}"></i>Get the file</a>
               {% endif %}
             </div>
             <!-- /blog worksheets -->

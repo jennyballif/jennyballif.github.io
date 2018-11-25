@@ -47,6 +47,7 @@
   category: booklet
   url: https://www.patreon.com/posts/15780477
   image: images/printables/SLIMEcover.png
+  linkicon: fab fa-patreon
 
 - title: The Math Behind Spot It
   category: worksheet
@@ -56,14 +57,14 @@
 - title: Island Adaptations
   category: worksheet
   url: https://www.patreon.com/posts/island-16738014
-  image: images/printables/IslandAdaptations.jpg
+  image: images/printables/IslandAdaptations.JPG
 
 - title: Light is Amazing
   category: worksheet
   url: https://www.patreon.com/posts/best-kind-of-15424506
-  image: images/printables/light.jpg
+  image: images/printables/light.JPG
 
 - title: DNA Extraction
   category: worksheet
   url: https://www.patreon.com/posts/19908770
-  image: images/printables/DNA.jpg
+  image: images/printables/DNA.JPG
