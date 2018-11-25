@@ -12,7 +12,7 @@ description: "An archive of posts with videos"
     <div class="widget-tags">
       {% assign prints = site.data.printables | group_by: 'category' %}
       {% for cat in prints %}
-        <a href="#{{ cat.name }}">{{ cat.name | capitalize }} <span>{{ cat.name.size }}</span></a>
+        <a href="#{{ cat.name }}">{{ cat.name | capitalize }}</a>
       {% endfor %}
     </div>
   </div>
