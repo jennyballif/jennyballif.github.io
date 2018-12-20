@@ -1,0 +1,418 @@
+
+- title: Gravity Defying Lid
+  categories:
+    - physics
+    - chemistry
+  time: 10 - 30 min
+  supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.
+  concepts: Balanced forces(Physics); Pressure(Physics); Cohesion of water(Chemistry).
+  image: images/SMG1/Thumbnail1.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 1
+      url: https://www.youtube.com/watch?v=IsvHQon2IqQ
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-1
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG1/SMG1-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Magic Screen
+  categories:
+    - physics
+    - chemistry
+  time: 10 - 30 min
+  supplies: Water; Jar with metal ring or cup and rubberband; Screen or mesh cloth; Lid or cardboard.
+  concepts:  Balanced forces(Physics); Pressure(Physics); Cohesion and surface tension of water(Chemistry).
+  image: images/SMG1/Thumbnail2.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 1
+      url: https://www.youtube.com/watch?v=IsvHQon2IqQ
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-1
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG1/SMG1-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Hot and Cold Water Cups
+  categories:
+  - physics
+  - ecology
+  time: 10 min to 6 hours
+  supplies: Water of different temperatures; Identical-sized clear cups; Food coloring;  Flat lid or cardstock.
+  concepts:  Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
+  image: images/SMG1/Thumbnail3.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 1
+      url: https://www.youtube.com/watch?v=IsvHQon2IqQ
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-1
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG1/SMG1-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Water Drops on Waxed Paper
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Waxed Paper; Dropper; Food Coloring; Toothpick; Soap;
+  concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+  image: images/SMG2/SMG2a.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Water on a Coin
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Coin; Dropper;
+  concepts: Surface Tension of Water (Chemistry)
+  image: images/SMG2/SMG2b.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Pepper Scatter
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
+  concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+  image: images/SMG2/SMG2c.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Soap Boat
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Paper; Scissors; Concentrated Dish Soap;
+  concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
+  image: images/SMG2/SMG2d.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Floating Pin
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Bowl or cup; Pin
+  concepts: Surface Tension of Water (Chemistry);
+  image: images/SMG2/SMG2e.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: jennyballif.com/science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Floating Paperclip
+  categories:
+  - chemistry
+  time: 10 - 30 min
+  supplies: Water; Bowl or cup; Paperclip
+  concepts: Surface Tension of Water (Chemistry);
+  image: images/SMG2/SMG2f.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 2
+      url: https://www.youtube.com/watch?v=OeYYiSsPf4I
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-2
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG2/SMG2-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+
+
+
+- title: Ink Chromatography
+  categories:
+  - chemistry
+  time: 30 - 90 min
+  supplies: 'Markers, Paper towels, Water'
+  concepts: >-
+    Separation of compounds based on rate of movement (Chromatography), Solubility  (Chemistry), Capillary Action (Chemistry)
+  image: images/SMG3/chromatography.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 3
+      url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-3
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG3/SMG3-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Walking Water
+  categories:
+  - physics
+  - chemistry
+  time: 1 - 4 hrs
+  supplies: '5 cups, 4 paper towels, Water, Food Coloring'
+  concepts: 'Capillary Action (Chemistry), Siphons (Physics), Gravity'
+  image: images/SMG3/walkingwater.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 3
+      url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-3
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG3/SMG3-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Straw Siphon
+  categories:
+  - physics
+  time: 10 - 20 min
+  supplies: 'Bendable drinking straws, Cups, Water'
+  concepts: 'Siphons (Physics), Momentum (Physics), Gravity'
+  image: images/SMG3/strawsiphon.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 3
+      url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-3
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG3/SMG3-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Fountain in a Bottle
+  categories:
+  - physics
+  time: 30 - 90 min
+  supplies: 'Plastic Bottle, Plastic Tubing, Drill or knife, Glue and Tape'
+  concepts: 'Siphons (Physics), Momentum (Physics), Air Pressure (Physcis), Gravity'
+  image: images/SMG3/bottlefountain.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 3
+      url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-3
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG3/SMG3-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+
+
+- title: Oil Cube vs. Ice Cube
+  categories:
+  - physics
+  - chemistry
+  time: 30 - 60 min
+  supplies: 'Water, Oil, Ice cube tray, Freezer'
+  concepts: Density (Physics); Changes of state (Chemistry)
+  image: images/SMG4/Thumbnail1.PNG
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 4
+      url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-4
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG4/SMG4-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Frost Wedging
+  categories:
+  - physics
+  - chemistry
+  time: 2 - 4 days
+  supplies: 'Containers, balloons, Plaster of Paris, Water, Freezer'
+  concepts: 'Changes of state (Chemistry), Force (Physics)'
+  image: images/SMG4/Thumbnail2.PNG
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 4
+      url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-4
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG4/SMG4-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Instant Slushy
+  categories:
+  - physics
+  - chemistry
+  time: 2 - 3 hours
+  supplies: 'Bottled soda, Freezer, Ice'
+  concepts: 'Supercooling of liquids (Physics and Chemistry), Changes of state (Chemistry)'
+  image: images/SMG4/Thumbnail3.PNG
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 4
+      url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-4
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG4/SMG4-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+
+- title: Ocean in a Bottle
+  categories:
+  - physics
+  - chemistry
+  time: 10-30 min
+  supplies: >-
+    Water, Oil, Bottle with lid, Plastic beads, Toothpicks, Hot glue, Thin plastic
+    or tinfoil
+  concepts: 'Density (Physics), Hydrophobic vs. Hydrophilic (Chemistry)'
+  image: images/SMG5/Ocean.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 5
+      url: https://www.youtube.com/watch?v=KPjp2qg8SA4
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-5
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG5/SMG5-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Lava Lamp
+  categories:
+  - physics
+  - chemistry
+  time: 10-30 min
+  supplies: 'Water, Oil, Bottle, Effervescent antacid tablets, Food coloring'
+  concepts: >-
+    Density (Physics), Chemical Reactions (Chemistry), Hydrophobic vs. Hydrophilic (Chemistry)
+  image: images/SMG5/Lavalamp.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 5
+      url: https://www.youtube.com/watch?v=KPjp2qg8SA4
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-5
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG5/SMG5-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Oil Lamp
+  categories:
+  - chemistry
+  time: 10-30 min
+  supplies: >-
+    Oil, Water (optional), Food coloring (optional), Cardboard, Toilet Paper or
+    Paper Towel
+  concepts:  'Combustion (Chemistry), Density (Chemistry)'
+  image: images/SMG5/OilLamp.png
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 5
+      url: https://www.youtube.com/watch?v=KPjp2qg8SA4
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-5
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG5/SMG5-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+
+- title: Salt Crystals
+  categories:
+  - chemistry
+  time: 1 week
+  supplies: 'salt, water, jar'
+  concepts:  'evaporation, changes of state, crystals'
+  image: images/SMG6/smg6salt.jpeg
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 6
+      url: https://www.youtube.com/watch?v=5pAuxot2sEY
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-6
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG6/SMG6-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Halocline Eggs
+  categories:
+  - physics
+  time: 10 min
+  supplies: 'salt, water, eggs, jars'
+  concepts:  'density'
+  image: images/SMG6/smg6egg.jpeg
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 6
+      url: https://www.youtube.com/watch?v=5pAuxot2sEY
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-6
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG6/SMG6-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
+
+- title: Eggshell Geodes
+  categories:
+  - chemistry
+  time: 1 day
+  supplies: 'alum, water, eggshells, jars'
+  concepts:  'crystal formation, solutions'
+  image: images/SMG6/smg6alum.jpeg
+  vidlinks:
+    - name: Science Mom's Guide to Water Part 6
+      url: https://www.youtube.com/watch?v=5pAuxot2sEY
+  bonus:
+    - bonusurl: science-mom-s-guide-to-water-part-6
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+    - bonusurl: images/SMG6/SMG6-8.5x11.pdf
+      bonusicon: fas fa-file-alt
+      bonustext: Foldable Book
