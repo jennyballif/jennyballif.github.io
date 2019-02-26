@@ -27,7 +27,7 @@ description: "An archive of posts with videos"
     <div class="{% cycle 'bg-grey', 'bg-dark' %}">
       <header class="major text-center">
         {% if video.posturl %}
-          <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ video.posturl }}">{{ video.title }}</a></h3>
+          <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ video.posturl }}?rel=0">{{ video.title }}</a></h3>
         {% else %}
           <h3 style="padding: 1em;">{{ video.title }}</h3>
         {% endif %}
