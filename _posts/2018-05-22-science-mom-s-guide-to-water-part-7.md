@@ -12,7 +12,13 @@ categories:
   - science
   - foldable
   - experiments
+  - video
 folder: SMG7
+worksheets:
+ - SMG7-8.5x11.pdf
+ - SMG7-11x17.pdf
+ - SMG7-A4.pdf
+ - SMG7-A3.pdf
 videofeature: 'https://www.youtube.com/embed/0gqXZJtXgmg'
 tags: water heat science experiment
 guide0: SMG7wide.png
