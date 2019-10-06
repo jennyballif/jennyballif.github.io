@@ -2925,7 +2925,7 @@
 		background-color: #666666;
 		background-image: url("../../images/Banner.png");
 		background-position: center bottom;
-		background-size: contain;
+		background-size: cover; /*contain*/
 		background-repeat: repeat-x;
 		color: #d8d8d8;
 		padding: 0em 0;
