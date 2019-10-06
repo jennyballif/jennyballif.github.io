@@ -20,10 +20,6 @@
   category: experiment
 
 
-- title: Steamboat Geyser Eruption with Science Mom - 06/04/18
-  id: PeUTgwMg3HM
-  category: curiosity
-
 
 - title: Hammer vs. Sanding - which makes the best aluminum foil ball?
   id: sqdw_uDsssg
@@ -193,6 +189,81 @@
 
 
 
+- title: Math Dad vs Science Mom 30
+  id: IksZ1p1BlXI
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge30.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5af1e6cf18bf685136135914
+
+- title: Math Dad vs Science Mom 29 White Diagonal
+  id: WxLMiyeysT0
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge29.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5aec90b87996820a458a6d36
+
+- title: Math Dad vs Science Mom 28 4 Authors and 4 Agents
+  id: h6Ja7GyLJgs
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge28.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5aec942e996c530b470175c1
+
+- title: Math Dad vs Science Mom 27 3 Authors and 3 Agents
+  id: CfKG8SYimT8
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge27.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5aeb3d3b708fb94cd313ce08
+
+- title: Math Dad vs Science Mom 26 Domino Tiling
+  id: 5fhoKV-06ws
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge26.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5ad2e4c56ca9525ebdd881a4
+
+- title: Math Dad vs Science Mom 25 Hungry Fish
+  id: 4tBYT8gRYZY
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge25.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a9f648159ca5a0a900d8642
+
+- title: Math Dad vs Science Mom 24 How Many Triangles?
+  id: I6ue5IeuIPk
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge24.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5acfd339605c0556d26d13c4
+
+- title: Math Dad vs Science Mom 23 Sum to 100
+  id: 0DpSkTTLaPQ
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge23.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5acbe5792734a253294ba378
+
+- title: Math Dad vs Science Mom 22 How Much is Shaded?
+  id: 0J_z4ek403I
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge22.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a9dcf1b89687c0a243e6ce4
+
+- title: Steamboat Geyser Eruption with Science Mom - 06/04/18
+  id: PeUTgwMg3HM
+  category: nature
 
 - title: Math Dad vs Science Mom 21 Self Counting Sequence
   id: nCRT5GPr53g
