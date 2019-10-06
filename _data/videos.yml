@@ -185,10 +185,6 @@
    - SMG7-A4.pdf
    - SMG7-A3.pdf
 
-- title: What Color Is Blood Really?
-  id: jPvo7DkrFjo
-  posturl: what-color-is-blood-really
-  category: curiosity
 
 
 
@@ -196,6 +192,145 @@
 
 
 
+
+
+- title: Math Dad vs Science Mom 21 Self Counting Sequence
+  id: nCRT5GPr53g
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge21.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5abc26791e07df5112f872b4
+
+- title: Math Dad vs Science Mom 20 Timing 9 Minutes
+  id: aruKXmjk9Rw
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge20.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5abc064a6f0a1f7ecd21fa3a
+
+- title: Math Dad vs Science Mom 19 A Chicken and a Half
+  id: uH8d17zXJvI
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge19.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5ab6b38be48cef026dfa8537
+
+- title: Math Dad vs Science Mom 18 Tic Tac Fractal
+  id: SWqIrCgT91I
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge18.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a95a67dcbfb9209e8acb6c6
+
+- title: Math Dad vs Science Mom 17 Untraceable
+  id: SjkvKSdMGR0
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge17.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a8df6ac7e91a208c59c9517
+
+- title: Math Dad vs Science Mom 16 Magic Triangle
+  id: 9-qV_IHVgL8
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge16.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a8ccd06f40fe70a2aa9ba44
+
+
+- title: Math Dad vs Science Mom 15 How Many Triangles?
+  id: 471M65_z6uo
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge15.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a861afbd02c8b55796250f5
+
+- title: Math Dad vs Science Mom 14 Olympic Dot Challenge
+  id: YrTA5xf3dIs
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge14.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a836935be90404ad7c57443
+
+- title: Hammer vs Sanding
+  id: sqdw_uDsssg
+  category: archive
+
+- title: Math Dad vs Science Mom 13 5 Rows of 4
+  id: qPEVqel6otE
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge13.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a792503de4d0c36308e9f92
+
+- title: March for Science, Las Vegas
+  id: 8QJIfhR0NQI
+  category: archive
+
+- title: Math Dad vs Science Mom 12 The Four 4s
+  id: sSUV4gJ4LeE
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge12.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a7530249c4696417a69b288
+
+- title: 5 Inertia Activities
+  id: hwmf73Bwky8
+  category: projects
+
+- title: Math Dad vs Science Mom 11 A Shaded Triangle
+  id: PNjkBq3FEXs
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge11.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a74920c58f7f80a259a60c1
+
+- title: Math Dad vs Science Mom 10 Find the Heavy Ball
+  id: Em8keJ5MgI
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge10.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a6fd79b0b167c2032e07f84
+
+- title: Favorite Sand Dune Activities
+  id: 5Oiqx7JLFU4
+  category: archive
+
+- title: Math Dad vs Science Mom 9 A Bee Collision
+  id: dQUitTEcxu0
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge9.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a649be58be9c73f970c12da
+
+- title: Math Dad vs Science Mom 8
+  id: ewdpgQbjSgw
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge8.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a63a5127cbbc53940a3a7f4
+
+
+- title: Math Dad vs Science Mom 7 What Portion is Shaded?
+  id: hiURpheNyKc
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge7.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5a5f59b9ffb7b611d90fa451
 
 - title: Math Dad vs Science Mom 6 Geometric Vanishing Puzzle
   id: Vztlsj9he-g
@@ -314,8 +449,9 @@
   id: zr0fejFPK5A
   category: curiosity
 
-- title: What color is blood REALLY?
+- title: What Color Is Blood Really?
   id: jPvo7DkrFjo
+  posturl: what-color-is-blood-really
   category: curiosity
 
 - title: Teach Electricity with a Plasma Ball
