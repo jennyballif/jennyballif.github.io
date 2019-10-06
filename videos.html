@@ -21,7 +21,7 @@ description: "An archive of posts with videos"
   <div class="row">
     {% assign vids = site.data.videos | group_by: 'category' %}
     {% for cat in vids %}
-      <h2 id="{{ cat.name }}" style="padding: 1em;">{{ cat.name | capitalize }} Videos</h2>
+      <h2 id="{{ cat.name }}" style="padding: 1em;">{{ cat.name | capitalize }}</h2>
     {% assign items = cat.items | sort: 'order' %}
     {% for video in items %}
     <div class="{% cycle 'bg-grey', 'bg-dark' %}">
