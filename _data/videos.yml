@@ -3,39 +3,14 @@
   category: curiosity
 
 
-- title: Mendel and Heredity - Famous Science Experiments
-  id: TtQYc1jmEWA
-  category: curiosity
-  bonus:
-    - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
-      bonusicon: fas fa-file-alt
-      bonustext: Worksheets
-    - bonusurl: https://www.patreon.com/posts/22436306
-      bonusicon: far fa-newspaper
-      bonustext: Blog Post
-  teacher: https://teacher.desmos.com/activitybuilder/custom/5bd68d7b709236479c3fcbbe
-
-- title: Why Mentos and Soda React
-  id: usDy8-xFYKk
-  category: experiment
 
 
 
-- title: Hammer vs. Sanding - which makes the best aluminum foil ball?
-  id: sqdw_uDsssg
-  category: curiosity
-
-
-- title: Five Inertia Activities
-  id: hwmf73Bwky8
-  category: experiment
 
 
 
-- title: Favorite Sand Dune Activities - a 50 patrons celebration video
-  id: 5Oiqx7JLFU4
-  category: curiosity
-  patreon: https://www.patreon.com/posts/how-to-draw-sand-17539799
+
+
 
 
 
@@ -189,7 +164,49 @@
 
 
 
-- title: Math Dad vs Science Mom 30
+
+
+- title: Mendel and Heredity - Famous Science Experiments
+  id: TtQYc1jmEWA
+  category: curiosity
+  bonus:
+    - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+    - bonusurl: https://www.patreon.com/posts/22436306
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5bd68d7b709236479c3fcbbe
+
+- title: Why Mentos and Soda React
+  id: usDy8-xFYKk
+  category: projects
+
+- title: Math Dad vs Science Mom 33 Handshaking Couples
+  id: WuXhxms3Z3E
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge33.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b01d3f9479dde0ac6b092b0
+
+- title: Math Dad vs Science Mom 32 Dots and Boxes
+  id: krfrhElxid4
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge32.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b00e635a202fd5f6dc8fb4c
+
+- title: Math Dad vs Science Mom 31 Strimko
+  id: mn1GOYpwlQs
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge31.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5af4db26b7ead649fe2d76b4
+
+- title: Math Dad vs Science Mom 30 How Many Rectangles?
   id: IksZ1p1BlXI
   category: math
   folder: images/Worksheets/MathDadChallenges
@@ -377,6 +394,7 @@
 - title: Favorite Sand Dune Activities
   id: 5Oiqx7JLFU4
   category: archive
+  patreon: https://www.patreon.com/posts/how-to-draw-sand-17539799
 
 - title: Math Dad vs Science Mom 9 A Bee Collision
   id: dQUitTEcxu0
