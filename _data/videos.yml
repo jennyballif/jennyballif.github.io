@@ -35,6 +35,34 @@
   worksheets:
     - SpotIt.pdf
 
+- title: How to win tic-tac-toe
+  id: 38cInzM--uw
+  category: math
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/23013747
+    bonusicon: far fa-map
+    bonustext: Foldable
+
+- title: Reverse tic-tac-toe
+  id: vEBww_TSCAs
+  category: math
+
+- title: Count to 18 Game
+  id: IwnV0Q6eCwY
+  category: math
+
+- title: How to Count in Binary
+  id: HF2OeNpvakw
+  category: math
+
+- title: How to win The Game of 15
+  id: 828lhDnjUjY
+  category: math
+
+- title: How to Build a Magic Square
+  id: Yks7q1PEd-U
+  category: math
+
 - title: Magic Bacteria&#58; A Cautionary Tale
   id: LZTeYrdq3aA
   category: math
@@ -165,6 +193,72 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+- title: End of School Recap
+  id: XhHx1ZRSAT8
+  category: archive
+
+- title: Math Dad vs Science Mom 34 Checker Switcheroo
+  id: yJquQ6yBOV0
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge34.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b06e6af321f5b08c2dcb30a
+
+- title: What it's REALLY like to be a YouTuber
+  id: 074uESdi8q8
+  category: curiosity
+
+- title: Science Saturday 7 - Germs
+  id: 3rq2-bIozU4
+  category: archive
+
+- title: Science Saturday 6 - Desert Wildflowers
+  id: BRkviBwl-vY
+  category: archive
+
+- title: Science Saturday 5 - Magnets
+  id: 3-GquCtD7JU
+  category: archive
+
+- title: Science Saturday 4 - Elephant Toothpaste
+  id: R9KHDk3TC1M
+  category: archive
+
+- title: Science Saturday 3 -Electricity
+  id: srtxY4Bt-gE
+  category: archive
+
+- title: More Dry Ice
+  id: faob4lUIswk
+  category: archive
+
+- title: Science Saturday 2 - When Ice is Dry
+  id: Oluoc_AqpPA
+  category: archive
+
+- title: Science Saturday 1 - Incredible Water
+  id: FxGDm1kvRD0
+  category: archive
+
+- title: 6 Activities with Static Electricity
+  id: pIMG_R6mKQ0
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/24193101
+    bonusicon: far fa-map
+    bonustext: Foldable
 
 - title: Mendel and Heredity - Famous Science Experiments
   id: TtQYc1jmEWA
