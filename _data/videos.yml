@@ -1,57 +1,4 @@
-
-
-
-
-
-
-# -----------Math Videos------------
-- title: The Math Behind Spot it!
-  id: lhTMr8RzUr8
-  category: math
-  folder: images/Worksheets/ScienceWorksheets
-  worksheets:
-    - SpotIt.pdf
-
-- title: How to win tic-tac-toe
-  id: 38cInzM--uw
-  category: math
-  bonus:
-  - bonusurl: https://www.patreon.com/posts/23013747
-    bonusicon: far fa-map
-    bonustext: Foldable
-
-- title: Reverse tic-tac-toe
-  id: vEBww_TSCAs
-  category: math
-
-- title: Count to 18 Game
-  id: IwnV0Q6eCwY
-  category: math
-
-- title: How to Count in Binary
-  id: HF2OeNpvakw
-  category: math
-
-- title: How to win The Game of 15
-  id: 828lhDnjUjY
-  category: math
-
-- title: How to Build a Magic Square
-  id: Yks7q1PEd-U
-  category: math
-
-- title: Magic Bacteria&#58; A Cautionary Tale
-  id: LZTeYrdq3aA
-  category: math
-  folder: images/Worksheets/ScienceWorksheets
-  worksheets:
-    - MagicBacteria.pdf
-  tryit: https://student.desmos.com/?prepopulateCode=4jwa84
-  teacher: https://teacher.desmos.com/activitybuilder/custom/5b48d1e390a8aa0ff19551dc
-
-
-
-
+# -----------Projects------------
 
 - title: Science Mom Extracts DNA from a Strawberry
   id: d2IBcOI22uI
@@ -83,6 +30,32 @@
       url: https://www.youtube.com/watch?v=d2IBcOI22uI
     - name: Squishing Food for Science
       url: https://www.youtube.com/watch?v=03XCb99gl8s
+
+- title: 6 Activities with Static Electricity
+  id: pIMG_R6mKQ0
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/24193101
+    bonusicon: far fa-map
+    bonustext: Foldable
+
+- title: Why Mentos and Soda React
+  id: usDy8-xFYKk
+  category: projects
+
+- title: 5 Inertia Activities
+  id: hwmf73Bwky8
+  category: projects
+
+- title: The Science Behind Slime
+  id: 4F9ukCQvP20
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/15780477
+    bonusicon: fas fa-file-alt 
+    bonustext: Get the worksheets
+
+# -----------Courses------------
 
 - title: Science Mom's Guide to Water Part 1
   id: 5pAuxot2sEY
@@ -163,6 +136,118 @@
 
 
 
+
+
+
+# -----------Nature------------
+
+- title: Steamboat Geyser Eruption with Science Mom - 06/04/18
+  id: PeUTgwMg3HM
+  category: nature
+
+- title: Eclipse Report and Crescent Shadows
+  id: G1OO41wGd6k
+  category: nature
+
+
+# -----------Curiosity------------
+
+- title: What it's REALLY like to be a YouTuber
+  id: 074uESdi8q8
+  category: curiosity
+
+- title: Mendel and Heredity - Famous Science Experiments
+  id: TtQYc1jmEWA
+  category: curiosity
+  bonus:
+    - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+    - bonusurl: https://www.patreon.com/posts/22436306
+      bonusicon: far fa-newspaper
+      bonustext: Blog Post
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5bd68d7b709236479c3fcbbe
+
+- title: Resound of Science (Parody)
+  id: fJIxzQ5NvBM
+  category: curiosity
+
+- title: Island Adaptations
+  id: 21OfJCy_jd0
+  category: curiosity
+  folder: images/Worksheets/ScienceWorksheets
+  worksheets:
+    - IslandAdaptations.pdf
+
+
+- title: What color is blood REALLY? (6 min version)
+  id: zr0fejFPK5A
+  category: curiosity
+
+- title: What Color Is Blood Really?
+  id: jPvo7DkrFjo
+  posturl: what-color-is-blood-really
+  category: curiosity
+  
+- title: Science Mom Fold a Book from One Piece of Paper
+  id: E0sS59oMBe0
+  category: curiosity
+  
+  - title: Elk + Car = Fire
+  id: PsBgxeqTuGo
+  category: curiosity
+
+
+  
+  
+  
+
+# -----------Math Videos------------
+- title: The Math Behind Spot it!
+  id: lhTMr8RzUr8
+  category: math
+  folder: images/Worksheets/ScienceWorksheets
+  worksheets:
+    - SpotIt.pdf
+
+- title: How to win tic-tac-toe
+  id: 38cInzM--uw
+  category: math
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/23013747
+    bonusicon: far fa-map
+    bonustext: Foldable
+
+- title: Reverse tic-tac-toe
+  id: vEBww_TSCAs
+  category: math
+
+- title: Count to 18 Game
+  id: IwnV0Q6eCwY
+  category: math
+
+- title: How to Count in Binary
+  id: HF2OeNpvakw
+  category: math
+
+- title: How to win The Game of 15
+  id: 828lhDnjUjY
+  category: math
+
+- title: How to Build a Magic Square
+  id: Yks7q1PEd-U
+  category: math
+
+- title: Magic Bacteria&#58; A Cautionary Tale
+  id: LZTeYrdq3aA
+  category: math
+  folder: images/Worksheets/ScienceWorksheets
+  worksheets:
+    - MagicBacteria.pdf
+  tryit: https://student.desmos.com/?prepopulateCode=4jwa84
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b48d1e390a8aa0ff19551dc
+
+
 - title: Math Dad vs Science Mom 42
   id: RyOMLZfJqtI
   category: math
@@ -186,7 +271,6 @@
   worksheets:
     - MDvsSMChallenge40.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5b35395a87391d554b1cd3e0
-
 
 - title: Math Dad vs Science Mom 39 6 Rows of 3
   id: N7oDyZaMY2w
@@ -228,46 +312,6 @@
     - MDvsSMChallenge35.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5b1021f34d5e6a0a5e603867
 
-- title: Orchids
-  id: 9sBiUue7Z6E
-  category: archive
-
-- title: THe Cannonball Tree
-  id: UEATvqtUaT0
-  category: archive
-
-- title: Little Fire Ants
-  id: ABC1X6cxdbk
-  category: archive
-  
-- title: How to Avoid Altitude Sickness
-  id: mwk1z227ZpU
-  category: archive
-  
-- title: A Volcanic Gas Mystery
-  id: bAGDTHy4Ick
-  category: archive
-
-- title: Mimosa Pudica
-  id: -yG0l1XlH5w
-  category: archive
-  
-- title: Kipukas
-  id: N45Jufo6qjo
-  category: archive
-  
-- title: A Forest of Ferns
-  id: A6ZNZYTezno
-  category: archive
-
-- title: Resound of Science (Parody)
-  id: fJIxzQ5NvBM
-  category: curiosity
-
-- title: End of School Recap
-  id: XhHx1ZRSAT8
-  category: archive
-
 - title: Math Dad vs Science Mom 34 Checker Switcheroo
   id: yJquQ6yBOV0
   category: math
@@ -275,66 +319,6 @@
   worksheets:
     - MDvsSMChallenge34.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5b06e6af321f5b08c2dcb30a
-
-- title: What it's REALLY like to be a YouTuber
-  id: 074uESdi8q8
-  category: curiosity
-
-- title: Science Saturday 7 - Germs
-  id: 3rq2-bIozU4
-  category: archive
-
-- title: Science Saturday 6 - Desert Wildflowers
-  id: BRkviBwl-vY
-  category: archive
-
-- title: Science Saturday 5 - Magnets
-  id: 3-GquCtD7JU
-  category: archive
-
-- title: Science Saturday 4 - Elephant Toothpaste
-  id: R9KHDk3TC1M
-  category: archive
-
-- title: Science Saturday 3 -Electricity
-  id: srtxY4Bt-gE
-  category: archive
-
-- title: More Dry Ice
-  id: faob4lUIswk
-  category: archive
-
-- title: Science Saturday 2 - When Ice is Dry
-  id: Oluoc_AqpPA
-  category: archive
-
-- title: Science Saturday 1 - Incredible Water
-  id: FxGDm1kvRD0
-  category: archive
-
-- title: 6 Activities with Static Electricity
-  id: pIMG_R6mKQ0
-  category: projects
-  bonus:
-  - bonusurl: https://www.patreon.com/posts/24193101
-    bonusicon: far fa-map
-    bonustext: Foldable
-
-- title: Mendel and Heredity - Famous Science Experiments
-  id: TtQYc1jmEWA
-  category: curiosity
-  bonus:
-    - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
-      bonusicon: fas fa-file-alt
-      bonustext: Worksheets
-    - bonusurl: https://www.patreon.com/posts/22436306
-      bonusicon: far fa-newspaper
-      bonustext: Blog Post
-  teacher: https://teacher.desmos.com/activitybuilder/custom/5bd68d7b709236479c3fcbbe
-
-- title: Why Mentos and Soda React
-  id: usDy8-xFYKk
-  category: projects
 
 - title: Math Dad vs Science Mom 33 Handshaking Couples
   id: WuXhxms3Z3E
@@ -432,10 +416,6 @@
     - MDvsSMChallenge22.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a9dcf1b89687c0a243e6ce4
 
-- title: Steamboat Geyser Eruption with Science Mom - 06/04/18
-  id: PeUTgwMg3HM
-  category: nature
-
 - title: Math Dad vs Science Mom 21 Self Counting Sequence
   id: nCRT5GPr53g
   category: math
@@ -501,10 +481,6 @@
     - MDvsSMChallenge14.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a836935be90404ad7c57443
 
-- title: Hammer vs Sanding
-  id: sqdw_uDsssg
-  category: archive
-
 - title: Math Dad vs Science Mom 13 5 Rows of 4
   id: qPEVqel6otE
   category: math
@@ -513,10 +489,6 @@
     - MDvsSMChallenge13.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a792503de4d0c36308e9f92
 
-- title: March for Science, Las Vegas
-  id: 8QJIfhR0NQI
-  category: archive
-
 - title: Math Dad vs Science Mom 12 The Four 4s
   id: sSUV4gJ4LeE
   category: math
@@ -524,10 +496,6 @@
   worksheets:
     - MDvsSMChallenge12.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a7530249c4696417a69b288
-
-- title: 5 Inertia Activities
-  id: hwmf73Bwky8
-  category: projects
 
 - title: Math Dad vs Science Mom 11 A Shaded Triangle
   id: PNjkBq3FEXs
@@ -544,11 +512,6 @@
   worksheets:
     - MDvsSMChallenge10.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a6fd79b0b167c2032e07f84
-
-- title: Favorite Sand Dune Activities
-  id: 5Oiqx7JLFU4
-  category: archive
-  patreon: https://www.patreon.com/posts/how-to-draw-sand-17539799
 
 - title: Math Dad vs Science Mom 9 A Bee Collision
   id: dQUitTEcxu0
@@ -592,10 +555,6 @@
     - MDvsSMChallenge5.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a39887bbb943d05ad6e21ee
 
-- title: You can CHANGE my life
-  id: XXj87uBnX00
-  category: archive
-
 - title: Math Dad vs Science Mom 4
   id: 76UGji-hrsc
   category: math
@@ -604,11 +563,6 @@
     - MDvsSMChallenge4.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a397e0944475f0612e6714f
 
-
-- title: A Tour of my first Book
-  id: oq0YBAcXXf4
-  category: archive
-
 - title: Math Dad vs Science Mom 3
   id: _CjNPxsxkLg
   category: math
@@ -616,14 +570,6 @@
   worksheets:
     - MDvsSMChallenge3.pdf
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a1e4ef21b71d906113dea34
-
-
-- title: Island Adaptations
-  id: 21OfJCy_jd0
-  category: curiosity
-  folder: images/Worksheets/ScienceWorksheets
-  worksheets:
-    - IslandAdaptations.pdf
 
 - title: Math Dad vs Science Mom 2
   id: KFvbv6C8P9U
@@ -642,22 +588,112 @@
   teacher: https://teacher.desmos.com/activitybuilder/custom/59f65fe54e4d23787e84425e
 
 
+
+
+
+
+
+
+
+
+# -----------Archive------------
+
+- title: Orchids
+  id: 9sBiUue7Z6E
+  category: archive
+
+- title: THe Cannonball Tree
+  id: UEATvqtUaT0
+  category: archive
+
+- title: Little Fire Ants
+  id: ABC1X6cxdbk
+  category: archive
+  
+- title: How to Avoid Altitude Sickness
+  id: mwk1z227ZpU
+  category: archive
+  
+- title: A Volcanic Gas Mystery
+  id: bAGDTHy4Ick
+  category: archive
+
+- title: Mimosa Pudica
+  id: -yG0l1XlH5w
+  category: archive
+  
+- title: Kipukas
+  id: N45Jufo6qjo
+  category: archive
+  
+- title: A Forest of Ferns
+  id: A6ZNZYTezno
+  category: archive
+
+- title: End of School Recap
+  id: XhHx1ZRSAT8
+  category: archive
+
+- title: Science Saturday 7 - Germs
+  id: 3rq2-bIozU4
+  category: archive
+
+- title: Science Saturday 6 - Desert Wildflowers
+  id: BRkviBwl-vY
+  category: archive
+
+- title: Science Saturday 5 - Magnets
+  id: 3-GquCtD7JU
+  category: archive
+
+- title: Science Saturday 4 - Elephant Toothpaste
+  id: R9KHDk3TC1M
+  category: archive
+
+- title: Science Saturday 3 -Electricity
+  id: srtxY4Bt-gE
+  category: archive
+
+- title: More Dry Ice
+  id: faob4lUIswk
+  category: archive
+
+- title: Science Saturday 2 - When Ice is Dry
+  id: Oluoc_AqpPA
+  category: archive
+
+- title: Science Saturday 1 - Incredible Water
+  id: FxGDm1kvRD0
+  category: archive
+
+- title: Hammer vs Sanding
+  id: sqdw_uDsssg
+  category: archive
+
+- title: March for Science, Las Vegas
+  id: 8QJIfhR0NQI
+  category: archive
+
+- title: Favorite Sand Dune Activities
+  id: 5Oiqx7JLFU4
+  category: archive
+  patreon: https://www.patreon.com/posts/how-to-draw-sand-17539799
+
+- title: You can CHANGE my life
+  id: XXj87uBnX00
+  category: archive
+
+- title: A Tour of my first Book
+  id: oq0YBAcXXf4
+  category: archive
+
 - title: A summary of my 1st YEAR on YouTube
   id: k-bUOuDiFcM
   category: archive
 
-- title: The Science Behind Slime
-  id: 4F9ukCQvP20
-  category: projects
-  bonus:
-  - bonusurl: https://www.patreon.com/posts/15780477
-    bonusicon: fas fa-file-alt 
-    bonustext: Get the worksheets
-
 - title: Light is Amazing
   id: pRZBFX5RmBM
   category: archive
-
 
 - title: Candy-Free Halloween Treats
   id: e5d-aVCSlEc
@@ -676,26 +712,9 @@
   id: oBJFuDobcWY
   category: archive
 
-- title: Elk + Car = Fire
-  id: PsBgxeqTuGo
-  category: curiosity
-
-- title: Eclipse Report and Crescent Shadows
-  id: G1OO41wGd6k
-  category: nature
-
 - title: About Island and Pests
   id: id9E0dOHhWE
   category: archive
-
-- title: What color is blood REALLY? (6 min version)
-  id: zr0fejFPK5A
-  category: curiosity
-
-- title: What Color Is Blood Really?
-  id: jPvo7DkrFjo
-  posturl: what-color-is-blood-really
-  category: curiosity
 
 - title: Teach Electricity with a Plasma Ball
   id: PcgzbUNCD0M
@@ -720,10 +739,6 @@
   id: PIqRl-qrgU4
   category: archive
 
-- title: Science Mom Fold a Book from One Piece of Paper
-  id: E0sS59oMBe0
-  category: curiosity
-  
 - title: Levitating Orb Giveaway and Rewards
   id: -x3fxfkJ2hk
   category: archive
