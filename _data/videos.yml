@@ -196,7 +196,7 @@
 
 
 
-https://studio.youtube.com/video/Vztlsj9he-g/edit
+
 - title: Math Dad vs Science Mom 6: Geometric Vanishing Puzzle
   id: Vztlsj9he-g
   category: math
@@ -224,7 +224,6 @@ https://studio.youtube.com/video/Vztlsj9he-g/edit
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge4.pdf
-  tryit: https://student.desmos.com/?prepopulateCode=XHXMF
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a397e0944475f0612e6714f
 
 
@@ -238,7 +237,6 @@ https://studio.youtube.com/video/Vztlsj9he-g/edit
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge3.pdf
-  tryit: https://student.desmos.com/?prepopulateCode=VJYYR
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a1e4ef21b71d906113dea34
 
 
@@ -255,7 +253,6 @@ https://studio.youtube.com/video/Vztlsj9he-g/edit
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge2.pdf
-  tryit: https://student.desmos.com/?prepopulateCode=WF4B3
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a1b5c2865749279ce10f815
 
 - title: Math Dad vs Science Mom 1
@@ -264,7 +261,6 @@ https://studio.youtube.com/video/Vztlsj9he-g/edit
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge1.pdf
-  tryit: https://student.desmos.com/?prepopulateCode=u24xm
   teacher: https://teacher.desmos.com/activitybuilder/custom/59f65fe54e4d23787e84425e
 
 
