@@ -1,26 +1,3 @@
-- title: Resound of Science (Parody)
-  id: fJIxzQ5NvBM
-  category: curiosity
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -186,23 +163,106 @@
 
 
 
+- title: Math Dad vs Science Mom 42
+  id: RyOMLZfJqtI
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge42.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b42a5055e99010d61e62f1c
+
+- title: Math Dad vs Science Mom 41 Shikaku
+  id: RYbz-CCm4rc
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge41.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b3ab5104222387d5a1abb7f
+
+- title: Math Dad vs Science Mom 40
+  id: 1cJM11gzXZM
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge40.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b35395a87391d554b1cd3e0
 
 
+- title: Math Dad vs Science Mom 39 6 Rows of 3
+  id: N7oDyZaMY2w
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge39.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b34553d471eb04730dc6e5d
 
+- title: Math Dad vs Science Mom 38 Two White Marbles
+  id: KafOxVn-m8Q
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge38.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b343ae5dfaf98323436620b
 
+- title: Math Dad vs Science Mom 37 At Least One Boy
+  id: 27KMFbKPZDc
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge37.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b342788966ba6368617fe8c
 
+- title: Math Dad vs Science Mom 36 Black Socks
+  id: cJrm7NqTIS4
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge36.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b2d715340c77d7283abc11d
 
+- title: Math Dad vs Science Mom 35 Area Maze
+  id: boKo1qDn0-k
+  category: math
+  folder: images/Worksheets/MathDadChallenges
+  worksheets:
+    - MDvsSMChallenge35.pdf
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5b1021f34d5e6a0a5e603867
 
+- title: Orchids
+  id: 9sBiUue7Z6E
+  category: archive
 
+- title: THe Cannonball Tree
+  id: UEATvqtUaT0
+  category: archive
 
+- title: Little Fire Ants
+  id: ABC1X6cxdbk
+  category: archive
+  
+- title: How to Avoid Altitude Sickness
+  id: mwk1z227ZpU
+  category: archive
+  
+- title: A Volcanic Gas Mystery
+  id: bAGDTHy4Ick
+  category: archive
 
+- title: Mimosa Pudica
+  id: -yG0l1XlH5w
+  category: archive
+  
+- title: Kipukas
+  id: N45Jufo6qjo
+  category: archive
+  
+- title: A Forest of Ferns
+  id: A6ZNZYTezno
+  category: archive
 
-
-
-
-
-
-
+- title: Resound of Science (Parody)
+  id: fJIxzQ5NvBM
+  category: curiosity
 
 - title: End of School Recap
   id: XhHx1ZRSAT8
