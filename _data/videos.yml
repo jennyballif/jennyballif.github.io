@@ -34,13 +34,7 @@
   id: hwmf73Bwky8
   category: experiment
 
-- title: The Science Behind Slime
-  id: 4F9ukCQvP20
-  category: experiment
-  bonus:
-  - bonusurl: https://www.patreon.com/posts/15780477
-    bonusicon: fas fa-file-alt 
-    bonustext: Get the worksheets
+
 
 - title: Favorite Sand Dune Activities - a 50 patrons celebration video
   id: 5Oiqx7JLFU4
@@ -48,40 +42,18 @@
   patreon: https://www.patreon.com/posts/how-to-draw-sand-17539799
 
 
-- title: Island Adaptations
-  id: 21OfJCy_jd0
-  category: curiosity
-  folder: images/Worksheets/ScienceWorksheets
-  worksheets:
-    - IslandAdaptations.pdf
 
 
-- title: Candy-Free Halloween Treats
-  id: e5d-aVCSlEc
-  category: curiosity
-  folder: images/Worksheets/Holiday
-  foldables:
-    - ArtistEnvelopes.pdf
-  worksheets:
-    - Wassail2.pdf
 
 
-- title: Eclipse Report and Crescent Shadows
-  id: G1OO41wGd6k
-  category: curiosity
 
 
-- title: Teach Electricity with a Plasma Ball
-  id: PcgzbUNCD0M
-  category: curiosity
 
 
-- title: A Tour of the Heart
-  id: xV4Jw1n6cqE
-  category: curiosity
-  folder: images/Worksheets/ScienceWorksheets
-  foldables:
-    - HeartBook.pdf
+
+
+
+
 
 
 # -----------Math Videos------------
@@ -102,14 +74,12 @@
   teacher: https://teacher.desmos.com/activitybuilder/custom/5b48d1e390a8aa0ff19551dc
 
 
-- title: Elk + Car = Fire
-  id: PsBgxeqTuGo
-  category: curiosity
+
 
 
 - title: Science Mom Extracts DNA from a Strawberry
   id: d2IBcOI22uI
-  category: experiment
+  category: projects
   vidlinks:
     - name: Squishing Food for Science
       url: https://www.youtube.com/watch?v=03XCb99gl8s
@@ -122,7 +92,7 @@
 
 - title: Squishing Food for Science
   id: 03XCb99gl8s
-  category: experiment
+  category: projects
   vidlinks:
     - name: Extract DNA from a Strawberry
       url: https://www.youtube.com/watch?v=d2IBcOI22uI
@@ -131,7 +101,7 @@
 
 - title: DNA Extraction Explained
   id: vdyNebSxX6I
-  category: experiment
+  category: projects
   vidlinks:
     - name: Extract DNA from a Strawberry
       url: https://www.youtube.com/watch?v=d2IBcOI22uI
@@ -141,7 +111,7 @@
 - title: Science Mom's Guide to Water Part 1
   id: 5pAuxot2sEY
   posturl: science-mom-s-guide-to-water-part-1
-  category: experiment
+  category: courses
   folder: images/SMG1
   foldables:
    - SMG1-8.5x11.pdf
@@ -152,7 +122,7 @@
 - title: Science Mom's Guide to Water Part 2
   id: OeYYiSsPf4I
   posturl: science-mom-s-guide-to-water-part-2
-  category: experiment
+  category: courses
   folder: images/SMG2
   foldables:
    - SMG2-8.5x11.pdf
@@ -163,7 +133,7 @@
 - title: Science Mom's Guide to Water Part 3
   id: 4OgcPI7S8_o
   posturl: science-mom-s-guide-to-water-part-3
-  category: experiment
+  category: courses 
   folder: images/SMG3
   foldables:
    - SMG3-8.5x11.pdf
@@ -174,7 +144,7 @@
 - title: Science Mom's Guide to Water Part 4
   id: 4Y7SWqUJJ9A
   posturl: science-mom-s-guide-to-water-part-4
-  category: experiment
+  category: courses
   folder: images/SMG4
   foldables:
    - SMG4-8.5x11.pdf
@@ -185,7 +155,7 @@
 - title: Science Mom's Guide to Water Part 5
   id: KPjp2qg8SA4
   posturl: science-mom-s-guide-to-water-part-5
-  category: experiment
+  category: courses
   folder: images/SMG5
   foldables:
    - SMG5-8.5x11.pdf
@@ -196,7 +166,7 @@
 - title: Science Mom's Guide to Water Part 6
   id: 5pAuxot2sEY
   posturl: science-mom-s-guide-to-water-part-6
-  category: experiment
+  category: courses
   folder: images/SMG6
   foldables:
    - SMG6-8.5x11.pdf
@@ -207,7 +177,7 @@
 - title: Science Mom's Guide to Water Part 7
   id: 0gqXZJtXgmg
   posturl: science-mom-s-guide-to-water-part-7
-  category: experiment
+  category: courses
   folder: images/SMG7
   foldables:
    - SMG7-8.5x11.pdf
@@ -248,6 +218,11 @@
   tryit: https://student.desmos.com/?prepopulateCode=XHXMF
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a397e0944475f0612e6714f
 
+
+- title: A Tour of my first Book
+  id: oq0YBAcXXf4
+  category: archive
+
 - title: Math Dad vs Science Mom 3
   id: _CjNPxsxkLg
   category: math
@@ -257,6 +232,13 @@
   tryit: https://student.desmos.com/?prepopulateCode=VJYYR
   teacher: https://teacher.desmos.com/activitybuilder/custom/5a1e4ef21b71d906113dea34
 
+
+- title: Island Adaptations
+  id: 21OfJCy_jd0
+  category: curiosity
+  folder: images/Worksheets/ScienceWorksheets
+  worksheets:
+    - IslandAdaptations.pdf
 
 - title: Math Dad vs Science Mom 2
   id: KFvbv6C8P9U
@@ -275,3 +257,95 @@
     - MDvsSMChallenge1.pdf
   tryit: https://student.desmos.com/?prepopulateCode=u24xm
   teacher: https://teacher.desmos.com/activitybuilder/custom/59f65fe54e4d23787e84425e
+
+
+- title: A summary of my 1st YEAR on YouTube
+  id: k-bUOuDiFcM
+  category: archive
+
+- title: The Science Behind Slime
+  id: 4F9ukCQvP20
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/15780477
+    bonusicon: fas fa-file-alt 
+    bonustext: Get the worksheets
+
+- title: Light is Amazing
+  id: pRZBFX5RmBM
+  category: archive
+
+
+- title: Candy-Free Halloween Treats
+  id: e5d-aVCSlEc
+  category: archive
+  folder: images/Worksheets/Holiday
+  foldables:
+    - ArtistEnvelopes.pdf
+  worksheets:
+    - Wassail2.pdf
+
+- title: Sugar vs Salt - Which dissolves MORE?
+  id: AJJ7KZ8PZps
+  category: archive
+
+- title: How to make Rock Candy
+  id: oBJFuDobcWY
+  category: archive
+
+- title: Elk + Car = Fire
+  id: PsBgxeqTuGo
+  category: curiosity
+
+- title: Eclipse Report and Crescent Shadows
+  id: G1OO41wGd6k
+  category: nature
+
+- title: About Island and Pests
+  id: id9E0dOHhWE
+  category: archive
+
+- title: What color is blood REALLY? (6 min version)
+  id: zr0fejFPK5A
+  category: curiosity
+
+- title: What color is blood REALLY?
+  id: jPvo7DkrFjo
+  category: curiosity
+
+- title: Teach Electricity with a Plasma Ball
+  id: PcgzbUNCD0M
+  category: archive
+
+- title: Light is Amazing - Teaching Tips for Elementary Educators
+  id: mZYBYp9HK8k
+  category: archive
+
+- title: A Tour of the Heart
+  id: xV4Jw1n6cqE
+  category: archive
+  folder: images/Worksheets/ScienceWorksheets
+  foldables:
+    - HeartBook.pdf
+
+- title: Science Mom's First Month as a YouTuber
+  id: WKJ_c9EzckA
+  category: archive
+
+- title: Science Mom's Tower of Math
+  id: PIqRl-qrgU4
+  category: archive
+
+- title: Science Mom Fold a Book from One Piece of Paper
+  id: E0sS59oMBe0
+  category: curiosity
+  
+- title: Levitating Orb Giveaway and Rewards
+  id: -x3fxfkJ2hk
+  category: archive
+
+
+
+
+
+
