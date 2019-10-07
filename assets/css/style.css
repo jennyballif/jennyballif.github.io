@@ -608,7 +608,7 @@ header {
 }
 
 #home .home-wrapper {
-    position: relative;
+    position: absolute;
     left: 0px;
     right: 0px;
     top: 50%;
