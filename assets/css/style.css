@@ -604,7 +604,7 @@ header {
 }
 
 #home {
-    height: 100vh;
+    height: 50vh;
 }
 
 #home .home-wrapper {
@@ -620,7 +620,7 @@ header {
 
 .home-content h1 {
   text-transform: uppercase;
-  margin-top: 30px;	
+  margin-top: 20px;	
 }
 .home-content button {
   margin-top: 20px;
