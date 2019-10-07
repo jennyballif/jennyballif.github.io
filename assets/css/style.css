@@ -612,9 +612,9 @@ header {
     left: 0px;
     right: 0px;
     top: 50px;
-    -webkit-transform: translateY(-50%);
+/*    -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%);*/
     text-align: center;
 }
 
