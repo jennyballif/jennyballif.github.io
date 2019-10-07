@@ -604,23 +604,22 @@ header {
 }
 
 #home {
-    height: 50vh;
+    height: 100vh;
 }
 
 #home .home-wrapper {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 0px;
-/*    -webkit-transform: translateY(-50%);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);*/
+    transform: translateY(-50%);
     text-align: center;
 }
 
 .home-content h1 {
   text-transform: uppercase;
-  top: 130px;	
 }
 .home-content button {
   margin-top: 20px;
