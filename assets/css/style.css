@@ -620,6 +620,7 @@ header {
 
 .home-content h1 {
   text-transform: uppercase;
+  margin-top: 30px;	
 }
 .home-content button {
   margin-top: 20px;
