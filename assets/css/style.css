@@ -857,8 +857,8 @@ header {
     bottom: 0;
     width: 0%;
     z-index: -1;
-    -webkit-transition: 0.2s width;
-    transition: 0.2s width;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
 }
 
 .service:hover:after {
