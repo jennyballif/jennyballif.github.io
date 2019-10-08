@@ -862,7 +862,7 @@ header {
 }
 
 .service:hover:after {
-    width: 100%;
+    height: 100%;
 }
 
 .service h3 {
