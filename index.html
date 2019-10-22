@@ -188,7 +188,7 @@ layout: landing-page
 					</a>
 				</div>	
 				<div class="col-md-4">
-					<a href="{{ site.url}}/speaking.html">
+					<a href="{{ site.url}}/community.html">
 					<div class="about">
 					<i class="fab fa-patreon"></i>
 					<h3>Community</h3>
@@ -208,101 +208,10 @@ layout: landing-page
 	<!-- /Service -->
 
 
-	<!-- Portfolio -->
-	<div id="portfolio" class="section md-padding">
-
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./images/Banner.png');">
-			<div class="overlay"></div>
-		</div>
-		<!-- /Background Image -->
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title white-text">Periodic Table of Patrons</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- Container -->
-				<div class="container">
-						<p class="white-text">
-							Visit my <a href="https://www.patreon.com/ScienceMom" target="_blank" rel="noopener">Patreon</a> page to see how you can join my table of patrons.
-						</p>
-				</div>
-				<!-- /Container -->
-				<!-- Periodic Table -->
-				{% include periodictable.html %}
-				<!-- /Periodic Table -->
-
-
-	</div>
-	<!-- /Portfolio -->
 
 
 
-	<!-- Blog -->
-	<div id="blog" class="section md-padding bg-grey">
 
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Recent posts</h2>
-				</div>
-				<!-- /Section header -->
-
- 			{% for post in site.posts limit:3 %}
-				<!-- Work -->
-				<a href="{{ site.url }}{{ post.url }}">
-					<div class="col-md-4 col-xs-6 work">
-						<img class="img-responsive lazy" src="{{ site.baseurl }}/images/{{ post.folder }}/{{ post.imagefeature }}" alt="{{ post.description }}">
-						<div class="overlay"></div>
-						<div class="work-content">
-							<h3>{{ post.title }}</h3>
-							<p>{{ post.description }}</p>
-						</div>
-						<div class="blog-content">
-							<ul class="blog-meta">
-								<li><i class="fas fa-user"></i>Jenny Ballif</li>
-								<li><i class="far fa-clock"></i>{{ post.date | date: "%b %-d, %Y" }}</li>
-							</ul>
-						</div>
-					</div>
-				</a>
-				<!-- /Work -->
-				{% endfor %}
-
-				<!-- Tags -->
-				<div class="widget">
-				  <h3 class="title">Blog posts by category</h3>
-				  <div class="widget-tags">
-				    {% assign tags_list = site.categories %}
-				    {% if tags_list.first[0] == null %}
-				      {% for tag in tags_list %}
-				      <a href="{{ site.url }}/blog#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
-				      {% endfor %}
-				    {% else %}
-				      {% for tag in tags_list %}
-				      <a href="{{ site.url }}/blog#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
-				      {% endfor %}
-				    {% endif %}
-				    {% assign tags_list = nil %}
-				  </div>
-				</div>
-				<!-- /Tags -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Blog -->
 
 
 
