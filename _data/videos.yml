@@ -649,6 +649,10 @@
 - title: Science Saturday 5 - Magnets
   id: 3-GquCtD7JU
   category: archive
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/26072089
+    bonusicon: fas fa-file-alt
+    bonustext: Worksheets
 
 - title: Science Saturday 4 - Elephant Toothpaste
   id: R9KHDk3TC1M
