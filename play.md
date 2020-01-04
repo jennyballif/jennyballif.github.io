@@ -7,7 +7,7 @@ published: true
 <div id="main" class="container">
   <div class="row">
     <div class="col-sm-6">
-      <div class="card">
+      <div class="card bg-light">
         <div class="card-body">
           <h3>Add the weekly reminder to your calendar</h3>
           <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
@@ -15,7 +15,7 @@ published: true
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="card">
+      <div class="card bg-light">
         <div class="card-body">
         <img src="images/CalendarPreview/FrontCover.jpg" height="128" width="128" style="">
         <img src="images/CalendarPreview/Penicillin.jpg" height="128" width="128" style="">
