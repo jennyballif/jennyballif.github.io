@@ -6,15 +6,30 @@ published: true
 <script async data-uid="a49ed8ae29" src="https://marvelous-thinker-501.ck.page/a49ed8ae29/index.js"></script>
 <div id="main" class="container">
   <div class="card bg-light col-md-8 col-md-offset-2">
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <img src="images/CalendarPreview/ScienceMomCalendar.002.jpeg" class="card-img" alt="2020 science Calendar">
+    <div class="row no-gutters">
+      <div class="col-md-6">
+        <img src="images/CalendarPreview/ScienceMomCalendar.002.jpeg" class="card-img" alt="2020 science Calendar">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h5 class="card-title">Add the weekly science activity to your calendar</h5>
+          <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      <div class="card-body">
-        <h5 class="card-title">Add the weekly science activity to your calendar</h5>
-        <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
-        <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
+  </div>
+  <div class="card bg-light col-md-8 col-md-offset-2">
+    <div class="row no-gutters">
+      <div class="col-md-6">
+        <div class="card-body">
+          <h5 class="card-title">Add the weekly science activity to your calendar</h5>
+          <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/CalendarPreview/WSD-Thumbnails.004.jpeg" class="card-img" alt="Science Video Thumbnail">
       </div>
     </div>
   </div>
