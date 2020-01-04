@@ -5,10 +5,10 @@ published: true
 
 <script async data-uid="a49ed8ae29" src="https://marvelous-thinker-501.ck.page/a49ed8ae29/index.js"></script>
 <div id="main" class="container">
-  <div class="card mb-3" style="max-width: 540px;">
+  <div class="card col-md-8 col-md-offset-6">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
+      <img src="images/CalendarPreview/FrontCover.jpg" class="card-img" alt="2020 science Calendar">
     </div>
     <div class="col-md-8">
       <div class="card-body">
