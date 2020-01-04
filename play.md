@@ -19,7 +19,7 @@ published: true
       </div>
     </div>
   </div>
-  <div class="card bg-light col-md-8 col-md-offset-2">
+  <div class="card bg-light col-md-10 col-md-offset-1">
     <div class="row no-gutters">
       <div class="col-md-8">
         <div class="card-body">
@@ -30,6 +30,20 @@ published: true
       </div>
       <div class="col-md-4">
         <img src="images/CalendarPreview/WSD-Thumbnails.004.jpeg" class="card-img" alt="Science Video Thumbnail">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-light col-md-10 col-md-offset-1">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/CalendarPreview/guide.jpg" class="card-img" alt="Science Fair Guides">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Get Science Fair Guides</h5>
+          <p class="card-text">Sign up to be a Patron and get a Science Fair Guide to go along with each experiment.</p>
+          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-primary">Become a Patron</a>
+        </div>
       </div>
     </div>
   </div>
