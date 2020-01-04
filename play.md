@@ -12,9 +12,9 @@ published: true
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Add the weekly science activity to your calendar</h5>
+        <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
+        <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
       </div>
     </div>
   </div>
