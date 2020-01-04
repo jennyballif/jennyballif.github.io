@@ -8,7 +8,7 @@ published: true
   <div class="card bg-light col-md-8 col-md-offset-2">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="images/CalendarPreview/Penicillin.jpg" class="card-img" alt="2020 science Calendar">
+      <img src="images/CalendarPreview/ScienceMomCalendar.002.jpeg" class="card-img" alt="2020 science Calendar">
     </div>
     <div class="col-md-8">
       <div class="card-body">
