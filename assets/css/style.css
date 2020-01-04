@@ -2230,7 +2230,8 @@ input[type=submit]:hover {
     background-color:#fff;
     background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
-    border-radius:.25rem
+    border-radius:.25rem;
+    margin-top: 0.5rem !important;	    
 }
 .card>hr{
     margin-right:0;
