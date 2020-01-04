@@ -2463,3 +2463,12 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover{
 .bg-transparent{
     background-color:transparent!important
 }
+
+.no-gutters{
+    margin-right:0;
+    margin-left:0
+}
+.no-gutters>.col,.no-gutters>[class*=col-]{
+    padding-right:0;
+    padding-left:0
+}
