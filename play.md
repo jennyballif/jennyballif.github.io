@@ -14,7 +14,7 @@ published: true
         <div class="card-body">
           <h5 class="card-title">Get a printable pdf calendar</h5>
           <p class="card-text">Keep your kids excited for science with a scheduled weekly science demo you can do at home.</p>
-          <a href="https://marvelous-thinker-501.ck.page/a49ed8ae29" target="_blank" class="btn btn-primary">Get pdf Calendar</a>
+          <a href="https://marvelous-thinker-501.ck.page/a49ed8ae29" target="_blank" class="btn btn-primary btn-block">Get pdf Calendar</a>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@ published: true
         <div class="card-body">
           <h5 class="card-title">Add the weekly science activity to your calendar</h5>
           <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
-          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Google Calendar</a>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-dark btn-block">Add Google Calendar</a>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ published: true
         <div class="card-body">
           <h5 class="card-title">Get Science Fair Guides</h5>
           <p class="card-text">Sign up to be a Patron and get a Science Fair Guide to go along with each experiment.</p>
-          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-primary">Become a Patron</a>
+          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-light btn-block">Become a Patron</a>
         </div>
       </div>
     </div>
