@@ -21,15 +21,15 @@ published: true
   </div>
   <div class="card bg-light col-md-10 col-md-offset-1">
     <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/CalendarPreview/WSD-Thumbnails.004.jpeg" class="card-img" alt="Science Video Thumbnail">
+      </div>
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Add the weekly science activity to your calendar</h5>
           <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
-          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Calendar</a>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary">Add Google Calendar</a>
         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="images/CalendarPreview/WSD-Thumbnails.004.jpeg" class="card-img" alt="Science Video Thumbnail">
       </div>
     </div>
   </div>
