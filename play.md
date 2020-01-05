@@ -2,6 +2,38 @@
 layout: default
 published: true
 ---
+	
+
+
+<style>
+@media (max-width: 550px) {
+   .big-container {
+       display: none;
+   }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+</style>
 
 <script async data-uid="a49ed8ae29" src="https://marvelous-thinker-501.ck.page/a49ed8ae29/index.js"></script>
 <div id="main" class="container">
@@ -49,7 +81,12 @@ published: true
   </div>
   
   <div class="col-md-10 col-md-offset-1">
-    <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="responsive-iframe-container big-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="responsive-iframe-container small-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles&mode=AGENDA" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
   </div>
 </div>
 
