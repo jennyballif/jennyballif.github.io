@@ -12,8 +12,8 @@ published: true
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Get a printable pdf calendar</h5>
-          <p class="card-text">Keep your kids excited for science with a scheduled weekly science demo you can do at home.</p>
+          <h5 class="card-title">Get a printable 2020 science calendar</h5>
+          <p class="card-text">Full of entertaining cartoons, this calendar has suggested science activities for every week of the year. You have the option of downloading either color or black-and-white pdfs of the calendar.</p>
           <a href="https://marvelous-thinker-501.ck.page/a49ed8ae29" target="_blank" class="btn btn-primary btn-block">Get pdf Calendar</a>
         </div>
       </div>
@@ -26,8 +26,8 @@ published: true
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Add the weekly science activity to your calendar</h5>
-          <p class="card-text">Get updates as videos post and instructions to carry out the science demo.</p>
+          <h5 class="card-title">Add science activities to your online calendar</h5>
+          <p class="card-text">Each Wednesday, we post a video on <a href="https://www.youtube.com/sciencemom" target="_blank">our YouTube channel</a> showing you how to carry out that week's science activity. Use this link to add the weekly experiments to your Google our Outlook calendar.</p>
           <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-dark btn-block">Add Google Calendar</a>
         </div>
       </div>
@@ -41,7 +41,7 @@ published: true
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Get Science Fair Guides</h5>
-          <p class="card-text">Sign up to be a Patron and get a Science Fair Guide to go along with each experiment.</p>
+          <p class="card-text">Each science activity has a Science Fair Guide that can be used to expand the activity to a full science experiment. Join us on Patreon to access the Science Fair Guides that go along with each experiment.</p>
           <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-light btn-block">Become a Patron</a>
         </div>
       </div>
