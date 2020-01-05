@@ -2473,3 +2473,14 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover{
     padding-right:0;
     padding-left:0
 }
+
+.btn-block{
+    display:block;
+    width:100%
+}
+.btn-block+.btn-block{
+    margin-top:.5rem
+}
+input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-block{
+    width:100%
+}
