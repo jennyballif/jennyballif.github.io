@@ -2,16 +2,92 @@
 layout: default
 published: true
 ---
+	
 
 
-<div id="main" class="container">
-  <h2>A year of weekly science activities</h2>
+<style>
+@media (max-width: 550px) {
+   .big-container {
+       display: none;
+   }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+</style>
+
 <script async data-uid="a49ed8ae29" src="https://marvelous-thinker-501.ck.page/a49ed8ae29/index.js"></script>
-  <h3>Add the weekly reminder to your calendar</h3>
-  <p>Add the calendar to your google calendar by <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank">clicking here</a>.</p> 
-  <img src="images/CalendarPreview/FrontCover.jpg" height="128" width="128" style="">
-  <img src="images/CalendarPreview/Penicilin.jpg" height="128" width="128" style="">
-  <img src="images/CalendarPreview/January.jpg" height="128" width="128" style="">
-  <p>Get a <a href="https://marvelous-thinker-501.ck.page/a49ed8ae29" target="_blank">printable pdf calendar</a>. We'll update the calendar regularly with videos and details on how to run the weekly experiment. Enjoy!</p>
-  <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>  
+<div id="main" class="container">
+  <div class="card bg-light col-md-10 col-md-offset-1">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/CalendarPreview/ScienceMomCalendar.002.jpeg" class="card-img" alt="2020 science Calendar">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Get a printable 2020 science calendar</h5>
+          <p class="card-text">Full of entertaining cartoons, this calendar has suggested science activities for every week of the year. You have the option of downloading either color or black-and-white pdfs of the calendar.</p>
+          <a href="https://marvelous-thinker-501.ck.page/a49ed8ae29" target="_blank" class="btn btn-primary btn-block">Get pdf Calendar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-light col-md-10 col-md-offset-1">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/CalendarPreview/WSD-Thumbnails.004.jpeg" class="card-img" alt="Science Video Thumbnail">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Add science activities to your online calendar</h5>
+          <p class="card-text">Each Wednesday, we post a video on <a href="https://www.youtube.com/sciencemom" target="_blank">our YouTube channel</a> showing you how to carry out that week's science activity. Use this link to add the weekly experiments to your Google our Outlook calendar.</p>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary btn-block">Add Google Calendar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-light col-md-10 col-md-offset-1">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/CalendarPreview/guide.jpg" class="card-img" alt="Science Fair Guides">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Get Science Fair Guides</h5>
+          <p class="card-text">Each science activity has a Science Fair Guide that can be used to expand the activity to a full science experiment. Join us on Patreon to access the Science Fair Guides that go along with each experiment.</p>
+          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-primary btn-block">Become a Patron</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-10 col-md-offset-1">
+    <div class="responsive-iframe-container big-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="responsive-iframe-container small-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=evcd1rv85b57ecnh9fpeapgse8%40group.calendar.google.com&ctz=America%2FLos_Angeles&mode=AGENDA" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
 </div>
+
+
