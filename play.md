@@ -28,7 +28,7 @@ published: true
         <div class="card-body">
           <h5 class="card-title">Add science activities to your online calendar</h5>
           <p class="card-text">Each Wednesday, we post a video on <a href="https://www.youtube.com/sciencemom" target="_blank">our YouTube channel</a> showing you how to carry out that week's science activity. Use this link to add the weekly experiments to your Google our Outlook calendar.</p>
-          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-dark btn-block">Add Google Calendar</a>
+          <a href="https://calendar.google.com/calendar/r?cid=evcd1rv85b57ecnh9fpeapgse8@group.calendar.google.com" target="_blank" class="btn btn-primary btn-block">Add Google Calendar</a>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ published: true
         <div class="card-body">
           <h5 class="card-title">Get Science Fair Guides</h5>
           <p class="card-text">Each science activity has a Science Fair Guide that can be used to expand the activity to a full science experiment. Join us on Patreon to access the Science Fair Guides that go along with each experiment.</p>
-          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-light btn-block">Become a Patron</a>
+          <a href="http://patreon.com/sciencemom" target="_blank" class="btn btn-primary btn-block">Become a Patron</a>
         </div>
       </div>
     </div>
