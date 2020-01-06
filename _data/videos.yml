@@ -135,8 +135,31 @@
    - SMG7-A3.pdf
 
 
+# -----------Science Fair------------
 
+- title: Roll a can with static electricity
+  id: tNXLDSUDP64
+  category: sciencefair
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/weekly-science-1-32769612
+      bonusicon: fas fa-file-alt
+      bonustext: Science Fair Guide
 
+- title: Balloon on the Wall Experiment
+  id: XXCZrV7fnXc
+  category: sciencefair
+
+- title: Pepper Vacuum Experiment
+  id: 3VaOvkP6XEw
+  category: sciencefair
+  
+- title: Levitating Orb 
+  id: gMEYSU_oAak
+  category: sciencefair
+
+- title: Repelling Balloons 
+  id: T5v2dWkuB0E
+  category: sciencefair
 
 
 # -----------Nature------------
