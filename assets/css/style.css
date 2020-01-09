@@ -2501,8 +2501,9 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 }
 .btn-primary.disabled,.btn-primary:disabled{
     color:#fff;
-    background-color:#007bff;
-    border-color:#007bff
+    background-color:#6195FF;
+    border-color:#6195FF;
+;
 }
 .btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active,.show>.btn-primary.dropdown-toggle{
     color:#fff;
