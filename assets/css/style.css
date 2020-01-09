@@ -2488,13 +2488,15 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 
 .btn-primary{
     color:#fff;
+    background-color:#0069d9;
+    border-color:#0062cc;
     background-color:#6195FF;
     border-color:#6195FF;
 }
 .btn-primary:hover{
     color:#fff;
-    background-color:#0069d9;
-    border-color:#0062cc;
+    background-color:#6195FF;
+    border-color:#6195FF;
 }
 .btn-primary.focus,.btn-primary:focus{
     box-shadow:0 0 0 .2rem rgba(38,143,255,.5)
