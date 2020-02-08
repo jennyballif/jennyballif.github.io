@@ -39,7 +39,7 @@ In 2014, I volunteered to do weekly science demonstrations in my son's second gr
 
 #### CAN YOU COME TO MY SCHOOL? WHEN AND HOW MUCH?
 
-Maybe! I charge $200 to do a school visit. I bring my own supplies for some great science demonstrations and come for the entire day. I'll do as many presentations as the school would like me to do. A typical format is to present lessons to combined classes every 30 minutes, but I'm very flexible. I've done whole-school assemblies and conducted hands-on workshops with a half-dozen students, and everything in between. 
+Maybe! I charge $496 to do a school visit. I bring my own supplies for some great science demonstrations and come for the entire day. I'll do as many presentations as the school would like me to do. A typical format is to present lessons to combined classes every 30 minutes, but I'm very flexible. I've done whole-school assemblies and conducted hands-on workshops with a half-dozen students, and everything in between. 
 
 Once a month, I give away a free school visit, thanks to the support of my Patrons on Patreon. If you'd like to enter into a drawing for that visit, fill out and submit [this form](https://goo.gl/forms/WlWIAJTHrqdK4XOg1) before the 10th of the month. 
 
