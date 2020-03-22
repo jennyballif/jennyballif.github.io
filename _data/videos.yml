@@ -1,61 +1,55 @@
-# -----------Projects------------
 
-- title: Science Mom Extracts DNA from a Strawberry
-  id: d2IBcOI22uI
-  category: projects
-  vidlinks:
-    - name: Squishing Food for Science
-      url: https://www.youtube.com/watch?v=03XCb99gl8s
-    - name: DNA Extraction Explained
-      url: https://www.youtube.com/watch?v=vdyNebSxX6I
+
+# -----------Courses------------
+
+- title: Quarantime Day 5 - Fun Friday
+  id: 0zNP0NnGhXs
+  category: courses
   bonus:
-    - bonusurl: https://www.patreon.com/posts/19908770
+    - bonusurl: https://www.patreon.com/posts/day-5-of-fun-35066688
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+  teacher: https://teacher.desmos.com/activitybuilder/custom/5e73f6db787a747bfba49802
+
+- title: Quarantime Day 4 - Scientific Method
+  id: 38cpadQqSms
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/day-4-of-method-35028931
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
-- title: Squishing Food for Science
-  id: 03XCb99gl8s
-  category: projects
-  vidlinks:
-    - name: Extract DNA from a Strawberry
-      url: https://www.youtube.com/watch?v=d2IBcOI22uI
-    - name: DNA Extraction Explained
-      url: https://www.youtube.com/watch?v=vdyNebSxX6I
-
-- title: DNA Extraction Explained
-  id: vdyNebSxX6I
-  category: projects
-  vidlinks:
-    - name: Extract DNA from a Strawberry
-      url: https://www.youtube.com/watch?v=d2IBcOI22uI
-    - name: Squishing Food for Science
-      url: https://www.youtube.com/watch?v=03XCb99gl8s
-
-- title: 6 Activities with Static Electricity
-  id: pIMG_R6mKQ0
-  category: projects
+- title: Quarantime Day 3 - Surprising Inertia
+  id: J8_78k8PiNw
+  category: courses
   bonus:
-  - bonusurl: https://www.patreon.com/posts/24193101
-    bonusicon: far fa-map
-    bonustext: Foldable
+    - bonusurl: https://www.patreon.com/posts/day-3-of-inertia-34991843
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
 
-- title: Why Mentos and Soda React
-  id: usDy8-xFYKk
-  category: projects
-
-- title: 5 Inertia Activities
-  id: hwmf73Bwky8
-  category: projects
-
-- title: The Science Behind Slime
-  id: 4F9ukCQvP20
-  category: projects
+- title: Quarantime Day 2 - Epic Electric
+  id: Ia9AxUMX1w0
+  category: courses
   bonus:
-  - bonusurl: https://www.patreon.com/posts/15780477
-    bonusicon: fas fa-file-alt 
-    bonustext: Get the worksheets
+    - bonusurl: https://www.patreon.com/posts/day-2-of-epic-34957790
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
 
-# -----------Courses------------
+- title: Quarantime Day 1 - When Ice is Dry
+  id: oQhAi8uLyVo 
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/day-1-of-when-is-34934732
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: 5 Facts Everyone Should Know about Pandemics
+  id: Bq3xJVcJBDI
+  category: courses
+
+- title: 5 Facts Everyone Should Know about Coronavirus
+  id: WwQMtSI3i5I
+  category: courses
 
 - title: Science Mom's Guide to Water Part 1
   id: 5pAuxot2sEY
@@ -134,6 +128,63 @@
    - SMG7-A4.pdf
    - SMG7-A3.pdf
 
+
+# -----------Projects------------
+
+- title: Science Mom Extracts DNA from a Strawberry
+  id: d2IBcOI22uI
+  category: projects
+  vidlinks:
+    - name: Squishing Food for Science
+      url: https://www.youtube.com/watch?v=03XCb99gl8s
+    - name: DNA Extraction Explained
+      url: https://www.youtube.com/watch?v=vdyNebSxX6I
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/19908770
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Squishing Food for Science
+  id: 03XCb99gl8s
+  category: projects
+  vidlinks:
+    - name: Extract DNA from a Strawberry
+      url: https://www.youtube.com/watch?v=d2IBcOI22uI
+    - name: DNA Extraction Explained
+      url: https://www.youtube.com/watch?v=vdyNebSxX6I
+
+- title: DNA Extraction Explained
+  id: vdyNebSxX6I
+  category: projects
+  vidlinks:
+    - name: Extract DNA from a Strawberry
+      url: https://www.youtube.com/watch?v=d2IBcOI22uI
+    - name: Squishing Food for Science
+      url: https://www.youtube.com/watch?v=03XCb99gl8s
+
+- title: 6 Activities with Static Electricity
+  id: pIMG_R6mKQ0
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/24193101
+    bonusicon: far fa-map
+    bonustext: Foldable
+
+- title: Why Mentos and Soda React
+  id: usDy8-xFYKk
+  category: projects
+
+- title: 5 Inertia Activities
+  id: hwmf73Bwky8
+  category: projects
+
+- title: The Science Behind Slime
+  id: 4F9ukCQvP20
+  category: projects
+  bonus:
+  - bonusurl: https://www.patreon.com/posts/15780477
+    bonusicon: fas fa-file-alt 
+    bonustext: Get the worksheets
 
 # -----------Science Fair------------
 
