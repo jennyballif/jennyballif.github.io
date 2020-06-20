@@ -28,11 +28,11 @@ published: true
           **Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom**
 
           Explore the animal kingdom.
-           ○​​​​​​​ Monday: Scorpions, Spiders, and Bugs - Oh my!
-           ○ Tuesday: Feathered Friends
-           ○ Wednesday: Wild world of Reptiles
-           ○ Thursday: Life Underwater, a lesson on Amphibians and Fish
-          ​​​​​​​ ○ Friday: Mammals and Marsupials
+          * Monday: Scorpions, Spiders, and Bugs - Oh my!
+          * Tuesday: Feathered Friends
+          * Wednesday: Wild world of Reptiles
+          * Thursday: Life Underwater, a lesson on Amphibians and Fish
+          * Friday: Mammals and Marsupials
 
           Dive deep into biology. Each day we explore the diversity and incredible survival skills these animals have developed.
 
