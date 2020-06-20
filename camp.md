@@ -1,87 +1,87 @@
 ---
 layout: default
-published: true
 ---
-	
 
-	<!-- About -->
-	<div id="about" class="section md-padding">
 
-		<!-- Container -->
-		<div class="container">
-			
-      <H2> VIRTUAL CAMP FOR AGES 7-12 </H2>
 
-      <H1> Animal Summer Camp </H1>
-      
-			<!-- Row -->
-			<div class="row">
+<!-- About -->
+<div id="about" class="section md-padding">
 
-				<!-- about -->
-				<div class="col-md-3 col-sm-6">
+<!-- Container -->
+	<div class="container">
 
-          <h5>July 6-10, 2020</h5>
+<H2> VIRTUAL CAMP FOR AGES 7-12 </H2>
 
-          Join Science Mom & Math Dad for a week of classes and activities, all about animals. Each day includes a 2-hour livestream with fascinating facts and fun activities. While the target age is 7-12 years old, camp is open to all ages.
-          Campers can join live each day at 1:00 PM Eastern or watch the replay afterward. ​​​
+<H1> Animal Summer Camp </H1>
 
-          **Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom**
+		<!-- Row -->
+		<div class="row">
 
-          <h5>Explore the animal kingdom.</h5>
-          * Monday: Scorpions, Spiders, and Bugs - Oh my!
-          * Tuesday: Feathered Friends
-          * Wednesday: Wild world of Reptiles
-          * Thursday: Life Underwater, a lesson on Amphibians and Fish
-          * Friday: Mammals and Marsupials
+			<!-- about -->
+			<div class="col-md-3 col-sm-6">
 
-          <h5>Dive deep into biology.</h5> Each day we explore the diversity and incredible survival skills these animals have developed.
+  <h5>July 6-10, 2020</h5>
 
-          <h5>Daily crafts and art lessons.</h5> Our craft projects are easy to do and tons of fun — and you'll receive a complete supply list before we begin. 
+  Join Science Mom & Math Dad for a week of classes and activities, all about animals. Each day includes a 2-hour livestream with fascinating facts and fun activities. While the target age is 7-12 years old, camp is open to all ages.
+  Campers can join live each day at 1:00 PM Eastern or watch the replay afterward. ​​​
 
-          <h5>Naturalist-in-training stickers.</h5> Each day includes a naturalist challenge designed to encourage a love for and appreciation of nature. If you are unable to venture out, there are indoor variations. Complete them all to earn your stickers!
+  **Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom**
 
-          <h5>Camp scrapbook.</h5> Each camper receives a print friendly PDF document that contains all the activities, games, and more. Look forward to your camper writing home about their learning adventures! 
+  <h5>Explore the animal kingdom.</h5>
+  * Monday: Scorpions, Spiders, and Bugs - Oh my!
+  * Tuesday: Feathered Friends
+  * Wednesday: Wild world of Reptiles
+  * Thursday: Life Underwater, a lesson on Amphibians and Fish
+  * Friday: Mammals and Marsupials
 
-          <h5>Cost for a whole week of camp:</h5> $25 
-          Families with multiple kids only need to pay once!
+  <h5>Dive deep into biology.</h5> Each day we explore the diversity and incredible survival skills these animals have developed.
 
-				</div>
-				<!-- /about -->
+  <h5>Daily crafts and art lessons.</h5> Our craft projects are easy to do and tons of fun — and you'll receive a complete supply list before we begin. 
 
-				<!-- about -->
-        <div  class="col-sm-6">
-          <!-- testimonial -->
-          <div class="testimonial">
-            <div class="testimonial-meta">
-              <img src="images/JennyBallifSquare.png" alt="">
-              <h3 class="white-text">Jenny Ballif</h3>
-              <span>Science Mom</span>
-            </div>
-            <p class="white-text">Jenny Ballif has a Masters degree in plant science and a crazy love of the outdoors.</p>
-          </div>
-          <!-- /testimonial -->
+  <h5>Naturalist-in-training stickers.</h5> Each day includes a naturalist challenge designed to encourage a love for and appreciation of nature. If you are unable to venture out, there are indoor variations. Complete them all to earn your stickers!
 
-            <!-- testimonial -->
-            <div class="testimonial">
-              <div class="testimonial-meta">
-                <img src="https://sergeballif.github.io/images/SergeBallif.jpg" alt="">
-                <h3 class="white-text">Serge Ballif</h3>
-                <span>Math Dad</span>
-              </div>
-              <p class="white-text">Serge has a PhD in mathematics. In his spare time he plays chess and does taekwondo.</p>
-            </div>
-            <!-- /testimonial -->
-          </div>
-				<!-- /about -->				
+  <h5>Camp scrapbook.</h5> Each camper receives a print friendly PDF document that contains all the activities, games, and more. Look forward to your camper writing home about their learning adventures! 
+
+  <h5>Cost for a whole week of camp:</h5> $25 
+  Families with multiple kids only need to pay once!
 
 			</div>
-			<!-- /Row -->
+			<!-- /about -->
+
+			<!-- about -->
+<div  class="col-sm-6">
+  <!-- testimonial -->
+  <div class="testimonial">
+    <div class="testimonial-meta">
+      <img src="images/JennyBallifSquare.png" alt="">
+      <h3 class="white-text">Jenny Ballif</h3>
+      <span>Science Mom</span>
+    </div>
+    <p class="white-text">Jenny Ballif has a Masters degree in plant science and a crazy love of the outdoors.</p>
+  </div>
+  <!-- /testimonial -->
+
+    <!-- testimonial -->
+    <div class="testimonial">
+      <div class="testimonial-meta">
+	<img src="https://sergeballif.github.io/images/SergeBallif.jpg" alt="">
+	<h3 class="white-text">Serge Ballif</h3>
+	<span>Math Dad</span>
+      </div>
+      <p class="white-text">Serge has a PhD in mathematics. In his spare time he plays chess and does taekwondo.</p>
+    </div>
+    <!-- /testimonial -->
+  </div>
+			<!-- /about -->				
 
 		</div>
-		<!-- /Container -->
+		<!-- /Row -->
 
 	</div>
-	<!-- /About -->
+	<!-- /Container -->
+
+</div>
+<!-- /About -->
 
 
 
