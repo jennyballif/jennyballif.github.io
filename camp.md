@@ -20,29 +20,29 @@ published: true
 				<!-- about -->
 				<div class="col-md-3 col-sm-6">
 
-          July 6-10, 2020
+          <h5>July 6-10, 2020</h5>
 
           Join Science Mom & Math Dad for a week of classes and activities, all about animals. Each day includes a 2-hour livestream with fascinating facts and fun activities. While the target age is 7-12 years old, camp is open to all ages.
           Campers can join live each day at 1:00 PM Eastern or watch the replay afterward. ​​​
 
           **Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom**
 
-          Explore the animal kingdom.
+          <h5>Explore the animal kingdom.</h5>
           * Monday: Scorpions, Spiders, and Bugs - Oh my!
           * Tuesday: Feathered Friends
           * Wednesday: Wild world of Reptiles
           * Thursday: Life Underwater, a lesson on Amphibians and Fish
           * Friday: Mammals and Marsupials
 
-          Dive deep into biology. Each day we explore the diversity and incredible survival skills these animals have developed.
+          <h5>Dive deep into biology.</h5> Each day we explore the diversity and incredible survival skills these animals have developed.
 
-          Daily crafts and art lessons. Our craft projects are easy to do and tons of fun — and you'll receive a complete supply list before we begin. 
+          <h5>Daily crafts and art lessons.</h5> Our craft projects are easy to do and tons of fun — and you'll receive a complete supply list before we begin. 
 
-          Naturalist-in-training stickers. Each day includes a naturalist challenge designed to encourage a love for and appreciation of nature. If you are unable to venture out, there are indoor variations. Complete them all to earn your stickers!
+          <h5>Naturalist-in-training stickers.</h5> Each day includes a naturalist challenge designed to encourage a love for and appreciation of nature. If you are unable to venture out, there are indoor variations. Complete them all to earn your stickers!
 
-          Camp scrapbook. Each camper receives a print friendly PDF document that contains all the activities, games, and more. Look forward to your camper writing home about their learning adventures! 
+          <h5>Camp scrapbook.</h5> Each camper receives a print friendly PDF document that contains all the activities, games, and more. Look forward to your camper writing home about their learning adventures! 
 
-          Cost for a whole week of camp: $25 
+          <h5>Cost for a whole week of camp:</h5> $25 
           Families with multiple kids only need to pay once!
 
 				</div>
