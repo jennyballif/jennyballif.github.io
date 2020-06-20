@@ -101,8 +101,12 @@ layout: default
     </div>
     <!-- /testimonial -->
 Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom	
-  <div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+ 
+	<script
+    src="https://www.paypal.com/sdk/js?client-id=ARh5BDBpE5cYtzmqN0cWHUScAg4F8DguLb3z38UgnXb1tuXe9NTYdYz-kOO4q1C_pVo4N3FKY_PSK0Ti"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+  </script>
+	<div id="paypal-button-container"></div>
+
 <script>
   paypal.Buttons({
       style: {
@@ -116,7 +120,7 @@ Registration has two-parts. After you pay, you will be redirected to enter the e
           return actions.order.create({
               purchase_units: [{
                   amount: {
-                      value: '1'
+                      value: '25'
                   }
               }]
           });
@@ -127,8 +131,7 @@ Registration has two-parts. After you pay, you will be redirected to enter the e
           });
       }
   }).render('#paypal-button-container');
-</script>
-			
+</script>		
 			</div>
 			<!-- /about -->	
 			
