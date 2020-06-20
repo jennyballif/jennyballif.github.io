@@ -37,7 +37,7 @@ published: true
 
 <script async data-uid="a49ed8ae29" src="https://marvelous-thinker-501.ck.page/a49ed8ae29/index.js"></script>
 
-<script src="https://event.webinarjam.com/register/8rrwgfp/embed-bar?buttonText=Register&buttonBgColor=%23000000&buttonBgOpacity=0.5&barBgColor=%2329b6f6&barBgOpacity=0.95"></script>
+<script src="https://event.webinarjam.com/register/8rrwgfp/embed-bar?buttonText=FinishRegistration&buttonBgColor=%23000000&buttonBgOpacity=0.5&barBgColor=%2329b6f6&barBgOpacity=0.95"></script>
 
 <div id="main" class="container">
   <div class="card bg-light col-md-10 col-md-offset-1">
