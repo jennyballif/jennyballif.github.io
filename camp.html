@@ -27,7 +27,25 @@ layout: default
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.5em; /* same as padding-left set on li */
+}
+	
+.description ul {
+  list-style: none;
+  padding: 0;
 }	
+.description list > ul {margin-left: 1em;}
+.description list > ul > li {list-style: none;}
+.description list > ul > li:before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  display: inline;
+  margin-right: 0.2em;
+  color: #e31b5a;
+}
+.description list > ul > ul {
+  margin-left: 2em;
+  list-style: initial;
+ }	
 </style>
 
 
@@ -56,7 +74,7 @@ layout: default
 
 <ul>
   <li><h5>Explore the animal kingdom.</h5>
-	  <ul style="list-style: none; list-style-type: circle;">
+	  <ul style="list-style: none; list-style-type: circle; list-style-image: none;">
 			<li> Monday: Scorpions, Spiders, and Bugs - Oh my!</li>
 			<li>Tuesday: Feathered Friends</li>
   		<li>Wednesday: Wild world of Reptiles</li>
