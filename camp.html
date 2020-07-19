@@ -37,17 +37,17 @@ h4 {
 			<!-- about -->
 			<div class="description col-md-6 col-sm-12">
 
-  <h4 style="text-align:left;">July 6-10, 2020</h4>
+  <h4 style="text-align:left;">Aug 6-10, 2020</h4>
 
   Join Science Mom & Math Dad for a week of classes and activities, all about animals. Each day includes a 2-hour livestream with fascinating facts and fun activities. While the target age is 7-12 years old, camp is open to all ages.
-  Campers can join live each day at 1:00 PM Eastern or watch the replay afterward. ​​​
+  Campers can join live each day at 1:00 PM Eastern or watch the replay afterward. 
 
   
 
 <ul>
   <li><h5>Explore the animal kingdom.</h5>
 	  <ul>
-		<li> Monday: Scorpions, Spiders, and Bugs - Oh my!</li>
+		<li>Monday: Scorpions, Spiders, and Bugs - Oh my!</li>
 		<li>Tuesday: Feathered Friends</li>
   		<li>Wednesday: Wild world of Reptiles</li>
   		<li>Thursday: Life Underwater, a lesson on Amphibians and Fish</li>
@@ -92,25 +92,22 @@ h4 {
     <!-- /testimonial -->
 Registration has two-parts. After you pay, you will be redirected to enter the email address where you would like to receive announcements about camp. If you have any questions, contact us at jenny@science.mom	
  
-	<script
-    src="https://www.paypal.com/sdk/js?client-id=AXJCHBqj-A5MuNamW-jXMhGdtrwDherc_XtEZSC8kv-4MffeVgBbJVvz3y6bRbntwGBVqOW7dZAEs047"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
-  </script>
-	<div id="paypal-button-container"></div>
-
+<div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AXJCHBqj-A5MuNamW-jXMhGdtrwDherc_XtEZSC8kv-4MffeVgBbJVvz3y6bRbntwGBVqOW7dZAEs047&currency=USD" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {
-          shape: 'rect',
+          shape: 'pill',
           color: 'gold',
           layout: 'vertical',
-          label: 'paypal',
+          label: 'pay',
           
       },
       createOrder: function(data, actions) {
           return actions.order.create({
               purchase_units: [{
                   amount: {
-                      value: '1.00'
+                      value: '2'
                   }
               }]
           });
@@ -121,7 +118,7 @@ Registration has two-parts. After you pay, you will be redirected to enter the e
           });
       }
   }).render('#paypal-button-container');
-</script>		
+</script>
 			</div>
 			<!-- /about -->	
 			
