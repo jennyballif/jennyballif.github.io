@@ -8,9 +8,10 @@ description: "Videos from the series Chemistry with Science Mom"
 
   <!-- Row -->
   <div class="row">
+    <h2>Chemistry with Science Mom</h2>
+    <p>Download <a href="https://science.mom/images/ChemistryPreview.pdf" target="_blank">the notes</a> to see the schedule and supply list.</p>
     {% assign vids = site.data.chemistry | group_by: 'category' %}
     {% for cat in vids %}
-      <h2 id="{{ cat.name }}" style="padding: 1em;">{{ cat.name | capitalize }}</h2>
     {% assign items = cat.items | sort: 'order' %}
     {% for video in items %}
     <div class="{% cycle 'bg-grey', 'bg-dark' %}">
