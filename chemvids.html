@@ -31,7 +31,8 @@ description: "Videos from the series Chemistry with Science Mom"
           </div>
         <!-- /video -->  
         {% if video.poll %}
-          <p style="text-align: center;"><a href="{{ video.poll }}">Watch {{ video.title }} with a poll</a></p>
+          <p style="text-align: center;">
+           <a href="{{ video.poll }}" data-toggle="tooltip" title="download {{ worksheet }}" rel="tag"><i class="fas fa-poll"></i>Watch with a poll</a>
         {% endif %}
       </section>
     </div>
