@@ -1,25 +1,61 @@
 ---
 layout: default
-published: true
+title: Earth Science with Science Mom
+description: "Videos from the series Earth Science with Science Mom"
 ---
 
-<style>
-img {
-  float: right;
-}
-</style>
-
 <div id="main" class="container">
-  <h3>Earth Science with Science Mom</h3>
-<div class="media-right" style="text-align: center;">
-	<img class="media-object" style="max-width:400px;" src="images/Chemistry.jpeg" alt="Science Mom and Math Dad">
-</div>
-
+  <h2>Earth Science with Science Mom</h2>
 <p>Join Science Mom and Math Dad for a semester-long dive into Earth Science! We’ve designed this course especially for 4th-5th grade students and their teachers, but the course is also a good fit for a younger student or a middle schooler who is passionate about science. You can <a href="https://science.mom/images/EarthScience/EarthScience.pdf" target=_blank>download the notes</a>. Sign up below to get the answer key.</p>
 <p> <script async data-uid="31efa5db00" src="https://sciencemom.ck.page/31efa5db00/index.js"></script> </p>
 
-<p>The videos will be posted on YouTube for anyone to watch. Registered participants will have access to the livestreams and other course updates. Registration costs $150, and it helps us to offer our content on YouTube without ads. Learn more and register at <a href="https://sciencemom.ck.page/earthscience" target=_blank>the course registration page</a>. </p>
-</div>
+<p>The videos will be posted on YouTube for anyone to watch. Registered participants will have access to the livestreams and other course updates along with a small group meetup. Registration costs $150, and it helps us to offer our content on YouTube without ads. Learn more and register at <a href="https://sciencemom.ck.page/earthscience" target=_blank>the course registration page</a>. </p>
+
+
+  <!-- Row -->
+  <div class="row">
+    <h2>Earth Science Videos</h2>
+    <p>Download <a href="https://science.mom/images/Chemistry/ChemistryNotes.pdf" target="_blank">the notes</a> to see the schedule and supply list.</p>
+    {% assign vids = site.data.earthscience | group_by: 'category' %}
+    {% for cat in vids %}
+    {% assign items = cat.items | sort: 'order' %}
+    {% for video in items %}
+    <div class="{% cycle 'bg-grey', 'bg-dark' %}">
+      <header class="major text-center">
+        {% if video.posturl %}
+          <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ video.posturl }}">{{ video.title }}</a></h3>
+        {% else %}
+          <h3 style="padding: 1em;">{{ video.title }}</h3>
+        {% endif %}
+      </header>
+      <section class="container">
+        <!-- video -->   
+          <div class="vidwrapper">
+          	<div class="youtube" data-embed="{{ video.id }}">
+          		<div class="play-button"></div>
+          	</div>
+          </div>
+        <!-- /video -->  
+        {% if video.poll %}
+        <div class="blog-worksheets">
+          <p style="text-align: center;">
+           <a href="{{ video.poll | cgi_encode  }}" data-toggle="tooltip" title="Watch {{ video.title }} with a poll" rel="tag" target="_blank"><i class="fas fa-poll"></i>Participate in the polls while watching the replays!</a>
+        </div>
+        {% endif %}
+      </section>
+    </div>
+    {% endfor %}
+    {% endfor %}
+  </div >
+  <!-- /Row -->
+ 
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
  
 
 
