@@ -6,7 +6,7 @@ description: "Videos from the series Earth Science with Science Mom"
 
 <div id="main" class="container">
   <h2>Earth Science with Science Mom</h2>
-<p>Join Science Mom and Math Dad for a semester-long dive into Earth Science! We’ve designed this course especially for 4th-5th grade students and their teachers, but the course is also a good fit for a younger student or a middle schooler who is passionate about science. You can <a href="https://science.mom/images/EarthScience/EarthScience.pdf" target=_blank>download the notes</a>. Sign up below to get the answer key.</p>
+<p>Join Science Mom and Math Dad for a semester-long dive into Earth Science! We’ve designed this course especially for 4th-5th grade students and their teachers, but the course is also a good fit for a younger student or a middle schooler who is passionate about science. You can <a href="https://science.mom/images/EarthScience/EarthScience.pdf" target=_blank>download the notes</a> to see the schedule and supply list. Sign up below to get the answer key.</p>
 <p> <script async data-uid="31efa5db00" src="https://sciencemom.ck.page/31efa5db00/index.js"></script> </p>
 
 <p>The videos will be posted on YouTube for anyone to watch. Registered participants will have access to the livestreams and other course updates along with a small group meetup. Registration costs $150, and it helps us to offer our content on YouTube without ads. Learn more and register at <a href="https://sciencemom.ck.page/earthscience" target=_blank>the course registration page</a>. </p>
@@ -15,7 +15,6 @@ description: "Videos from the series Earth Science with Science Mom"
   <!-- Row -->
   <div class="row">
     <h2>Earth Science Videos</h2>
-    <p>Download <a href="https://science.mom/images/Chemistry/ChemistryNotes.pdf" target="_blank">the notes</a> to see the schedule and supply list.</p>
     {% assign vids = site.data.earthscience | group_by: 'category' %}
     {% for cat in vids %}
     {% assign items = cat.items | sort: 'order' %}
