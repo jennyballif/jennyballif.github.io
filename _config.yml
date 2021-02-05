@@ -1,7 +1,8 @@
 # Site settings
-title: Jenny Ballif
+title: Science Mom
+tagline: "Science Curriculum for Curious Kids"
 author: 'Jenny Ballif'
-email: jenballif@gmail.com
+email: jenny@science.mom.com
 description: > # this means to ignore newlines until "baseurl:"
   Science Mom, Hands-on Science Curriculum
 baseurl: "" # the subpath of your site, e.g. /blog/
