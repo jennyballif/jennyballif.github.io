@@ -58,7 +58,12 @@ headline: >-
 videofeature: 'https://www.youtube.com/embed/IsvHQon2IqQ'
 blog: false
 comic: false
-tags: 'experiments, foldable guide, video'
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
+
 ---
 
 Water is so abundant, we often take for granted how remarkable and unusual it is. Water is the __only substance__ on our planet that can exist naturally in all three states of matter: as a solid, a liquid, and a gas.
