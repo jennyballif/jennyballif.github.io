@@ -15,6 +15,11 @@ tags: 'Patreon, Curious Reader,'
 fbimage: JoshuaTree.jpeg
 imagefeature: Sketch2.jpeg
 folder: Patron/CuriousReader
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 ## MAY 2017
 
