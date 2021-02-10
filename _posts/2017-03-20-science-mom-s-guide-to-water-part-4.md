@@ -57,6 +57,11 @@ experiment5supplies: >-
   (Coconut milk, dates, cocoa powder), Duct tape
 experiment5concepts: 'Changes of state (Chemistry), Thermodynamics'
 experiment5image: Thumbnail5.PNG
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 ## Science Mom's Guide to Water, Part 4
