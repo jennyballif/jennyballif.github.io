@@ -14,6 +14,11 @@ blog: false
 comic: true
 categories:
   - random
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/LaunchFail.png" description="A comic strip about a launch flop." maxwidth="800px" %}
