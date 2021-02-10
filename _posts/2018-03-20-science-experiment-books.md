@@ -15,6 +15,11 @@ modified: 2018/03/20
 fbimage: Bookstack.jpeg
 imagefeature: Bookstack.jpeg
 folder: SciencePost
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 Whenever I present at schools, someone will ask me where I get ideas for my science experiments. I've found several while researching topics on the internet, but while there's a plethora of resources online, a lot of my inspiration comes from books.
