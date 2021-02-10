@@ -16,6 +16,11 @@ imagefeature: Leilanium.jpeg
 folder: Patron/Leilanium
 categories:
   - patron
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 <span class="image left" style="width:400px; max-width:50%"><img src="images/Patron/Leilanium/Leilanium.jpeg" alt="Patron 3 on the Periodic Table of Patrons - Leilanium" /></span>
