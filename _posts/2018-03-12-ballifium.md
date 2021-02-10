@@ -14,6 +14,11 @@ folder: PeriodicTable
 modified: '2018-03-12'
 categories:
   - patron
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 
