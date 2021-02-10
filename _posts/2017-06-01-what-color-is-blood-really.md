@@ -18,6 +18,11 @@ folder: BloodColor
 categories:
   - science
   - video
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 This project all started the day before Valentine's day, 2017. I woke up with an idea to make a little foldable book about how heart's work. I enthusiastically got to work drawing little cartoons and coloring, and (barely) finished the book and little video clip in time for Valentine's Day.
 
