@@ -13,6 +13,11 @@ imagefeature: patron.018.jpeg
 folder: PeriodicTable
 categories:
   - patron
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.018.jpeg" description="Element 18 from the Periodic Tabel of Patrons: Carolinium." maxwidth="600px" %}
