@@ -48,6 +48,11 @@ guide2: SMG6-11x17.pdf
 guide3: SMG6-A4.pdf
 guide4: SMG6-A3.pdf
 sciencemomguideimage: SMG6cover.jpeg
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 In Part 5 of the water series we learned that although water is called the "Universal Solvent," it doesn't dissolve oil. But what about the things water can dissolve? In Science Mom's Guide to Water, Part 6, we explore what dissolves in water with several crystal growing activities:
