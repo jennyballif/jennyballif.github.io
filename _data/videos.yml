@@ -2,7 +2,89 @@
 
 # -----------Courses------------
 
-- title: Quarantime Day 5 - Fun Friday
+
+
+
+
+- title: Quarantime Day 14 - 
+  id: feSXrIEtn9U
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35542920
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 13 - 
+  id: RCT0hV9cVmc
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35485642
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 12 - 
+  id: xMmW-TO8Q_w
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35450635
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 11 - 
+  id: vdJQ5v0RsBM
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35408800
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 10 - 
+  id: 23vLWtB-3qY
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35305168
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 9 - 
+  id: xIo6cRkyLAo
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35264110
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 8 - 
+  id: eF6ooc6Bqnk
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35237889
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+
+- title: Quarantime Day 7 - Chemical Reactions and Infinite Geometric Series!
+  id: nl_pj248aS8
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35196851
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+- title: Quarantime Day 6 - Chemistry and Fractions
+  id: gGYVxCXlTBU 
+  category: courses
+  bonus:
+    - bonusurl: https://www.patreon.com/posts/35167817
+      bonusicon: fas fa-file-alt
+      bonustext: Worksheets
+
+
+
+
+
+
+- title: QuaranTime Day 5 - Fun Friday
   id: 0zNP0NnGhXs
   category: courses
   bonus:
@@ -11,7 +93,7 @@
       bonustext: Worksheets
   teacher: https://teacher.desmos.com/activitybuilder/custom/5e73f6db787a747bfba49802
 
-- title: Quarantime Day 4 - Scientific Method
+- title: QuaranTime Day 4 - Scientific Method
   id: 38cpadQqSms
   category: courses
   bonus:
@@ -19,7 +101,7 @@
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
-- title: Quarantime Day 3 - Surprising Inertia
+- title: QuaranTime Day 3 - Surprising Inertia
   id: J8_78k8PiNw
   category: courses
   bonus:
@@ -27,7 +109,7 @@
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
-- title: Quarantime Day 2 - Epic Electric
+- title: QuaranTime Day 2 - Epic Electric
   id: Ia9AxUMX1w0
   category: courses
   bonus:
@@ -35,7 +117,7 @@
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
-- title: Quarantime Day 1 - When Ice is Dry
+- title: QuaranTime Day 1 - When Ice is Dry
   id: oQhAi8uLyVo 
   category: courses
   bonus:
