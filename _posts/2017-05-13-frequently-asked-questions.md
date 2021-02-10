@@ -15,6 +15,11 @@ folder: FAQ
 categories:
   - experiments
   - random
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 ## Frequently Asked Questions
