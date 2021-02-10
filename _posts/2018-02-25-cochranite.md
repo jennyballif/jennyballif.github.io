@@ -14,6 +14,11 @@ imagefeature: patron.085.jpeg
 folder: PeriodicTable
 categories:
   - patron
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/PeriodicTable/patron.085.jpeg" description="Element 85 from the Periodic Tabel of Patrons: Cochranite." maxwidth="600px" %}
