@@ -28,6 +28,11 @@ guide3: SMG7-A4.pdf
 guide4: SMG7-A3.pdf
 fbimage: smg7fb.png
 imagefeature: smg7square.jpeg
+sitemap:
+  lastmod: 2020-02-10
+  priority: 0.3
+  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 It's finally here! The concluding installment in the water series, a look at evaporative cooling, changes of state, and how water has an impressively high specific heat capacity:
 
