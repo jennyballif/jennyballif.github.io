@@ -32,9 +32,6 @@ experiment3concepts: 'Supercooling of liquids (Physics and Chemistry), Changes o
 experiment3image: Thumbnail3.PNG
 categories:
   - experiments
-  - science
-  - foldable
-  - video
 worksheets:
  - SMG4-8.5x11.pdf
  - SMG4-11x17.pdf
@@ -61,7 +58,7 @@ sitemap:
   lastmod: 2020-02-10
   priority: 0.3
   changefreq: 'monthly'
-  exclude: 'yes'
+  exclude: 'no'
 ---
 
 ## Science Mom's Guide to Water, Part 4

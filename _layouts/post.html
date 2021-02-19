@@ -5,14 +5,14 @@
 
 	<body id="top">
 
-        {% include postheader.html %}
+        {% include header.html %}
         <!-- Main -->
 
             <header>
 
 
               <!-- header wrapper -->
-          		<div class="header-wrapper sm-padding bg-grey">
+          		<div class="header-wrapper sm-padding section_gap_top">
           			<div class="container">
           				<h2>{{ page.title }}</h2>
           				<ul class="breadcrumb">
@@ -25,6 +25,9 @@
           		<!-- /header wrapper -->
 
 
+
+
+<!-------------------------------->
         <!-- Blog -->
       	<div id="blog" class="section sm-padding">
 
@@ -39,16 +42,12 @@
       					<div class="blog">
 
               <div class="blog-content">
-                <ul class="blog-meta">
-                  <li><i class="fas fa-user"></i>Jenny Ballif</li>
-                  <li><i class="far fa-clock"></i>{{ page.date | date: "%b %-d, %Y" }}</li>
-                </ul>
 
                 {{ content }}
               </div>
 
                 {% if page.guide0 %}
-                <p><div id="scroll">
+                <p><div class="scroll">
                   <img src="images/{{ page.folder }}/{{ page.guide0 }}">
                 </div></p>
                 {% endif %}
@@ -79,145 +78,64 @@
 
 
 
-    						<!-- blog author -->
-    						<div class="blog-author">
-    							<div class="media">
-    								<div class="media-left">
-    									<img class="media-object" style="max-width:150px;" src="images/JennyBallifSquare.png" alt="Author's profile picture">
-    								</div>
-    								<div class="media-body">
-    									<div class="media-heading">
-    										<h3>Jenny Ballif</h3>
-    										<div class="author-social">
-    											<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
-                              onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fab fa-facebook"></i></a>
-    											<a href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}"
-                              onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
-    											<a href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
-                             onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fab fa-google-plus"></i></a>
-    										</div>
-    									</div>
-    									<p>Jenny Ballif has worked as a molecular biologist and a wild land firefighter, and at several jobs that fall in between wearing a lab coat and wielding a chainsaw. She is the mother of three kids, wife of one mathematician, and author of several books.</p>
-    								</div>
-    							</div>
-    						</div>
-    						<!-- /blog author -->
 
                 <!-- Navigation Arrows -->
                 <div class="PageNavigation">
                   {% if page.previous.url %}
-                    <a class="prev" href="{{ site.baseurl }}{{ page.previous.url }}"> &larr; {{ page.previous.title }}</a>
-                  {% else %}
-                    <a class="prev"></a>
+                    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
                   {% endif %}
                   {% if page.next.url %}
-                    <a class="next" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+                    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
                   {% endif %}
                 </div>
                 <!-- /Navigation Arrows -->
 
           </main>
 
-                <!-- Aside -->
-        				<aside id="aside" class="col-md-3">
-
-        					<!--
-        					<div class="widget">
-        						<div class="widget-search">
-        							<input class="search-input" type="text" placeholder="search">
-        							<button class="search-btn" type="button"><i class="fa fa-search"></i></button>
-        						</div>
-        					</div>
-        					 /Search -->
-
-                  <!-- Category -->
-        					<div class="widget">
-        						<h3 class="title">Category</h3>
-        						<div class="widget-category">
-                      {% assign tags_list = site.categories %}
-                        {% if tags_list.first[0] == null %}
-                          {% for tag in tags_list %}
-        							      <a href="{{ site.url }}/blog#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a>
-                          {% endfor %}
-                        {% else %}
-                          {% for tag in tags_list %}
-                            <a href="{{ site.url }}/blog#{{ tag[0] | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag[0] }}" rel="tag">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a>
-                          {% endfor %}
-                        {% endif %}
-                      {% assign tags_list = nil %}
-                    </div>
-        					</div>
-        					<!-- /Category -->
-
-        					<!-- Posts sidebar -->
-        					<div class="widget">
-        						<h3 class="title">Random Posts</h3>
-
-                    <!-- single post -->
-        						<div class="widget-post">
-                    <script type="text/javascript">
-
-                        var randomIndexUsed = [];
-                        var counter = 0;
-                        var numberOfPosts = 3;
-
-                        while (counter < numberOfPosts)
-                        {
-                            var randomIndex;
-                            var postHREF;
-                            var postTitle;
-                            var postFolder;
-                            var postImage;
-
-                            randomIndex = Math.floor(Math.random() * postsHREF.length);
-
-                            if (randomIndexUsed.indexOf(randomIndex) == "-1")
-                            {
-                                postHREF = postsHREF[randomIndex];
-                                postTitle = postsTitle[randomIndex];
-                                postFolder = postsFolder[randomIndex];
-                                postImage = postsImage[randomIndex];
-
-                                if (counter == (numberOfPosts - 1))
-                                {
-                                    document.write('<a href="' + postHREF + '">' + '<img class="img-responsive" src="/images/' + postFolder + '/' + postImage + '">' + postTitle + '</a><hr />');
-                                }
-                                else
-                                {
-                                  document.write('<a href="' + postHREF + '">' + '<img class="img-responsive" src="/images/' + postFolder + '/' + postImage + '">' + postTitle + '</a><hr />');
-                                }
-
-                                randomIndexUsed.push(randomIndex);
-
-                                counter++;
-                            }
-                        }
-
-                    </script>
-        						</div>
-                    <!-- /single post -->
 
 
-        					</div>
-        					<!-- /Posts sidebar -->
-
-        				</aside>
-        				<!-- /Aside -->
-
-        			</div>
         			<!-- /Row -->
+              <div class="col-md-3">
+                      <div class="blog_right_sidebar">
+
+                          <aside class="single_sidebar_widget author_widget">
+                              <img class="author_img rounded-circle" src="images/JennyBallifSquare.png" alt="Jenny Ballif headshot" style="max-width:100%;">
+                              <h4>Jenny Ballif</h4>
+                              <p>Science Mom</p>
+                              <div class="social_icon">
+                                  <a href="#"><i class="ti-facebook"></i></a>
+                                  <a href="#"><i class="ti-twitter"></i></a>
+                                  <a href="#"><i class="ti-github"></i></a>
+                                  <a href="#"><i class="ti-linkedin"></i></a>
+                              </div>
+                              <p>Jenny Ballif has worked as a molecular biologist and a wild land firefighter, and at several jobs that fall in between wearing a lab coat and wielding a chainsaw. She is the mother of three kids, wife of one mathematician, and author of several books.</p>
+                              <div class="br"></div>
+                          </aside>
+                          <aside class="single-sidebar-widget tag_cloud_widget">
+                              <h4 class="widget_title">Tag Clouds</h4>
+                              <ul class="list">
+                                {% assign tags_list = site.categories %}
+                                  {% if tags_list.first[0] == null %}
+                                    {% for tag in tags_list %}
+                                  <li><a href="{{ site.url }}/blog#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a></li>
+                                  {% endfor %}
+                                {% else %}
+                                  {% for tag in tags_list %}
+                                  <li><a href="{{ site.url }}/blog#{{ tag[0] | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag[0] }}" rel="tag">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a></li>
+                                  {% endfor %}
+                                {% endif %}
+                              {% assign tags_list = nil %}
+                              </ul>
+                          </aside>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
 
 
 
-
-
-                 <footer class="post-footer">
-
-                             {% include disqus_comments.html %}
-
-                         </footer>
-
-                {% include disqus_comments.html %}
 
         {% include footer.html %}
 

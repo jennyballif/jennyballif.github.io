@@ -41,9 +41,7 @@ experiment4concepts: 'Siphons (Physics), Momentum (Physics), Air Pressure (Physc
 experiment4image: bottlefountain.png
 categories:
   - experiments
-  - science
-  - foldable
-  - video
+
 worksheets:
  - SMG3-8.5x11.pdf
  - SMG3-11x17.pdf
@@ -60,7 +58,7 @@ sitemap:
   lastmod: 2020-02-10
   priority: 0.3
   changefreq: 'monthly'
-  exclude: 'yes'
+  exclude: 'no'
 ---
 
 ## Science Mom's Guide to Water, Part 3

@@ -5,7 +5,7 @@
 
 - title: Quarantime Day 20 - The Psychology of Isolation
   id: lptNa399jM4
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35833239
       bonusicon: fas fa-file-alt
@@ -13,7 +13,7 @@
 
 - title: Quarantime Day 19 - Photosynthesis and Fractions
   id: i2deblc9pCM
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35786230
       bonusicon: fas fa-file-alt
@@ -21,7 +21,7 @@
 
 - title: Quarantime Day 18 - Germs and Fractions
   id: p2xFeZDGNJQ
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35742891
       bonusicon: fas fa-file-alt
@@ -29,7 +29,7 @@
 
 - title: Quarantime Day 17 - Genetica and Probability
   id: x-zDjFg3fTo
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35702579
       bonusicon: fas fa-file-alt
@@ -37,7 +37,7 @@
 
 - title: Quarantime Day 16 - Variety of Life and Probability
   id: m-qYShjxnxw
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35684920
       bonusicon: fas fa-file-alt
@@ -45,7 +45,7 @@
 
 - title: Quarantime Day 15 - Five Boredom Busters
   id: sWc3QHTIqxk
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35582379
       bonusicon: fas fa-file-alt
@@ -53,7 +53,7 @@
 
 - title: Quarantime Day 14 - Light, Sound, Unit Conversion
   id: feSXrIEtn9U
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35542920
       bonusicon: fas fa-file-alt
@@ -61,7 +61,7 @@
 
 - title: Quarantime Day 13 - Astronomy, Geometry, and April Fools Fun
   id: RCT0hV9cVmc
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35485642
       bonusicon: fas fa-file-alt
@@ -69,7 +69,7 @@
 
 - title: Quarantime Day 12 - Magnetism, Place Value, and Decimals
   id: xMmW-TO8Q_w
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35450635
       bonusicon: fas fa-file-alt
@@ -77,7 +77,7 @@
 
 - title: Quarantime Day 11 - Physics and Domino Math
   id: vdJQ5v0RsBM
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35408800
       bonusicon: fas fa-file-alt
@@ -85,7 +85,7 @@
 
 - title: Quarantime Day 10 - Friday Fun and Career Advice for Youtubers
   id: 23vLWtB-3qY
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35305168
       bonusicon: fas fa-file-alt
@@ -93,7 +93,7 @@
 
 - title: Quarantime Day 9 - internet safety, pH, and magic squares
   id: xIo6cRkyLAo
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35264110
       bonusicon: fas fa-file-alt
@@ -101,7 +101,7 @@
 
 - title: Quarantime Day 8 - Elephant Toothpaste, Math Game
   id: eF6ooc6Bqnk
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35237889
       bonusicon: fas fa-file-alt
@@ -110,28 +110,23 @@
 
 - title: Quarantime Day 7 - Chemical Reactions and Infinite Geometric Series!
   id: nl_pj248aS8
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35196851
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
 - title: Quarantime Day 6 - Chemistry and Fractions
-  id: gGYVxCXlTBU 
-  category: courses
+  id: gGYVxCXlTBU
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/35167817
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
-
-
-
-
-
 - title: QuaranTime Day 5 - Fun Friday
   id: 0zNP0NnGhXs
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/day-5-of-fun-35066688
       bonusicon: fas fa-file-alt
@@ -140,7 +135,7 @@
 
 - title: QuaranTime Day 4 - Scientific Method
   id: 38cpadQqSms
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/day-4-of-method-35028931
       bonusicon: fas fa-file-alt
@@ -148,7 +143,7 @@
 
 - title: QuaranTime Day 3 - Surprising Inertia
   id: J8_78k8PiNw
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/day-3-of-inertia-34991843
       bonusicon: fas fa-file-alt
@@ -156,15 +151,15 @@
 
 - title: QuaranTime Day 2 - Epic Electric
   id: Ia9AxUMX1w0
-  category: courses
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/day-2-of-epic-34957790
       bonusicon: fas fa-file-alt
       bonustext: Worksheets
 
 - title: QuaranTime Day 1 - When Ice is Dry
-  id: oQhAi8uLyVo 
-  category: courses
+  id: oQhAi8uLyVo
+  category: QuaranTime
   bonus:
     - bonusurl: https://www.patreon.com/posts/day-1-of-when-is-34934732
       bonusicon: fas fa-file-alt
@@ -172,16 +167,16 @@
 
 - title: 5 Facts Everyone Should Know about Pandemics
   id: Bq3xJVcJBDI
-  category: courses
+  category: Miscellaneous
 
 - title: 5 Facts Everyone Should Know about Coronavirus
   id: WwQMtSI3i5I
-  category: courses
+  category: Miscellaneous
 
 - title: Science Mom's Guide to Water Part 1
-  id: 5pAuxot2sEY
+  id: IsvHQon2IqQ
   posturl: science-mom-s-guide-to-water-part-1
-  category: courses
+  category: Water
   folder: images/SMG1
   foldables:
    - SMG1-8.5x11.pdf
@@ -192,7 +187,7 @@
 - title: Science Mom's Guide to Water Part 2
   id: OeYYiSsPf4I
   posturl: science-mom-s-guide-to-water-part-2
-  category: courses
+  category: Water
   folder: images/SMG2
   foldables:
    - SMG2-8.5x11.pdf
@@ -203,7 +198,7 @@
 - title: Science Mom's Guide to Water Part 3
   id: 4OgcPI7S8_o
   posturl: science-mom-s-guide-to-water-part-3
-  category: courses 
+  category: Water
   folder: images/SMG3
   foldables:
    - SMG3-8.5x11.pdf
@@ -214,7 +209,7 @@
 - title: Science Mom's Guide to Water Part 4
   id: 4Y7SWqUJJ9A
   posturl: science-mom-s-guide-to-water-part-4
-  category: courses
+  category: Water
   folder: images/SMG4
   foldables:
    - SMG4-8.5x11.pdf
@@ -225,7 +220,7 @@
 - title: Science Mom's Guide to Water Part 5
   id: KPjp2qg8SA4
   posturl: science-mom-s-guide-to-water-part-5
-  category: courses
+  category: Water
   folder: images/SMG5
   foldables:
    - SMG5-8.5x11.pdf
@@ -236,7 +231,7 @@
 - title: Science Mom's Guide to Water Part 6
   id: 5pAuxot2sEY
   posturl: science-mom-s-guide-to-water-part-6
-  category: courses
+  category: Water
   folder: images/SMG6
   foldables:
    - SMG6-8.5x11.pdf
@@ -247,7 +242,7 @@
 - title: Science Mom's Guide to Water Part 7
   id: 0gqXZJtXgmg
   posturl: science-mom-s-guide-to-water-part-7
-  category: courses
+  category: Water
   folder: images/SMG7
   foldables:
    - SMG7-8.5x11.pdf
@@ -260,7 +255,7 @@
 
 - title: Science Mom Extracts DNA from a Strawberry
   id: d2IBcOI22uI
-  category: projects
+  category: Projects
   vidlinks:
     - name: Squishing Food for Science
       url: https://www.youtube.com/watch?v=03XCb99gl8s
@@ -273,7 +268,7 @@
 
 - title: Squishing Food for Science
   id: 03XCb99gl8s
-  category: projects
+  category: Projects
   vidlinks:
     - name: Extract DNA from a Strawberry
       url: https://www.youtube.com/watch?v=d2IBcOI22uI
@@ -282,7 +277,7 @@
 
 - title: DNA Extraction Explained
   id: vdyNebSxX6I
-  category: projects
+  category: Projects
   vidlinks:
     - name: Extract DNA from a Strawberry
       url: https://www.youtube.com/watch?v=d2IBcOI22uI
@@ -291,7 +286,7 @@
 
 - title: 6 Activities with Static Electricity
   id: pIMG_R6mKQ0
-  category: projects
+  category: Projects
   bonus:
   - bonusurl: https://www.patreon.com/posts/24193101
     bonusicon: far fa-map
@@ -299,25 +294,25 @@
 
 - title: Why Mentos and Soda React
   id: usDy8-xFYKk
-  category: projects
+  category: Projects
 
 - title: 5 Inertia Activities
   id: hwmf73Bwky8
-  category: projects
+  category: Projects
 
 - title: The Science Behind Slime
   id: 4F9ukCQvP20
-  category: projects
+  category: Projects
   bonus:
   - bonusurl: https://www.patreon.com/posts/15780477
-    bonusicon: fas fa-file-alt 
+    bonusicon: fas fa-file-alt
     bonustext: Get the worksheets
 
 # -----------Science Fair------------
 
 - title: Roll a can with static electricity
   id: tNXLDSUDP64
-  category: science fair
+  category: Miscellaneous
   bonus:
     - bonusurl: https://www.patreon.com/posts/weekly-science-1-32769612
       bonusicon: fas fa-file-alt
@@ -325,45 +320,45 @@
 
 - title: Balloon on the Wall Experiment
   id: XXCZrV7fnXc
-  category: science fair
+  category: Miscellaneous
 
 - title: Pepper Vacuum Experiment
   id: 3VaOvkP6XEw
-  category: science fair
-  
-- title: Levitating Orb 
-  id: gMEYSU_oAak
-  category: science fair
+  category: Miscellaneous
 
-- title: Repelling Balloons 
+- title: Levitating Orb
+  id: gMEYSU_oAak
+  category: Miscellaneous
+
+- title: Repelling Balloons
   id: T5v2dWkuB0E
-  category: science fair
+  category: Miscellaneous
 
 
 # -----------Nature------------
 
 - title: Steamboat Geyser Eruption with Science Mom - 06/04/18
   id: PeUTgwMg3HM
-  category: nature
+  category: Nature
 
 - title: Eclipse Report and Crescent Shadows
   id: G1OO41wGd6k
-  category: nature
+  category: Nature
 
 
 # -----------Curiosity------------
 
 - title: Forest in the Desert?
   id: UOFofBL0Tac
-  category: curiosity
+  category: Nature
 
 - title: What it's REALLY like to be a YouTuber
   id: 074uESdi8q8
-  category: curiosity
+  category: Miscellaneous
 
 - title: Mendel and Heredity - Famous Science Experiments
   id: TtQYc1jmEWA
-  category: curiosity
+  category: Projects
   bonus:
     - bonusurl: https://www.patreon.com/file?h=22436306&i=2808095
       bonusicon: fas fa-file-alt
@@ -375,11 +370,25 @@
 
 - title: Resound of Science (Parody)
   id: fJIxzQ5NvBM
-  category: curiosity
+  category: Songs
+
+- title: Don't Know the Words to this Song
+  id: JCc6hQVVNl4
+  category: Songs
+
+- title: Layers of the Atmosphere
+  id: E6tHblvKqCQ
+  category: Songs
+
+- title: Animal Camp Songs
+  id: 8_pXh5fB4OA
+  category: Songs
+
+
 
 - title: Island Adaptations
   id: 21OfJCy_jd0
-  category: curiosity
+  category: Nature
   folder: images/Worksheets/ScienceWorksheets
   worksheets:
     - IslandAdaptations.pdf
@@ -387,37 +396,37 @@
 
 - title: What color is blood REALLY? (6 min version)
   id: zr0fejFPK5A
-  category: curiosity
+  category: Miscellaneous
 
 - title: What Color Is Blood Really?
   id: jPvo7DkrFjo
   posturl: what-color-is-blood-really
-  category: curiosity
-  
+  category: Miscellaneous
+
 - title: Science Mom Fold a Book from One Piece of Paper
   id: E0sS59oMBe0
-  category: curiosity
-  
+  category: Miscellaneous
+
 - title: Elk + Car = Fire
   id: PsBgxeqTuGo
-  category: curiosity
+  category: Miscellaneous
 
 
-  
-  
-  
+
+
+
 
 # -----------Math Videos------------
 - title: The Math Behind Spot it!
   id: lhTMr8RzUr8
-  category: math
+  category: Math
   folder: images/Worksheets/ScienceWorksheets
   worksheets:
     - SpotIt.pdf
 
 - title: How to win tic-tac-toe
   id: 38cInzM--uw
-  category: math
+  category: Math
   bonus:
   - bonusurl: https://www.patreon.com/posts/23013747
     bonusicon: far fa-map
@@ -425,27 +434,27 @@
 
 - title: Reverse tic-tac-toe
   id: vEBww_TSCAs
-  category: math
+  category: Math
 
 - title: Count to 18 Game
   id: IwnV0Q6eCwY
-  category: math
+  category: Math
 
 - title: How to Count in Binary
   id: HF2OeNpvakw
-  category: math
+  category: Math
 
 - title: How to win The Game of 15
   id: 828lhDnjUjY
-  category: math
+  category: Math
 
 - title: How to Build a Magic Square
   id: Yks7q1PEd-U
-  category: math
+  category: Math
 
 - title: Magic Bacteria&#58; A Cautionary Tale
   id: LZTeYrdq3aA
-  category: math
+  category: Math
   folder: images/Worksheets/ScienceWorksheets
   worksheets:
     - MagicBacteria.pdf
@@ -455,7 +464,7 @@
 
 - title: Math Dad vs Science Mom 42
   id: RyOMLZfJqtI
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge42.pdf
@@ -463,7 +472,7 @@
 
 - title: Math Dad vs Science Mom 41 Shikaku
   id: RYbz-CCm4rc
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge41.pdf
@@ -471,7 +480,7 @@
 
 - title: Math Dad vs Science Mom 40
   id: 1cJM11gzXZM
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge40.pdf
@@ -479,7 +488,7 @@
 
 - title: Math Dad vs Science Mom 39 6 Rows of 3
   id: N7oDyZaMY2w
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge39.pdf
@@ -487,7 +496,7 @@
 
 - title: Math Dad vs Science Mom 38 Two White Marbles
   id: KafOxVn-m8Q
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge38.pdf
@@ -495,7 +504,7 @@
 
 - title: Math Dad vs Science Mom 37 At Least One Boy
   id: 27KMFbKPZDc
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge37.pdf
@@ -503,7 +512,7 @@
 
 - title: Math Dad vs Science Mom 36 Black Socks
   id: cJrm7NqTIS4
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge36.pdf
@@ -511,7 +520,7 @@
 
 - title: Math Dad vs Science Mom 35 Area Maze
   id: boKo1qDn0-k
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge35.pdf
@@ -519,7 +528,7 @@
 
 - title: Math Dad vs Science Mom 34 Checker Switcheroo
   id: yJquQ6yBOV0
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge34.pdf
@@ -527,7 +536,7 @@
 
 - title: Math Dad vs Science Mom 33 Handshaking Couples
   id: WuXhxms3Z3E
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge33.pdf
@@ -535,7 +544,7 @@
 
 - title: Math Dad vs Science Mom 32 Dots and Boxes
   id: krfrhElxid4
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge32.pdf
@@ -543,7 +552,7 @@
 
 - title: Math Dad vs Science Mom 31 Strimko
   id: mn1GOYpwlQs
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge31.pdf
@@ -551,7 +560,7 @@
 
 - title: Math Dad vs Science Mom 30 How Many Rectangles?
   id: IksZ1p1BlXI
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge30.pdf
@@ -559,7 +568,7 @@
 
 - title: Math Dad vs Science Mom 29 White Diagonal
   id: WxLMiyeysT0
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge29.pdf
@@ -567,7 +576,7 @@
 
 - title: Math Dad vs Science Mom 28 4 Authors and 4 Agents
   id: h6Ja7GyLJgs
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge28.pdf
@@ -575,7 +584,7 @@
 
 - title: Math Dad vs Science Mom 27 3 Authors and 3 Agents
   id: CfKG8SYimT8
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge27.pdf
@@ -583,7 +592,7 @@
 
 - title: Math Dad vs Science Mom 26 Domino Tiling
   id: 5fhoKV-06ws
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge26.pdf
@@ -591,7 +600,7 @@
 
 - title: Math Dad vs Science Mom 25 Hungry Fish
   id: 4tBYT8gRYZY
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge25.pdf
@@ -599,7 +608,7 @@
 
 - title: Math Dad vs Science Mom 24 How Many Triangles?
   id: I6ue5IeuIPk
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge24.pdf
@@ -607,7 +616,7 @@
 
 - title: Math Dad vs Science Mom 23 Sum to 100
   id: 0DpSkTTLaPQ
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge23.pdf
@@ -615,7 +624,7 @@
 
 - title: Math Dad vs Science Mom 22 How Much is Shaded?
   id: 0J_z4ek403I
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge22.pdf
@@ -623,7 +632,7 @@
 
 - title: Math Dad vs Science Mom 21 Self Counting Sequence
   id: nCRT5GPr53g
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge21.pdf
@@ -631,7 +640,7 @@
 
 - title: Math Dad vs Science Mom 20 Timing 9 Minutes
   id: aruKXmjk9Rw
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge20.pdf
@@ -639,7 +648,7 @@
 
 - title: Math Dad vs Science Mom 19 A Chicken and a Half
   id: uH8d17zXJvI
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge19.pdf
@@ -647,7 +656,7 @@
 
 - title: Math Dad vs Science Mom 18 Tic Tac Fractal
   id: SWqIrCgT91I
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge18.pdf
@@ -655,7 +664,7 @@
 
 - title: Math Dad vs Science Mom 17 Untraceable
   id: SjkvKSdMGR0
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge17.pdf
@@ -663,7 +672,7 @@
 
 - title: Math Dad vs Science Mom 16 Magic Triangle
   id: 9-qV_IHVgL8
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge16.pdf
@@ -672,7 +681,7 @@
 
 - title: Math Dad vs Science Mom 15 How Many Triangles?
   id: 471M65_z6uo
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge15.pdf
@@ -680,7 +689,7 @@
 
 - title: Math Dad vs Science Mom 14 Olympic Dot Challenge
   id: YrTA5xf3dIs
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge14.pdf
@@ -688,7 +697,7 @@
 
 - title: Math Dad vs Science Mom 13 5 Rows of 4
   id: qPEVqel6otE
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge13.pdf
@@ -696,7 +705,7 @@
 
 - title: Math Dad vs Science Mom 12 The Four 4s
   id: sSUV4gJ4LeE
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge12.pdf
@@ -704,7 +713,7 @@
 
 - title: Math Dad vs Science Mom 11 A Shaded Triangle
   id: PNjkBq3FEXs
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge11.pdf
@@ -712,7 +721,7 @@
 
 - title: Math Dad vs Science Mom 10 Find the Heavy Ball
   id: mEm8keJ5MgI
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge10.pdf
@@ -720,7 +729,7 @@
 
 - title: Math Dad vs Science Mom 9 A Bee Collision
   id: dQUitTEcxu0
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge9.pdf
@@ -728,7 +737,7 @@
 
 - title: Math Dad vs Science Mom 8
   id: ewdpgQbjSgw
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge8.pdf
@@ -737,7 +746,7 @@
 
 - title: Math Dad vs Science Mom 7 What Portion is Shaded?
   id: hiURpheNyKc
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge7.pdf
@@ -745,7 +754,7 @@
 
 - title: Math Dad vs Science Mom 6 Geometric Vanishing Puzzle
   id: Vztlsj9he-g
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge6.pdf
@@ -754,7 +763,7 @@
 
 - title: Math Dad vs Science Mom 5
   id: ciZLG-16jFk
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge5.pdf
@@ -762,7 +771,7 @@
 
 - title: Math Dad vs Science Mom 4
   id: 76UGji-hrsc
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge4.pdf
@@ -770,7 +779,7 @@
 
 - title: Math Dad vs Science Mom 3
   id: _CjNPxsxkLg
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge3.pdf
@@ -778,7 +787,7 @@
 
 - title: Math Dad vs Science Mom 2
   id: KFvbv6C8P9U
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge2.pdf
@@ -786,7 +795,7 @@
 
 - title: Math Dad vs Science Mom 1
   id: YROnuqG3lQ8
-  category: math
+  category: Math
   folder: images/Worksheets/MathDadChallenges
   worksheets:
     - MDvsSMChallenge1.pdf
@@ -814,11 +823,11 @@
 - title: Little Fire Ants
   id: ABC1X6cxdbk
   category: archive
-  
+
 - title: How to Avoid Altitude Sickness
   id: mwk1z227ZpU
   category: archive
-  
+
 - title: A Volcanic Gas Mystery
   id: bAGDTHy4Ick
   category: archive
@@ -826,11 +835,11 @@
 - title: Mimosa Pudica
   id: -yG0l1XlH5w
   category: archive
-  
+
 - title: Kipukas
   id: N45Jufo6qjo
   category: archive
-  
+
 - title: A Forest of Ferns
   id: A6ZNZYTezno
   category: archive
@@ -951,9 +960,3 @@
 - title: Levitating Orb Giveaway and Rewards
   id: -x3fxfkJ2hk
   category: archive
-
-
-
-
-
-

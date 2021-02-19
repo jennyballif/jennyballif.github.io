@@ -1,77 +1,103 @@
-<!-- Header -->
-<header id="home">
-  <!-- Background Image -->
-  <div class="bg-img" style="background-image: url('./images/Banner.png');">
-    <div class="overlay"></div>
-  </div>
-  <!-- /Background Image -->
-
-  <!-- Nav -->
-  <nav id="nav" class="navbar nav-transparent">
-    <div class="container">
-
-      <div class="navbar-header">
-        <!-- Logo -->
-        <div class="navbar-brand">
-          <a href="index.html">
-            <img class="logo" src="images/HorizontalLogo.png" height="30" alt="logo">
-            <img class="logo-alt" src="images/HorizontalLogoWhite.png" height="30" alt="logo">
-          </a>
-        </div>
-        <!-- /Logo -->
-
-        <!-- Collapse nav button -->
-        <div class="nav-collapse">
-          <span></span>
-        </div>
-        <!-- /Collapse nav button -->
+<!--================ Start Header Menu Area =================-->
+<header class="header_area">
+  <div class="main_menu">
+    <div class="search_input" id="search_input_box">
+      <div class="container">
+        <form class="d-flex justify-content-between" method="" action="">
+          <input
+            type="text"
+            class="form-control"
+            id="search_input"
+            placeholder="Search Here"
+          />
+          <button type="submit" class="btn"></button>
+          <span
+            class="ti-close"
+            id="close_search"
+            title="Close Search"
+          ></span>
+        </form>
       </div>
-
-      <!--  Main navigation  -->
-      <ul class="main-nav nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}">Home</a></li>
-        <li><a href="{{ site.url }}/frequently-asked-questions">About</a></li>
-        <li class="has-dropdown"><a href="{{ site.url }}/videos.html">Videos</a>
-          <ul class="dropdown">
-            <li><a href="{{ site.url }}/videofeed.html">Courses</a></li>
-            <li><a href="{{ site.url }}/videofeed.html#projects">Projects</a></li>
-            <li><a href="{{ site.url }}/videofeed.html#nature">Nature</a></li>
-            <li><a href="{{ site.url }}/videofeed.html#math">Math and Games</a></li>
-            <li><a href="{{ site.url }}/videofeed.html#curiosity">Curiosities</a></li>
-            <li><a href="{{ site.url }}/videofeed.html#archive">Archive</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ site.url }}/printables.html">Printables</a></li>
-        <li><a href="{{ site.url }}/speaking.html">Speaking</a></li>
-      </ul>
-      <!-- /Main navigation -->
-
     </div>
-  </nav>
-  <!-- /Nav -->
 
-  <!-- home wrapper -->
-  <div class="home-wrapper">
-  	<div class="container">
-  		<div class="row">
-
-  			<!-- home content -->
-  			<div class="col-md-10 col-md-offset-1">
-  				<div class="home-content">
-  					<h2 class="white-text">Engaging science activities for kids of all ages.</h2> 
-          <a href="https://youtube.com/sciencemom" target="_blank" rel="noopener">
-  					   <button class="white-btn"><i class="fab fa-youtube-square"></i> YouTube</button>
-            </a>
-            <a href="https://www.patreon.com/ScienceMom" target="_blank" rel="noopener">
-  					   <button class="main-btn"><i class="fab fa-patreon"></i> Patreon</button>
-            </a>
-  				</div>
-  			</div>
-  			<!-- /home content -->
-
-  		</div>
-  	</div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand logo_h" href="index.html"
+          ><img src="images/HorizontalLogo.png" height="30" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse offset"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav navbar-nav menu_nav ml-auto">
+            <li class="nav-item {% if page.title == "Store" %}active {% endif %}">
+              <a class="nav-link" href="https://science-mom.creator-spring.com/" target="_blank">Store</a>
+            </li>
+            <li class="nav-item submenu dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Videos</a
+              >
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="earthscience.html">Earth Science</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="chemvids.html">Chemistry</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Math</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nature.html">Nature</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="songs.html">Songs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item {% if page.title == "About" %}active {% endif %}">
+              <a class="nav-link" href="{{ site.url }}/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patreon.com/sciencemom" target="_blank">Join Us</a>
+            </li>
+            <li class="nav-item {% if page.title == "Contact" %}active {% endif %}">
+              <a class="nav-link" href="{{ site.url }}/contact.html">Contact</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a href="#" class="nav-link search" id="search">
+                <i class="ti-search"></i>
+              </a>
+            </li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-  <!-- /home wrapper -->
 </header>
-<!-- /Header -->
+<!--================ End Header Menu Area =================-->

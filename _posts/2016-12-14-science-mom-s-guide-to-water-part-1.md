@@ -3,9 +3,6 @@ layout: post
 published: true
 categories:
   - experiments
-  - science
-  - foldable
-  - video
 sciencemom: true
 comments: true
 experiment1: true
@@ -62,7 +59,7 @@ sitemap:
   lastmod: 2020-02-10
   priority: 0.3
   changefreq: 'monthly'
-  exclude: 'yes'
+  exclude: 'no'
 
 ---
 

@@ -1,0 +1,87 @@
+---
+layout: default
+title: Science Mom's Guide to Water
+description: "Science Mom shares her favorite water experiments."
+sitemap:
+  lastmod: 2020-02-16
+  priority: 0.5
+  changefreq: 'monthly'
+  exclude: 'no'
+---
+
+<div id="main" class="container menu_pad_top" >
+</div>
+
+      <!--================ Start Video Feed =================-->
+      <!-- Row -->
+<div class="container">
+  <h2>Science Mom's Guide to Water</h2>
+  <div class="row justify-content-center video-row">
+  {% assign items = site.data.videos %}
+  {% for video in items %}
+  {% if video.category == "Water" %}
+
+  <div class="col-12 col-lg-10 {% cycle 'bg-grey', 'bg-dark' %} video-row">
+  <header class="major text-center">
+    {% if video.posturl %}
+      <h3 style="padding: 1em;"><a href="{{ site.baseurl }}{{ video.posturl }}">{{ video.title }}</a></h3>
+    {% else %}
+      <h3 style="padding: 1em;">{{ video.title }}</h3>
+    {% endif %}
+  </header>
+  <section class="container">
+    <!-- video -->
+      <div class="vidwrapper">
+      	<div class="youtube" data-embed="{{ video.id }}">
+      		<div class="play-button"></div>
+      	</div>
+      </div>
+    <!-- /video -->
+
+    <!-- blog worksheets -->
+    <div class="blog-worksheets">
+      {% if video.poll %}
+        <p style="text-align: center;">
+          <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ video.poll | cgi_encode  }}" data-toggle="tooltip" title="Watch {{ video.title }} with a poll" rel="tag"><i class="fas fa-poll fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i> Participate in the polls while watching the replays!</a>
+      {% endif %}
+
+      {% if video.folder %}
+      {% for worksheet in video.worksheets %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ site.url }}/{{ video.folder }}/{{ worksheet | cgi_encode }}" data-toggle="tooltip" title="download {{ worksheet }}" rel="tag"><i class="fas fa-file-alt fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>{{ worksheet }}</a>
+      {% endfor %}
+      {% for foldable in video.foldables %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ site.url }}/{{ video.folder }}/{{ foldable | cgi_encode }}" data-toggle="tooltip" title="download {{ foldable }}" rel="tag"><i class="fas fa-file-alt  fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>{{ foldable }}</a>
+      {% endfor %}
+      {% endif %}
+      {% if video.tryit %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ video.tryit | cgi_encode }}" data-toggle="tooltip" title="Try it out on Desmos" rel="tag" target="_blank"><i class="fas fa-desktop fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>Try it</a>
+      {% endif %}
+      {% if video.teacher %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ video.teacher | cgi_encode }}" data-toggle="tooltip" title="Create it for students on Desmos" rel="tag" target="_blank"><i class="fas fa-chalkboard-teacher fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>Teacher Link</a>
+      {% endif %}
+      {% if video.posturl %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ video.posturl | cgi_encode }}" data-toggle="tooltip" title="See the blog post" rel="tag" target="_blank"><i class="far fa-newspaper fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>Blog Post</a>
+      {% endif %}
+      {% if video.vidlinks %}
+      {% for vid in video.vidlinks %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ vid.url }}" data-toggle="tooltip" target="_blank" rel="tag"><i class="fas fa-video fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>{{ vid.name }}</a>
+      {% endfor %}
+      {% endif %}
+      {% if video.patreon %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ video.patreon | cgi_encode }}" data-toggle="tooltip" title="Content only available to patrons" rel="tag" target="_blank"><i class="fab fa-patreon fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>Patron-only content</a>
+      {% endif %}
+      {% if video.bonus %}
+      {% for bonus in video.bonus %}
+        <a class="primary-btn" target="_blank" style="margin: 5px 5px;" href="{{ bonus.bonusurl | cgi_encode }}" data-toggle="tooltip" title="Bonus Content" rel="tag" target="_blank"><i class="{{ bonus.bonusicon }}  fa-2x" style="display: inline-block; vertical-align: middle; margin: 5px 5px; margin-right:10px;"></i>{{ bonus.bonustext }}</a>
+      {% endfor %}
+      {% endif %}
+    </div>
+    <!-- /blog worksheets -->
+  </section>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div >
+</div>
+      <!-- /Row -->
+      <!--================ End Video Feed =================-->
