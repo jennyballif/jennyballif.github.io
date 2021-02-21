@@ -31,11 +31,10 @@ sitemap:
   </header>
   <section class="container">
     <!-- video -->
-      <div class="vidwrapper">
-      	<div class="youtube" data-embed="{{ video.id }}">
-      		<div class="play-button"></div>
-      	</div>
-      </div>
+    <div class="video-container">
+      <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
     <!-- /video -->
 
     <!-- blog worksheets -->
