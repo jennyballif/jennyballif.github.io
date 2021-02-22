@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+
+
+<section class="container">
+{% assign experiments = site.data.experiments | group_by: 'categories' %}
+{% for cat in experiments %}
+{% assign items = cat.items | sort: 'order' %}
+{% for exp in items %}
+<section id="main" class="wrapper style1">
+<div>
+<table class="rwd-table">
+  <caption>{{ exp.title }}</caption>
+  <tr>
+    <th>Time: {{ exp.time }}</th>
+    <th>Supplies</th>
+    <th>Concepts</th>
+    <th>Resources</th>
+  </tr>
+  <tr>
+    <td data-th="Time: {{ exp.time }}"><img src="{{ exp.image }}" alt="Experiment" width="150px" style="float: right;"></td>
+    <td data-th="Supplies">{{ exp.supplies }}</td>
+    <td data-th="Concepts">{{ exp.concepts }}</td>
+    <td data-th="Resources">
+      <div class="blog-worksheets">
+      {% if exp.bonus %}
+        {% for bonus in exp.bonus %}
+          <a href="{{ base.url }}/{{ bonus.bonusurl | cgi_encode }}" data-toggle="tooltip" title="Bonus Content" rel="tag" target="_blank"><i class="{{ bonus.bonusicon }}"></i>{{ bonus.bonustext }}</a>
+        {% endfor %}
+      {% endif %}
+      {% if exp.vidlinks %}
+        {% for vid in exp.vidlinks %}
+          <a href="{{ vid.url }}" data-toggle="tooltip" target="_blank" rel="tag"><i class="fab fa-youtube"></i>{{ vid.name }}</a>
+        {% endfor %}
+      {% endif %}
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+</section>
+{% endfor %}
+{% endfor %}
+</section>
