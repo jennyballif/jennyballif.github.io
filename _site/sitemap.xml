@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-7</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-7</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-6</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-6</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-5</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-5</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-4</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-4</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-3</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-3</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -78,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-2</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-2</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -93,7 +93,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/science-mom-s-guide-to-water-part-1</loc>
+      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-1</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -109,9 +109,9 @@
   
     
     <url>
-      <loc>http://localhost:4002/404.html</loc>
+      <loc>http://localhost:4001/404.html</loc>
       
-        <lastmod>2021-02-24T11:06:06-08:00</lastmod>
+        <lastmod>2021-02-26T12:21:20-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,7 +124,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/about</loc>
+      <loc>http://localhost:4001/about</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -139,24 +139,9 @@
   
     
     <url>
-      <loc>http://localhost:4002/activities</loc>
+      <loc>http://localhost:4001/activities</loc>
       
-        <lastmod>2021-02-24T11:06:06-08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.6</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4002/blog</loc>
-      
-        <lastmod>2021-02-24T11:06:06-08:00</lastmod>
+        <lastmod>2021-02-26T12:21:20-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -169,7 +154,22 @@
   
     
     <url>
-      <loc>http://localhost:4002/chemvids</loc>
+      <loc>http://localhost:4001/blog</loc>
+      
+        <lastmod>2021-02-26T12:21:20-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4001/chemvids</loc>
       
         <lastmod>2020-02-05</lastmod>
       
@@ -184,7 +184,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/contact</loc>
+      <loc>http://localhost:4001/contact</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -199,7 +199,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/courses</loc>
+      <loc>http://localhost:4001/courses</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -214,7 +214,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/earthscience</loc>
+      <loc>http://localhost:4001/earthscience</loc>
       
         <lastmod>2020-02-05</lastmod>
       
@@ -231,7 +231,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/</loc>
+      <loc>http://localhost:4001/</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -246,7 +246,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/math</loc>
+      <loc>http://localhost:4001/math</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -261,7 +261,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/misc</loc>
+      <loc>http://localhost:4001/misc</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -276,7 +276,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/nature</loc>
+      <loc>http://localhost:4001/nature</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -291,7 +291,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/projects</loc>
+      <loc>http://localhost:4001/projects</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -306,7 +306,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/quarantime</loc>
+      <loc>http://localhost:4001/quarantime</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -323,7 +323,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/songs</loc>
+      <loc>http://localhost:4001/songs</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -338,7 +338,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/videos</loc>
+      <loc>http://localhost:4001/videos</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -353,7 +353,7 @@
   
     
     <url>
-      <loc>http://localhost:4002/water</loc>
+      <loc>http://localhost:4001/water</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -368,9 +368,9 @@
   
     
     <url>
-      <loc>http://localhost:4002/assets/css/style.css</loc>
+      <loc>http://localhost:4001/assets/css/style.css</loc>
       
-        <lastmod>2021-02-24T11:06:06-08:00</lastmod>
+        <lastmod>2021-02-26T12:21:20-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -383,9 +383,9 @@
   
     
     <url>
-      <loc>http://localhost:4002/feed.xml</loc>
+      <loc>http://localhost:4001/feed.xml</loc>
       
-        <lastmod>2021-02-24T11:06:06-08:00</lastmod>
+        <lastmod>2021-02-26T12:21:20-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
