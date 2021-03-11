@@ -12,14 +12,14 @@
 
 
               <!-- header wrapper -->
-          		<div class="header-wrapper sm-padding section_gap_top">
+          		<div class="header-wrapper sm-padding" style="padding-top: 70px;">
           			<div class="container">
-          				<h2>{{ page.title }}</h2>
-          				<ul class="breadcrumb">
+          				<ul class="breadcrumb" style="background-color: #ffffff;">
           					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
           					<li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
           					<li class="breadcrumb-item active">{{ page.title }}</li>
           				</ul>
+                  <h2>{{ page.title }}</h2>
           			</div>
           		</div>
           		<!-- /header wrapper -->
@@ -38,7 +38,7 @@
       			<div class="row">
 
       				<!-- Main -->
-      				<main id="main" class="col-md-9">
+      				<main id="main" class="col-lg-9">
       					<div class="blog">
 
               <div class="blog-content">
@@ -54,8 +54,8 @@
 
                 <!-- blog worksheets -->
                 {% assign worksheetsize = page.worksheets.size %}
-                {% if worksheetsize != 0 %}
-                <div class="blog-worksheets">
+                {% if worksheetsize > 0 %}
+                <div class="blog-worksheets" style="padding: 0px 0px;">
                   <h5>Worksheets:</h5>
                   {% for worksheet in page.worksheets %}
                   <a href="{{ site.url }}/images/{{ page.folder }}/{{ worksheet | cgi_encode }}" data-toggle="tooltip" title="Worksheet to download {{ worksheet }}" rel="worksheet"><i class="far fa-map"></i>{{ worksheet }}</a>
@@ -66,7 +66,7 @@
 
                 <!-- blog tags -->
                 {% assign tagsize = page.categories.size %}
-                {% if tagsize != 0 %}
+                {% if tagsize > 0 %}
                 <div class="blog-tags">
                   <h5>Tags:</h5>
                   {% for tag in page.categories %}
@@ -76,7 +76,7 @@
                 {% endif %}
       					<!-- blog tags -->
 
-
+{% include share-buttons.html %}
 
 
                 <!-- Navigation Arrows -->
@@ -95,7 +95,7 @@
 
 
         			<!-- /Row -->
-              <div class="col-md-3">
+              <div class="col-lg-3">
                       <div class="blog_right_sidebar">
 
                           <aside class="single_sidebar_widget author_widget">
@@ -103,10 +103,10 @@
                               <h4>Jenny Ballif</h4>
                               <p>Science Mom</p>
                               <div class="social_icon">
-                                  <a href="#"><i class="ti-facebook"></i></a>
-                                  <a href="#"><i class="ti-twitter"></i></a>
-                                  <a href="#"><i class="ti-github"></i></a>
-                                  <a href="#"><i class="ti-linkedin"></i></a>
+                                <a href="https://www.facebook.com/thesciencemom" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.patreon.com/sciencemom" target="_blank"><i class="fab fa-patreon"></i></a>
+                                <a href="https://www.youtube.com/sciencemom" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/the.science.mom" target="_blank"> <i class="fab fa-instagram"></i></a>
                               </div>
                               <p>Jenny Ballif has worked as a molecular biologist and a wild land firefighter, and at several jobs that fall in between wearing a lab coat and wielding a chainsaw. She is the mother of three kids, wife of one mathematician, and author of several books.</p>
                               <div class="br"></div>

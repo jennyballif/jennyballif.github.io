@@ -31,7 +31,7 @@ experiment3supplies: 'Bottled soda, Freezer, Ice'
 experiment3concepts: 'Supercooling of liquids (Physics and Chemistry), Changes of state (Chemistry)'
 experiment3image: Thumbnail3.PNG
 categories:
-  - experiments
+  - science experiments
 worksheets:
  - SMG4-8.5x11.pdf
  - SMG4-11x17.pdf

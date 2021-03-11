@@ -34,7 +34,7 @@ experiment3concepts: 'crystal formation, solutions'
 experiment3image: smg6alum.jpeg
 guide0: SMG6wide.png
 categories:
-  - experiments
+  - science experiments
 worksheets:
  - SMG6-8.5x11.pdf
  - SMG6-11x17.pdf

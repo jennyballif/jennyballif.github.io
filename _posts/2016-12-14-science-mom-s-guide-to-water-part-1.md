@@ -2,7 +2,7 @@
 layout: post
 published: true
 categories:
-  - experiments
+  - science experiments
 sciencemom: true
 comments: true
 experiment1: true

@@ -42,7 +42,7 @@ experiment3supplies: >-
 experiment3concepts: 'Combustion (Chemistry), Density (Chemistry)'
 experiment3image: OilLamp.png
 categories:
-  - experiments
+  - science experiments
 worksheets:
  - SMG5-8.5x11.pdf
  - SMG5-11x17.pdf

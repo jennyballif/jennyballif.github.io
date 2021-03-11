@@ -9,7 +9,7 @@ title: 'Science Mom''s Guide to Water, Part 7'
 description: Explore the heat capacity of water with these 5 fun experiments.
 headline: Explore the heat capacity of water with these 5 fun experiments.
 categories:
-  - experiments
+  - science experiments
 folder: SMG7
 worksheets:
  - SMG7-8.5x11.pdf

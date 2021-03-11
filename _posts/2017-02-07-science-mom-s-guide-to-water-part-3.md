@@ -40,7 +40,7 @@ experiment4supplies: 'Plastic Bottle, Plastic Tubing, Drill or knife, Glue and T
 experiment4concepts: 'Siphons (Physics), Momentum (Physics), Air Pressure (Physcis), Gravity'
 experiment4image: bottlefountain.png
 categories:
-  - experiments
+  - science experiments
 
 worksheets:
  - SMG3-8.5x11.pdf
