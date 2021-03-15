@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2021-03-15T14:11:17-07:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Science Mom</title><subtitle>Science Mom, Hands-on Science Curriculum
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2021-03-15T15:35:15-07:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Science Mom</title><subtitle>Science Mom, Hands-on Science Curriculum
 </subtitle><author><name>Jenny Ballif</name></author><entry><title type="html">Chladni Plate - make sounds you can see!</title><link href="http://localhost:4001/chladni-plates" rel="alternate" type="text/html" title="Chladni Plate - make sounds you can see!" /><published>2021-03-11T00:00:00-08:00</published><updated>2021-03-11T00:00:00-08:00</updated><id>http://localhost:4001/chladni-plates</id><content type="html" xml:base="http://localhost:4001/chladni-plates">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pWe5mfn.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;A balloon stretched over a cylinder with salt forming a pattern on top&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni Plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.&lt;/p&gt;
+&lt;p&gt;Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 3 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -10,12 +10,14 @@
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
 
-&lt;p&gt;A big cylinder (something like an oatmeal canister works great)
-a smaller cylinder (like a paper towel tube)
-A balloon (If available, use large 18-inch balloons)
-Tape (duct tape is great)
-Knife or scissors
-Salt&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A big cylinder (something like an oatmeal canister works great)&lt;/li&gt;
+  &lt;li&gt;a smaller cylinder (like a paper towel tube)&lt;/li&gt;
+  &lt;li&gt;A balloon (If available, use large 18-inch balloons)&lt;/li&gt;
+  &lt;li&gt;Tape (duct tape is great)&lt;/li&gt;
+  &lt;li&gt;Knife or scissors&lt;/li&gt;
+  &lt;li&gt;Salt&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;method-what-to-do&quot;&gt;Method (What to do)&lt;/h3&gt;
 &lt;p&gt;Cut a hole the size of your smaller tube into the side of your large cylinder or container. It’s OK if it isn’t perfect!&lt;/p&gt;
@@ -25,7 +27,8 @@ Salt&lt;/p&gt;
 &lt;p&gt;Cut the neck off the balloon and then stretch your balloon over the top of the large cylinder, and tape it in place.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Tip: before cutting your balloon, inflate the balloon and let the air out a couple of times to stretch it out. The larger the balloon, the easier it will be to get it over the container.&lt;/em&gt;
-&lt;img src=&quot;https://i.imgur.com/riaJqSe.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;A side view of a Chladni plate.&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://i.imgur.com/riaJqSe.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;A side view of a Chladni plate.&quot; /&gt;
+&lt;em&gt;You can use lots of different materials to build your Chladni plate.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Sprinkle salt over the top of the balloon.&lt;/p&gt;
 

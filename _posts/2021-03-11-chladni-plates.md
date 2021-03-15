@@ -25,7 +25,7 @@ sitemap:
 <img src="https://i.imgur.com/pWe5mfn.jpg" class="img-fluid" alt="A balloon stretched over a cylinder with salt forming a pattern on top">
 
 
-Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni Plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.
+Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.
 
 ***Ages: 3 and up (with a parent helping)***
 
@@ -36,12 +36,12 @@ Sure it’s fun to listen to sounds, but what if you could see them too? A Chlad
 ## How to do it!
 ### Materials (What you'll need)
 
-A big cylinder (something like an oatmeal canister works great)
-a smaller cylinder (like a paper towel tube)
-A balloon (If available, use large 18-inch balloons)
-Tape (duct tape is great)
-Knife or scissors
-Salt
+* A big cylinder (something like an oatmeal canister works great)
+* a smaller cylinder (like a paper towel tube)
+* A balloon (If available, use large 18-inch balloons)
+* Tape (duct tape is great)
+* Knife or scissors
+* Salt
 
 ### Method (What to do)
 Cut a hole the size of your smaller tube into the side of your large cylinder or container. It's OK if it isn't perfect!
@@ -52,7 +52,7 @@ Cut the neck off the balloon and then stretch your balloon over the top of the l
 
 *Tip: before cutting your balloon, inflate the balloon and let the air out a couple of times to stretch it out. The larger the balloon, the easier it will be to get it over the container.*
 <img src="https://i.imgur.com/riaJqSe.jpg" class="img-fluid" alt="A side view of a Chladni plate.">
-
+*You can use lots of different materials to build your Chladni plate.*
 
 
 Sprinkle salt over the top of the balloon.
