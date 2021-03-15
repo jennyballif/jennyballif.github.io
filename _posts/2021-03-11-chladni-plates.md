@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: ChladniSquare.jpg
+fbimage: ChladniSquare.jpg
 title: Chladni Plate - make sounds you can see!
 description: >-
   Vibrations from sounds can make the coolest patterns. Make your own Chladni plate and see what patterns you can create.
