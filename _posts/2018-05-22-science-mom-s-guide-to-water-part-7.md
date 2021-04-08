@@ -32,6 +32,8 @@ sitemap:
   exclude: 'no'
 ---
 
+# Science Mom''s Guide to Water, Part 7
+
 It's finally here! The concluding installment in the water series, a look at evaporative cooling, changes of state, and how water has an impressively high specific heat capacity:
 
 {% include youtubeplayer.html id="https://www.youtube.com/embed/0gqXZJtXgmg" %}

@@ -20,7 +20,7 @@ sitemap:
   exclude: 'no'
 ---
 
-
+# Chladni Plate - make sounds you can see!
 
 <img src="https://i.imgur.com/pWe5mfn.jpg" class="img-fluid" alt="A balloon stretched over a cylinder with salt forming a pattern on top">
 

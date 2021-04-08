@@ -67,6 +67,8 @@ sitemap:
   exclude: 'no'
 ---
 
+# Science Mom''s Guide to Water, Part 2
+
 Water has the strongest surface tension of any non-metalic fluid. So for most of the liquids we come in contact with, water is the surface tension champion. Whether you’re comparing it to oils and alcohols or hydrocarbons like gasoline and lighter fluid, water will stand above the crowd. Literally.
 
 {% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG2/SMG2blog1.png" description="Cartoon depiction of water as a solid, liquid, and a gas." maxwidth="600px" %}

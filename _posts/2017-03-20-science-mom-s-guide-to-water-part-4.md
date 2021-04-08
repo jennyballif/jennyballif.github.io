@@ -61,7 +61,7 @@ sitemap:
   exclude: 'no'
 ---
 
-## Science Mom's Guide to Water, Part 4
+# Science Mom's Guide to Water, Part 4
 
 Water is one of the few substances that expands when it freezes. And this expansion makes ice is less dense than liquid water, which means that ice floats! This is strange behavior when compared to how most other compounds behave. If you drop a piece of solid iron into liquid or molten iron, it will sink before it melts. Same thing happens when you drop frozen oil into liquid oil: the solid sinks. Most solids are more dense than their liquids.
 

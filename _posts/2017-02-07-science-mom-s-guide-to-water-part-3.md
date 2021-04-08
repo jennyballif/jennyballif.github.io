@@ -61,7 +61,7 @@ sitemap:
   exclude: 'no'
 ---
 
-## Science Mom's Guide to Water, Part 3
+# Science Mom's Guide to Water, Part 3
 
 Capillary action allows water to flow uphill, against the flow of gravity. It takes effect in small spaces and around things that water is attracted to. But water is attracted to a lot of things: plants, rocks, glass, plastic, most cloths and plenty of other materials too. This ability of water to move through small spaces has big effects in biology and geology, and it allows us to do some great science activities too.
 
