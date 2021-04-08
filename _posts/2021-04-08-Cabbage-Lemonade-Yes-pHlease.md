@@ -74,4 +74,4 @@ Yes, you can drink your natural pink lemonade! Just be careful not to add too mu
 Purple cabbage gets its gorgeous blue-purple color from a type of pigment molecule called an anthocyanin (AN-tho-SY-uh-nin). Anthocyanins change color depending on the pH of the solutions they're in. They're blue or purple in neutral conditions (like water), greenish in alkaline solutions (like water with baking soda in it), and pinkish in acidic solutions (like our lemonade in this experiment).
 
 Anthocyanins are found in many plants -- berries like blueberries and raspberries, grains like blue corn and black rice, and even in black beans! Scientists aren’t quite sure what they do in plants, but it may help them with resistance to colder temperatures.
-You can find out about another important plant pigment, chlorophyll, in this video!
+You can find out about another important plant pigment, chlorophyll, in [this video](https://www.youtube.com/watch?v=0MzcwgDffrI)!
