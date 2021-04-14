@@ -9,7 +9,7 @@ comments: true
 folder: blog
 imagefeature: cabbage.jpeg
 fbimage: cabbage.jpeg
-title: Cabbage Lemonade?!? Yes, *pH*lease!
+title: Cabbage Lemonade?!? Yes, pHlease!
 description: >-
   Use a pH indicator from purple cabbage to make a tasty, pink treat.
 
