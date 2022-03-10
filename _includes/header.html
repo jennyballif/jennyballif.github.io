@@ -44,6 +44,7 @@
           id="navbarSupportedContent"
         >
           <ul class="nav navbar-nav menu_nav ml-auto">
+            <!--
             <li class="nav-item submenu dropdown">
               <a
                 href="videos.html"
@@ -75,15 +76,27 @@
                 </li>
               </ul>
             </li>
+            -->
+            <li class="nav-item {% if page.title == "Courses" %}active {% endif %}">
+              <a class="nav-link" href="{{ site.url }}/courses.html">COURSES</a>
+            </li>
+            <li class="nav-item {% if page.title == "Blog" %}active {% endif %}">
+              <a class="nav-link" href="{{ site.url }}/blog.html">ACTIVITIES</a>
+            </li>
+            <li class="nav-item {% if page.title == "Videos" %}active {% endif %}">
+              <a class="nav-link" href="{{ site.url }}/videos.html">VIDEOS</a>
+            </li>
             <li class="nav-item {% if page.title == "About" %}active {% endif %}">
               <a class="nav-link" href="{{ site.url }}/about.html">ABOUT</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link" href="https://patreon.com/sciencemom" target="_blank">JOIN US</a>
             </li>
             <li class="nav-item {% if page.title == "Store" %}active {% endif %}">
-              <a class="nav-link" href="https://science-mom.creator-spring.com/" target="_blank">STORE</a>
+              <a class="nav-link" href="https://science-mom.myspreadshop.com/" target="_blank">STORE</a>
             </li>
+            -->
             <li class="nav-item {% if page.title == "Contact" %}active {% endif %}">
               <a class="nav-link" href="{{ site.url }}/contact.html">CONTACT</a>
             </li>
