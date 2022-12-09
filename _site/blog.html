@@ -24,7 +24,7 @@
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="canonical" href="http://localhost:4001/blog" />
+  <link rel="canonical" href="http://localhost:4000/blog" />
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -33,6 +33,15 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WD6RCGX');</script>
   <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YJ96F41CZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YJ96F41CZ');
+</script>
 
   <!-- Pinterest -->
   	<meta name="p:domain_verify" content="bdf9782323ea1993422be05059fa5ea3"/>
@@ -46,13 +55,13 @@
       <meta name="twitter:title" content="Blog">
     
     
-      <meta name="twitter:url" content="http://localhost:4001/blog">
+      <meta name="twitter:url" content="http://localhost:4000/blog">
     
     
       <meta name="twitter:description" content="An archive of posts sorted by categories.">
     
     
-      <meta name="twitter:image:src" content="http://localhost:4001/images/fbsquare.jpg">
+      <meta name="twitter:image:src" content="http://localhost:4000/images/fbsquare.jpg">
     
 
     <!-- Facebook metadata -->
@@ -67,20 +76,21 @@
       <meta content="An archive of posts sorted by categories." property="og:description">
     
     
-      <meta content="http://localhost:4001/blog" property="og:url">
+      <meta content="http://localhost:4000/blog" property="og:url">
     
     
     
-      <meta content="http://localhost:4001/images/ScienceMom_Logo_RGB.png" property="og:image">
+      <meta content="http://localhost:4000/images/ScienceMom_Logo_RGB.png" property="og:image">
     
 
 <!-- meta data to show facebook we own this site. -->
 <meta name="facebook-domain-verification" content="ow5mwcv2f5vodfv8d88hj4l8yg2rdv" />
 
-  <!-- GDPR compliance https://github.com/manucaralmo/GlowCookies -->
+  <!-- GDPR compliance https://github.com/manucaralmo/GlowCookies 
   <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@1.6.1/v1/cookiesGlow.js" async></script>
   <script>
       var AnalyticsCode = "UA-92400730-2"; // Your Analytics tracking code (Optional)
+      analytics: 'G-FH87DE17XF', 
       var FacebookPixelCode = "381390773146931"; // Your Facebook Pixel code (Optional)
       var HotjarTrackingCode = ""; // Your Hotjar id (Optional)
       var linkHref = "https://science.mom/cookies"; // Your Cookies Policy link
@@ -91,7 +101,18 @@
       var linkTexto = "Learn more about our privacy policy";
       var manageText = "Privacy Policy";
       var bannerPosition = "left"
-  </script>
+  </script> -->
+      <!-- Glow Cookies v3.0.1 -->
+      <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
+      <script>
+          glowCookies.start('en', { 
+              style: 1,
+              analytics: 'G-1YJ96F41CZ', 
+              facebookPixel: '381390773146931',
+              policyLink: 'https://science.mom/cookies',
+              hideAfterClick: true,
+          });
+      </script>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Blog | Science Mom</title>
@@ -101,8 +122,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An archive of posts sorted by categories." />
 <meta property="og:description" content="An archive of posts sorted by categories." />
-<link rel="canonical" href="http://localhost:4001/blog" />
-<meta property="og:url" content="http://localhost:4001/blog" />
+<link rel="canonical" href="http://localhost:4000/blog" />
+<meta property="og:url" content="http://localhost:4000/blog" />
 <meta property="og:site_name" content="Science Mom" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
@@ -110,7 +131,7 @@
 <meta name="twitter:site" content="@JennyBallif" />
 <meta name="twitter:creator" content="@Jenny Ballif" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jenny Ballif"},"description":"An archive of posts sorted by categories.","headline":"Blog","url":"http://localhost:4001/blog"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jenny Ballif"},"description":"An archive of posts sorted by categories.","headline":"Blog","url":"http://localhost:4000/blog"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -203,16 +224,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>
             -->
             <li class="nav-item ">
-              <a class="nav-link" href="http://localhost:4001/courses.html">COURSES</a>
+              <a class="nav-link" href="http://localhost:4000/courses.html">COURSES</a>
             </li>
             <li class="nav-item active ">
-              <a class="nav-link" href="http://localhost:4001/blog.html">ACTIVITIES</a>
+              <a class="nav-link" href="http://localhost:4000/blog.html">ACTIVITIES</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="http://localhost:4001/videos.html">VIDEOS</a>
+              <a class="nav-link" href="http://localhost:4000/videos.html">VIDEOS</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="http://localhost:4001/about.html">ABOUT</a>
+              <a class="nav-link" href="http://localhost:4000/about.html">ABOUT</a>
             </li>
             <!--
             <li class="nav-item">
@@ -223,7 +244,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>
             -->
             <li class="nav-item ">
-              <a class="nav-link" href="http://localhost:4001/contact.html">CONTACT</a>
+              <a class="nav-link" href="http://localhost:4000/contact.html">CONTACT</a>
             </li>
             <!--
             <li class="nav-item">
@@ -284,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/blog/InertiaBeads.jpg" alt="Prepare to have your mind blown as these beads just keep on going.">
-            <a href="http://localhost:4001/Inertia-Beads"><h3>I Can't Bead-lieve my Eyes!</h3></a>
+            <a href="http://localhost:4000/Inertia-Beads"><h3>I Can't Bead-lieve my Eyes!</h3></a>
             <p>Prepare to have your mind blown as these beads just keep on going.</p>
         </div>
       <!-- /Work -->
@@ -296,7 +317,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/blog/slime.jpeg" alt="This homemade slime will provide hours of entertainment and experimentation.">
-            <a href="http://localhost:4001/The-Best-Homemade-Slime-Recipe"><h3>The best homemade slime recipe!</h3></a>
+            <a href="http://localhost:4000/The-Best-Homemade-Slime-Recipe"><h3>The best homemade slime recipe!</h3></a>
             <p>This homemade slime will provide hours of entertainment and experimentation.</p>
         </div>
       <!-- /Work -->
@@ -308,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/blog/RainbowMilk.png" alt="Create beautiful rainbow colors in milk using soap and food coloring.">
-            <a href="http://localhost:4001/Rainbow-Milk"><h3>Don't cry over spilt milk, make rainbows!</h3></a>
+            <a href="http://localhost:4000/Rainbow-Milk"><h3>Don't cry over spilt milk, make rainbows!</h3></a>
             <p>Create beautiful rainbow colors in milk using soap and food coloring.</p>
         </div>
       <!-- /Work -->
@@ -320,7 +341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/blog/cabbage.jpeg" alt="Use a pH indicator from purple cabbage to make a tasty, pink treat.">
-            <a href="http://localhost:4001/Cabbage-Lemonade-Yes-pHlease"><h3>Cabbage Lemonade?!? Yes, pHlease!</h3></a>
+            <a href="http://localhost:4000/Cabbage-Lemonade-Yes-pHlease"><h3>Cabbage Lemonade?!? Yes, pHlease!</h3></a>
             <p>Use a pH indicator from purple cabbage to make a tasty, pink treat.</p>
         </div>
       <!-- /Work -->
@@ -332,7 +353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/blog/ChladniSquare.jpg" alt="Vibrations from sounds can make the coolest patterns. Make your own Chladni plate and see what patterns you can create.">
-            <a href="http://localhost:4001/chladni-plates"><h3>Chladni Plate - make sounds you can see!</h3></a>
+            <a href="http://localhost:4000/chladni-plates"><h3>Chladni Plate - make sounds you can see!</h3></a>
             <p>Vibrations from sounds can make the coolest patterns. Make your own Chladni plate and see what patterns you can create.</p>
         </div>
       <!-- /Work -->
@@ -371,7 +392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG7/smg7square.jpeg" alt="Explore the heat capacity of water with these 5 fun experiments.">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-7"><h3>Science Mom's Guide to Water, Part 7</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-7"><h3>Science Mom's Guide to Water, Part 7</h3></a>
             <p>Explore the heat capacity of water with these 5 fun experiments.</p>
         </div>
       <!-- /Work -->
@@ -383,7 +404,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG6/twittersmg6.jpeg" alt="Learn about why things dissolve in water with six fun crystal growing activities">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-6"><h3>Science Mom's Guide to Water, Part 6 </h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-6"><h3>Science Mom's Guide to Water, Part 6 </h3></a>
             <p>Learn about why things dissolve in water with six fun crystal growing activities</p>
         </div>
       <!-- /Work -->
@@ -395,7 +416,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG5/twitterSMG5.png" alt="How can 2 tablespoons of water make a fireball? Find the answer to that question, and more, in Part 5 of the water series.">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-5"><h3>Science Mom's Guide to Water, Part 5</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-5"><h3>Science Mom's Guide to Water, Part 5</h3></a>
             <p>How can 2 tablespoons of water make a fireball? Find the answer to that question, and more, in Part 5 of the water series.</p>
         </div>
       <!-- /Work -->
@@ -407,7 +428,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG4/TwitterSMG4.png" alt="Science Mom's Guide to Water, Part 4">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-4"><h3>Science Mom's Guide to Water, Part 4</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-4"><h3>Science Mom's Guide to Water, Part 4</h3></a>
             <p>Science Mom's Guide to Water, Part 4</p>
         </div>
       <!-- /Work -->
@@ -419,7 +440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG3/SMG3square2.png" alt="Water doesn't just move downhill, it can move uphill too because of capillary action. In this investigation we explore siphons, the strangeness of small spaces, and more.">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-3"><h3>Science Mom's Guide to Water, Part 3</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-3"><h3>Science Mom's Guide to Water, Part 3</h3></a>
             <p>Water doesn't just move downhill, it can move uphill too because of capillary action. In this investigation we explore siphons, the strangeness of small spaces, and more.</p>
         </div>
       <!-- /Work -->
@@ -431,7 +452,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG2/SMG2twitter.png" alt="Water has the strongest surface tension of any non-metallic liquid. In this guide we explore just how strong surface tension is--and how it can change--through several hands-on activities.">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-2"><h3>Science Mom's Guide to Water, Part 2</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-2"><h3>Science Mom's Guide to Water, Part 2</h3></a>
             <p>Water has the strongest surface tension of any non-metallic liquid. In this guide we explore just how strong surface tension is--and how it can change--through several hands-on activities.</p>
         </div>
       <!-- /Work -->
@@ -443,7 +464,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Work -->
         <div class="col-12 work bg-grey" style="margin-bottom:10px; padding-top:10px;">
           <img class="rounded float-right blog-img" src="/images/SMG1/SMG1square.png" alt="Not only are the unique properties of water essential for life on earth, they're also the key to a lot of fun science experiments. In this guide we explore cohesion with three hands-on activities.">
-            <a href="http://localhost:4001/science-mom-s-guide-to-water-part-1"><h3>Science Mom's Guide to Water, Part 1</h3></a>
+            <a href="http://localhost:4000/science-mom-s-guide-to-water-part-1"><h3>Science Mom's Guide to Water, Part 1</h3></a>
             <p>Not only are the unique properties of water essential for life on earth, they're also the key to a lot of fun science experiments. In this guide we explore cohesion with three hands-on activities.</p>
         </div>
       <!-- /Work -->

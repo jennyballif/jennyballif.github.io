@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/Inertia-Beads</loc>
+      <loc>http://localhost:4000/Inertia-Beads</loc>
       
         <lastmod>2020-04-10</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/The-Best-Homemade-Slime-Recipe</loc>
+      <loc>http://localhost:4000/The-Best-Homemade-Slime-Recipe</loc>
       
         <lastmod>2020-04-12</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/Rainbow-Milk</loc>
+      <loc>http://localhost:4000/Rainbow-Milk</loc>
       
         <lastmod>2020-04-10</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/Cabbage-Lemonade-Yes-pHlease</loc>
+      <loc>http://localhost:4000/Cabbage-Lemonade-Yes-pHlease</loc>
       
         <lastmod>2020-04-08</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/chladni-plates</loc>
+      <loc>http://localhost:4000/chladni-plates</loc>
       
         <lastmod>2020-03-10</lastmod>
       
@@ -78,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-7</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-7</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -93,7 +93,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-6</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-6</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -108,7 +108,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-5</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-5</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -123,7 +123,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-4</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-4</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -138,7 +138,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-3</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-3</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -153,7 +153,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-2</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-2</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -168,7 +168,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/science-mom-s-guide-to-water-part-1</loc>
+      <loc>http://localhost:4000/science-mom-s-guide-to-water-part-1</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -184,9 +184,9 @@
   
     
     <url>
-      <loc>http://localhost:4001/404.html</loc>
+      <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2022-05-28T08:36:26-07:00</lastmod>
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -199,7 +199,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/about</loc>
+      <loc>http://localhost:4000/about</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -214,24 +214,9 @@
   
     
     <url>
-      <loc>http://localhost:4001/activities</loc>
+      <loc>http://localhost:4000/activities</loc>
       
-        <lastmod>2022-05-28T08:36:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.6</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4001/blog</loc>
-      
-        <lastmod>2022-05-28T08:36:26-07:00</lastmod>
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -244,7 +229,22 @@
   
     
     <url>
-      <loc>http://localhost:4001/chemvids</loc>
+      <loc>http://localhost:4000/blog</loc>
+      
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/chemvids</loc>
       
         <lastmod>2020-02-05</lastmod>
       
@@ -259,7 +259,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/contact</loc>
+      <loc>http://localhost:4000/contact</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -274,7 +274,22 @@
   
     
     <url>
-      <loc>http://localhost:4001/courses</loc>
+      <loc>http://localhost:4000/cookies</loc>
+      
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/courses</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -289,7 +304,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/earthscience</loc>
+      <loc>http://localhost:4000/earthscience</loc>
       
         <lastmod>2020-02-05</lastmod>
       
@@ -308,9 +323,9 @@
   
     
     <url>
-      <loc>http://localhost:4001/</loc>
+      <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-02-10</lastmod>
+        <lastmod>2022-02-10</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -323,7 +338,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/math</loc>
+      <loc>http://localhost:4000/math</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -338,7 +353,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/microbiology</loc>
+      <loc>http://localhost:4000/microbiology</loc>
       
         <lastmod>2022-05-28</lastmod>
       
@@ -353,7 +368,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/misc</loc>
+      <loc>http://localhost:4000/misc</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -368,7 +383,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/nature</loc>
+      <loc>http://localhost:4000/nature</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -383,7 +398,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/projects</loc>
+      <loc>http://localhost:4000/projects</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -398,7 +413,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/purchaseorder</loc>
+      <loc>http://localhost:4000/purchaseorder</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -413,7 +428,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/quarantime</loc>
+      <loc>http://localhost:4000/quarantime</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -430,7 +445,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/songs</loc>
+      <loc>http://localhost:4000/songs</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -445,7 +460,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/videos</loc>
+      <loc>http://localhost:4000/videos</loc>
       
         <lastmod>2020-02-10</lastmod>
       
@@ -460,7 +475,7 @@
   
     
     <url>
-      <loc>http://localhost:4001/water</loc>
+      <loc>http://localhost:4000/water</loc>
       
         <lastmod>2020-02-16</lastmod>
       
@@ -475,9 +490,9 @@
   
     
     <url>
-      <loc>http://localhost:4001/assets/css/style.css</loc>
+      <loc>http://localhost:4000/assets/css/style.css</loc>
       
-        <lastmod>2022-05-28T08:36:26-07:00</lastmod>
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -490,9 +505,9 @@
   
     
     <url>
-      <loc>http://localhost:4001/feed.xml</loc>
+      <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2022-05-28T08:36:26-07:00</lastmod>
+        <lastmod>2022-12-05T15:52:43-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
