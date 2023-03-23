@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 374 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0,-371)">
+        <g transform="matrix(0.409929,0,0,0.252317,-472.565,-284.771)">
+            <rect id="physics-icon3" x="1152.8" y="2601.51" width="912.353" height="408.217" style="fill:none;"/>
+            <g id="physics-icon31" serif:id="physics-icon3">
+                <g transform="matrix(1.94649,0,0,3.31814,1123.79,2460.46)">
+                    <ellipse cx="90.978" cy="101.87" rx="56.481" ry="53.83" style="fill:rgb(251,234,190);stroke:rgb(18,48,74);stroke-width:4.89px;"/>
+                </g>
+                <g transform="matrix(2.43945,0,0,3.96327,997.335,2115.91)">
+                    <text x="198.863px" y="169.224px" style="font-family:'Cabin-Regular', 'Cabin', sans-serif;font-size:24px;">O<tspan x="217.127px " y="169.224px ">p</tspan>en-and-go design</text>
+                    <text x="194.387px" y="193.224px" style="font-family:'Cabin-Regular', 'Cabin', sans-serif;font-size:24px;">with 39 video l<tspan x="342.227px " y="193.224px ">e</tspan>ssons.</text>
+                </g>
+                <g transform="matrix(0.301074,0,0,0.549682,1227.11,2670.94)">
+                    <path d="M480,180L480,310C480,365.195 435.195,410 380,410L110,410C54.805,410 10,365.195 10,310L10,180C10,124.801 54.805,80 110,80L380,80C435.195,80 480,124.801 480,180Z" style="fill:rgb(234,70,64);fill-rule:nonzero;"/>
+                    <g id="XMLID_21_">
+                        <g>
+                            <path d="M320,245L200,295L200,195L320,245Z" style="fill:white;fill-rule:nonzero;"/>
+                        </g>
+                        <g>
+                            <path d="M380,70L110,70C49.346,70 0,119.346 0,180L0,310C0,370.654 49.346,420 110,420L380,420C440.654,420 490,370.654 490,310L490,180C490,119.346 440.654,70 380,70ZM470,310C470,359.626 429.626,400 380,400L110,400C60.374,400 20,359.626 20,310L20,180C20,130.374 60.374,90 110,90L380,90C429.626,90 470,130.374 470,180L470,310Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+                            <path d="M323.846,235.769L203.846,185.769C200.761,184.483 197.235,184.824 194.453,186.68C191.671,188.534 190,191.657 190,195L190,295C190,298.344 191.671,301.466 194.453,303.32C196.12,304.432 198.054,305 200.001,305C201.302,305 202.609,304.746 203.846,304.231L323.846,254.231C327.573,252.678 330,249.037 330,245C330,240.963 327.572,237.322 323.846,235.769ZM210,280L210,210L294,245L210,280Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
