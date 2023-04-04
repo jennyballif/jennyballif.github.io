@@ -108,10 +108,6 @@ p + .btn-text, p + table, p + pre, p + img, img + p, p + .row, .row + p, p + .im
     margin-left: 15px;
 }
 
-.hidden {
-    display: none !important;
-}
-
 .text-light {
     font-weight: 100 !important;
 }
@@ -673,8 +669,1218 @@ BLOCK - SECTION
     left: -49px;
 }
 
+/*
+
+# NAVIGATION
+===================================================================
+
+-------------------------------------------------------------------
+GLOBAL
+-------------------------------------------------------------------
+
+*/
+
+body > nav {
+    z-index: 995;
+    position: relative;
+    background-color: #FFF;
+}
+
+body > nav > .container {
+    height: 100%;
+    min-height: 50px;
+}
+
+.dropdown ul li a {
+    background-color: #FFF;
+}
+
+.dropdown ul li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a {
+    color: #FFF;
+}
+
+.logo-retina {
+    display: none !important;
+}
+
+@media (min-resolution: 192dpi) and (min-width: 994px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 994px) {
+    .logo-retina:not(.hidden):not(.scroll-show), .logo-retina.scroll-show.showed {
+        display: block !important;
+    }
+
+    .logo-default {
+        display: none !important;
+    }
+}
+
+body > nav .menu-brand {
+    float: left;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 9999;
+    position: relative;
+}
+
+body > nav .menu-brand > a {
+    height: 100%;
+}
+
+body > nav .menu-brand img {
+    max-height: 100%;
+    display: block;
+}
+
+.menu-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    font-style: normal;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.menu-btn:before {
+    content: "\64";
+    font-family: "Icons";
+    position: absolute;
+    left: 0;
+    text-transform: none;
+}
+
+.menu-right {
+    float: right;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.menu-cnt {
+    position: relative;
+}
+
+.menu-cnt > ul, .menu-inner > ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 30px;
+}
+
+.menu-cnt > ul > li > a, .dropdown > ul > li > a, .dropdown-submenu > ul > li > a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    font-size: 13px;
+    display: block;
+}
+
+.menu-cnt ul > li > a {
+    text-decoration: none;
+    transition: all .5s, height 0s, line-height 0s;
+}
+
+.menu-cnt > ul > li a {
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu-right > * {
+    margin: 0 15px;
+}
+
+.search-box-menu > input[type=text] {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: calc(100% + 10px);
+    width: 100% !important;
+    max-width: 1125px;
+    padding: 5px 15px;
+    margin: auto;
+    border: none;
+    height: 50px;
+    z-index: 9;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    transition: all .5s;
+}
+
+body > nav .search-box-menu.active > input {
+    display: block;
+}
+
+.search-box-menu > i {
+    font-size: 19px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    width: 50px;
+    display: block;
+    text-align: center;
+}
+
+.search-box-menu > i:before {
+    font-family: "Icons";
+    content: "\61";
+    font-style: normal;
+    text-transform: none;
+}
+
+.search-box-menu.active > i:before {
+    content: "\63";
+}
+
+.search-box-menu > input[type=submit] {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    height: 40px;
+    top: calc(100% + 15px);
+    background: #FFF;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input[type=text] {
+    line-height: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    padding: 0 5px;
+    transition: all .5s;
+}
+
+.search-bar input[type=submit] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+nav.light h5, .light .shop-menu .shop-cart .cart-item .cart-content, .light .shop-menu p, .light .shop-menu .btn, .light .lan-menu ul li a {
+    color: #4C4C4C;
+}
+
+body > nav .icon-links a i {
+    font-size: 16px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.menu-cnt li > a {
+    position: relative;
+}
+
+/*
+-------------------------------------------------------------------
+MINI MENU SECTION - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.menu-mini {
+    height: 35px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.21);
+    background: #fff;
+}
+
+.menu-mini > .container > ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 9px 0 0 0;
+}
+
+.menu-mini > .container > ul > li {
+    float: left;
+    padding-right: 20px;
+    padding-left: 25px;
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+}
+
+.menu-mini > .container > ul > li i {
+    margin-right: 5px;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+}
+
+.menu-mini li > a {
+    text-decoration: none;
+}
+
+.menu-mini .menu-right {
+    align-items: center;
+    height: 35px;
+    padding: 0;
+}
+
+.menu-mini .icon-links i, .menu-mini .icon-links i:hover {
+    font-size: 14px;
+    border-radius: 0;
+    width: 35px;
+    padding: 0;
+}
+
+.menu-mini .lan-menu {
+    position: relative;
+    z-index: 999;
+}
+
+.menu-mini .lan-menu li.dropdown > a {
+    height: 35px;
+    line-height: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-wide .container, .menu-wide .search-box-menu > input {
+    max-width: 100%;
+}
+
+/*
+-------------------------------------------------------------------
+DROPDOWN - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.dropdown ul:not(.icon-list) {
+    position: absolute;
+    display: none;
+}
+
+.dropdown li {
+    cursor: pointer;
+}
+
+.dropdown > a {
+    position: relative;
+}
+
+.dropdown > ul, .dropdown-submenu > ul {
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.17);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    min-width: 200px;
+}
+
+.dropdown:hover > ul, .dropdown:hover .mega-menu, .dropdown-submenu:hover > ul {
+    display: block;
+    z-index: 4;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    position: relative;
+    z-index: 3;
+}
+
+.dropdown-submenu > a:after, .menu-side .dropdown > a:after, .mega-dropdown > a:after, .menu-inner .dropdown > a:after, .menu-cnt > ul > li.dropdown > a:after {
+    font-family: "Icons";
+    content: "\67";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    right: 10px;
+    transition: transform .5s;
+    text-transform: none;
+    opacity: .7;
+}
+
+.dropdown-submenu:not(.menu-side-collapse) > a:after, .menu-side:not(.menu-side-collapse) li > a:after, .menu-side:not(.menu-side-collapse) .menu-cnt > ul > li.dropdown > a:after {
+    transform: translateY(-50%) rotate(0deg);
+    transition: none;
+}
+
+.dropdown.active > a:after, .mega-dropdown.active > a:after {
+    transform: translateY(-50%) rotate(90deg) matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.dropdown:hover > a:after, .menu-cnt li:hover > a:after {
+    opacity: 1;
+}
+
+.dropdown-submenu ul {
+    top: 0;
+    left: 100%;
+    z-index: 1;
+}
+
+.menu-cnt > ul > li.dropdown > a, .menu-cnt > ul > li.mega-dropdown > a {
+    padding-right: 40px;
+}
+
+.menu-side .menu-cnt > ul > li.dropdown > a, .menu-side .menu-cnt > ul > li.mega-dropdown > a {
+    padding-right: 15px;
+}
+
+.dropdown .divider {
+    height: 1px;
+    background: #eaeaea;
+}
+
+/*
+-------------------------------------------------------------------
+MEGA MENU - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.mega-dropdown:hover .mega-menu, .mega-menu .tab-box > .panel.active {
+    display: flex;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.mega-menu .tab-box > .panel {
+    margin: 30px 5px;
+}
+
+.mega-menu .tab-nav {
+    margin: 15px;
+}
+
+.mega-dropdown .mega-menu {
+    left: 0;
+    width: 100%;
+}
+
+.mega-menu .col {
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.mega-menu {
+    position: absolute;
+    min-width: 250px;
+    padding: 25px 5px;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.17);
+    background-color: #FFF;
+    background-size: cover;
+    display: none;
+}
+
+.mega-menu a {
+    color: #636363;
+    padding-left: 5px;
+    display: block;
+    white-space: nowrap;
+}
+
+.mega-menu .no-icons a {
+    padding-left: 0;
+}
+
+.mega-menu.bg-menu {
+    min-width: 400px;
+}
+
+.mega-menu h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    min-height: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.mega-menu .icon-list + h5 {
+    margin-top: 30px;
+}
+
+.mega-menu .no-icons {
+    margin-left: 1px;
+}
+
+.mega-menu .col > h5:first-child {
+    margin-top: 0;
+}
+
+.mega-menu .tab-box {
+    width: calc(100% + 10px);
+    margin: -25px -5px;
+}
+
+/*
+-------------------------------------------------------------------
+MENU RIGHT POSITION - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+nav.align-right .menu-cnt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.align-right .menu-cnt {
+    float: none;
+}
+
+nav.align-right .menu-cnt .clear {
+    display: none;
+}
+
+/*
+-------------------------------------------------------------------
+INNER MENU - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.menu-inner > ul {
+    float: none;
+    margin-left: 0;
+}
+
+.menu-inner:not(.menu-inner-vertical) > ul > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu-inner li > a {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.menu-inner li.dropdown > a {
+    padding-right: 35px;
+}
+
+.menu-inner .dropdown ul > li > a {
+    font-size: 15px;
+}
+
+.menu-inner .dropdown ul > li:hover > a {
+    background: none;
+}
+
+.menu-inner li {
+    position: relative;
+    transition: all .5s;
+}
+
+.menu-inner li:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    transition: all .5s;
+    bottom: 0;
+    left: 0;
+}
+
+.menu-inner li:hover:before, .menu-inner li.active:before {
+    width: 100%;
+}
+
+.menu-inner li > a > i {
+    margin-right: 15px;
+}
+
+.menu-inner-vertical > ul {
+    display: block;
+}
+
+.menu-inner-vertical li.dropdown > ul {
+    position: static;
+    box-shadow: none;
+}
+
+.menu-inner-vertical .dropdown:hover > ul {
+    display: none
+}
+
+.menu-inner-vertical .dropdown.active > ul {
+    display: block
+}
+
+.menu-inner.ms-minimal li:hover a, .menu-inner.ms-minimal li.active > a {
+    background: none;
+}
+
+.menu-inner > div {
+    display: none;
+    position: relative;
+    padding: 10px 0;
+}
+
+.menu-inner > div > i {
+    right: 0;
+}
+
+.menu-inner.nav-right {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.menu-inner.nav-center {
+    justify-content: center;
+    display: flex;
+}
+
+.menu-inner:not(.menu-inner-vertical) .dropdown > a:after {
+    right: 0;
+}
+
+.menu-inner:not(.menu-inner-vertical) .dropdown ul {
+    box-shadow: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-top: -1px;
+}
+
+.menu-inner:not(.menu-inner-vertical) .dropdown li:last-child:before {
+    bottom: -1px;
+}
+
+.menu-inner-image li img {
+    position: absolute;
+    height: 50px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 3px;
+    left: -65px;
+}
+
+.menu-inner-image li {
+    padding-left: 65px;
+    margin-bottom: 15px;
+}
+
+.menu-inner-image li a {
+    line-height: 30px;
+}
+
+.menu-inner-image li a span {
+    display: block;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.menu-inner-image li:last-child {
+    margin-bottom: 0;
+}
+
+/*
+-------------------------------------------------------------------
+MENU TRANSPARENT - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+body > nav.menu-transparent, .menu-transparent .form-control, .menu-transparent .btn, .menu-transparent .menu-cnt > ul > li:hover > a, .menu-transparent .lan-menu > li > a, .menu-transparent .btn:hover,
+.menu-big-box.menu-transparent .menu-box, .menu-transparent .menu-mini, .menu-transparent .lan-menu > li:hover > a {
+    background: none;
+}
+
+/*
+-------------------------------------------------------------------
+MENU FIXED - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+nav.menu-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.menu-fixed:not(.menu-transparent) + header, .menu-fixed:not(.menu-transparent) + main {
+    margin-top: 50px;
+}
+
+.menu-fixed.menu-top-logo:not(.menu-transparent) + header, .menu-fixed.menu-top-logo:not(.menu-transparent) + main {
+    margin-top: 150px;
+}
+
+/*
+-------------------------------------------------------------------
+LANGUAGE MENU - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.lan-menu {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+}
+
+.lan-menu li a, .lan-menu .dropdown > ul > li > a {
+    padding-left: 40px;
+    color: #444;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 13px;
+    display: block;
+    transition: all .5s;
+}
+
+nav:not(.menu-transparent) .lan-menu > li:hover > a, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, .lan-menu .dropdown > ul > li:hover > a {
+    color: #FFF;
+}
+
+.lan-menu li.dropdown > a {
+    padding-right: 15px;
+}
+
+.lan-menu li.dropdown > a:after {
+    right: 15px;
+}
+
+.lan-menu .dropdown > ul > li > a, .lan-menu .dropdown > ul {
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.lan-menu li a img {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -6px;
+    border-radius: 3px;
+}
+
+/*
+-------------------------------------------------------------------
+SHOP MENU - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.shop-menu-cnt {
+    position: relative;
+}
+
+.shop-menu-cnt > i {
+    font-size: 23px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    width: 50px;
+    display: block;
+    text-align: center;
+}
+
+.shop-menu-cnt > i:before {
+    font-family: "Icons";
+    content: "\69";
+    font-style: normal;
+}
+
+.shop-menu-cnt:hover .shop-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.shop-menu-cnt .shop-menu {
+    z-index: 90;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    text-align: center;
+    background-color: #fff;
+    transition: all .4s ease;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.17);
+    overflow: hidden;
+    display: none;
+}
+
+.shop-cart li {
+    cursor: pointer;
+}
+
+.shop-cart li img {
+    width: 65px;
+    height: 40px;
+    margin: 0;
+    border-radius: 3px;
+    float: left;
+}
+
+.shop-cart .cart-item .cart-content {
+    padding-left: 100px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.shop-menu-cnt .cart-total {
+    display: block;
+    text-align: left;
+    padding: 8px 16px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.shop-cart {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.shop-cart .cart-item {
+    height: 50px;
+    padding: 0 15px;
+    transition: all .3s;
+}
+
+.shop-cart .cart-item:hover {
+    background: none;
+    padding-left: 20px;
+}
+
+.cart-item h5 {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.shop-menu .cart-buttons {
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.shop-menu .cart-buttons a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.shop-menu-cnt .cart-count {
+    background-color: #292929;
+    top: 50%;
+    margin-top: -4px;
+    right: 3px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    z-index: 95;
+    font-size: 11px;
+    line-height: 19px;
+    font-style: normal;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.shop-menu-empty .shop-menu, .wc-backward {
+    display: none !important;
+}
+
+/*
+-------------------------------------------------------------------
+BIG BOX - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.menu-big-box {
+    padding-bottom: 40px;
+}
+
+.menu-big-box .menu-box {
+    position: absolute;
+    height: 80px;
+    width: calc(100% - 60px);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.menu-big-box .menu-box > .row {
+    width: calc(100% + 15px);
+}
+
+.menu-big-box .menu-cnt > ul, .menu-big-box .menu-right > ul {
+    z-index: 2;
+    position: relative;
+}
+
+.menu-big-box > .container {
+    position: relative;
+}
+
+/*
+-------------------------------------------------------------------
+SUBTITLE - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.menu-subtitle .menu-cnt li a span {
+    display: block;
+    height: 23px;
+    position: absolute;
+    bottom: 24px;
+    font-size: 11px;
+    color: #bbbbbb;
+}
+
+.menu-subtitle .menu-cnt > ul > li > a, .menu-subtitle .menu-cnt .menu-right {
+    height: 70px;
+}
+
+.menu-subtitle .menu-cnt > ul > li > a {
+    position: relative;
+}
+
+.menu-subtitle .shop-menu-cnt > i, .menu-subtitle .search-box-menu > i, .menu-subtitle .menu-brand, .menu-subtitle .lan-menu > li > a {
+    height: 70px;
+    line-height: 70px;
+}
+
+/*
+-------------------------------------------------------------------
+MIDDLE AND TOP LOGO - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+@media (min-width: 992px) {
+    .menu-top-logo {
+        padding-top: 100px;
+    }
+
+    .menu-top-logo > .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .menu-top-logo > .container > .menu-brand, .menu-top-logo .menu-right {
+        position: absolute;
+        top: 50%;
+        transform: translateY(calc(-50% - 25px));
+        right: 50%;
+        width: 570px;
+        float: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: flex-start;
+    }
+
+    .menu-top-logo .menu-right {
+        left: 50%;
+        right: auto;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .menu-top-logo .menu-right > *:last-child {
+        margin-right: 0;
+    }
+
+    .menu-top-logo .menu-cnt {
+        position: static;
+    }
+
+    .menu-top-logo .menu-cnt > ul {
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-top-logo > .container:before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        left: 0;
+    }
+
+    .menu-top-logo .menu-mini {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu-top-logo .menu-mini .menu-right {
+        transform: translateY(-50%);
+    }
+
+    .menu-top-logo > .menu-mini + .container > .menu-brand, .menu-top-logo > .menu-mini + .container .menu-right {
+        transform: translateY(calc(-50% - 8px));
+    }
+
+    .menu-top-logo.menu-wide > .container > .menu-brand {
+        left: 0;
+        right: auto;
+    }
+
+    .menu-top-logo.menu-wide .menu-right {
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (max-width: 1125px) and (min-width: 992px) {
+    .menu-top-logo > .container > .menu-brand, .menu-top-logo .menu-right {
+        width: 480px;
+    }
+}
+
+/*
+-------------------------------------------------------------------
+ICON - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+.menu-icon .menu-cnt > ul > li > a > i {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
 
 
+.menu-icon .menu-cnt > ul > li > a {
+    padding-left: 55px;
+    position: relative;
+}
+
+.menu-icon-top.menu-fixed.scroll-menu .menu-cnt > ul > li > a > i {
+    display: none;
+}
+
+@media (min-width: 993px) {
+    .menu-icon-top .menu-cnt > ul > li > a > i {
+        top: 15px;
+        left: 50%;
+        transform: translateY(0) translateX(-50%);
+    }
+
+    .menu-icon-top .menu-cnt > ul > li > a {
+        padding-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-icon-top .menu-cnt > ul > li > a:after {
+        display: none;
+    }
+
+    .menu-icon-top .shop-menu-cnt > i, .menu-icon-top .search-box-menu > i, .menu-icon-top .menu-cnt > .dropdown > ul > li > a,
+    .menu-icon-top .dropdown-submenu > ul > li > a, .menu-icon-top .menu-cnt .menu-right, .menu-icon-top .menu-brand, .menu-icon-top .lan-menu > li > a,
+    .menu-icon-top .menu-cnt > ul > li > a {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .menu-icon.menu-icon-top .menu-cnt > ul > li > a {
+        line-height: 50px;
+    }
+
+    .menu-icon-top .menu-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+/*
+-------------------------------------------------------------------
+SIDE - NAVIGATION MENU
+-------------------------------------------------------------------
+*/
+
+@media (min-width: 992px) {
+
+    .menu-side-cnt, .menu-side-cnt #fullpage-main, .menu-side-cnt .footer-parallax, .menu-side-cnt > .menu-fixed:not(.menu-wide) {
+        padding-left: 250px;
+    }
+
+    .menu-side {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99995;
+        background-color: #FFFFFF;
+        border-right: 1px solid #e7e7e7;
+        box-shadow: 1px 0 2px rgba(0,0,0,0.05);
+    }
+
+    .menu-side .menu-brand {
+        width: 100%;
+        padding: 15px;
+        height: 90px;
+        float: none;
+    }
+
+    .menu-side .menu-cnt > ul {
+        float: none;
+        display: block;
+        margin: 0;
+    }
+
+    .menu-side .menu-cnt > ul > li {
+        float: none;
+        position: relative;
+        margin: 0;
+    }
+
+    .menu-side .mega-menu, .menu-side .dropdown > ul, .menu-side .dropdown-submenu > ul {
+        left: 100%;
+        top: 0;
+        width: auto;
+    }
+
+    .menu-side-collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu-side-collapse .menu-cnt {
+        height: 100%;
+    }
+
+    .menu-side-collapse .menu-cnt > ul {
+        float: none;
+        display: block;
+        margin: 0;
+    }
+
+    .menu-side-collapse .menu-cnt > ul > li {
+        float: none;
+        position: relative;
+        margin: 0;
+    }
+
+    .menu-side-collapse .mega-menu, .menu-side-collapse .dropdown > ul, .menu-side-collapse .dropdown-submenu > ul {
+        left: 0;
+        top: 100%;
+        width: 100%;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .menu-side-collapse .bottom-area {
+        position: static;
+    }
+
+    .menu-side-collapse li.active > ul, .menu-side-collapse .active .mega-menu, .menu-side-collapse .mega-menu .tab-box > .panel.active,
+    .menu-side-collapse .mega-menu .tab-box .nav-tabs, .menu-side-collapse .active .dropdown-submenu ul {
+        display: block;
+    }
+
+    .menu-side-collapse li:not(.active):not(.dropdown-submenu):hover > ul, .menu-side-collapse li:not(.active):hover .mega-menu {
+        display: none;
+    }
+
+    .menu-side-collapse .mega-menu {
+        padding: 25px 0;
+    }
+
+    .menu-side .mega-menu .col {
+        padding: 0 15px;
+        font-size: 13px;
+    }
+
+    .menu-side .mega-menu .icon-list li a:hover {
+        background: none;
+    }
+
+    .menu-side:not(.menu-side-collapse) .dropdown > ul, .menu-side:not(.menu-side-collapse) .dropdown-submenu > ul {
+        box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.17);
+        border-left: 1px solid #eaeaea;
+    }
+
+    .menu-side .slimScrollRail {
+        visibility: hidden;
+    }
+
+    .menu-side-collapse .active .dropdown-submenu > a:after {
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+    .menu-side-collapse .mega-menu .tab-nav {
+        display: block;
+    }
+
+    .menu-side-collapse .mega-menu .tab-nav li a {
+        margin: 10px 0;
+    }
+}
+
+.menu-side-collapse .col + .col > h5:first-child {
+    margin-top: 30px;
+}
+
+.menu-side .bottom-area {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-side-collapse .bottom-area {
+    position: static;
+}
+
+.menu-side .bottom-area .lan-menu {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu-side .bottom-area .lan-menu a {
+    margin: 0 5px;
+}
+
+.menu-side .bottom-area .icon-links {
+    margin: 10px 0;
+}
+
+.menu-side .bottom-area p {
+    font-size: 12px;
+}
+
+/*
 
 # HEADERS
 ===================================================================
