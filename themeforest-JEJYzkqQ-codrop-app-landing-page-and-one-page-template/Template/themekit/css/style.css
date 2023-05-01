@@ -26,6 +26,10 @@ Table of contents
 
 */
 
+html {
+    scroll-behavior: smooth; /*Added to make it scroll smoothly when jumping to a link with an id.*/
+  }
+
 @font-face {
     font-family: "Icons";
     src: url('../media/icons/icons.eot');
