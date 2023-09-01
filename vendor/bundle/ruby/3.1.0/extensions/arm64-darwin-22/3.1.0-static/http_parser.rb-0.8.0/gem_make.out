@@ -1,0 +1,23 @@
+current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/science/.rubies/ruby-3.1.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230831-19483-gtek98 sitelibdir\=./.gem.20230831-19483-gtek98 clean
+
+current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230831-19483-gtek98 sitelibdir\=./.gem.20230831-19483-gtek98
+compiling ruby_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+    if (nparsed < len)
+        ~~~~~~~ ^ ~~~
+1 warning generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230831-19483-gtek98 sitelibdir\=./.gem.20230831-19483-gtek98 install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20230831-19483-gtek98
+
+current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230831-19483-gtek98 sitelibdir\=./.gem.20230831-19483-gtek98 clean
