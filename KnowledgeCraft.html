@@ -447,13 +447,26 @@
             const flashcard = filteredFlashcards[currentFlashcardIndex];
             overlay.textContent = flashcard.answer;
             overlay.style.display = 'flex';
-            updatePresenterView(flashcard.answer);
+            if (presenterWindow && !presenterWindow.closed) {
+                presenterWindow.document.getElementById('toggleAnswer').textContent = 'Hide Answer';
+            }
         }
 
         function hideAnswer() {
             const overlay = document.getElementById('answer-overlay');
             overlay.style.display = 'none';
-            updatePresenterView('');
+            if (presenterWindow && !presenterWindow.closed) {
+                presenterWindow.document.getElementById('toggleAnswer').textContent = 'Reveal Answer';
+            }
+        }
+                
+        function toggleAnswer() {
+            const overlay = document.getElementById('answer-overlay');
+            if (overlay.style.display === 'none') {
+                showAnswer();
+            } else {
+                hideAnswer();
+            }
         }
 
         function openPresenterView() {
@@ -484,18 +497,26 @@
                         }
                         #controls {
                             display: flex;
-                            height: 10vh;
+                            flex-direction: column;
                         }
-                        .clue-button {
-                            flex: 1;
+                        .clue-button, #toggleAnswer {
                             border: none;
                             color: white;
                             font-size: 3vh;
                             cursor: pointer;
+                            padding: 10px;
                         }
-                        #clue1 { background-color: #335C67; }
-                        #clue2 { background-color: #333333; }
-                        #clue3 { background-color: #ae2012; }
+                        #toggleAnswer {
+                            background-color: #1a1a1a;
+                            width: 100%;
+                        }
+                        #clueButtons {
+                            display: flex;
+                            width: 100%;
+                        }
+                        #clue1 { background-color: #335C67; flex: 1; }
+                        #clue2 { background-color: #333333; flex: 1; }
+                        #clue3 { background-color: #ae2012; flex: 1; }
                         .nav-button {
                             position: absolute;
                             top: 50%;
@@ -514,9 +535,12 @@
                 <body>
                     <div id="answer"></div>
                     <div id="controls">
-                        <button id="clue1" class="clue-button" onclick="window.opener.toggleText('button1')">Clue 1</button>
-                        <button id="clue2" class="clue-button" onclick="window.opener.toggleText('button2')">Clue 2</button>
-                        <button id="clue3" class="clue-button" onclick="window.opener.toggleText('button3')">Clue 3</button>
+                        <button id="toggleAnswer" onclick="window.opener.toggleAnswer()">Reveal Answer</button>
+                        <div id="clueButtons">
+                            <button id="clue1" class="clue-button" onclick="window.opener.toggleText('button1')">Clue 1</button>
+                            <button id="clue2" class="clue-button" onclick="window.opener.toggleText('button2')">Clue 2</button>
+                            <button id="clue3" class="clue-button" onclick="window.opener.toggleText('button3')">Clue 3</button>
+                        </div>
                     </div>
                     <button id="prev" class="nav-button" onclick="window.opener.prevFlashcard()">◀</button>
                     <button id="next" class="nav-button" onclick="window.opener.nextFlashcard()">▶</button>
@@ -548,9 +572,10 @@
             menuOverlay.style.display = menuOverlay.style.display === 'flex' ? 'none' : 'flex';
         }
 
+
         document.addEventListener('keydown', function(event) {
             if (event.code === 'Space') {
-                showAnswer();
+                toggleAnswer();
                 event.preventDefault();
             } else if (event.code === 'ArrowRight') {
                 nextFlashcard();
