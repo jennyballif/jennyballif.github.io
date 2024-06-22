@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowledgeCraft</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .button {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 7vh;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .button > span {
+            max-width: 1000px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        #button1 {
+            background-color: #335C67;
+        }
+
+        #button2 {
+            background-color: #333333;
+        }
+
+        #button3 {
+            background-color: #ae2012;
+        }
+
+        .nav-arrow {
+            position: absolute;
+            bottom: 33%;
+            transform: translateY(50%);
+            font-size: 3em;
+            color: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.3s;
+        }
+
+        .nav-arrow:hover {
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+
+        #show-answer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5em;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 10px 0;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        #show-answer:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            font-size: 7vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        @media (max-width: 800px) {
+            .button {
+                font-size: 6vh;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .button {
+                font-size: 5vh;
+            }
+        }
+
+        .menu-icon {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 2em;
+            cursor: pointer;
+            z-index: 2;
+            color: white;
+        }
+
+        .menu-overlay {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            z-index: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-overlay .game-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .menu-overlay .show-button {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .menu-overlay .show-button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .menu-overlay .columns {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .menu-overlay .column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-overlay .left-column {
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu-overlay .right-column {
+            padding-left: 40px;
+        }
+
+        .menu-overlay .controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu-overlay .controls label,
+        .menu-overlay .controls input,
+        .menu-overlay .controls select,
+        .menu-overlay .controls button {
+            margin: 10px;
+        }
+
+        .menu-overlay .category-checkbox {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .menu-button {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            margin-top: 20px;
+        }
+
+        .menu-button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .instructions {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .instructions table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        .instructions th, .instructions td {
+            border: 1px solid white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .instructions ol, .instructions ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="menu-overlay" id="menu-overlay" style="display: none;">
+            <div class="game-title">KNOWLEDGECRAFT</div>
+            <div class="close-btn" onclick="toggleMenu()">✖</div>
+            <button class="show-button" onclick="toggleMenu()">Show Flashcards!</button>
+            <div class="columns">
+                <div class="column left-column">
+                    <button id="presenter-view" class="menu-button" onclick="openPresenterView()">Presenter View</button>
+                    <div class="instructions">
+                        <p>Hotkeys:</p>
+                        <ul>
+                            <li><strong>Space:</strong> Show/Hide Answer</li>
+                            <li><strong>Left Arrow:</strong> Previous Flashcard</li>
+                            <li><strong>Right Arrow:</strong> Next Flashcard</li>
+                            <li><strong>1, 2, 3:</strong> Toggle Clue 1, 2, 3</li>
+                        </ul>
+                        <label for="category-filter">Select Categories:</label>
+                        <div id="category-filter"></div>
+                    </div>
+                </div>
+                <div class="column right-column">
+                    <p>Make your own clues as a Google Sheet.</p>
+                    <div class="controls">
+                        <label for="sheet-url">Google Sheet CSV URL:</label>
+                        <input type="text" id="sheet-url" value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQW8iQ8CJ18PYvlfWFkPJeFMCRCogQpzhSXHLIrOkDl-L_ZeyMTXFm6iRdktuvD5Bk47R4k8K0ceLSZ/pub?output=csv">
+                        <button class="menu-button" onclick="loadSheet()">Load Sheet</button>
+                    </div>
+                    <div class="instructions">
+                        <p>The Google Sheet should have the following columns:</p>
+                        <table>
+                            <tr>
+                                <th>Card Number</th>
+                                <th>Category</th>
+                                <th>Answer</th>
+                                <th>Clue 1</th>
+                                <th>Clue 2</th>
+                                <th>Clue 3</th>
+                            </tr>
+                        </table>
+                        <p>To publish your Google Sheet as a CSV file, follow these steps:</p>
+                        <ol>
+                            <li>Go to <strong>File</strong> > <strong>Share</strong> > <strong>Publish to the web</strong>.</li>
+                            <li>Select <strong>Comma-separated values (.csv)</strong> as the format.</li>
+                            <li>Copy the URL provided and paste it into the input box above.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="button1" class="button" onclick="toggleText('button1')"><span>Clue 1</span></div>
+        <div id="button2" class="button" onclick="toggleText('button2')"><span>Clue 2</span></div>
+        <div id="button3" class="button" onclick="toggleText('button3')"><span>Clue 3</span></div>
+
+        <div id="prev" class="nav-arrow" onclick="prevFlashcard()">&#9664;</div>
+        <div id="next" class="nav-arrow" onclick="nextFlashcard()">&#9654;</div>
+        <div id="show-answer" onclick="showAnswer()">Show Answer</div>
+        <div id="answer-overlay" class="overlay" onclick="hideAnswer()"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+        let flashcards = [];
+        let filteredFlashcards = [];
+        let currentFlashcardIndex = 0;
+        let presenterWindow = null;
+        let categories = new Set();
+
+        function fetchFlashcards() {
+            const sheetUrl = document.getElementById('sheet-url').value;
+            fetch(sheetUrl)
+                .then(response => response.text())
+                .then(data => {
+                    Papa.parse(data, {
+                        header: true,
+                        complete: function(results) {
+                            flashcards = results.data.map(row => ({
+                                cardNumber: row['Card Number'],
+                                category: row['Category'],
+                                answer: row['Answer'],
+                                clue1: row['Clue 1'],
+                                clue2: row['Clue 2'],
+                                clue3: row['Clue 3']
+                            }));
+                            categories = new Set(flashcards.map(card => card.category));
+                            populateCategoryFilter();
+                            filterFlashcards();
+                            shuffleFlashcards();
+                            displayFlashcard();
+                        },
+                        error: function(error) {
+                            console.error('Error parsing CSV:', error);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        }
+
+        function populateCategoryFilter() {
+            const filter = document.getElementById('category-filter');
+            filter.innerHTML = '';
+            categories.forEach(category => {
+                const checkboxContainer = document.createElement('div');
+                checkboxContainer.className = 'category-checkbox';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = category;
+                checkbox.checked = true;
+                checkbox.id = `category-${category}`;
+                checkbox.onchange = filterFlashcards;
+
+                const label = document.createElement('label');
+                label.htmlFor = `category-${category}`;
+                label.textContent = category;
+
+                checkboxContainer.appendChild(checkbox);
+                checkboxContainer.appendChild(label);
+                filter.appendChild(checkboxContainer);
+            });
+        }
+
+        function filterFlashcards() {
+            const selectedCategories = Array.from(document.querySelectorAll('#category-filter input[type="checkbox"]:checked')).map(checkbox => checkbox.value);
+            filteredFlashcards = flashcards.filter(card => selectedCategories.includes(card.category));
+            currentFlashcardIndex = 0;
+            shuffleFlashcards();
+            displayFlashcard();
+        }
+
+        function shuffleFlashcards() {
+            for (let i = filteredFlashcards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [filteredFlashcards[i], filteredFlashcards[j]] = [filteredFlashcards[j], filteredFlashcards[i]];
+            }
+        }
+
+        function displayFlashcard() {
+            if (filteredFlashcards.length === 0) {
+                alert('No flashcards available for the selected categories.');
+                return;
+            }
+            const flashcard = filteredFlashcards[currentFlashcardIndex];
+            document.getElementById('button1').innerHTML = '<span>Clue 1</span>';
+            document.getElementById('button2').innerHTML = '<span>Clue 2</span>';
+            document.getElementById('button3').innerHTML = '<span>Clue 3</span>';
+            updatePresenterView(flashcard.answer);
+        }
+
+        function toggleText(buttonId) {
+            const flashcard = filteredFlashcards[currentFlashcardIndex];
+            const button = document.getElementById(buttonId);
+            const clue = flashcard[buttonId.replace('button', 'clue')];
+
+            if (button.textContent.includes('Clue')) {
+                button.innerHTML = `<span>${clue}</span>`;
+            } else {
+                button.innerHTML = `<span>Clue ${buttonId.replace('button', '')}</span>`;
+            }
+        }
+
+        function prevFlashcard() {
+            currentFlashcardIndex = (currentFlashcardIndex === 0) ? filteredFlashcards.length - 1 : currentFlashcardIndex - 1;
+            hideAnswer();
+            displayFlashcard();
+        }
+
+        function nextFlashcard() {
+            currentFlashcardIndex = (currentFlashcardIndex === filteredFlashcards.length - 1) ? 0 : currentFlashcardIndex + 1;
+            hideAnswer();
+            displayFlashcard();
+        }
+
+        function showAnswer() {
+            const overlay = document.getElementById('answer-overlay');
+            if (overlay.style.display === 'flex') {
+                hideAnswer();
+            } else {
+                const flashcard = filteredFlashcards[currentFlashcardIndex];
+                overlay.textContent = flashcard.answer;
+                overlay.style.display = 'flex';
+                updatePresenterView(flashcard.answer);
+            }
+        }
+
+        function hideAnswer() {
+            const overlay = document.getElementById('answer-overlay');
+            overlay.style.display = 'none';
+            updatePresenterView('');
+        }
+
+        function openPresenterView() {
+            presenterWindow = window.open('', 'Presenter View', 'width=600,height=400');
+            presenterWindow.document.write('<html><head><title>Presenter View</title></head><body style="margin:0;padding:0;background-color:black;color:white;font-size:7vh;font-family:Arial,sans-serif;display:flex;align-items:center;justify-content:center;"></body></html>');
+            updatePresenterView(filteredFlashcards[currentFlashcardIndex].answer);
+        }
+
+        function updatePresenterView(answer) {
+            if (presenterWindow && !presenterWindow.closed) {
+                presenterWindow.document.body.innerHTML = `<div style="color:white;background-color:black;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:7vh;font-family:Arial,sans-serif;">${answer}</div>`;
+            }
+        }
+
+        function loadSheet() {
+            fetchFlashcards();
+        }
+
+        function toggleMenu() {
+            const menuOverlay = document.getElementById('menu-overlay');
+            menuOverlay.style.display = menuOverlay.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.code === 'Space') {
+                showAnswer();
+                event.preventDefault();
+            } else if (event.code === 'ArrowRight') {
+                nextFlashcard();
+            } else if (event.code === 'ArrowLeft') {
+                prevFlashcard();
+            } else if (event.code === 'Digit1') {
+                toggleText('button1');
+            } else if (event.code === 'Digit2') {
+                toggleText('button2');
+            } else if (event.code === 'Digit3') {
+                toggleText('button3');
+            }
+        });
+
+        window.onload = function() {
+            fetchFlashcards();
+            document.getElementById('menu-overlay').style.display = 'flex';
+        };
+    </script>
+</body>
+</html>
