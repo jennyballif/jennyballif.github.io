@@ -470,6 +470,12 @@
         }
 
         function openPresenterView() {
+            // Close the existing window if it's open
+            if (presenterWindow && !presenterWindow.closed) {
+                presenterWindow.close();
+            }
+
+            // Open a new window
             presenterWindow = window.open('', 'Presenter View', 'width=800,height=600');
             presenterWindow.document.write(`
                 <html>
@@ -509,15 +515,19 @@
                         #toggleAnswer {
                             background-color: #1a1a1a;
                             width: 100%;
+                            min-height: 60px;
                         }
                         #clueButtons {
                             display: flex;
                             width: 100%;
+                        }
+                        #clue1, #clue2, #clue3 {
+                            flex: 1;
                             min-height: 90px;
                         }
-                        #clue1 { background-color: #335C67; flex: 1; }
-                        #clue2 { background-color: #333333; flex: 1; }
-                        #clue3 { background-color: #ae2012; flex: 1; }
+                        #clue1 { background-color: #335C67; }
+                        #clue2 { background-color: #333333; }
+                        #clue3 { background-color: #ae2012; }
                         .nav-button {
                             position: absolute;
                             top: 50%;
@@ -548,18 +558,29 @@
                 </body>
                 </html>
             `);
+            presenterWindow.document.close();
             updatePresenterView(filteredFlashcards[currentFlashcardIndex].answer);
         }
 
         function updatePresenterView(answer) {
             if (presenterWindow && !presenterWindow.closed) {
-                presenterWindow.document.getElementById('answer').textContent = answer;
-                
+                const answerDiv = presenterWindow.document.getElementById('answer');
+                if (answerDiv) {
+                    answerDiv.textContent = answer;
+                }
+
+                const toggleAnswerButton = presenterWindow.document.getElementById('toggleAnswer');
+                if (toggleAnswerButton) {
+                    toggleAnswerButton.textContent = document.getElementById('answer-overlay').style.display === 'none' ? 'Reveal Answer' : 'Hide Answer';
+                }
+
                 // Update clue button texts
                 for (let i = 1; i <= 3; i++) {
                     const mainButton = document.getElementById(`button${i}`);
                     const presenterButton = presenterWindow.document.getElementById(`clue${i}`);
-                    presenterButton.textContent = mainButton.textContent.trim();
+                    if (presenterButton) {
+                        presenterButton.textContent = mainButton.textContent.trim();
+                    }
                 }
             }
         }
