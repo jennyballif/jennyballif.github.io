@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KnowledgeCraft</title>
+    <title>Flashcard Clues</title>
     <style>
         body, html {
             margin: 0;
@@ -137,7 +137,7 @@
         }
 
         .menu-overlay {
-            display: flex;
+            display: none;
             flex-direction: column;
             position: fixed;
             top: 0;
@@ -151,12 +151,6 @@
             box-sizing: border-box;
             justify-content: center;
             align-items: center;
-        }
-
-        .menu-overlay .game-title {
-            font-size: 2em;
-            margin-bottom: 20px;
-            text-align: center;
         }
 
         .menu-overlay .show-button {
@@ -269,8 +263,7 @@
 <body>
     <div class="container">
         <div class="menu-icon" onclick="toggleMenu()">☰</div>
-        <div class="menu-overlay" id="menu-overlay" style="display: none;">
-            <div class="game-title">KNOWLEDGECRAFT</div>
+        <div class="menu-overlay" id="menu-overlay">
             <div class="close-btn" onclick="toggleMenu()">✖</div>
             <button class="show-button" onclick="toggleMenu()">Show Flashcards!</button>
             <div class="columns">
@@ -289,7 +282,6 @@
                     </div>
                 </div>
                 <div class="column right-column">
-                    <p>Make your own clues as a Google Sheet.</p>
                     <div class="controls">
                         <label for="sheet-url">Google Sheet CSV URL:</label>
                         <input type="text" id="sheet-url" value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQW8iQ8CJ18PYvlfWFkPJeFMCRCogQpzhSXHLIrOkDl-L_ZeyMTXFm6iRdktuvD5Bk47R4k8K0ceLSZ/pub?output=csv">
@@ -426,30 +418,30 @@
             } else {
                 button.innerHTML = `<span>Clue ${buttonId.replace('button', '')}</span>`;
             }
+            
+            updatePresenterView(flashcard.answer);
         }
 
         function prevFlashcard() {
             currentFlashcardIndex = (currentFlashcardIndex === 0) ? filteredFlashcards.length - 1 : currentFlashcardIndex - 1;
             hideAnswer();
             displayFlashcard();
+            updatePresenterView(filteredFlashcards[currentFlashcardIndex].answer);
         }
 
         function nextFlashcard() {
             currentFlashcardIndex = (currentFlashcardIndex === filteredFlashcards.length - 1) ? 0 : currentFlashcardIndex + 1;
             hideAnswer();
             displayFlashcard();
+            updatePresenterView(filteredFlashcards[currentFlashcardIndex].answer);
         }
 
         function showAnswer() {
             const overlay = document.getElementById('answer-overlay');
-            if (overlay.style.display === 'flex') {
-                hideAnswer();
-            } else {
-                const flashcard = filteredFlashcards[currentFlashcardIndex];
-                overlay.textContent = flashcard.answer;
-                overlay.style.display = 'flex';
-                updatePresenterView(flashcard.answer);
-            }
+            const flashcard = filteredFlashcards[currentFlashcardIndex];
+            overlay.textContent = flashcard.answer;
+            overlay.style.display = 'flex';
+            updatePresenterView(flashcard.answer);
         }
 
         function hideAnswer() {
@@ -459,14 +451,85 @@
         }
 
         function openPresenterView() {
-            presenterWindow = window.open('', 'Presenter View', 'width=600,height=400');
-            presenterWindow.document.write('<html><head><title>Presenter View</title></head><body style="margin:0;padding:0;background-color:black;color:white;font-size:7vh;font-family:Arial,sans-serif;display:flex;align-items:center;justify-content:center;"></body></html>');
+            presenterWindow = window.open('', 'Presenter View', 'width=800,height=600');
+            presenterWindow.document.write(`
+                <html>
+                <head>
+                    <title>Presenter View</title>
+                    <style>
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            background-color: black;
+                            color: white;
+                            font-family: Arial, sans-serif;
+                            display: flex;
+                            flex-direction: column;
+                            height: 100vh;
+                        }
+                        #answer {
+                            flex-grow: 1;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 7vh;
+                            text-align: center;
+                            padding: 20px;
+                        }
+                        #controls {
+                            display: flex;
+                            height: 10vh;
+                        }
+                        .clue-button {
+                            flex: 1;
+                            border: none;
+                            color: white;
+                            font-size: 3vh;
+                            cursor: pointer;
+                        }
+                        #clue1 { background-color: #335C67; }
+                        #clue2 { background-color: #333333; }
+                        #clue3 { background-color: #ae2012; }
+                        .nav-button {
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background-color: rgba(255, 255, 255, 0.3);
+                            color: white;
+                            border: none;
+                            font-size: 5vh;
+                            padding: 20px;
+                            cursor: pointer;
+                        }
+                        #prev { left: 10px; }
+                        #next { right: 10px; }
+                    </style>
+                </head>
+                <body>
+                    <div id="answer"></div>
+                    <div id="controls">
+                        <button id="clue1" class="clue-button" onclick="window.opener.toggleText('button1')">Clue 1</button>
+                        <button id="clue2" class="clue-button" onclick="window.opener.toggleText('button2')">Clue 2</button>
+                        <button id="clue3" class="clue-button" onclick="window.opener.toggleText('button3')">Clue 3</button>
+                    </div>
+                    <button id="prev" class="nav-button" onclick="window.opener.prevFlashcard()">◀</button>
+                    <button id="next" class="nav-button" onclick="window.opener.nextFlashcard()">▶</button>
+                </body>
+                </html>
+            `);
             updatePresenterView(filteredFlashcards[currentFlashcardIndex].answer);
         }
 
         function updatePresenterView(answer) {
             if (presenterWindow && !presenterWindow.closed) {
-                presenterWindow.document.body.innerHTML = `<div style="color:white;background-color:black;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:7vh;font-family:Arial,sans-serif;">${answer}</div>`;
+                presenterWindow.document.getElementById('answer').textContent = answer;
+                
+                // Update clue button texts
+                for (let i = 1; i <= 3; i++) {
+                    const mainButton = document.getElementById(`button${i}`);
+                    const presenterButton = presenterWindow.document.getElementById(`clue${i}`);
+                    presenterButton.textContent = mainButton.textContent.trim();
+                }
             }
         }
 
