@@ -3646,7 +3646,7 @@ IMAGE BOX - COMPONENT
     bottom: 0;
     width: 100%;
     padding: 5px 15px;
-    color: #FFF;
+    color: var(--white-color);
     font-size: 12px;
 }
 
@@ -3660,7 +3660,7 @@ IMAGE BOX - COMPONENT
     margin-left: -15px;
     text-align: center;
     line-height: 30px;
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
     font-size: 25px;
     z-index: 5;
@@ -3827,7 +3827,7 @@ TABS - CONTAINER
 }
 
 .tab-nav li.active a, .tab-nav li:hover a {
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .tab-nav.align-right {
@@ -3980,7 +3980,7 @@ PAGINATION AND LOAD MORE - CONTAINER
 }
 
 .pagination li.page:hover a, .pagination li.page.active a {
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .pagination .last, .pagination .first {
