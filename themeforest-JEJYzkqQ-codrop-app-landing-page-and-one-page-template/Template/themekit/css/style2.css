@@ -675,7 +675,7 @@ BLOCK - SECTION
 }
 
 .section-block-full > .container > .row > .col:first-child {
-    background: #FFF;
+    background: var(--white-color);
     padding: 60px;
     margin: 0 15px;
     border-radius: 3px;
@@ -871,7 +871,7 @@ body > nav .search-box-menu.active > input {
     right: 0;
     height: 40px;
     top: calc(100% + 15px);
-    background: #FFF;
+    background: var(--white-color);
     border: none;
     padding: 0 15px;
     cursor: pointer;
@@ -924,7 +924,7 @@ MINI MENU SECTION - NAVIGATION MENU
 .menu-mini {
     height: 35px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.21);
-    background: #fff;
+    background: var(--white-color);
 }
 
 .menu-mini > .container > ul {
@@ -2373,7 +2373,7 @@ BUTTONS - COMPONENT
     left: 50%;
     transform: translateX(-50%);
     margin-left: -43px;
-    background: #FFF;
+    background: var(--white-color);
     z-index: 1;
 }
 
@@ -2404,7 +2404,7 @@ BUTTONS - COMPONENT
     height: 80px;
     border-radius: 50%;
     left: 50%;
-    background: rgb(255, 255, 255);
+    background: var(--white-color);
 }
 
 .img-box.btn-video:after {
@@ -2426,7 +2426,7 @@ INPUTS - COMPONENT
     width: 100%;
     padding: 10px;
     font-size: 14px;
-    background: rgb(255, 255, 255);
+    background: var(--white-color);
 }
 
 .input-text-btn {
