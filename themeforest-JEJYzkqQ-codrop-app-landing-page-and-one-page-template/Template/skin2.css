@@ -99,7 +99,7 @@
 
 */
 .light .dropdown > ul > li:not(:hover) > a, .dropdown > ul > li a, nav:not(.light) a.btn-login.btn-border:hover {
-    color: rgb(68, 68, 68) !important;
+    color: var(--tertiary-color:) !important;
 }
 
 h1, h2, h3, h4, h5, h6, .accordion-list > li > a, .cnt-box-testimonials .testimonial-info span, .cnt-box-testimonials-bubble .thumb-bar span, .social-feed-fb .meta-header a,
@@ -109,32 +109,32 @@ h1, h2, h3, h4, h5, h6, .accordion-list > li > a, .cnt-box-testimonials .testimo
 .quote, p b, .list-nav a, .text-color, .text-color p, .cnt-pricing-table > ul > li, nav .tab-nav li a, nav .tab-nav li.active a, nav .tab-nav li:hover a, nav .tab-nav li:not(.active):not(:hover) a,
 nav.light .col i, .menu-cnt > ul .col li a, .breadcrumb li a, .countdown, .media-box-down .caption h2, .album-title, .collapse-button a, .search-bar input[type=submit], .search-box-menu > i,
 body > nav .icon-links a i, .shop-menu-cnt > i:before, .shop-menu-cnt .cart-total, .menu-mini > .container > ul > li, .menu-btn:before {
-    color: rgb(18, 48, 74);
+    color: var(--tertiary-color:) ;
 }
 
 .accordion-list > li > a:before, .cnt-box-badge .badge, .cnt-box-blog-side .blog-date, .cnt-box-blog-top .blog-date, .cnt-box-top .extra-field, .media-box-half .extra-field {
-    background-color: rgb(18, 48, 74);
+    background-color: var(--tertiary-color:) ;
 }
 
 .glide__bullets > button:hover, .glide__bullets > button.glide__bullet--active, .pagination li.page:hover a, .pagination li.page.active a, .list-tags a, .tagcloud a {
-    background-color: rgb(18, 48, 74);
-    border-color: rgb(18, 48, 74);
+    background-color: var(--tertiary-color:) ;
+    border-color: var(--tertiary-color:) ;
 }
 
 .glide__bullets > button, .pagination li.page a {
-    border-color: rgb(18, 48, 74);
+    border-color: var(--tertiary-color:) ;
 }
 
 body, p, input, textarea, ::placeholder, .tab-box.tab-vertical > .tab-nav li:not(.active):not(:hover) a, body > header .container > h2 {
-    color: rgb(88, 119, 144);
+    color: var(--primary-color:) ;
 }
 
 body > nav.light:not(.menu-transparent), nav.light.menu-transparent.scroll-menu, footer {
-    background-color: rgb(55, 81, 126);
+    background-color: var(--secondary-color:) ;
 }
 
 .boxed-area.light {
-    background-color: rgb(55, 81, 126) !important;
+    background-color: var(--tertiary-color) !important;
     border: none;
 }
 
@@ -208,20 +208,20 @@ main > section.section-base.section-color, section.section-bottom-layer-color:af
 }
 
 .cnt-box.boxed .caption, .cnt-box-side-icon.boxed > i, .cnt-box-top-icon.boxed > i, nav.menu-transparent:not(.light).scroll-menu, .boxed-area {
-    background-color: #fff;
+    background-color: var(--quaternary-color);
 }
 
 .btn-border.light:not(:hover) {
-    color: #fff !important;
-    border-color: #fff !important;
+    color: var(--quaternary-color) !important;
+    border-color: var(--quaternary-color) !important;
 }
 
 .light .cnt-box-testimonials .testimonial-info span, .media-box h2, .list-tags a, .tagcloud a, .icon-links-grid a:hover i {
-    color: #fff;
+    color: var(--quaternary-color);
 }
 
 nav.light .menu-cnt a.btn:not(.btn-border) {
-    color: #fff !important;
+    color: var(--quaternary-color) !important;
 }
 
 .dropdown > ul > li:hover > a, .dropdown ul:not(.icon-list) li:hover > a, nav .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a {
@@ -330,7 +330,7 @@ nav.light .menu-cnt a.btn:not(.btn-border) {
 }
 
 section.boxed-page, section.boxed-page.section-base {
-    background-color: rgb(241, 245, 247);
+    background-color: var(--quaternary-color);
     overflow: visible;
     padding-bottom: 130px;
 }

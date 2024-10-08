@@ -65,7 +65,7 @@ body > #preloader {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: var(--bg-color);
     z-index: 99995;
 }
 
@@ -308,7 +308,7 @@ COLOR 5
 
 .cnt-box-testimonials-bubble > p, .cnt-call, .comment-list li, .quote, .progress-bar > div, .timeline .panel, .header-base, .cnt-box.boxed .caption, .cnt-box-side-icon.boxed > i,
 .cnt-box-top-icon.boxed > i, .menu-big-box .menu-box, footer, main > section.section-base.section-color, .boxed-area, .list-tags a {
-    background-color: var(--quaternary-color);
+    background-color: var(--primary-color);
 }
 
 .cnt-box-testimonials-bubble > p:after {
