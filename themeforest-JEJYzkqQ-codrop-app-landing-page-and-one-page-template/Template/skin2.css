@@ -109,28 +109,28 @@ h1, h2, h3, h4, h5, h6, .accordion-list > li > a, .cnt-box-testimonials .testimo
 .quote, p b, .list-nav a, .text-color, .text-color p, .cnt-pricing-table > ul > li, nav .tab-nav li a, nav .tab-nav li.active a, nav .tab-nav li:hover a, nav .tab-nav li:not(.active):not(:hover) a,
 nav.light .col i, .menu-cnt > ul .col li a, .breadcrumb li a, .countdown, .media-box-down .caption h2, .album-title, .collapse-button a, .search-bar input[type=submit], .search-box-menu > i,
 body > nav .icon-links a i, .shop-menu-cnt > i:before, .shop-menu-cnt .cart-total, .menu-mini > .container > ul > li, .menu-btn:before {
-    color: var(--tertiary-color:) ;
+    color: var(--tertiary-color) ;
 }
 
 .accordion-list > li > a:before, .cnt-box-badge .badge, .cnt-box-blog-side .blog-date, .cnt-box-blog-top .blog-date, .cnt-box-top .extra-field, .media-box-half .extra-field {
-    background-color: var(--tertiary-color:) ;
+    background-color: var(--secondary-color) ;
 }
 
 .glide__bullets > button:hover, .glide__bullets > button.glide__bullet--active, .pagination li.page:hover a, .pagination li.page.active a, .list-tags a, .tagcloud a {
-    background-color: var(--tertiary-color:) ;
-    border-color: var(--tertiary-color:) ;
+    background-color: var(--tertiary-color) ;
+    border-color: var(--tertiary-color) ;
 }
 
 .glide__bullets > button, .pagination li.page a {
-    border-color: var(--tertiary-color:) ;
+    border-color: var(--tertiary-color) ;
 }
 
 body, p, input, textarea, ::placeholder, .tab-box.tab-vertical > .tab-nav li:not(.active):not(:hover) a, body > header .container > h2 {
-    color: var(--primary-color:) ;
+    color: var(--primary-color) ;
 }
 
 body > nav.light:not(.menu-transparent), nav.light.menu-transparent.scroll-menu, footer {
-    background-color: var(--secondary-color:) ;
+    background-color: var(--secondary-color) ;
 }
 
 .boxed-area.light {
@@ -191,7 +191,7 @@ nav.light a.btn-border, .dropdown > ul li:hover > a, .dropdown > ul li.active > 
 }
 
 .light p, .btn-border:hover, .media-box-full .caption .extra-field, .media-box-reveal p, .light .accordion-list > li > a, .media-box p {
-    color: var(--quaternary-color) !important;
+    color: var(--secondary-color) !important;
 }
 
 .input-text, .input-select, .input-textarea, .table, .table td, .table th, .accordion-list > li, .menu-inner:not(.menu-inner-vertical) .dropdown ul, .table:not(.table-grid) tr,

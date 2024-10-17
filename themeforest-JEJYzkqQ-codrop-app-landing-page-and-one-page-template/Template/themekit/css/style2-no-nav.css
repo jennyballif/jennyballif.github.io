@@ -289,7 +289,7 @@ COLOR 4
 
 .input-text, .input-select, .input-textarea, .cnt-pricing-table, .table, .table td, .table th, .step-item > span, .pagination li.page a, .accordion-list > li,
 .menu-inner:not(.menu-inner-vertical) .dropdown ul, .search-bar input[type=text], .footer-bar, .menu-cnt.active, .search-box-menu, .section-block + .section-base, .section-map + .section-base {
-    border-color: var(--quaternary-color);
+    border-color: var(--secondary-color);
 }
 
 .step-item:before, .menu-inner li:before, .bg-color, body main > section.bg-color, .menu-top-logo > .container:before, body hr:not([class*=space]) {
