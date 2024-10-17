@@ -126,7 +126,7 @@ body > nav .icon-links a i, .shop-menu-cnt > i:before, .shop-menu-cnt .cart-tota
 }
 
 body, p, input, textarea, ::placeholder, .tab-box.tab-vertical > .tab-nav li:not(.active):not(:hover) a, body > header .container > h2 {
-    color: var(--primary-color) ;
+    color: var(--font-color) ;
 }
 
 body > nav.light:not(.menu-transparent), nav.light.menu-transparent.scroll-menu, footer {
