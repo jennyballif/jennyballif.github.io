@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6, .accordion-list > li > a, .cnt-box-testimonials .testimo
 .quote, p b, .list-nav a, .text-color, .text-color p, .cnt-pricing-table > ul > li, nav .tab-nav li a, nav .tab-nav li.active a, nav .tab-nav li:hover a, nav .tab-nav li:not(.active):not(:hover) a,
 nav.light .col i, .menu-cnt > ul .col li a, .breadcrumb li a, .countdown, .media-box-down .caption h2, .album-title, .collapse-button a, .search-bar input[type=submit], .search-box-menu > i,
 body > nav .icon-links a i, .shop-menu-cnt > i:before, .shop-menu-cnt .cart-total, .menu-mini > .container > ul > li, .menu-btn:before {
-    color: var(--tertiary-color) ;
+    color: var(--secondary-color) ;
 }
 
 .accordion-list > li > a:before, .cnt-box-badge .badge, .cnt-box-blog-side .blog-date, .cnt-box-blog-top .blog-date, .cnt-box-top .extra-field, .media-box-half .extra-field {
