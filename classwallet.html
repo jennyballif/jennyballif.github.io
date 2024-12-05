@@ -63,10 +63,178 @@
         <h1>ClassWallet Store</h1>
         <p>This store is for purchasing a Science Mom course through ClassWallet. Each course is a 1-time, nonrecurring purchase. For more information about each course, check out the descriptions and sample lessons on the <a href="https://sciencemom.teachable.com/courses" target="_blank">sales page for each course</a>.</p>
         <p>Science Mom and Math Dad teach self-paced courses using a secular curriculum. Each course uses an open-and-go design that requires minimal preparation and supervision. In our science courses, each lesson has follow-along notes, interactive comprehension questions, and quizzes. There are science and art projects for deeper dives. Our math courses use the interactive Desmos curriculum. Each video lesson has an exploratory activity and practice material to complete after the lesson.</p>
-        <div class="button-container">
+        <div id='collection-component-1733349396840'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'xjrz3n-z0.myshopify.com',
+      storefrontAccessToken: 'afa26815608351d97d26d91f88ea6353',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '630903505263',
+        node: document.getElementById('collection-component-1733349396840'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#598442"
+        },
+        "background-color": "#639349",
+        ":focus": {
+          "background-color": "#598442"
+        }
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#598442"
+        },
+        "background-color": "#639349",
+        ":focus": {
+          "background-color": "#598442"
+        }
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#598442"
+        },
+        "background-color": "#639349",
+        ":focus": {
+          "background-color": "#598442"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#639349",
+        ":hover": {
+          "background-color": "#598442"
+        },
+        ":focus": {
+          "background-color": "#598442"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+        
+        
+        <!--<div class="button-container">
           <a href="https://sciencemom.lemonsqueezy.com/buy/6ac42624-0e40-42ac-8135-fb8110c7046f?embed=1" class="lemonsqueezy-button">Chemistry</a>
           <a href="https://sciencemom.lemonsqueezy.com/buy/f55e46d6-ab60-4f80-98b8-8e783607db31?embed=1" class="lemonsqueezy-button">Astronomy</a>
-        </div>
+        </div>-->
     </div>
 </body>
 </html>
