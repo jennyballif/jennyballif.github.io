@@ -248,6 +248,7 @@
       columnMap.set(voter.id, 0);
     }
 
+    const proxiesForCategory = state.proxies?.[category] ?? {};
     const dependents = new Map();
     for (const voter of voters) {
       dependents.set(voter.id, new Set());
@@ -293,6 +294,32 @@
         dependents.set(current, entry);
       }
     }
+
+    results.forEach((resolution, principalId) => {
+      if (!resolution?.proxyRemovedVote || resolution?.cycle) {
+        return;
+      }
+      const assignedProxies = Array.isArray(proxiesForCategory[principalId])
+        ? proxiesForCategory[principalId]
+        : [];
+      if (!assignedProxies.length) {
+        return;
+      }
+      const baseColumn = columnMap.get(principalId) ?? 0;
+      assignedProxies.forEach((proxyId) => {
+        if (!proxyId || proxyId === principalId) {
+          return;
+        }
+        const currentColumn = columnMap.get(proxyId) ?? 0;
+        const targetColumn = Math.max(currentColumn, baseColumn + 1);
+        if (targetColumn !== currentColumn) {
+          columnMap.set(proxyId, targetColumn);
+        }
+        const entry = dependents.get(proxyId) ?? new Set();
+        entry.add(principalId);
+        dependents.set(proxyId, entry);
+      });
+    });
 
     let maxColumn = 0;
     for (const value of columnMap.values()) {
@@ -369,6 +396,46 @@
       });
     });
 
+    const principalChains = new Map();
+    const proxyToPrincipals = new Map();
+    leftColumn.forEach((voterId) => {
+      const resolution = results.get(voterId);
+      const chain = Array.isArray(resolution?.chain) ? resolution.chain : [voterId];
+      let proxies = chain.slice(1).filter((id) => !leftColumnSet.has(id));
+      if (!proxies.length && resolution?.proxyRemovedVote) {
+        const fallback = Array.isArray(proxiesForCategory[voterId])
+          ? proxiesForCategory[voterId]
+          : [];
+        proxies = fallback.filter((id) => id && !leftColumnSet.has(id));
+      }
+      principalChains.set(voterId, proxies);
+      proxies.forEach((proxyId) => {
+        const list = proxyToPrincipals.get(proxyId) ?? [];
+        list.push(voterId);
+        proxyToPrincipals.set(proxyId, list);
+      });
+    });
+
+    proxyToPrincipals.forEach((principals, proxyId) => {
+      if (!Array.isArray(principals) || !principals.length) {
+        return;
+      }
+      if (activeProxyCounts.has(proxyId)) {
+        return;
+      }
+      const columnIndex = columnMap.get(proxyId) ?? 0;
+      if (columnIndex <= 0) {
+        return;
+      }
+      const finalVote = getFinalVote(proxyId);
+      activeProxies.push({
+        id: proxyId,
+        columnIndex,
+        finalVote,
+        count: 0,
+      });
+    });
+
     activeProxies.sort((a, b) => {
       const orderA = voteOrder.get(a.finalVote) ?? voteOrder.get('ABSTAIN');
       const orderB = voteOrder.get(b.finalVote) ?? voteOrder.get('ABSTAIN');
@@ -386,19 +453,6 @@
 
     const proxyOrder = activeProxies.map((proxy) => proxy.id);
     const proxyIndex = new Map(proxyOrder.map((id, index) => [id, index]));
-
-    const principalChains = new Map();
-    const proxyToPrincipals = new Map();
-    leftColumn.forEach((voterId) => {
-      const chain = Array.isArray(results.get(voterId)?.chain) ? results.get(voterId).chain : [voterId];
-      const proxies = chain.slice(1).filter((id) => !leftColumnSet.has(id));
-      principalChains.set(voterId, proxies);
-      proxies.forEach((proxyId) => {
-        const list = proxyToPrincipals.get(proxyId) ?? [];
-        list.push(voterId);
-        proxyToPrincipals.set(proxyId, list);
-      });
-    });
 
     const proxyOrderLength = proxyOrder.length;
     const signatureCache = new Map();
@@ -455,8 +509,10 @@
     });
 
     const proxyAverages = new Map();
-    proxyOrder.forEach((proxyId) => {
-      const principals = proxyToPrincipals.get(proxyId) ?? [];
+    proxyToPrincipals.forEach((principals, proxyId) => {
+      if (!Array.isArray(principals) || !principals.length) {
+        return;
+      }
       const positions = principals
         .map((principalId) => rowPositions.get(principalId))
         .filter((value) => typeof value === 'number' && Number.isFinite(value));
@@ -478,6 +534,32 @@
       }
 
       column.sort((a, b) => {
+        const getDesiredPosition = (voterId) => {
+          const assigned = Number(rowPositions.get(voterId));
+          if (Number.isFinite(assigned)) {
+            return assigned;
+          }
+          const average = proxyAverages.get(voterId);
+          if (typeof average === 'number' && Number.isFinite(average)) {
+            return average;
+          }
+          return null;
+        };
+
+        const positionA = getDesiredPosition(a);
+        const positionB = getDesiredPosition(b);
+        const hasPositionA = typeof positionA === 'number' && Number.isFinite(positionA);
+        const hasPositionB = typeof positionB === 'number' && Number.isFinite(positionB);
+        if (hasPositionA && hasPositionB && positionA !== positionB) {
+          return positionA - positionB;
+        }
+        if (hasPositionA && !hasPositionB) {
+          return -1;
+        }
+        if (!hasPositionA && hasPositionB) {
+          return 1;
+        }
+
         const orderA = proxyIndex.has(a) ? proxyIndex.get(a) : Number.POSITIVE_INFINITY;
         const orderB = proxyIndex.has(b) ? proxyIndex.get(b) : Number.POSITIVE_INFINITY;
         if (orderA !== orderB) {

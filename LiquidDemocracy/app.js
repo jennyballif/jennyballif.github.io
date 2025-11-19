@@ -391,7 +391,6 @@ function renderCanvas(category, resolution) {
 
       const lines = [];
       if (resolution?.proxyRemovedVote) {
-        lines.push('Proxy vote cleared — awaiting delegation');
         if (proxiesForPrincipal.length) {
           const proxyNames = proxiesForPrincipal
             .map((id) => state.voters.find((v) => v.id === id)?.name ?? 'Unknown')

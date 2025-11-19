@@ -114,12 +114,9 @@ describe('LiquidLogic vote resolution', () => {
     expect(resolution.tallies.ABSTAIN).toBe(1);
   });
 
-  test('columns keep every voter on the left before any votes are cast', () => {
+  test('columns keep every voter on the left when no delegations exist', () => {
     const state = buildState(['root', 'mid', 'leaf']);
     const category = state.activeCategory;
-
-    logic.ensureProxyEntry(state, category, 'root').push('mid');
-    logic.ensureProxyEntry(state, category, 'mid').push('leaf');
 
     const { columns } = logic.getColumns(state, category);
 
@@ -128,6 +125,53 @@ describe('LiquidLogic vote resolution', () => {
     expect(columns[0]).toContain('root');
     expect(columns[0]).toContain('mid');
     expect(columns[0]).toContain('leaf');
+  });
+
+  test('unresolved delegations still position proxies to the right', () => {
+    const state = buildState(['principal', 'proxy']);
+    const category = state.activeCategory;
+
+    logic.ensureProxyEntry(state, category, 'principal').push('proxy');
+
+    const layout = logic.getColumns(state, category);
+
+    expect(layout.columns.length >= 2).toBe(true);
+    expect(layout.columns[0]).toContain('principal');
+    expect(layout.columns[1]).toContain('proxy');
+    expect(layout.rowPositions.get('proxy')).toBe(layout.rowPositions.get('principal'));
+  });
+
+  test('cyclic delegations remain anchored in the principal column', () => {
+    const voters = ['A', 'C', 'D', 'F', 'G', 'H', 'I', 'J'];
+    const state = buildState(voters);
+    const category = state.activeCategory;
+    const question = state.questionByCategory[category];
+
+    const delegate = (principal, proxy) =>
+      logic.ensureProxyEntry(state, category, principal).push(proxy);
+
+    delegate('A', 'C');
+    delegate('C', 'A');
+    delegate('D', 'G');
+    delegate('D', 'F');
+    delegate('F', 'G');
+    delegate('F', 'J');
+    delegate('G', 'J');
+    delegate('G', 'F');
+    delegate('H', 'J');
+    delegate('I', 'F');
+    delegate('I', 'G');
+
+    logic.upsertVote(state, { voterId: 'G', category, question, vote: 'YES' });
+
+    const { columns } = logic.getColumns(state, category);
+
+    expect(columns[0]).toContain('A');
+    expect(columns[0]).toContain('C');
+    columns.slice(1).forEach((column) => {
+      expect(column.includes('A')).toBe(false);
+      expect(column.includes('C')).toBe(false);
+    });
   });
 
   test('direct vote proxies float to the right of their principals', () => {
@@ -261,5 +305,34 @@ describe('LiquidLogic vote resolution', () => {
 
     expect(columns[0]).toEqual(['p1', 'p2', 'p3']);
     expect(columns[1]).toEqual(['proxyA', 'proxyB']);
+  });
+
+  test('proxy column sorting follows computed row positions', () => {
+    const voters = ['A', 'C', 'D', 'F', 'G', 'H', 'I', 'J'];
+    const state = buildState(voters);
+    const category = state.activeCategory;
+    const question = state.questionByCategory[category];
+
+    const delegate = (principal, proxy) =>
+      logic.ensureProxyEntry(state, category, principal).push(proxy);
+
+    delegate('A', 'C');
+    delegate('C', 'A');
+    delegate('D', 'G');
+    delegate('D', 'F');
+    delegate('F', 'G');
+    delegate('F', 'J');
+    delegate('G', 'J');
+    delegate('G', 'F');
+    delegate('H', 'J');
+    delegate('I', 'F');
+    delegate('I', 'G');
+
+    logic.upsertVote(state, { voterId: 'G', category, question, vote: 'YES' });
+    logic.upsertVote(state, { voterId: 'A', category, question, vote: 'YES' });
+
+    const { columns } = logic.getColumns(state, category);
+
+    expect(columns[1]).toEqual(['F', 'A', 'J']);
   });
 });
