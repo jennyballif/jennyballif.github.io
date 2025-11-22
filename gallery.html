@@ -249,15 +249,25 @@
         let allItems = [];
         let currentIndex = 0;
 
+
         /* --- INITIALIZATION --- */
         document.addEventListener('DOMContentLoaded', () => {
             const params = new URLSearchParams(window.location.search);
-            const sheetName = params.get('sheet');
+            let sheetName = params.get('sheet');
 
             if (!sheetName) {
-                document.getElementById('app').innerHTML = '<div class="error-msg">No sheet specified in URL.<br>Use ?sheet=NameOfTab</div>';
+                document.getElementById('app').innerHTML = '<div class="error-msg">No sheet specified in URL.<br>Use ?sheet=Name_Of_Tab</div>';
                 return;
             }
+
+            // --- THE FIX: CLEANER URLS ---
+            // Convert underscores back to spaces automatically.
+            // URL input: ?sheet=Chemistry_Elemental_Cards
+            // Becomes: "Chemistry Elemental Cards"
+            sheetName = sheetName.replace(/_/g, ' ');
+
+            // Set the visual title immediately so the user sees "Chemistry Elemental Cards"
+            document.getElementById('gallery-title').textContent = sheetName;
 
             fetchData(sheetName);
         });
