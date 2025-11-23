@@ -288,7 +288,7 @@
                 if(response.sheet) document.getElementById('gallery-title').textContent = response.sheet;
 
                 // Store data and start rendering
-                allItems = response.items;
+                allItems = response.items.reverse();
                 document.getElementById('app').innerHTML = ''; // Clear loading message
                 renderBatch();
             };
