@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Activities
-permalink: /activities/
+permalink: /activities
 ---
 
 # Hands-On Activities
