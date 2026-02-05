@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start Here
-permalink: /start
+permalink: /start/
 ---
 
 # Start Here

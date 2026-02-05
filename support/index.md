@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Support
-permalink: /support
+permalink: /support/
 ---
 
 # Support Science Mom
