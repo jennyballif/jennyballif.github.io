@@ -1,0 +1,14 @@
+# Science Mom (science.mom)
+
+Science Mom & Math Dad create online science and math courses for homeschool families, plus hands-on activities and free resources.
+
+## Start here
+- About: https://science.mom/about/
+- Start here: https://science.mom/start/
+- Free resources: https://science.mom/free/
+- Activities: https://science.mom/activities/
+
+## Courses & support
+- Courses: https://sciencemom.teachable.com  (will move to https://courses.science.mom later)
+- Patreon: https://www.patreon.com/sciencemom
+- Contact: https://science.mom/contact/

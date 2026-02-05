@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Liquid Democracy Voting Application Specifications | Science Mom</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Liquid Democracy Voting Application Specifications" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hands-on science curriculum for curious kids." />
+<meta property="og:description" content="Hands-on science curriculum for curious kids." />
+<link rel="canonical" href="http://localhost:4000/LiquidDemocracy/Specifications/" />
+<meta property="og:url" content="http://localhost:4000/LiquidDemocracy/Specifications/" />
+<meta property="og:site_name" content="Science Mom" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Liquid Democracy Voting Application Specifications" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Hands-on science curriculum for curious kids.","headline":"Liquid Democracy Voting Application Specifications","url":"http://localhost:4000/LiquidDemocracy/Specifications/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=7f0c3af731a77e4c73fad4e3b44fd0b19f990ddc">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">Science Mom</a></h1>
+      
+
+      <h1 id="liquid-democracy-voting-application-specifications">Liquid Democracy Voting Application Specifications</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>This is a web-based liquid democracy voting application that allows users to participate in democratic decision-making through both direct voting and proxy delegation. The system enables voters to delegate their voting power to trusted proxies for specific categories while maintaining the ability to vote directly on any issue.</p>
+
+<h2 id="core-concepts">Core Concepts</h2>
+
+<h3 id="liquid-democracy">Liquid Democracy</h3>
+<ul>
+  <li><strong>Direct Democracy</strong>: Voters can vote directly on any issue</li>
+  <li><strong>Representative Democracy</strong>: Voters can delegate their voting power to proxies</li>
+  <li><strong>Hybrid Approach</strong>: Voters can mix both approaches - vote directly on some issues and delegate others</li>
+  <li><strong>Dynamic Delegation</strong>: Voters can change their proxy relationships at any time</li>
+</ul>
+
+<h3 id="key-terms">Key Terms</h3>
+<ul>
+  <li><strong>Principal</strong>: A voter who delegates their voting power to others</li>
+  <li><strong>Proxy</strong>: A voter who can receive delegated voting power from others</li>
+  <li><strong>Vote Chain</strong>: The path a vote follows through proxy relationships to reach a final vote</li>
+  <li><strong>Category</strong>: A topic area for which proxy relationships can be established</li>
+  <li><strong>Question</strong>: A specific voting question within a category</li>
+</ul>
+
+<h2 id="functional-requirements">Functional Requirements</h2>
+
+<h3 id="1-voter-registration">1. Voter Registration</h3>
+<ul>
+  <li>Users can register as voters in the system</li>
+  <li>Each voter has a unique name and identifier</li>
+  <li>Voters can be designated as “proxy-capable” (able to receive delegations)</li>
+  <li>The system supports adding, editing, and viewing voter information</li>
+</ul>
+
+<h3 id="2-proxy-relationship-management">2. Proxy Relationship Management</h3>
+<ul>
+  <li>Voters can establish proxy relationships for specific categories</li>
+  <li>Each voter can delegate to multiple proxies in priority order (1st choice, 2nd choice, etc.)</li>
+  <li>Proxy relationships are category-specific (e.g., Environment, Economy, Healthcare)</li>
+  <li>Voters can modify their proxy relationships at any time</li>
+  <li>The system prevents circular proxy relationships that would create infinite loops</li>
+</ul>
+
+<h3 id="3-voting-system">3. Voting System</h3>
+<ul>
+  <li>Voters can cast direct votes on questions within categories</li>
+  <li>Vote options: YES, NO, ABSTAIN</li>
+  <li>Direct votes always override proxy delegation for that specific question</li>
+  <li>Voters can change their votes at any time</li>
+  <li>Voters can clear their votes (remove them entirely)</li>
+</ul>
+
+<h3 id="4-vote-resolution-logic">4. Vote Resolution Logic</h3>
+<ul>
+  <li><strong>Direct Vote</strong>: If a voter votes directly, their vote is counted as-is</li>
+  <li><strong>Proxy Chain Resolution</strong>: If a voter doesn’t vote directly, the system follows their proxy chain:
+    <ol>
+      <li>Check if 1st proxy has voted directly → use that vote</li>
+      <li>If not, check if 1st proxy has voted through their own proxies → follow that chain</li>
+      <li>If 1st proxy has no vote, try 2nd proxy, then 3rd proxy, etc.</li>
+      <li>If no vote found in entire chain → count as ABSTAIN</li>
+    </ol>
+  </li>
+  <li><strong>Cycle Detection</strong>: System handles circular proxy relationships gracefully</li>
+  <li><strong>Live Updates</strong>: Vote tallies update immediately when votes are cast or proxy relationships change</li>
+</ul>
+
+<h3 id="5-visual-vote-flow">5. Visual Vote Flow</h3>
+<ul>
+  <li>Real-time visualization of how votes flow through proxy relationships</li>
+  <li>Cards representing voters that move horizontally based on delegation depth</li>
+  <li>Arrows showing the flow of votes from principals to proxies</li>
+  <li>Cards arrange in columns based on their position in delegation chains</li>
+  <li>Visual indicators for voters who voted directly vs. those whose votes came through proxies</li>
+  <li>Arrows terminate at tally boxes showing final vote counts</li>
+</ul>
+
+<h2 id="user-interface-requirements">User Interface Requirements</h2>
+
+<h3 id="1-registration-tab">1. Registration Tab</h3>
+<ul>
+  <li>Form to add new voters</li>
+  <li>List of existing voters with edit capabilities</li>
+  <li>Toggle for proxy capability</li>
+  <li>Clean, intuitive interface for voter management</li>
+</ul>
+
+<h3 id="2-proxy-setup-tab">2. Proxy Setup Tab</h3>
+<ul>
+  <li>Three-column layout:
+    <ul>
+      <li><strong>Left</strong>: List of all voters (select principal)</li>
+      <li><strong>Center</strong>: Current proxy assignments for selected principal</li>
+      <li><strong>Right</strong>: Available proxy-capable voters</li>
+    </ul>
+  </li>
+  <li>Category selection at the top</li>
+  <li>Drag-and-drop or click-to-add proxy assignment</li>
+  <li>Visual indication of proxy priority order</li>
+  <li>Real-time updates when proxy relationships change</li>
+</ul>
+
+<h3 id="3-voting-tab">3. Voting Tab</h3>
+<ul>
+  <li>Category and question selectors at the top</li>
+  <li>“Clear All Votes” button to reset all votes</li>
+  <li>Dynamic layout showing voter cards positioned based on delegation chains</li>
+  <li>Vote flow visualization with animated arrows</li>
+  <li>Voting interface:
+    <ul>
+      <li>Click to select one or more voter cards</li>
+      <li>Vote buttons: YES, NO, ABSTAIN, Clear Vote</li>
+      <li>Selected voters show visual selection indicators</li>
+    </ul>
+  </li>
+  <li>Right panel with vote tally boxes showing results</li>
+  <li>Real-time updates as votes are cast</li>
+</ul>
+
+<h3 id="4-visual-layout-system">4. Visual Layout System</h3>
+<ul>
+  <li><strong>Column Organization</strong>:
+    <ul>
+      <li>Column 0 (leftmost): Principals who delegate to others</li>
+      <li>Column 1: First-level proxies</li>
+      <li>Column 2: Second-level proxies, etc.</li>
+      <li>Rightmost: Final vote destinations (tally boxes)</li>
+    </ul>
+  </li>
+  <li><strong>Vertical Positioning</strong>:
+    <ul>
+      <li>Cards within each column are sorted intelligently</li>
+      <li>Leftmost column sorted by vote type (YES voters at top, then ABSTAIN, then NO)</li>
+      <li>Other columns sorted by which proxy they delegate to</li>
+      <li>No gaps between cards within columns</li>
+    </ul>
+  </li>
+  <li><strong>Empty Column Removal</strong>: When delegation creates empty columns, they are automatically removed</li>
+  <li><strong>Arrow Positioning</strong>: Arrows point from card edges to show vote flow, passing behind cards</li>
+</ul>
+
+<h3 id="5-real-time-updates">5. Real-time Updates</h3>
+<ul>
+  <li>All changes (votes, proxy relationships, voter registration) update immediately across all tabs</li>
+  <li>Visual animations smooth transitions when cards move positions</li>
+  <li>Vote tallies update live</li>
+  <li>Arrow flows update to reflect new vote paths</li>
+</ul>
+
+<h2 id="technical-requirements">Technical Requirements</h2>
+
+<h3 id="state-management">State Management</h3>
+<ul>
+  <li>Centralized state management for:
+    <ul>
+      <li>Voter list and properties</li>
+      <li>Proxy relationships (by category)</li>
+      <li>Cast votes (by category and question)</li>
+      <li>Current UI selections (selected voters, current category/question)</li>
+    </ul>
+  </li>
+  <li>Immutable state updates</li>
+  <li>Persistence of data across browser sessions</li>
+</ul>
+
+<h3 id="vote-calculation-engine">Vote Calculation Engine</h3>
+<ul>
+  <li>Algorithm to resolve vote chains efficiently</li>
+  <li>Cycle detection in proxy relationships</li>
+  <li>Real-time recalculation when data changes</li>
+  <li>Optimized for performance with large numbers of voters</li>
+</ul>
+
+<h3 id="layout-calculation-engine">Layout Calculation Engine</h3>
+<ul>
+  <li>Dynamic positioning algorithm for voter cards</li>
+  <li>Column assignment based on delegation depth</li>
+  <li>Intelligent sorting within columns</li>
+  <li>Empty column compaction</li>
+  <li>Arrow path calculation between cards and tally boxes</li>
+  <li>Responsive design for different screen sizes</li>
+</ul>
+
+<h3 id="animation-system">Animation System</h3>
+<ul>
+  <li>Smooth transitions when cards move positions</li>
+  <li>Arrow animations showing vote flow</li>
+  <li>Visual feedback for user interactions</li>
+  <li>Performance-optimized animations that don’t interfere with layout calculations</li>
+</ul>
+
+<h2 id="data-models">Data Models</h2>
+
+<h3 id="voter">Voter</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  id: string (unique identifier)
+  name: string
+  isProxy: boolean (can receive delegations)
+}
+</code></pre></div></div>
+
+<h3 id="proxy-relationship">Proxy Relationship</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  principalId: string (voter who delegates)
+  proxyIds: string[] (ordered list of proxy voters)
+  category: string
+}
+</code></pre></div></div>
+
+<h3 id="vote">Vote</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  voterId: string
+  vote: "YES" | "NO" | "ABSTAIN"
+  category: string
+  question: string
+  timestamp: number
+}
+</code></pre></div></div>
+
+<h3 id="vote-chain">Vote Chain</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  principalId: string (original voter)
+  chainIds: string[] (path from principal to final vote source)
+  finalVote: "YES" | "NO" | "ABSTAIN"
+  category: string
+  question: string
+}
+</code></pre></div></div>
+
+<h2 id="behavior-specifications">Behavior Specifications</h2>
+
+<h3 id="proxy-chain-resolution">Proxy Chain Resolution</h3>
+<ol>
+  <li>Start with a voter who hasn’t voted directly</li>
+  <li>Find their proxy relationships for the current category</li>
+  <li>Check each proxy in priority order:
+    <ul>
+      <li>If proxy voted directly → use that vote</li>
+      <li>If proxy has own proxy chain → recursively follow that chain</li>
+      <li>If no vote found → try next proxy in priority order</li>
+    </ul>
+  </li>
+  <li>If no vote found in entire chain → default to ABSTAIN</li>
+  <li>Detect and handle circular references gracefully</li>
+</ol>
+
+<h3 id="visual-layout-algorithm">Visual Layout Algorithm</h3>
+<ol>
+  <li><strong>Column Assignment</strong>: Assign each voter to a column based on their depth in delegation chains</li>
+  <li><strong>Column Organization</strong>: Group voters by their assigned columns</li>
+  <li><strong>Sorting</strong>: Sort voters within each column:
+    <ul>
+      <li>Column 0: By final vote type (YES, ABSTAIN, NO)</li>
+      <li>Other columns: By which proxy they delegate to</li>
+    </ul>
+  </li>
+  <li><strong>Positioning</strong>: Position cards sequentially within columns with no gaps</li>
+  <li><strong>Proxy Centering</strong>: Center proxies vertically on their incoming connections</li>
+  <li><strong>Empty Column Removal</strong>: Remove columns with no voters and compact remaining columns</li>
+</ol>
+
+<h3 id="arrow-flow-calculation">Arrow Flow Calculation</h3>
+<ol>
+  <li><strong>Delegation Arrows</strong>: Draw arrows between consecutive voters in delegation chains</li>
+  <li><strong>Tally Arrows</strong>: Draw arrows from final vote sources to appropriate tally boxes</li>
+  <li><strong>Positioning</strong>: Arrows start from right edge of cards and end at left edge of target cards</li>
+  <li><strong>Styling</strong>: Different colors based on vote type (green for YES, red for NO)</li>
+  <li><strong>Z-Index</strong>: Arrows render behind cards to avoid visual obstruction</li>
+</ol>
+
+<h3 id="user-interaction-flows">User Interaction Flows</h3>
+<ol>
+  <li><strong>Adding Voters</strong>: Registration → Immediate appearance in proxy setup and voting</li>
+  <li><strong>Setting Proxies</strong>: Category selection → Principal selection → Proxy assignment → Live preview</li>
+  <li><strong>Casting Votes</strong>: Category/Question selection → Voter selection → Vote casting → Immediate visual update</li>
+  <li><strong>Changing Votes</strong>: Select voted cards → Choose new vote option → Immediate recalculation</li>
+  <li><strong>Clearing Votes</strong>: Either clear specific voter votes or all votes globally</li>
+</ol>
+
+<h2 id="quality-requirements">Quality Requirements</h2>
+
+<h3 id="performance">Performance</h3>
+<ul>
+  <li>Smooth 60fps animations</li>
+  <li>Responsive layout calculations even with 50+ voters</li>
+  <li>Instant vote recalculation</li>
+  <li>Efficient memory usage</li>
+</ul>
+
+<h3 id="usability">Usability</h3>
+<ul>
+  <li>Intuitive interface requiring no training</li>
+  <li>Clear visual feedback for all interactions</li>
+  <li>Accessible design following web accessibility guidelines</li>
+  <li>Mobile-responsive layout</li>
+</ul>
+
+<h3 id="reliability">Reliability</h3>
+<ul>
+  <li>Consistent state management</li>
+  <li>Graceful error handling</li>
+  <li>Data validation and integrity checks</li>
+  <li>Browser compatibility</li>
+</ul>
+
+<h3 id="maintainability">Maintainability</h3>
+<ul>
+  <li>Modular, well-documented code</li>
+  <li>Separation of concerns (UI, business logic, data)</li>
+  <li>Comprehensive testing coverage</li>
+  <li>Clear architectural patterns</li>
+</ul>
+
+<h2 id="success-criteria">Success Criteria</h2>
+
+<p>The application successfully demonstrates liquid democracy when:</p>
+<ol>
+  <li>Users can easily set up proxy relationships and understand the implications</li>
+  <li>Vote flow is clearly visualized and updates in real-time</li>
+  <li>Complex proxy chains resolve correctly to final votes</li>
+  <li>The interface is intuitive enough for non-technical users</li>
+  <li>Performance remains smooth even with complex delegation networks</li>
+  <li>All edge cases (cycles, empty chains, etc.) are handled gracefully</li>
+</ol>
+
+<p>This specification provides a complete blueprint for building a liquid democracy voting application that balances the complexity of the underlying voting system with an intuitive, visual user experience.</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
