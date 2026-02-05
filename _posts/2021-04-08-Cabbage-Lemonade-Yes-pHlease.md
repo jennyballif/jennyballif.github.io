@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 categories:
   - science activities
@@ -32,9 +32,9 @@ Cabbage is great in cole slaw, but did you know it's also perfect for a sweet, t
 
 <img
  align="left"
- src="https://i.imgur.com/eForl3v.jpg" width="40%" class="img-fluid" alt="lemonade and other liquids in glass jars, from above">
+ src="/images/blog/cabbage/cabbage1.jpg" width="40%" class="img-fluid" alt="lemonade and other liquids in glass jars, from above">
 
-<img src="https://i.imgur.com/eh95P78.png" width="60%" class="img-fluid" alt="lemonade and other liquids in glass jars, from above"> <br/>
+<img src="/images/blog/cabbage/cabbage2.png" width="60%" class="img-fluid" alt="lemonade and other liquids in glass jars, from above"> <br/>
 
 
 
@@ -44,7 +44,7 @@ Cabbage is great in cole slaw, but did you know it's also perfect for a sweet, t
 
 <p align="left">
 <img style="float: right"
- src="https://i.imgur.com/N4rIJEa.jpg" width="40%" class="img-fluid" alt="Supplies to make Cabbage lemonade: water, lemons, red cabbage, sugar">
+ src="/images/blog/cabbage/cabbage3.jpg" width="40%" class="img-fluid" alt="Supplies to make Cabbage lemonade: water, lemons, red cabbage, sugar">
  </p>
 
 <br/>

@@ -1,4 +1,4 @@
-current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/science/Library/CloudStorage/Dropbox/Serge/Website/jennyballif.github.ioV2.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 /Users/science/.rubies/ruby-3.1.3/bin/ruby extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... yes
@@ -10,11 +10,11 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230831-19483-4bq82h sitelibdir\=./.gem.20230831-19483-4bq82h clean
+current directory: /Users/science/Library/CloudStorage/Dropbox/Serge/Website/jennyballif.github.ioV2.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20260123-21723-eb91nc sitelibdir\=./.gem.20260123-21723-eb91nc clean
 
-current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230831-19483-4bq82h sitelibdir\=./.gem.20230831-19483-4bq82h
+current directory: /Users/science/Library/CloudStorage/Dropbox/Serge/Website/jennyballif.github.ioV2.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20260123-21723-eb91nc sitelibdir\=./.gem.20260123-21723-eb91nc
 compiling AbstractMemory.c
 compiling ArrayType.c
 compiling Buffer.c
@@ -39,10 +39,11 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
+ld: warning: -multiply_defined is obsolete
 
-current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230831-19483-4bq82h sitelibdir\=./.gem.20230831-19483-4bq82h install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230831-19483-4bq82h
+current directory: /Users/science/Library/CloudStorage/Dropbox/Serge/Website/jennyballif.github.ioV2.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20260123-21723-eb91nc sitelibdir\=./.gem.20260123-21723-eb91nc install
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20260123-21723-eb91nc
 
-current directory: /Users/science/Dropbox/Serge/Website/jennyballif.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230831-19483-4bq82h sitelibdir\=./.gem.20230831-19483-4bq82h clean
+current directory: /Users/science/Library/CloudStorage/Dropbox/Serge/Website/jennyballif.github.ioV2.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20260123-21723-eb91nc sitelibdir\=./.gem.20260123-21723-eb91nc clean

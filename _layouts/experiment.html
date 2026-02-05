@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ '/free/' | relative_url }}">Free Activities</a>
+  <span class="breadcrumb-sep">&rsaquo;</span>
+  <a href="{{ '/experiments/' | relative_url }}">Experiments</a>
+  <span class="breadcrumb-sep">&rsaquo;</span>
+  <span class="breadcrumb-current">{{ page.title }}</span>
+</nav>
+
+<article class="experiment-writeup">
+  <header class="experiment-header">
+    <h1 class="experiment-title">{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="experiment-description">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.categories.size > 0 %}
+      <div class="experiment-categories">
+        {% for cat in page.categories %}
+          <span class="pill pill-small">{{ cat | capitalize }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  {% if page.videofeature %}
+    <div class="experiment-video">
+      {% assign video_id = page.videofeature | split: "embed/" | last | split: "?" | first %}
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ video_id }}"
+          title="{{ page.title }}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="experiment-content">
+    {{ content }}
+  </div>
+
+  {% if page.guide0 and page.folder %}
+    <div class="experiment-preview">
+      <h2>Guide Preview</h2>
+      <div class="experiment-preview-scroll">
+        <img src="{{ '/images/' | append: page.folder | append: '/' | append: page.guide0 | relative_url }}" alt="Guide preview for {{ page.title }}" loading="lazy" />
+      </div>
+    </div>
+  {% endif %}
+
+  {% if page.worksheets.size > 0 and page.folder %}
+    <div class="experiment-downloads">
+      <h2>Download Worksheets</h2>
+      <p class="experiment-downloads-note">Select your preferred paper size. Print at "Actual size" (not "Fit to page") for best results.</p>
+      <div class="experiment-downloads-list">
+        {% for worksheet in page.worksheets %}
+          {% assign worksheet_base = worksheet | replace: ".pdf", "" | replace: ".PDF", "" %}
+          {% assign worksheet_name = worksheet_base | split: "-" | last %}
+          <a href="{{ '/images/' | append: page.folder | append: '/' | append: worksheet | relative_url }}" class="pill" target="_blank" rel="noopener">
+            {{ worksheet_name }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if page.categories contains "science experiments" %}
+    <div class="experiment-footer">
+      <a href="{{ '/experiments/' | relative_url }}" class="btn btn-secondary">View All Experiments</a>
+    </div>
+  {% endif %}
+</article>

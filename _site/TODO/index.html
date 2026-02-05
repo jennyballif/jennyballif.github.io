@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      Site Build TODO · Science Mom
+    </title>
+
+    <meta name="description" content="Hands-on science curriculum for curious kids." />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script defer src="/assets/js/main.js"></script>
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Site Build TODO | Science Mom</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Site Build TODO" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hands-on science curriculum for curious kids." />
+<meta property="og:description" content="Hands-on science curriculum for curious kids." />
+<link rel="canonical" href="http://localhost:4000/TODO/" />
+<meta property="og:url" content="http://localhost:4000/TODO/" />
+<meta property="og:site_name" content="Science Mom" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Site Build TODO" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Hands-on science curriculum for curious kids.","headline":"Site Build TODO","url":"http://localhost:4000/TODO/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- GDPR Cookie Consent + Analytics -->
+    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
+    <script>
+      glowCookies.start('en', {
+        style: 1,
+        analytics: 'G-1YJ96F41CZ',
+        policyLink: '/cookies/',
+        hideAfterClick: true,
+        bannerDescription: 'We use cookies to analyze site traffic and improve your experience.',
+        bannerLinkText: 'Learn more',
+        acceptBtnText: 'Accept',
+        rejectBtnText: 'Decline'
+      });
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="/images/homepage/ScienceMom_Logo_Flask.png" alt="" />
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">Science Mom</span>
+        <span class="brand-tagline">Hands-on science for curious kids</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="nav-toggle-icon"></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/free/">Free Resources</a>
+      <a href="/videos/">Videos</a>
+      <a href="/about/">About</a>
+      <a class="nav-cta" href="https://sciencemom.teachable.com">Courses</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="site-main">
+      <div class="container">
+        <h1 id="site-build-todo">Site Build TODO</h1>
+
+<h2 id="0-preflight-do-this-first">0) Preflight (do this first)</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Confirm the YAML files are readable by Jekyll (<code class="language-plaintext highlighter-rouge">site.data.videos</code>, <code class="language-plaintext highlighter-rouge">site.data.experiments</code>, <code class="language-plaintext highlighter-rouge">site.data.printables</code>).
+    <ul>
+      <li>videos.yml: 173 entries with categories (QuaranTime, Math, archive, Projects, Miscellaneous, Water, Songs, Nature)</li>
+      <li>experiments.yml: ~30 entries with categories (chemistry, physics, ecology)</li>
+      <li>printables.yml: ~20 entries with category field (foldable)</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add a shared “card” include and a “tag/category pill” style so all pages match the homepage styling.
+    <ul>
+      <li>Created <code class="language-plaintext highlighter-rouge">_includes/card.html</code> with support for title, description, url, image, category, icon, meta</li>
+      <li>Created <code class="language-plaintext highlighter-rouge">_includes/pills.html</code> for category filter pills</li>
+      <li>Added CSS for <code class="language-plaintext highlighter-rouge">.pill</code>, <code class="language-plaintext highlighter-rouge">.pill-active</code>, <code class="language-plaintext highlighter-rouge">.card-thumb</code>, <code class="language-plaintext highlighter-rouge">.card-title</code>, <code class="language-plaintext highlighter-rouge">.card-desc</code>, <code class="language-plaintext highlighter-rouge">.card-category</code>, <code class="language-plaintext highlighter-rouge">.card-meta</code></li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add a consistent page header pattern if it doesn’t yet exist: title, short intro, and optional filter UI (category pills).
+    <ul>
+      <li>Created <code class="language-plaintext highlighter-rouge">_includes/page-header.html</code> with title, intro, and optional pills integration</li>
+      <li>Added CSS for <code class="language-plaintext highlighter-rouge">.page-header</code>, <code class="language-plaintext highlighter-rouge">.page-title</code>, <code class="language-plaintext highlighter-rouge">.page-intro</code></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="1-video-feeds-from-videosyml">1) Video feeds (from <code class="language-plaintext highlighter-rouge">videos.yml</code>)</h2>
+<h3 id="11-videos-landing-page">1.1 Videos landing page</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create <code class="language-plaintext highlighter-rouge">/videos/index.html</code> (or <code class="language-plaintext highlighter-rouge">.md</code>) with:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Page intro (“Browse Science Mom videos by topic…”)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />A grid/list of cards for <em>all videos</em>, newest first (if there is a date field; otherwise as listed).</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Category filter UI at top (pills linking to each category page).</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Each video card includes:
+        <ul class="task-list">
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Title</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Category</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Short description (if present)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Thumbnail (if present) or placeholder — using YouTube thumbnail API</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Link to YouTube (or wherever the URL points)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Optional: duration, grade band, tags if present — shows bonus materials</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="12-separate-feeds-per-category-auto-generated">1.2 Separate feeds per category (auto-generated)</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create a category index system:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Determine the set of unique categories from <code class="language-plaintext highlighter-rouge">videos.yml</code>.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Generate a page per category:
+        <ul class="task-list">
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/videos/category/&lt;slug&gt;/index.html</code> (recommended)</li>
+        </ul>
+      </li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Each category page shows:
+        <ul class="task-list">
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Header with category name + count</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Cards for videos in that category</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Links back to all videos + other categories</li>
+        </ul>
+      </li>
+      <li class="task-list-item">Created: quarantime, math, projects, water, nature, songs, miscellaneous, archive</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="2-experiments-page-from-experimentsyml">2) Experiments page (from <code class="language-plaintext highlighter-rouge">experiments.yml</code>)</h2>
+<h3 id="21-experiments-landing-page-with-formatted-cards">2.1 Experiments landing page with formatted cards</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create <code class="language-plaintext highlighter-rouge">/experiments/index.html</code> with:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Grid of experiment cards styled to match the homepage</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Card fields (use what exists in YAML; fall back gracefully):
+        <ul class="task-list">
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Title</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Time estimate / difficulty (if present)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Supplies preview (short list)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Concepts (short list)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Image thumbnail (if present; can use <code class="language-plaintext highlighter-rouge">/images/...</code> without moving files)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Link to worksheet/PDF/video if present</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="22-filtering-if-there-are-tagscategories">2.2 Filtering (if there are tags/categories)</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Added filter pills for chemistry, physics, ecology categories</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Created category pages at <code class="language-plaintext highlighter-rouge">/experiments/category/&lt;slug&gt;/</code></li>
+</ul>
+
+<h3 id="23-optional-individual-experiment-pages">2.3 Optional: individual experiment pages</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Skipped for now — experiments don’t have step-by-step instructions in YAML</li>
+</ul>
+
+<hr />
+
+<h2 id="3-printables-page-from-printablesyml">3) Printables page (from <code class="language-plaintext highlighter-rouge">printables.yml</code>)</h2>
+<h3 id="31-printables-landing-page-with-formatted-cards">3.1 Printables landing page with formatted cards</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create <code class="language-plaintext highlighter-rouge">/printables/index.html</code> with:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Grid of printable cards styled to match homepage</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Each card includes:
+        <ul class="task-list">
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Title</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Type (foldable/booklet/worksheet)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Thumbnail preview (wideimage or image)</li>
+          <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Link to Patreon</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="32-filtering-if-there-are-topicstypes">3.2 Filtering (if there are topics/types)</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add filter pills for foldable, booklet, worksheet categories</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Created category pages at <code class="language-plaintext highlighter-rouge">/printables/category/&lt;slug&gt;/</code></li>
+</ul>
+
+<hr />
+
+<h2 id="4-free-resources-hub-page">4) Free Resources hub page</h2>
+<h3 id="41-free-resources-landing-page">4.1 Free Resources landing page</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create <code class="language-plaintext highlighter-rouge">/free/index.html</code> that acts as a hub and links to the pages created above.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Include a card grid with (at minimum):
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Videos</strong> → <code class="language-plaintext highlighter-rouge">/videos/</code> with icon and count</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Experiments</strong> → <code class="language-plaintext highlighter-rouge">/experiments/</code> with icon and count</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Printables</strong> → <code class="language-plaintext highlighter-rouge">/printables/</code> with icon and count</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="42-optional-featured-sections">4.2 Optional: Featured sections</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add “Featured” row (3 items) pulling first item from each YAML file</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Added CTA band linking to Teachable courses</li>
+</ul>
+
+<hr />
+
+<h2 id="5-navigation--internal-links">5) Navigation + internal links</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add nav links (if not already):
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Free → <code class="language-plaintext highlighter-rouge">/free/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Videos → <code class="language-plaintext highlighter-rouge">/videos/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Experiments → <code class="language-plaintext highlighter-rouge">/experiments/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Printables (in footer) → <code class="language-plaintext highlighter-rouge">/printables/</code></li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Updated footer with all resource links</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add cross-links:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Each video card optionally links to related experiment/printable if IDs/tags overlap. (Skipped - no ID overlap in data)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Free Resources hub links to all sections</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="6-consistent-styling-and-components">6) Consistent styling and components</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Create reusable includes:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">_includes/card.html</code> (generic card wrapper)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">_includes/pills.html</code> (category/tags pills)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">_includes/page-header.html</code> (title + intro)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><code class="language-plaintext highlighter-rouge">_includes/empty-state.html</code> (“No items found…”) — not needed yet</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Ensure cards look consistent across all pages (spacing, hover, buttons).</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Make responsive: 1-col mobile, 2-col tablet, 3-col desktop (via existing grid CSS).</li>
+</ul>
+
+<hr />
+
+<h2 id="7-qa-checklist">7) QA checklist</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> runs cleanly.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/images/...</code> links still resolve; no renames/moves. (103 files intact)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />All new pages load:
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/videos/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/videos/category/&lt;slug&gt;/</code> (8 categories)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/experiments/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/experiments/category/&lt;slug&gt;/</code> (3 categories)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/printables/</code></li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/printables/category/&lt;slug&gt;/</code> (3 categories)</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><code class="language-plaintext highlighter-rouge">/free/</code></li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Category pages correctly filter.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Cards render gracefully when optional fields are missing.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-nice-to-have-later-not-required-now">8) Nice-to-have later (not required now)</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add search on <code class="language-plaintext highlighter-rouge">/videos/</code>, <code class="language-plaintext highlighter-rouge">/experiments/</code>, <code class="language-plaintext highlighter-rouge">/printables/</code> (client-side, lightweight).</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add an RSS feed for videos (optional).</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add OpenGraph images + consistent metadata.</li>
+</ul>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <div class="footer-brand">Science Mom</div>
+      <div class="footer-note">Practical, creative science for homeschool families.</div>
+    </div>
+
+    <div class="footer-links">
+      <!--<a href="https://sciencemom.teachable.com">Courses</a> -->
+      <a href="https://science-mom.myspreadshop.com/">Store</a>
+      <a href="/contact/">Contact</a>
+      <a href="/clubs/">Clubs</a>
+      <a href="#" data-open-subscribe>Subscribe</a>
+    </div>
+
+
+    <div class="footer-right">
+      <div class="footer-small">© 2026 Science Mom</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Kit Subscribe Modal -->
+<div id="subscribe-modal" class="modal" aria-hidden="true">
+  <div class="modal-overlay" data-close-modal></div>
+  <div class="modal-content">
+    <button class="modal-close" data-close-modal aria-label="Close">&times;</button>
+
+    <div class="modal-body" id="subscribe-form-container">
+      <h2 class="modal-title">Stay in the loop!</h2>
+      <p class="modal-desc">Get free science activities, experiment ideas, and updates delivered to your inbox.</p>
+
+      <form id="kit-subscribe-form" action="https://app.kit.com/forms/9017838/subscriptions" method="post">
+        <input type="hidden" name="form_id" value="9017838">
+
+        <div class="form-group">
+          <label for="kit-first-name" class="visually-hidden">First name (optional)</label>
+          <input type="text" id="kit-first-name" name="fields[first_name]" placeholder="First name (optional)" class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="kit-email" class="visually-hidden">Email address</label>
+          <input type="email" id="kit-email" name="email_address" placeholder="Your email address" required class="form-input">
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit" id="kit-submit-btn">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Success state (hidden by default) -->
+    <div class="modal-body modal-success" id="subscribe-success" style="display: none;">
+      <h2 class="modal-title">You're subscribed!</h2>
+      <p class="modal-desc">Thanks for signing up. Check your inbox to confirm your subscription.</p>
+      <button class="btn btn-secondary" data-close-modal>Close</button>
+    </div>
+
+    <!-- Error state (hidden by default) -->
+    <div class="modal-body modal-error" id="subscribe-error" style="display: none;">
+      <h2 class="modal-title">Oops!</h2>
+      <p class="modal-desc" id="subscribe-error-msg">Something went wrong. Please try again.</p>
+      <button class="btn btn-secondary" id="subscribe-retry">Try again</button>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

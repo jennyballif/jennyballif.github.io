@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 sciencemom: true
 blog: false
@@ -62,13 +62,13 @@ Like I mentioned in the above video, we went through those six activities really
 
 **Tip 1: The slower the crystal growth, the larger the size of the crystals**. There are two ways you can slow the growth: by having a less concentrated solution, or by having the temperature decrease more slowly.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/temper.jpeg" description="Pouring a spoonful of hot liquid into the glass first." maxwidth="600px" %}
+{% include image.html url="/images/SMG6/temper.jpeg" description="Pouring a spoonful of hot liquid into the glass first." maxwidth="600px" %}
 
 If you pour your solution into a glass jar when it's very hot, BE SURE TO TEMPER THE GLASS FIRST. Do this by adding just one spoonful of hot liquid and swirling it around the bottom of the jar. This heats the glass so it doesn't break when you add the rest of the liquid. Hot water in the jar will cool more slowly than it would in the pot. The pot conducts heat very efficiently and the water is also more spread out and has a larger surface area.  
 
 If you want to grow larger size crystals then you'll either want to put the solution into the container when it's still very hot, or reduce the amount of solute you use and wait longer for crystal growth. If, on the other hand, you want a smaller size of crystal, then you'll want to let the solution cool down in the pot before adding it to the jar.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/egshells.jpeg" description="Eggshell geodes with different textures from different temperatures." maxwidth="600px" %}
+{% include image.html url="/images/SMG6/egshells.jpeg" description="Eggshell geodes with different textures from different temperatures." maxwidth="600px" %}
 
 In the above picture, you can see eggshell geodes from six different jars. The green eggs on the far left were put into water that was luke-warm. It had cooled down almost to room temperature and you can see that the crystals are very small, almost like grains of sand.
 
@@ -86,7 +86,7 @@ And now, a few quick notes and recipes. You can also find the recipes on the fol
 
 In theory, you should be able to place a seed crystal into a saturated solution of salt water and grow an even larger crystal. In practice, I was never able to get this one to work. Each time I placed my seed crystal into solution, it dissolved, and I was left with an empty loop of floss or string like you see in the picture below. If you're able to grow a large salt crystal, please leave a comment or send me a message. I'd love to see a picture!
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/saltcrystal.jpeg" description="My salt crystals that dissolved." maxwidth="600px" %}
+{% include image.html url="/images/SMG6/saltcrystal.jpeg" description="My salt crystals that dissolved." maxwidth="600px" %}
 
 But for salt crystals all clumped together in a jar? These are easy. Just let salt water sit in a jar and wait. And wait. It requires a good amount of time, up to a month or more if you have a less concentrated solution.
 
@@ -95,7 +95,7 @@ But for salt crystals all clumped together in a jar? These are easy. Just let sa
 
 When you make your halocline, be sure that the top layer of water doesn't splash into the salt water too much. If you create currents or stick a spoon into the jar and mix it, then of course the salt and fresh water will mix and the halocline will disappear. But if you pour the fresh water in slowly and let the stream of water land on a spoon before it touches the salt water, then it should work.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/halocline.jpeg" description="Eggs in freshwater (left), resting on a halocline (middle), and salt water (right)." maxwidth="600px" %}
+{% include image.html url="/images/SMG6/halocline.jpeg" description="Eggs in freshwater (left), resting on a halocline (middle), and salt water (right)." maxwidth="600px" %}
 
 After several hours, the salt water loses it's cloudy appearance and it almost looks like a magic trick to see this egg hovering in the middle of the jar. The halocline layer is very stable. The eggs in the above picture had been sitting in the same positions (bottom, middle, top) for two weeks.
 
@@ -103,7 +103,7 @@ After several hours, the salt water loses it's cloudy appearance and it almost l
 
 With the eggshells in the picture under tip 1, it looked like seeding did help to promote more uniform crystal growth. But in subsequent batches, I didn't get very consistent results. Take the crystal below, for example, which had been seeded with alum and then placed in very hot water and grew crystals on only a few locations.
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/largealum.jpeg" description="An eggshell with an unusual growth of alum crystals." maxwidth="600px" %}
+{% include image.html url="/images/SMG6/largealum.jpeg" description="An eggshell with an unusual growth of alum crystals." maxwidth="600px" %}
 
 With hot water especially (which perhaps melts off the glue anyway?) I concluded that the texture of the eggshells plays an even bigger role than seeding. I think scratching the inside of the shell lightly would probably do just as much to promote crystal formation inside the shell as seeding it with dry alum.
 

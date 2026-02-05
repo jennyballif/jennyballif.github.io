@@ -1,0 +1,8 @@
+{%- comment -%}
+Usage:
+  {% include icon.html name="compass" class="nav__icon" %}
+{%- endcomment -%}
+
+<span class="{{ include.class | default: 'icon' }}" aria-hidden="true">
+  {% include icons/{{ include.name }}.svg %}
+</span>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 categories:
   - science activities
@@ -30,7 +30,7 @@ Moooove over chocolate milk, rainbow milk is here looking pretty and ready to he
 
 ***Ages: 3 and up (with a parent helping)***
 
-<img src="https://i.imgur.com/rBf1ryI.gif" width="100%" class="img-fluid" alt="rainbow milk experiment gif"> <br/>
+<img src="/images/blog/rainbow/rainbow1.gif" width="100%" class="img-fluid" alt="rainbow milk experiment gif"> <br/>
 
 
 
@@ -39,7 +39,7 @@ Moooove over chocolate milk, rainbow milk is here looking pretty and ready to he
 
 <p align="left">
 <img style="float: right"
- src="https://i.imgur.com/LsQwTIv.jpg" width="40%" class="img-fluid" alt="Supplies: milk, food coloring, dish detergent">
+ src="/images/blog/rainbow/rainbow2.jpg" width="40%" class="img-fluid" alt="Supplies: milk, food coloring, dish detergent">
  </p>
 
 <br/>
@@ -79,7 +79,7 @@ Detergents (including dish soap) are surfactants. These are things that break up
 
 <p align="left">
 <img style="float: right"
- src="https://i.imgur.com/p0iQvfB.gif" width="50%" class="img-fluid" alt="Experiment with hot and cold milk">
+ src="/images/blog/rainbow/rainbow3.gif" width="50%" class="img-fluid" alt="Experiment with hot and cold milk">
  </p>
 
 When you add a bit of detergent to milk, the detergent's hydrophobic end tries to link up with the fats and casein, but repels the water around them. This gets the fats and casein  trying to move one way, and the water molecules jostling the other way. When this happens, the food coloring gets bumped around too, which lets us see how much movement there is in the milk!

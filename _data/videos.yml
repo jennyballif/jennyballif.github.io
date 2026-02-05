@@ -642,6 +642,23 @@
   id: aRks4Z99sjI
   category: Songs
 
+- title: DNA Song
+  id: 3qo3r4bp-lc
+  category: Songs
+
+- title: Electromagnetic Spectrum Song
+  id: Bte13eCUIwo
+  category: Songs  
+
+- title: Laws of Motion Song
+  id: jeU2fh501lw
+  category: Songs    
+
+- title: Kepler’s Law Song
+  id: RaSoqthhIh8
+  category: Songs 
+
+
 - title: Chair Challenge
   id: mnl2_zyLhtY
   category: Miscellaneous
@@ -1063,8 +1080,128 @@
 
 
 
+- title: 5 Tips for Math Success
+  id: 6zkD5C7tqC0
+  category: 4th/5th Grade Math
+
+- title: Place Value of Whole Numbers
+  id: iCBsRETtoVA
+  category: 4th/5th Grade Math
+
+- title: Rounding and Comparing
+  id: BS2j74I12Hw
+  category: 4th/5th Grade Math
+
+- title: Math Games with Cards
+  id: KYWGLreSuds
+  category: 4th/5th Grade Math
+
+- title: Addition and Subtraction
+  id: P6M5WRWdnJc
+  category: 4th/5th Grade Math
+
+- title: Factors And Multiples
+  id: uNPJ6-8N7sg
+  category: 4th/5th Grade Math
+
+- title: Multi-digit Multiplication
+  id: 8ftZ3qs09eE
+  category: 4th/5th Grade Math
+
+- title: Multiplication Word Problems
+  id: I3PlSqj_da4
+  category: 4th/5th Grade Math
+
+- title: How to do long division
+  id: yJALeEbfERs
+  category: 4th/5th Grade Math
+
+- title: Division Applications
+  id: e7Ac0Jugocc
+  category: 4th/5th Grade Math
+
+- title: Angle Measures
+  id: Bp04Cw_WNnU
+  category: 4th/5th Grade Math
+
+- title: Triangles and Quadrilaterals
+  id: bGRvItBPiHM
+  category: 4th/5th Grade Math
+
+- title: Equivalent Fractions
+  id: 1XZ1cSXMoVk
+  category: 4th/5th Grade Math
+
+- title: Mixed Numbers and Fractions
+  id: l3TXaZd98TM
+  category: 4th/5th Grade Math
+
+- title: Finding the least common multiple using prime factorization
+  id: pnScYYiPKms
+  category: 4th/5th Grade Math
 
 
+
+
+# --------- Math Class --------
+- title: Recognizing Percentages
+  id: 9LqnYHRMBXs
+  category: Math Course Preview
+  student: https://student.desmos.com/join/sk7ua5
+  course: Grade 6 Math
+
+- title: Decimal Diagrams
+  id: 12Tzl_sTQUM
+  category: Math Course Preview
+  student: https://student.desmos.com/join/h8m7x2
+  course: Grade 6 Math
+
+- title: Equivalent Ratios with Math DaD
+  id: agRFsEisuNg
+  category: Math Course Preview
+  student: https://student.desmos.com/join/q893pg
+  course: Grade 6 Math
+
+- title: Escape Room
+  id: 2D6oAJ81_M8
+  category: Math Course Preview
+  student: https://student.desmos.com/join/x9mu8x 
+
+- title: Surface Area with Math Dad
+  id: KXzJeBTVkJ8
+  category: Math Course Preview
+  student: https://student.desmos.com/join/z89k86
+  course: Grade 6 Math
+
+- title: Shelley The Snail
+  id: WdoNEIPqSY0
+  category: Math Course Preview
+  student: https://student.desmos.com/join/jdzxts
+  course: Algebra 1
+
+- title: Penny circle
+  id: e2UfGCKmk2A
+  category: Math Course Preview
+  student: https://student.desmos.com/join/6vt7zg
+  course: Algebra 1
+
+- title: The Tortoise and the Hare
+  id: 1Yxp970fWQw
+  category: Math Course Preview
+  student: https://student.desmos.com/join/k5qbd4
+  course: Algebra 1
+
+- title: Central Park
+  id: uN8YFd-ENsk
+  category: Math Course Preview
+  student: https://student.desmos.com/join/ge2fax
+  course: Algebra 1
+
+- title: Escape Room 2
+  id: cnYBYKsKoSo
+  category: Math Course Preview
+  student: https://student.desmos.com/join/kn42as
+  
 
 
 
@@ -1076,7 +1213,7 @@
   id: 9sBiUue7Z6E
   category: archive
 
-- title: THe Cannonball Tree
+- title: The Cannonball Tree
   id: UEATvqtUaT0
   category: archive
 
@@ -1217,6 +1354,3 @@
   id: PIqRl-qrgU4
   category: archive
 
-- title: Levitating Orb Giveaway and Rewards
-  id: -x3fxfkJ2hk
-  category: archive

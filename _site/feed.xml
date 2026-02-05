@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-02T11:27:21-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Science Mom</title><subtitle>Science Mom, Hands-on Science Curriculum
-</subtitle><author><name>Jenny Ballif</name></author><entry><title type="html">I Can’t Bead-lieve my Eyes!</title><link href="http://localhost:4000/Inertia-Beads" rel="alternate" type="text/html" title="I Can’t Bead-lieve my Eyes!" /><published>2021-04-13T00:00:00-07:00</published><updated>2021-04-13T00:00:00-07:00</updated><id>http://localhost:4000/Inertia-Beads</id><content type="html" xml:base="http://localhost:4000/Inertia-Beads">&lt;h1 id=&quot;i-cant-bead-lieve-my-eyes&quot;&gt;I can’t bead-lieve my eyes!&lt;/h1&gt;
-
-&lt;h3 id=&quot;testing-newtons-first-law-of-motion-with-inertia-beads&quot;&gt;Testing Newton’s first law of motion with inertia beads&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-03T20:51:52-09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Science Mom</title><subtitle>Hands-on science curriculum for curious kids.</subtitle><entry><title type="html">I Can’t Bead-lieve my Eyes!</title><link href="http://localhost:4000/Inertia-Beads/" rel="alternate" type="text/html" title="I Can’t Bead-lieve my Eyes!" /><published>2021-04-13T00:00:00-08:00</published><updated>2021-04-13T00:00:00-08:00</updated><id>http://localhost:4000/Inertia-Beads</id><content type="html" xml:base="http://localhost:4000/Inertia-Beads/">&lt;h3 id=&quot;testing-newtons-first-law-of-motion-with-inertia-beads&quot;&gt;Testing Newton’s first law of motion with inertia beads&lt;/h3&gt;
 
 &lt;p&gt;Newton’s first law of motion is a law of physics that states that an object at rest wants to stay at rest, and an obect in motion wants to stay in motion. That is… until another force acts on it. this tendency to stay unchanged is called inertia.&lt;/p&gt;
 
@@ -9,15 +6,53 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 3 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/PP4VQ2U.gif&quot; width=&quot;100%&quot; class=&quot;img-fluid&quot; alt=&quot;ScienceMom with inertia beads&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
 
-&lt;p&gt;&amp;lt;/p&amp;gt;&lt;/p&gt;
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/beads/beads1.gif&quot; alt=&quot;ScienceMom with inertia beads&quot; style=&quot;width:600px !important&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
 
 &lt;p align=&quot;left&quot;&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;https://i.imgur.com/3EVGeXg.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies: vase and beads&quot; /&gt;
+ &lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/beads/beads2.jpg&quot; alt=&quot;Supplies: vase and beads&quot; style=&quot;width:300px !important&quot; /&gt;
+&lt;/div&gt;
+
+
  &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -43,7 +78,7 @@
 &lt;h2 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h2&gt;
 &lt;p&gt;If your beads stop or clump up, you may need to untangle them and put them back in your jar without any overlaps.&lt;/p&gt;
 
-&lt;p&gt;You can find more ScienceMom inertia experiments &lt;a href=&quot;https://www.youtube.com/watch?v=hwmf73Bwky8&amp;amp;ab_channel=ScienceMom&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science activities" /><summary type="html">I can’t bead-lieve my eyes!</summary></entry><entry><title type="html">The best homemade slime recipe!</title><link href="http://localhost:4000/The-Best-Homemade-Slime-Recipe" rel="alternate" type="text/html" title="The best homemade slime recipe!" /><published>2021-04-12T00:00:00-07:00</published><updated>2021-04-12T00:00:00-07:00</updated><id>http://localhost:4000/The-Best-Homemade-Slime-Recipe</id><content type="html" xml:base="http://localhost:4000/The-Best-Homemade-Slime-Recipe">&lt;h1 id=&quot;the-best-homemade-slime-recipe&quot;&gt;The best homemade slime recipe!&lt;/h1&gt;
+&lt;p&gt;You can find more ScienceMom inertia experiments &lt;a href=&quot;https://www.youtube.com/watch?v=hwmf73Bwky8&amp;amp;ab_channel=ScienceMom&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="science activities" /><summary type="html">Testing Newton’s first law of motion with inertia beads</summary></entry><entry><title type="html">The best homemade slime recipe!</title><link href="http://localhost:4000/The-Best-Homemade-Slime-Recipe/" rel="alternate" type="text/html" title="The best homemade slime recipe!" /><published>2021-04-12T00:00:00-08:00</published><updated>2021-04-12T00:00:00-08:00</updated><id>http://localhost:4000/The-Best-Homemade-Slime-Recipe</id><content type="html" xml:base="http://localhost:4000/The-Best-Homemade-Slime-Recipe/">&lt;h1 id=&quot;the-best-homemade-slime-recipe&quot;&gt;The best homemade slime recipe!&lt;/h1&gt;
 
 &lt;h3 id=&quot;experimenting-with-polymerization&quot;&gt;Experimenting with polymerization&lt;/h3&gt;
 
@@ -51,9 +86,9 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 3 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;https://i.imgur.com/C6cN4Ta.jpg&quot; width=&quot;61.8%&quot; class=&quot;img-fluid&quot; alt=&quot;slime on hands&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/images/blog/slime/slime1.jpg&quot; width=&quot;61.8%&quot; class=&quot;img-fluid&quot; alt=&quot;slime on hands&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/PxAsfjX.jpg&quot; width=&quot;34.8%&quot; class=&quot;img-fluid&quot; alt=&quot;slime stretched out&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/slime/slime2.jpg&quot; width=&quot;34.8%&quot; class=&quot;img-fluid&quot; alt=&quot;slime stretched out&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
@@ -66,9 +101,9 @@
   &lt;li&gt;1 Tbsp contact solution (add in two batches)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;https://i.imgur.com/V9Zp2Pv.jpg&quot; width=&quot;42.8%&quot; class=&quot;img-fluid&quot; alt=&quot;Materials: glue, contact solution, baking soda, food coloring&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/images/blog/slime/slime3.jpg&quot; width=&quot;42.8%&quot; class=&quot;img-fluid&quot; alt=&quot;Materials: glue, contact solution, baking soda, food coloring&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/0fzgdni.jpg&quot; width=&quot;57%&quot; class=&quot;img-fluid&quot; alt=&quot;Mixing the slime&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/slime/slime4.jpg&quot; width=&quot;57%&quot; class=&quot;img-fluid&quot; alt=&quot;Mixing the slime&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;method-what-to-do&quot;&gt;Method (What to do)&lt;/h3&gt;
 &lt;p&gt;Mix glue and water,  food coloring, and baking soda. Mix well.&lt;/p&gt;
@@ -95,7 +130,7 @@
   &lt;li&gt;If your slime isn’t particularly slimy – it may not be mixed well enough. Give it a good stir or knead it more by hand.&lt;/li&gt;
   &lt;li&gt;Slime on clothes - soak in warm water with a bit of vinegar before washing.&lt;/li&gt;
   &lt;li&gt;Want to store it? Your slime should fit perfectly in any 8 oz. container (like a small takeout tub).&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jenny Ballif</name></author><category term="science activities" /><summary type="html">The best homemade slime recipe!</summary></entry><entry><title type="html">Don’t cry over spilt milk, make rainbows!</title><link href="http://localhost:4000/Rainbow-Milk" rel="alternate" type="text/html" title="Don’t cry over spilt milk, make rainbows!" /><published>2021-04-10T00:00:00-07:00</published><updated>2021-04-10T00:00:00-07:00</updated><id>http://localhost:4000/Rainbow-Milk</id><content type="html" xml:base="http://localhost:4000/Rainbow-Milk">&lt;h1 id=&quot;dont-cry-over-spilt-milk-make-rainbows&quot;&gt;Don’t cry over spilt milk, make rainbows!&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="science activities" /><summary type="html">The best homemade slime recipe!</summary></entry><entry><title type="html">Don’t cry over spilt milk, make rainbows!</title><link href="http://localhost:4000/Rainbow-Milk/" rel="alternate" type="text/html" title="Don’t cry over spilt milk, make rainbows!" /><published>2021-04-10T00:00:00-08:00</published><updated>2021-04-10T00:00:00-08:00</updated><id>http://localhost:4000/Rainbow-Milk</id><content type="html" xml:base="http://localhost:4000/Rainbow-Milk/">&lt;h1 id=&quot;dont-cry-over-spilt-milk-make-rainbows&quot;&gt;Don’t cry over spilt milk, make rainbows!&lt;/h1&gt;
 
 &lt;h3 id=&quot;an-experiment-with-hydrophobic-and-hydrophilic-interactions-in-milk-with-detergent&quot;&gt;An experiment with hydrophobic and hydrophilic interactions in milk with detergent&lt;/h3&gt;
 
@@ -103,13 +138,13 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 3 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rBf1ryI.gif&quot; width=&quot;100%&quot; class=&quot;img-fluid&quot; alt=&quot;rainbow milk experiment gif&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/rainbow/rainbow1.gif&quot; width=&quot;100%&quot; class=&quot;img-fluid&quot; alt=&quot;rainbow milk experiment gif&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
 
 &lt;p align=&quot;left&quot;&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;https://i.imgur.com/LsQwTIv.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies: milk, food coloring, dish detergent&quot; /&gt;
+&lt;img style=&quot;float: right&quot; src=&quot;/images/blog/rainbow/rainbow2.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies: milk, food coloring, dish detergent&quot; /&gt;
  &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -146,12 +181,12 @@ Experiment with different liquids!&lt;/p&gt;
 &lt;p&gt;Detergents (including dish soap) are surfactants. These are things that break up the surface tension of liquids like water or milk. All surfactants are made up of molecules with two parts: a hydrophilic part that attracts water, and a hydrophobic part that repels water but interacts easily with other things, like fat molecules and the surface of casein micelles.&lt;/p&gt;
 
 &lt;p align=&quot;left&quot;&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;https://i.imgur.com/p0iQvfB.gif&quot; width=&quot;50%&quot; class=&quot;img-fluid&quot; alt=&quot;Experiment with hot and cold milk&quot; /&gt;
+&lt;img style=&quot;float: right&quot; src=&quot;/images/blog/rainbow/rainbow3.gif&quot; width=&quot;50%&quot; class=&quot;img-fluid&quot; alt=&quot;Experiment with hot and cold milk&quot; /&gt;
  &lt;/p&gt;
 
 &lt;p&gt;When you add a bit of detergent to milk, the detergent’s hydrophobic end tries to link up with the fats and casein, but repels the water around them. This gets the fats and casein  trying to move one way, and the water molecules jostling the other way. When this happens, the food coloring gets bumped around too, which lets us see how much movement there is in the milk!&lt;/p&gt;
 
-&lt;p&gt;Temperature matters too – detergents work faster at joining up with fats and proteins in warmer temperatures, so warm milk will give you more dramatically shifting rainbows.&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science activities" /><summary type="html">Don’t cry over spilt milk, make rainbows!</summary></entry><entry><title type="html">Cabbage Lemonade?!? Yes, pHlease!</title><link href="http://localhost:4000/Cabbage-Lemonade-Yes-pHlease" rel="alternate" type="text/html" title="Cabbage Lemonade?!? Yes, pHlease!" /><published>2021-04-08T00:00:00-07:00</published><updated>2021-04-08T00:00:00-07:00</updated><id>http://localhost:4000/Cabbage-Lemonade-Yes-pHlease</id><content type="html" xml:base="http://localhost:4000/Cabbage-Lemonade-Yes-pHlease">&lt;h1 id=&quot;cabbage-lemonade-yes-phlease&quot;&gt;Cabbage Lemonade?!? Yes, &lt;em&gt;pH&lt;/em&gt;lease!&lt;/h1&gt;
+&lt;p&gt;Temperature matters too – detergents work faster at joining up with fats and proteins in warmer temperatures, so warm milk will give you more dramatically shifting rainbows.&lt;/p&gt;</content><author><name></name></author><category term="science activities" /><summary type="html">Don’t cry over spilt milk, make rainbows!</summary></entry><entry><title type="html">Cabbage Lemonade?!? Yes, pHlease!</title><link href="http://localhost:4000/Cabbage-Lemonade-Yes-pHlease/" rel="alternate" type="text/html" title="Cabbage Lemonade?!? Yes, pHlease!" /><published>2021-04-08T00:00:00-08:00</published><updated>2021-04-08T00:00:00-08:00</updated><id>http://localhost:4000/Cabbage-Lemonade-Yes-pHlease</id><content type="html" xml:base="http://localhost:4000/Cabbage-Lemonade-Yes-pHlease/">&lt;h1 id=&quot;cabbage-lemonade-yes-phlease&quot;&gt;Cabbage Lemonade?!? Yes, &lt;em&gt;pH&lt;/em&gt;lease!&lt;/h1&gt;
 
 &lt;h3 id=&quot;an-edible-experiment&quot;&gt;An Edible Experiment&lt;/h3&gt;
 
@@ -159,15 +194,15 @@ Experiment with different liquids!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 5 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;https://i.imgur.com/eForl3v.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;lemonade and other liquids in glass jars, from above&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/images/blog/cabbage/cabbage1.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;lemonade and other liquids in glass jars, from above&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eh95P78.png&quot; width=&quot;60%&quot; class=&quot;img-fluid&quot; alt=&quot;lemonade and other liquids in glass jars, from above&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/cabbage/cabbage2.png&quot; width=&quot;60%&quot; class=&quot;img-fluid&quot; alt=&quot;lemonade and other liquids in glass jars, from above&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
 
 &lt;p align=&quot;left&quot;&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;https://i.imgur.com/N4rIJEa.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies to make Cabbage lemonade: water, lemons, red cabbage, sugar&quot; /&gt;
+&lt;img style=&quot;float: right&quot; src=&quot;/images/blog/cabbage/cabbage3.jpg&quot; width=&quot;40%&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies to make Cabbage lemonade: water, lemons, red cabbage, sugar&quot; /&gt;
  &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -198,15 +233,53 @@ Experiment with different liquids!&lt;/p&gt;
 &lt;p&gt;Purple cabbage gets its gorgeous blue-purple color from a type of pigment molecule called an anthocyanin (AN-tho-SY-uh-nin). Anthocyanins change color depending on the pH of the solutions they’re in. They’re blue or purple in neutral conditions (like water), greenish in alkaline solutions (like water with baking soda in it), and pinkish in acidic solutions (like our lemonade in this experiment).&lt;/p&gt;
 
 &lt;p&gt;Anthocyanins are found in many plants – berries like blueberries and raspberries, grains like blue corn and black rice, and even in black beans! Scientists aren’t quite sure what they do in plants, but it may help them with resistance to colder temperatures.
-You can find out about another important plant pigment, chlorophyll, in &lt;a href=&quot;https://www.youtube.com/watch?v=0MzcwgDffrI&quot;&gt;this video&lt;/a&gt;!&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science activities" /><summary type="html">Cabbage Lemonade?!? Yes, pHlease!</summary></entry><entry><title type="html">Chladni Plate - make sounds you can see!</title><link href="http://localhost:4000/chladni-plates" rel="alternate" type="text/html" title="Chladni Plate - make sounds you can see!" /><published>2021-03-11T00:00:00-08:00</published><updated>2021-03-11T00:00:00-08:00</updated><id>http://localhost:4000/chladni-plates</id><content type="html" xml:base="http://localhost:4000/chladni-plates">&lt;h1 id=&quot;chladni-plate---make-sounds-you-can-see&quot;&gt;Chladni Plate - make sounds you can see!&lt;/h1&gt;
+You can find out about another important plant pigment, chlorophyll, in &lt;a href=&quot;https://www.youtube.com/watch?v=0MzcwgDffrI&quot;&gt;this video&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="science activities" /><summary type="html">Cabbage Lemonade?!? Yes, pHlease!</summary></entry><entry><title type="html">Chladni Plate - make sounds you can see!</title><link href="http://localhost:4000/chladni-plates/" rel="alternate" type="text/html" title="Chladni Plate - make sounds you can see!" /><published>2021-03-11T00:00:00-09:00</published><updated>2021-03-11T00:00:00-09:00</updated><id>http://localhost:4000/chladni-plates</id><content type="html" xml:base="http://localhost:4000/chladni-plates/">&lt;h1 id=&quot;chladni-plate---make-sounds-you-can-see&quot;&gt;Chladni Plate - make sounds you can see!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pWe5mfn.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;A balloon stretched over a cylinder with salt forming a pattern on top&quot; /&gt;&lt;/p&gt;
+&lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/Chladni/Chladni1.jpg&quot; alt=&quot;A balloon stretched over a cylinder with salt forming a pattern on top&quot; style=&quot;width:600px !important&quot; /&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ages: 3 and up (with a parent helping)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/A6GE9mR.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Supplies to make a Chladni plate: oatmeal container, rubber band, balloon, paper towel tube&quot; /&gt;&lt;/p&gt;
+&lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/Chladni/Chladni2.jpg&quot; alt=&quot;Supplies to make a Chladni plate: oatmeal container, rubber band, balloon, paper towel tube&quot; style=&quot;width:600px !important&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;how-to-do-it&quot;&gt;How to do it!&lt;/h2&gt;
 &lt;h3 id=&quot;materials-what-youll-need&quot;&gt;Materials (What you’ll need)&lt;/h3&gt;
@@ -227,9 +300,30 @@ You can find out about another important plant pigment, chlorophyll, in &lt;a hr
 
 &lt;p&gt;Cut the neck off the balloon and then stretch your balloon over the top of the large cylinder, and tape it in place.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Tip: before cutting your balloon, inflate the balloon and let the air out a couple of times to stretch it out. The larger the balloon, the easier it will be to get it over the container.&lt;/em&gt;
-&lt;img src=&quot;https://i.imgur.com/riaJqSe.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;A side view of a Chladni plate.&quot; /&gt;
-&lt;em&gt;You can use lots of different materials to build your Chladni plate.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tip: before cutting your balloon, inflate the balloon and let the air out a couple of times to stretch it out. The larger the balloon, the easier it will be to get it over the container.&lt;/em&gt;&lt;/p&gt;
+
+&lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/Chladni/Chladni3.jpg&quot; alt=&quot;A side view of a Chladni plate.&quot; style=&quot;width:600px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;You can use lots of different materials to build your Chladni plate.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Sprinkle salt over the top of the balloon.&lt;/p&gt;
 
@@ -240,8 +334,28 @@ You can find out about another important plant pigment, chlorophyll, in &lt;a hr
 &lt;h2 id=&quot;how-it-works&quot;&gt;How it works:&lt;/h2&gt;
 &lt;p&gt;Sounds are vibrations. The stretched out balloon vibrates differently when different sound waves hit it. Test it out! See if singing or speaking in a low voice makes patterns that are different from ones when you sing in a high squeaky voice.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/yaPK6T2.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Ernst Chladni and an illustration of the Chladni plate technique&quot; /&gt;
-&lt;em&gt;Ernst Chladni and an illustration of the Chladni plate technique. Both images are public domain.&lt;/em&gt;&lt;/p&gt;
+&lt;style&gt;
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    &lt;img src=&quot;/images/blog/Chladni/Chladni4.jpg&quot; alt=&quot;Ernst Chladni and an illustration of the Chladni plate technique&quot; style=&quot;width:600px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Ernst Chladni and an illustration of the Chladni plate technique. Both images are public domain.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;fun-fact&quot;&gt;Fun Fact:&lt;/h3&gt;
 &lt;p&gt;The physicist Ernst Chladni (1756-1857) who invented the Chladni plate was also really interested in meteorites. He even has a mineral found primarily in meteorites named after him (chladniite, first described in 1993).&lt;/p&gt;
@@ -250,7 +364,7 @@ You can find out about another important plant pigment, chlorophyll, in &lt;a hr
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;NGSS 1-PS4-1 Sound vibrates matter&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;NGSS 1-PS4-2 Vibrating matter makes sound&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jenny Ballif</name></author><category term="science activities" /><summary type="html">Chladni Plate - make sounds you can see!</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 7</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-7" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 7" /><published>2018-05-22T00:00:00-07:00</published><updated>2018-05-22T00:00:00-07:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-7</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-7">&lt;h1 id=&quot;science-moms-guide-to-water-part-7&quot;&gt;Science Mom’’s Guide to Water, Part 7&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="science activities" /><summary type="html">Chladni Plate - make sounds you can see!</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 7</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-7/" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 7" /><published>2018-05-22T00:00:00-08:00</published><updated>2018-05-22T00:00:00-08:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-7</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-7/">&lt;h1 id=&quot;science-moms-guide-to-water-part-7&quot;&gt;Science Mom’’s Guide to Water, Part 7&lt;/h1&gt;
 
 &lt;p&gt;It’s finally here! The concluding installment in the water series, a look at evaporative cooling, changes of state, and how water has an impressively high specific heat capacity:&lt;/p&gt;
 
@@ -286,7 +400,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1c.png&quot; alt=&quot;Water&apos;s properties of cohesion, adhesion, and surface tension.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG1/SMG1c.png&quot; alt=&quot;Water&apos;s properties of cohesion, adhesion, and surface tension.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;style&gt;
@@ -307,7 +421,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1e.png&quot; alt=&quot;Cartoon depiction of water having capillary action and ice being less dense than liquid water.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG1/SMG1e.png&quot; alt=&quot;Cartoon depiction of water having capillary action and ice being less dense than liquid water.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;style&gt;
@@ -328,14 +442,14 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1d.png&quot; alt=&quot;Cartoon depiction of water being universal solvent and having a high specific heat.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG1/SMG1d.png&quot; alt=&quot;Cartoon depiction of water being universal solvent and having a high specific heat.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;When I first started my YouTube channel, I had an outline of a dozen videos I wanted to make. I’d planned to have 4 to 7 science experiments in each video and group them by topic. There was the series about water, with seven videos. There was a unit on eggs, milk, hydrogen peroxide, various aspects of physics… you get the idea.&lt;/p&gt;
 
 &lt;p&gt;But it didn’t take too many videos for me to realize that this wasn’t the ideal approach. Partly because the scope made each video such a big project (120 plus hours of work) that I procrastinated getting started on them, partly because it was challenging to fit the material within a 15 minute video timeframe, and partly because grouping experiments by subject like this left out quite a few gems that stood more or less on their own. So going forward, “Science Guides” like this are going to be the exception rather than the norm. I plan to have weekly science experiment videos that tackle a single experiment (rather than five of them). So watch for those.&lt;/p&gt;
 
-&lt;p&gt;And last, but certainly not least, see below to download your own copy of the foldable book:&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science experiments" /><category term="water" /><category term="heat" /><category term="science" /><category term="experiment" /><summary type="html">Science Mom’’s Guide to Water, Part 7</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 6</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-6" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 6" /><published>2017-09-26T00:00:00-07:00</published><updated>2017-09-26T00:00:00-07:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-6</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-6">&lt;h1 id=&quot;science-moms-guide-to-water-part-6&quot;&gt;Science Mom’’s Guide to Water, Part 6&lt;/h1&gt;
+&lt;p&gt;And last, but certainly not least, see below to download your own copy of the foldable book:&lt;/p&gt;</content><author><name></name></author><category term="science experiments" /><category term="water" /><category term="heat" /><category term="science" /><category term="experiment" /><summary type="html">Science Mom’’s Guide to Water, Part 7</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 6</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-6/" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 6" /><published>2017-09-26T00:00:00-08:00</published><updated>2017-09-26T00:00:00-08:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-6</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-6/">&lt;h1 id=&quot;science-moms-guide-to-water-part-6&quot;&gt;Science Mom’’s Guide to Water, Part 6&lt;/h1&gt;
 
 &lt;p&gt;In Part 5 of the water series we learned that although water is called the “Universal Solvent,” it doesn’t dissolve oil. But what about the things water can dissolve? In Science Mom’s Guide to Water, Part 6, we explore what dissolves in water with several crystal growing activities:&lt;/p&gt;
 
@@ -374,7 +488,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/temper.jpeg&quot; alt=&quot;Pouring a spoonful of hot liquid into the glass first.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG6/temper.jpeg&quot; alt=&quot;Pouring a spoonful of hot liquid into the glass first.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;If you pour your solution into a glass jar when it’s very hot, BE SURE TO TEMPER THE GLASS FIRST. Do this by adding just one spoonful of hot liquid and swirling it around the bottom of the jar. This heats the glass so it doesn’t break when you add the rest of the liquid. Hot water in the jar will cool more slowly than it would in the pot. The pot conducts heat very efficiently and the water is also more spread out and has a larger surface area.&lt;/p&gt;
@@ -399,7 +513,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/egshells.jpeg&quot; alt=&quot;Eggshell geodes with different textures from different temperatures.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG6/egshells.jpeg&quot; alt=&quot;Eggshell geodes with different textures from different temperatures.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In the above picture, you can see eggshell geodes from six different jars. The green eggs on the far left were put into water that was luke-warm. It had cooled down almost to room temperature and you can see that the crystals are very small, almost like grains of sand.&lt;/p&gt;
@@ -436,7 +550,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/saltcrystal.jpeg&quot; alt=&quot;My salt crystals that dissolved.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG6/saltcrystal.jpeg&quot; alt=&quot;My salt crystals that dissolved.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;But for salt crystals all clumped together in a jar? These are easy. Just let salt water sit in a jar and wait. And wait. It requires a good amount of time, up to a month or more if you have a less concentrated solution.&lt;/p&gt;
@@ -463,7 +577,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/halocline.jpeg&quot; alt=&quot;Eggs in freshwater (left), resting on a halocline (middle), and salt water (right).&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG6/halocline.jpeg&quot; alt=&quot;Eggs in freshwater (left), resting on a halocline (middle), and salt water (right).&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;After several hours, the salt water loses it’s cloudy appearance and it almost looks like a magic trick to see this egg hovering in the middle of the jar. The halocline layer is very stable. The eggs in the above picture had been sitting in the same positions (bottom, middle, top) for two weeks.&lt;/p&gt;
@@ -490,7 +604,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG6/largealum.jpeg&quot; alt=&quot;An eggshell with an unusual growth of alum crystals.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG6/largealum.jpeg&quot; alt=&quot;An eggshell with an unusual growth of alum crystals.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With hot water especially (which perhaps melts off the glue anyway?) I concluded that the texture of the eggshells plays an even bigger role than seeding. I think scratching the inside of the shell lightly would probably do just as much to promote crystal formation inside the shell as seeding it with dry alum.&lt;/p&gt;
@@ -576,7 +690,7 @@ html,body        {height:100%;}
 
 &lt;p&gt;Use a whisk to slowly combine the dry ingredients into the wet ingredients until the mixture has a sandy texture. You can pack the bathbombs with your hands into spheres or small bricks and let them sit for 48 hours, and they will work just fine. But if you want them to look like the type you’d find in a store, use small bath bomb molds. I thought plastic easter eggs would be a great hack for this – but it turns out that they’re almost impossible to get out of the eggs once you’ve packed them in and they’ve dried. I had to dump the whole egg in water and use the bath bomb to get it out. Just so you know. ;)&lt;/p&gt;
 
-&lt;p&gt;That about covers it! If you’d like to preview the little foldable book that accompanies this guide, you can do so by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science experiments" /><summary type="html">Science Mom’’s Guide to Water, Part 6</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 5</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-5" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 5" /><published>2017-06-01T00:00:00-07:00</published><updated>2017-06-01T00:00:00-07:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-5</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-5">&lt;h1 id=&quot;science-moms-guide-to-water-part-5&quot;&gt;Science Mom’’s Guide to Water, Part 5&lt;/h1&gt;
+&lt;p&gt;That about covers it! If you’d like to preview the little foldable book that accompanies this guide, you can do so by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="science experiments" /><summary type="html">Science Mom’’s Guide to Water, Part 6</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 5</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-5/" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 5" /><published>2017-06-01T00:00:00-08:00</published><updated>2017-06-01T00:00:00-08:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-5</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-5/">&lt;h1 id=&quot;science-moms-guide-to-water-part-5&quot;&gt;Science Mom’’s Guide to Water, Part 5&lt;/h1&gt;
 
 &lt;p&gt;Water is so good at dissolving things, that it’s earned the label of “Universal Solvent.” But one thing water &lt;em&gt;doesn’t&lt;/em&gt; dissolve is oil. In Science Mom’s Guide to Water, Part 5, we explore why oil and water don’t mix with four investigations: Ocean in a bottle, Lava lamp, Oil lamp, and a grease fire explosion.&lt;/p&gt;
 
@@ -593,7 +707,7 @@ html,body        {height:100%;}
     &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science experiments" /><category term="Science" /><category term="Mom" /><category term="Guide" /><summary type="html">Science Mom’’s Guide to Water, Part 5</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 4</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-4" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 4" /><published>2017-03-20T00:00:00-07:00</published><updated>2017-03-20T00:00:00-07:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-4</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-4">&lt;h1 id=&quot;science-moms-guide-to-water-part-4&quot;&gt;Science Mom’s Guide to Water, Part 4&lt;/h1&gt;
+&lt;p&gt;You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="science experiments" /><category term="Science" /><category term="Mom" /><category term="Guide" /><summary type="html">Science Mom’’s Guide to Water, Part 5</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 4</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-4/" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 4" /><published>2017-03-20T00:00:00-08:00</published><updated>2017-03-20T00:00:00-08:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-4</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-4/">&lt;h1 id=&quot;science-moms-guide-to-water-part-4&quot;&gt;Science Mom’s Guide to Water, Part 4&lt;/h1&gt;
 
 &lt;p&gt;Water is one of the few substances that expands when it freezes. And this expansion makes ice is less dense than liquid water, which means that ice floats! This is strange behavior when compared to how most other compounds behave. If you drop a piece of solid iron into liquid or molten iron, it will sink before it melts. Same thing happens when you drop frozen oil into liquid oil: the solid sinks. Most solids are more dense than their liquids.&lt;/p&gt;
 
@@ -615,7 +729,7 @@ html,body        {height:100%;}
 &lt;/style&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG4/FBThumbnail1.png&quot; alt=&quot;Cartoon depiction of ice floating.&quot; style=&quot;width:600px !important&quot; /&gt;
+    &lt;img src=&quot;/images/SMG4/FBThumbnail1.png&quot; alt=&quot;Cartoon depiction of ice floating.&quot; style=&quot;width:600px !important&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;There are a few other elements and compounds that also expand when frozen (such as silicon,bismuth, gallium, geranium, and antimony). But a lot of these elements don’t ever occur naturally in their pure forms, so for all practical intents and purposes, water is just about the only thing we deal with that expands when frozen.&lt;/p&gt;
@@ -637,7 +751,7 @@ html,body        {height:100%;}
 
 &lt;p&gt;You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided, cut along the dotted lines, and then match the letters, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;And join us next time for Science Mom’s Guide to Water, Part 5 [coming April, 2017], where we investigate why oil and water don’t mix.&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science experiments" /><category term="Water," /><category term="Science" /><category term="Mom" /><category term="Guide" /><summary type="html">Science Mom’s Guide to Water, Part 4</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 3</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-3" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 3" /><published>2017-02-07T00:00:00-08:00</published><updated>2017-02-07T00:00:00-08:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-3</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-3">&lt;h1 id=&quot;science-moms-guide-to-water-part-3&quot;&gt;Science Mom’s Guide to Water, Part 3&lt;/h1&gt;
+&lt;p&gt;And join us next time for Science Mom’s Guide to Water, Part 5 [coming April, 2017], where we investigate why oil and water don’t mix.&lt;/p&gt;</content><author><name></name></author><category term="science experiments" /><category term="Water," /><category term="Science" /><category term="Mom" /><category term="Guide" /><summary type="html">Science Mom’s Guide to Water, Part 4</summary></entry><entry><title type="html">Science Mom’s Guide to Water, Part 3</title><link href="http://localhost:4000/science-mom-s-guide-to-water-part-3/" rel="alternate" type="text/html" title="Science Mom’s Guide to Water, Part 3" /><published>2017-02-07T00:00:00-09:00</published><updated>2017-02-07T00:00:00-09:00</updated><id>http://localhost:4000/science-mom-s-guide-to-water-part-3</id><content type="html" xml:base="http://localhost:4000/science-mom-s-guide-to-water-part-3/">&lt;h1 id=&quot;science-moms-guide-to-water-part-3&quot;&gt;Science Mom’s Guide to Water, Part 3&lt;/h1&gt;
 
 &lt;p&gt;Capillary action allows water to flow uphill, against the flow of gravity. It takes effect in small spaces and around things that water is attracted to. But water is attracted to a lot of things: plants, rocks, glass, plastic, most cloths and plenty of other materials too. This ability of water to move through small spaces has big effects in biology and geology, and it allows us to do some great science activities too.&lt;/p&gt;
 
@@ -658,4 +772,4 @@ html,body        {height:100%;}
 
 &lt;p&gt;You can preview the accompanying guide by scrolling through the pages in the viewer below. To print your own copy, just select your preferred size of paper: 8½ × 11, 11 × 17, A3 or A4. &lt;strong&gt;Don’t forget to print “Actual size.” Do not print “Fit to page” or the book won’t come out right.&lt;/strong&gt; To fold the book, either print the two-page document double sided and follow the instructions on the back, or follow the instructions in this video: &lt;a href=&quot;https://www.youtube.com/watch?v=E0sS59oMBe0&amp;amp;t=3s&quot;&gt;How to Fold A Book from One Piece of Paper&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;And join us next time for Science Mom’s Guide to Water, Part 4 [coming March, 2017], where we investigate why &lt;strong&gt;water expands when frozen&lt;/strong&gt;.&lt;/p&gt;</content><author><name>Jenny Ballif</name></author><category term="science experiments" /><category term="Siphons," /><category term="Paper" /><category term="Towels," /><category term="Water," /><category term="Food" /><category term="Coloring," /><category term="Capillary" /><category term="Action," /><category term="Adhesion" /><summary type="html">Science Mom’s Guide to Water, Part 3</summary></entry></feed>
+&lt;p&gt;And join us next time for Science Mom’s Guide to Water, Part 4 [coming March, 2017], where we investigate why &lt;strong&gt;water expands when frozen&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><category term="science experiments" /><category term="Siphons," /><category term="Paper" /><category term="Towels," /><category term="Water," /><category term="Food" /><category term="Coloring," /><category term="Capillary" /><category term="Action," /><category term="Adhesion" /><summary type="html">Science Mom’s Guide to Water, Part 3</summary></entry></feed>

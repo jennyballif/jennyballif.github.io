@@ -1,0 +1,38 @@
+---
+layout: default
+title: Printables
+permalink: /printables/
+---
+
+{% include page-header.html
+   title="Printable Resources"
+   intro="Download foldable books, worksheets, and other printable science resources. Most are available free on Patreon."
+   pills="foldable,booklet,worksheet"
+   pills_base="/printables/category/"
+   show_all=true
+   all_url="/printables/"
+%}
+
+<p>
+To fold the mini books, either print the two-page document double sided and follow the instructions on the back, or check my video: <a href="https://www.youtube.com/watch?v=E0sS59oMBe0">How to Fold A Book from One Piece of Paper</a>.
+</p>
+
+<section class="section" style="margin-top: 1rem;">
+  <div class="grid grid-3">
+    {% for item in site.data.printables %}
+      <a class="card card-pad" href="{{ item.url }}" target="_blank" rel="noopener" style="color: inherit;">
+        {% if item.wideimage %}
+          <div class="card-wideimage-scroll">
+            <img src="{{ item.wideimage | relative_url }}" alt="" loading="lazy" />
+          </div>
+        {% elsif item.image %}
+          <img class="card-thumb" src="{{ item.image | relative_url }}" alt="" loading="lazy" />
+        {% endif %}
+
+        <span class="card-category">{{ item.category | capitalize }}</span>
+        <h3 class="card-title">{{ item.title }}</h3>
+        <span class="card-meta">View on Patreon</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

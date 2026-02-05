@@ -1,36 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-      <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <noscript>
-      <link rel="shortcut icon" href="images/favicon-16x16.png?" type="image/x-icon">
-      <link rel="icon" href="images/favicon-16x16.png?" type="image/x-icon">
-    </noscript>
+---
+layout: default
+title: Home
+permalink: /
+---
 
-    <title>Redirecting to Science Mom's Teachable Site</title>
-    <script>
-        // Get the current hostname and path
-        var hostname = window.location.hostname;
-        var path = window.location.pathname;
-        
-        // Check if it's the root domain or www subdomain, and if there's no additional path
-        if ((hostname === "science.mom" || hostname === "www.science.mom") && (path === "/" || path === "")) {
-            // Redirect to Teachable
-            window.location.href = "https://sciencemom.teachable.com";
-        }
-        // If it's not the root or there's an additional path, the page will load normally
-    </script>
-</head>
-<body>
-    <h1>Redirecting to Science Mom</h1>
-    <p>If you're not redirected automatically, please <a href="https://sciencemom.teachable.com">click here</a> to go to our main site.</p>
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1 class="h1">Hands-on science curriculum for curious kids</h1>
+      <p class="lede">
+        Clear explanations, creative projects, and real learning—built for homeschool families.
+        Join live, watch replays, or go self-paced.
+      </p>
 
-    <div style="text-align: center;">
-    <img src="https://i.imgur.com/IJ7LI8b.png" alt="Smiling Math Dad and Science Mom" style="max-width: 75%; height: auto;">
-</div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://sciencemom.teachable.com">Browse Courses</a>
+      </div>
 
-</body>
-</html>
+      <p class="muted" style="margin-top:0.8rem;">
+        Also: <a href="{{ '/free/' | relative_url }}">free resources</a> and
+        <a href="{{ '/activities/' | relative_url }}">hands-on activities</a>.
+      </p>
+    </div>
+
+    <img class="hero-illus" src="/images/homepage/SciMomMathDadAndDogs.png" alt="Science Mom and Math Dad with their dogs" />
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="grid grid-3">
+    <a class="card card-pad card-bg" href="https://sciencemom.teachable.com" style="background-image: url('/images/homepage/Courses.png'); color:inherit;">
+      <div class="kicker">Math and Science Courses</div>
+      <h3 style="margin:0.35rem 0 0;">Courses</h3>
+      <p class="muted" style="margin:0.45rem 0 0;">
+        Secular curriculum with hands-on lessons and follow-along notes
+      </p>
+      {% include icons.html name="chalkboard-teacher-duotone-svgrepo-com" class="card-icon" %}
+    </a>
+
+    <a class="card card-pad card-bg" href="https://www.patreon.com/sciencemom" style="background-image: url('/images/homepage/Patreon.png'); color:inherit;">
+      <div class="kicker">Chess Club and Painting With a Scientist</div>
+      <h3 style="margin:0.35rem 0 0;">Patreon</h3>
+      <p class="muted" style="margin:0.45rem 0 0;">
+        Weekly Chess Club and Art Sessions
+      </p>
+      {% include icons.html name="crown-duotone-svgrepo-com" class="card-icon" %}
+    </a>
+
+    <a class="card card-pad card-bg" href="{{ '/free/' | relative_url }}" style="background-image: url('/images/homepage/Free.png'); color:inherit;">
+      <div class="kicker">Videos and Activities</div>
+      <h3 style="margin:0.35rem 0 0;">Free Resources</h3>
+      <p class="muted" style="margin:0.45rem 0 0;">
+        Playlists and instructions for science demonstrations
+      </p>
+      {% include icons.html name="sparkle-duotone-svgrepo-com" class="card-icon" %}
+    </a>
+  </div>
+</section>
+

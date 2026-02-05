@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% assign category = page.category %}
+{% assign category_videos = site.data.videos | where: "category", category %}
+
+{% include page-header.html
+   title=page.title
+   intro=page.intro
+   pills="QuaranTime,Math,4th/5th Grade Math,Math Course Preview,Projects,Water,Nature,Songs,Miscellaneous,archive"
+   pills_base="/videos/category/"
+   active_pill=category
+   show_all=true
+   all_url="/videos/"
+%}
+
+<p class="muted" style="margin-bottom: 1.5rem;">{{ category_videos.size }} video{% if category_videos.size != 1 %}s{% endif %} in this category</p>
+
+<section class="video-feed">
+  {% for video in category_videos %}
+    <article class="video-item">
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ video.id }}?rel=0&modestbranding=1"
+          title="{{ video.title }}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="video-info">
+        <span class="video-category">{{ video.category }}</span>
+        <h3 class="video-title">{{ video.title }}</h3>
+        {% if video.bonus.size > 0 or video.worksheets.size > 0 or video.teacher or video.student or video.course %}
+          <div class="video-bonus">
+            {% for b in video.bonus %}
+              {% if b.bonusurl %}
+                <a href="{{ b.bonusurl }}" target="_blank" rel="noopener" class="bonus-link">
+                  {{ b.bonustext }}
+                </a>
+              {% endif %}
+            {% endfor %}
+            {% if video.folder and video.worksheets.size > 0 %}
+              {% for ws in video.worksheets %}
+                <a href="{{ '/' | append: video.folder | append: '/' | append: ws | relative_url }}" target="_blank" rel="noopener" class="bonus-link">
+                  Worksheet
+                </a>
+              {% endfor %}
+            {% endif %}
+            {% if video.teacher %}
+              <a href="{{ video.teacher }}" target="_blank" rel="noopener" class="bonus-link bonus-link-desmos">
+                Desmos Activity
+              </a>
+            {% endif %}
+            {% if video.student %}
+              <a href="{{ video.student }}" target="_blank" rel="noopener" class="bonus-link bonus-link-desmos">
+                Student Activity
+              </a>
+            {% endif %}
+          </div>
+          {% if video.course %}
+            <p class="video-course">Part of: {{ video.course }}</p>
+          {% endif %}
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>

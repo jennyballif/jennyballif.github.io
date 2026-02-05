@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 sciencemom: true
 blog: false

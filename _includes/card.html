@@ -1,0 +1,40 @@
+{%- comment -%}
+Generic card component.
+Usage:
+  {% include card.html
+     title="Card Title"
+     description="Short description"
+     url="https://example.com"
+     image="/images/thumb.png"
+     category="Category Name"
+     icon="flask-duotone-svgrepo-com"
+     external=true
+  %}
+All parameters are optional except title.
+{%- endcomment -%}
+
+<{% if include.url %}a href="{{ include.url }}"{% if include.external %} target="_blank" rel="noopener"{% endif %}{% else %}div{% endif %} class="card card-pad{% if include.image %} card-has-image{% endif %}">
+
+  {% if include.icon %}
+    {% include icons.html name=include.icon class="card-icon" %}
+  {% endif %}
+
+  {% if include.image %}
+    <img class="card-thumb" src="{{ include.image | relative_url }}" alt="" loading="lazy" />
+  {% endif %}
+
+  {% if include.category %}
+    <span class="card-category">{{ include.category }}</span>
+  {% endif %}
+
+  <h3 class="card-title">{{ include.title }}</h3>
+
+  {% if include.description %}
+    <p class="card-desc">{{ include.description }}</p>
+  {% endif %}
+
+  {% if include.meta %}
+    <span class="card-meta">{{ include.meta }}</span>
+  {% endif %}
+
+</{% if include.url %}a{% else %}div{% endif %}>

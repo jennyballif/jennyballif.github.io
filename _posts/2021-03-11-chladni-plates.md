@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 categories:
   - science activities
@@ -22,15 +22,15 @@ sitemap:
 
 # Chladni Plate - make sounds you can see!
 
-<img src="https://i.imgur.com/pWe5mfn.jpg" class="img-fluid" alt="A balloon stretched over a cylinder with salt forming a pattern on top">
+
+{% include image.html url="/images/blog/Chladni/Chladni1.jpg" description="A balloon stretched over a cylinder with salt forming a pattern on top" maxwidth="600px" %}
 
 
 Sure it’s fun to listen to sounds, but what if you could see them too? A Chladni plate (pronounced clad-nee) converts sound vibrations to cool patterns on a taut surface, such as a stretched balloon.
 
 ***Ages: 3 and up (with a parent helping)***
 
-<img src="https://i.imgur.com/A6GE9mR.jpg" class="img-fluid" alt="Supplies to make a Chladni plate: oatmeal container, rubber band, balloon, paper towel tube">
-
+{% include image.html url="/images/blog/Chladni/Chladni2.jpg" description="Supplies to make a Chladni plate: oatmeal container, rubber band, balloon, paper towel tube" maxwidth="600px" %}
 
 
 ## How to do it!
@@ -51,7 +51,8 @@ Stick the smaller tube in the hole.
 Cut the neck off the balloon and then stretch your balloon over the top of the large cylinder, and tape it in place.
 
 *Tip: before cutting your balloon, inflate the balloon and let the air out a couple of times to stretch it out. The larger the balloon, the easier it will be to get it over the container.*
-<img src="https://i.imgur.com/riaJqSe.jpg" class="img-fluid" alt="A side view of a Chladni plate.">
+
+{% include image.html url="/images/blog/Chladni/Chladni3.jpg" description="A side view of a Chladni plate." maxwidth="600px" %}
 *You can use lots of different materials to build your Chladni plate.*
 
 
@@ -64,7 +65,7 @@ You can try it with different shapes too. Try using an empty milk carton with th
 ## How it works:
 Sounds are vibrations. The stretched out balloon vibrates differently when different sound waves hit it. Test it out! See if singing or speaking in a low voice makes patterns that are different from ones when you sing in a high squeaky voice.
 
-<img src="https://i.imgur.com/yaPK6T2.jpg" class="img-fluid" alt="Ernst Chladni and an illustration of the Chladni plate technique">
+{% include image.html url="/images/blog/Chladni/Chladni4.jpg" description="Ernst Chladni and an illustration of the Chladni plate technique" maxwidth="600px" %}
 *Ernst Chladni and an illustration of the Chladni plate technique. Both images are public domain.*
 
 ### Fun Fact:

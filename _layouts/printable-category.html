@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% assign category = page.category %}
+{% assign category_items = site.data.printables | where: "category", category %}
+
+{% include page-header.html
+   title=page.title
+   intro=page.intro
+   pills="foldable,booklet,worksheet"
+   pills_base="/printables/category/"
+   active_pill=category
+   show_all=true
+   all_url="/printables/"
+%}
+
+<section class="section" style="margin-top: 1rem;">
+  <p class="muted" style="margin-bottom: 1rem;">{{ category_items.size }} item{% if category_items.size != 1 %}s{% endif %} in this category</p>
+
+  <div class="grid grid-3">
+    {% for item in category_items %}
+      <a class="card card-pad" href="{{ item.url }}" target="_blank" rel="noopener" style="color: inherit;">
+        {% if item.wideimage %}
+          <div class="card-wideimage-scroll">
+            <img src="{{ item.wideimage | relative_url }}" alt="" loading="lazy" />
+          </div>
+        {% elsif item.image %}
+          <img class="card-thumb" src="{{ item.image | relative_url }}" alt="" loading="lazy" />
+        {% endif %}
+
+        <span class="card-category">{{ item.category | capitalize }}</span>
+        <h3 class="card-title">{{ item.title }}</h3>
+        <span class="card-meta">View on Patreon</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

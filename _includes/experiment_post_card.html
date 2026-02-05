@@ -1,0 +1,35 @@
+{%- comment -%}
+Horizontal summary card for experiment posts.
+Usage:
+  {% include experiment_post_card.html post=post %}
+{%- endcomment -%}
+
+{% assign post = include.post %}
+{% assign thumb = post.imagefeature | default: post.sciencemomguideimage %}
+{% assign folder = post.folder | default: "blog" %}
+
+<a href="{{ post.url | relative_url }}" class="experiment-post-card">
+  {% if thumb %}
+    <div class="experiment-post-card-thumb">
+      <img src="{{ '/images/' | append: folder | append: '/' | append: thumb | relative_url }}" alt="" loading="lazy" />
+    </div>
+  {% endif %}
+
+  <div class="experiment-post-card-content">
+    <h3 class="experiment-post-card-title">{{ post.title }}</h3>
+
+    {% if post.description %}
+      <p class="experiment-post-card-desc">{{ post.description | truncate: 120 }}</p>
+    {% endif %}
+
+    {% if post.categories.size > 0 %}
+      <div class="experiment-post-card-cats">
+        {% for cat in post.categories %}
+          <span class="pill pill-small">{{ cat | capitalize }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <span class="experiment-post-card-arrow">Read more</span>
+</a>

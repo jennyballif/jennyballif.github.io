@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 sciencemom: true
 blog: false
@@ -39,11 +39,11 @@ It's finally here! The concluding installment in the water series, a look at eva
 {% include youtubeplayer.html id="https://www.youtube.com/embed/0gqXZJtXgmg" %}
 
 Out of all the little cartoons I made for various properties of water (which were explored in the first six videos), High Specific Heat is my favorite.
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1c.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
+{% include image.html url="/images/SMG1/SMG1c.png" description="Water's properties of cohesion, adhesion, and surface tension." maxwidth="600px" %}
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1e.png" description="Cartoon depiction of water having capillary action and ice being less dense than liquid water." maxwidth="600px" %}
+{% include image.html url="/images/SMG1/SMG1e.png" description="Cartoon depiction of water having capillary action and ice being less dense than liquid water." maxwidth="600px" %}
 
-{% include image.html url="https://raw.github.com/jennyballif/jennyballif.github.io/master/images/SMG1/SMG1d.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
+{% include image.html url="/images/SMG1/SMG1d.png" description="Cartoon depiction of water being universal solvent and having a high specific heat." maxwidth="600px" %}
 
 When I first started my YouTube channel, I had an outline of a dozen videos I wanted to make. I'd planned to have 4 to 7 science experiments in each video and group them by topic. There was the series about water, with seven videos. There was a unit on eggs, milk, hydrogen peroxide, various aspects of physics... you get the idea.
 

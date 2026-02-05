@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 categories:
   - science activities
@@ -31,9 +31,9 @@ We tested dozens of homemade slime recipes, and this was the best! Grab some glu
 
 <img
  align="left"
- src="https://i.imgur.com/C6cN4Ta.jpg" width="61.8%" class="img-fluid" alt="slime on hands">
+ src="/images/blog/slime/slime1.jpg" width="61.8%" class="img-fluid" alt="slime on hands">
 
-<img src="https://i.imgur.com/PxAsfjX.jpg" width="34.8%" class="img-fluid" alt="slime stretched out"> <br/>
+<img src="/images/blog/slime/slime2.jpg" width="34.8%" class="img-fluid" alt="slime stretched out"> <br/>
 
 
 ## How to do it!
@@ -47,9 +47,9 @@ We tested dozens of homemade slime recipes, and this was the best! Grab some glu
 
 <img
  align="left"
- src="https://i.imgur.com/V9Zp2Pv.jpg" width="42.8%" class="img-fluid" alt="Materials: glue, contact solution, baking soda, food coloring">
+ src="/images/blog/slime/slime3.jpg" width="42.8%" class="img-fluid" alt="Materials: glue, contact solution, baking soda, food coloring">
 
-<img src="https://i.imgur.com/0fzgdni.jpg" width="57%" class="img-fluid" alt="Mixing the slime"> <br/>
+<img src="/images/blog/slime/slime4.jpg" width="57%" class="img-fluid" alt="Mixing the slime"> <br/>
 
 
 ### Method (What to do)

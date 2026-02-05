@@ -1,0 +1,29 @@
+{%- comment -%}
+Page header component with title, intro, and optional filter pills.
+Usage:
+  {% include page-header.html
+     title="Page Title"
+     intro="Short introduction text."
+     pills="Category1,Category2"
+     pills_base="/videos/category/"
+     active_pill="Category1"
+  %}
+{%- endcomment -%}
+
+<header class="page-header">
+  <h1 class="page-title">{{ include.title }}</h1>
+
+  {% if include.intro %}
+    <p class="page-intro">{{ include.intro }}</p>
+  {% endif %}
+
+  {% if include.pills %}
+    {% include pills.html
+       items=include.pills
+       base_url=include.pills_base
+       active=include.active_pill
+       show_all=include.show_all
+       all_url=include.all_url
+    %}
+  {% endif %}
+</header>

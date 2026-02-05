@@ -1,0 +1,57 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+
+{% include page-header.html
+   title="Contact Us"
+   intro="Have questions about our courses or resources? We'd love to hear from you."
+%}
+
+<div class="grid grid-3">
+  <!-- Card A: Email us (primary) -->
+  <div class="card card-pad">
+    <h2 class="h2" style="margin-top: 0;">Email us</h2>
+    <p>The fastest way to reach us is email.</p>
+
+    <code class="contact-email" id="contact-email">jenny@science.mom</code>
+
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:jenny@science.mom?subject=Science%20Mom%20Question">
+        Email Jenny
+      </a>
+      <button class="btn btn-secondary" type="button" data-copy-email="jenny@science.mom">
+        Copy email
+      </button>
+    </div>
+    <span id="copy-status" class="copy-status" aria-live="polite"></span>
+  </div>
+
+  <!-- Card B: Enrolled students (secondary) -->
+  <div class="card card-pad">
+    <h2 class="h2" style="margin-top: 0;">Enrolled students</h2>
+    <p>If you're enrolled and logged in, you can also message us through Teachable.</p>
+
+    <div class="btn-row">
+      <a class="btn btn-secondary" href="https://sciencemom.teachable.com/current_user/contact" target="_blank" rel="noopener">
+        Message us on Teachable
+      </a>
+    </div>
+    <p class="muted" style="font-size: 0.85rem; margin-top: 0.75rem;">You may need to be logged in to use Teachable messaging.</p>
+  </div>
+
+  <!-- Card C: What to include -->
+  <div class="card card-pad">
+    <h2 class="h2" style="margin-top: 0;">What to include</h2>
+    <p>To help us help you faster, please include:</p>
+    <ul class="contact-checklist">
+      <li>Student name (or parent name)</li>
+      <li>Course name (if applicable)</li>
+      <li>What you were trying to do + what happened</li>
+      <li>Device/browser (iPad, Mac, Chromebook, etc.)</li>
+      <li>Screenshot or link (optional)</li>
+    </ul>
+    <p class="muted" style="font-size: 0.85rem; margin-top: 0.75rem;">We're a small family team, but we read every message.</p>
+  </div>
+</div>

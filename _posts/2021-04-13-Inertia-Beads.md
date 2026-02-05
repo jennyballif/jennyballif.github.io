@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experiment
 published: true
 categories:
   - science activities
@@ -22,7 +22,6 @@ sitemap:
 
 
 
-# I can't bead-lieve my eyes!
 
 ###  Testing Newton's first law of motion with inertia beads
 
@@ -33,17 +32,14 @@ Want to see inertia in action? here is a fun activity for all ages that lets you
 
 ***Ages: 3 and up (with a parent helping)***
 
-<img src="https://i.imgur.com/PP4VQ2U.gif" width="100%" class="img-fluid" alt="ScienceMom with inertia beads"> <br/>
-
-</p>
+{% include image.html url="/images/blog/beads/beads1.gif" description="ScienceMom with inertia beads" maxwidth="600px" %}
 
 
 ## How to do it!
 ### Materials (What you'll need)
 
 <p align="left">
-<img style="float: right"
- src="https://i.imgur.com/3EVGeXg.jpg" width="40%" class="img-fluid" alt="Supplies: vase and beads">
+ {% include image.html url="/images/blog/beads/beads2.jpg" description="Supplies: vase and beads" maxwidth="300px" align="left" %}
  </p>
 
 <br/>

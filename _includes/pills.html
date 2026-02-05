@@ -1,0 +1,39 @@
+{%- comment -%}
+Category/tag pills component.
+Usage:
+  {% include pills.html
+     items="Chemistry,Physics,Biology"
+     active="Chemistry"
+     base_url="/videos/category/"
+  %}
+Or with an array:
+  {% include pills.html
+     items=categories_array
+     active=current_category
+     base_url="/videos/category/"
+  %}
+{%- endcomment -%}
+
+<div class="pills">
+  {% if include.show_all %}
+    <a href="{{ include.all_url | default: './' | relative_url }}" class="pill{% unless include.active %} pill-active{% endunless %}">All</a>
+  {% endif %}
+
+  {% assign items_list = include.items %}
+  {% if include.items contains "," %}
+    {% assign items_list = include.items | split: "," %}
+  {% endif %}
+
+  {% for item in items_list %}
+    {% assign item_name = item | strip %}
+    {% assign item_slug = item_name | slugify %}
+    {% assign is_active = false %}
+    {% if include.active == item_name or include.active == item_slug %}
+      {% assign is_active = true %}
+    {% endif %}
+
+    <a href="{{ include.base_url }}{{ item_slug }}/" class="pill{% if is_active %} pill-active{% endif %}">
+      {{ item_name }}
+    </a>
+  {% endfor %}
+</div>

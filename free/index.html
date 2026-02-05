@@ -1,0 +1,92 @@
+---
+layout: default
+title: Free Resources
+permalink: /free/
+---
+
+{% include page-header.html
+   title="Free Resources"
+   intro="Explore our collection of free science videos, hands-on experiments, and printable materials. All designed to make learning fun!"
+%}
+
+<section class="section" style="margin-top: 1rem;">
+  <div class="grid grid-3">
+    <a class="card card-pad" href="{{ '/videos/' | relative_url }}" style="color: inherit;">
+      {% include icons.html name="youtube-logo-duotone-svgrepo-com" class="card-icon" %}
+      <h3 class="card-title">Videos</h3>
+      <p class="card-desc">{{ site.data.videos.size }} educational videos covering science, math, and more.</p>
+      <span class="card-meta">Browse by category</span>
+    </a>
+
+    <a class="card card-pad" href="{{ '/experiments/' | relative_url }}" style="color: inherit;">
+      {% include icons.html name="flask-duotone-svgrepo-com" class="card-icon" %}
+      <h3 class="card-title">Experiments</h3>
+      <p class="card-desc">{{ site.data.experiments.size }} hands-on experiments and activities you can do at home.</p>
+      <span class="card-meta">Chemistry, Physics, Ecology</span>
+    </a>
+
+    <a class="card card-pad" href="{{ '/printables/' | relative_url }}" style="color: inherit;">
+      {% include icons.html name="clipboard-text-duotone-svgrepo-com" class="card-icon" %}
+      <h3 class="card-title">Printables</h3>
+      <p class="card-desc">{{ site.data.printables.size }} downloadable foldable books, worksheets, and more.</p>
+      <span class="card-meta">Free on Patreon</span>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="h2">Featured Resources</h2>
+  <div class="grid grid-3">
+    {% assign featured_video = site.data.videos | where: "category", "Water" | first %}
+    {% if featured_video %}
+      <a class="card card-pad" href="https://www.youtube.com/watch?v={{ featured_video.id }}" target="_blank" rel="noopener" style="color: inherit;">
+        <img class="card-thumb" src="https://img.youtube.com/vi/{{ featured_video.id }}/mqdefault.jpg" alt="" loading="lazy" />
+        <span class="card-category">Featured Video</span>
+        <h3 class="card-title">{{ featured_video.title }}</h3>
+      </a>
+    {% endif %}
+
+    {% assign featured_exp = site.data.experiments | first %}
+    {% if featured_exp %}
+      <div class="card card-pad">
+        {% if featured_exp.image %}
+          <img class="card-thumb" src="{{ featured_exp.image | relative_url }}" alt="" loading="lazy" />
+        {% endif %}
+        <span class="card-category">Featured Experiment</span>
+        <h3 class="card-title">{{ featured_exp.title }}</h3>
+        <p class="card-desc">{{ featured_exp.supplies | truncate: 60 }}</p>
+      </div>
+    {% endif %}
+
+    {% assign featured_print = site.data.printables | first %}
+    {% if featured_print %}
+      <a class="card card-pad" href="{{ featured_print.url }}" target="_blank" rel="noopener" style="color: inherit;">
+        {% if featured_print.wideimage %}
+          <div class="card-wideimage-scroll">
+            <img src="{{ featured_print.wideimage | relative_url }}" alt="" loading="lazy" />
+          </div>
+        {% elsif featured_print.image %}
+          <img class="card-thumb" src="{{ featured_print.image | relative_url }}" alt="" loading="lazy" />
+        {% endif %}
+        <span class="card-category">Featured Printable</span>
+        <h3 class="card-title">{{ featured_print.title }}</h3>
+      </a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="cta-band">
+  <div>
+    <div class="kicker">Want more?</div>
+    <div style="font-weight:900; font-size:1.2rem; margin-top:0.15rem;">
+      Free Earth Science Course
+    </div>
+    <div class="muted" style="margin-top:0.25rem;">
+      NGSS-aligned course for 4th/5th grade with 44 self-paced lessons and follow-along notes.
+    </div>
+  </div>
+
+  <div class="btn-row" style="margin-top:0;">
+    <a class="btn btn-primary" href="https://sciencemom.teachable.com/p/earth-science">Check out Earth Science</a>
+  </div>
+</section>
