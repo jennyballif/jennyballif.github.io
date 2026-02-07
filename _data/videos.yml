@@ -1146,11 +1146,47 @@
 
 
 # --------- Math Class --------
-- title: Recognizing Percentages
-  id: 9LqnYHRMBXs
+
+- title: Escape Room 2
+  id: cnYBYKsKoSo
   category: Math Course Preview
-  student: https://student.desmos.com/join/sk7ua5
+  student: https://student.desmos.com/join/kn42as
+
+- title: Central Park
+  id: uN8YFd-ENsk
+  category: Math Course Preview
+  student: https://student.desmos.com/join/ge2fax
+  course: Algebra 1
+
+- title: The Tortoise and the Hare
+  id: 1Yxp970fWQw
+  category: Math Course Preview
+  student: https://student.desmos.com/join/k5qbd4
+  course: Algebra 1
+
+- title: Penny circle
+  id: e2UfGCKmk2A
+  category: Math Course Preview
+  student: https://student.desmos.com/join/6vt7zg
+  course: Algebra 1
+  
+- title: Shelley The Snail
+  id: WdoNEIPqSY0
+  category: Math Course Preview
+  student: https://student.desmos.com/join/jdzxts
+  course: Algebra 1
+
+
+- title: Surface Area with Math Dad
+  id: KXzJeBTVkJ8
+  category: Math Course Preview
+  student: https://student.desmos.com/join/z89k86
   course: Grade 6 Math
+
+- title: Escape Room
+  id: 2D6oAJ81_M8
+  category: Math Course Preview
+  student: https://student.desmos.com/join/x9mu8x 
 
 - title: Decimal Diagrams
   id: 12Tzl_sTQUM
@@ -1164,50 +1200,11 @@
   student: https://student.desmos.com/join/q893pg
   course: Grade 6 Math
 
-- title: Escape Room
-  id: 2D6oAJ81_M8
+- title: Recognizing Percentages
+  id: 9LqnYHRMBXs
   category: Math Course Preview
-  student: https://student.desmos.com/join/x9mu8x 
-
-- title: Surface Area with Math Dad
-  id: KXzJeBTVkJ8
-  category: Math Course Preview
-  student: https://student.desmos.com/join/z89k86
+  student: https://student.desmos.com/join/sk7ua5
   course: Grade 6 Math
-
-- title: Shelley The Snail
-  id: WdoNEIPqSY0
-  category: Math Course Preview
-  student: https://student.desmos.com/join/jdzxts
-  course: Algebra 1
-
-- title: Penny circle
-  id: e2UfGCKmk2A
-  category: Math Course Preview
-  student: https://student.desmos.com/join/6vt7zg
-  course: Algebra 1
-
-- title: The Tortoise and the Hare
-  id: 1Yxp970fWQw
-  category: Math Course Preview
-  student: https://student.desmos.com/join/k5qbd4
-  course: Algebra 1
-
-- title: Central Park
-  id: uN8YFd-ENsk
-  category: Math Course Preview
-  student: https://student.desmos.com/join/ge2fax
-  course: Algebra 1
-
-- title: Escape Room 2
-  id: cnYBYKsKoSo
-  category: Math Course Preview
-  student: https://student.desmos.com/join/kn42as
-  
-
-
-
-
 
 # -----------Archive------------
 
