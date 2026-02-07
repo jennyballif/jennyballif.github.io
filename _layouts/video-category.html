@@ -18,7 +18,7 @@ layout: default
 <p class="muted" style="margin-bottom: 1.5rem;">{{ category_videos.size }} video{% if category_videos.size != 1 %}s{% endif %} in this category</p>
 
 <section class="video-feed">
-  {% for video in category_videos %}
+  {% for video in category_videos reversed %}
     <article class="video-item">
       <div class="video-embed">
         <iframe

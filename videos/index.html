@@ -14,7 +14,7 @@ permalink: /videos/
 %}
 
 <section class="video-feed">
-  {% for video in site.data.videos %}
+  {% for video in site.data.videos reversed %}
     {% unless video.category == "archive" %}
       <article class="video-item">
         <div class="video-embed">

@@ -427,60 +427,18 @@
   id: WwQMtSI3i5I
   category: Miscellaneous
 
-- title: Science Mom's Guide to Water Part 1
-  id: IsvHQon2IqQ
-  posturl: science-mom-s-guide-to-water-part-1
-  category: Water
-  folder: images/SMG1
-  foldables:
-   - SMG1-8.5x11.pdf
-   - SMG1-11x17.pdf
-   - SMG1-A4.pdf
-   - SMG1-A3.pdf
+#-------- Water --------
 
-- title: Science Mom's Guide to Water Part 2
-  id: OeYYiSsPf4I
-  posturl: science-mom-s-guide-to-water-part-2
+- title: Science Mom's Guide to Water Part 7
+  id: 0gqXZJtXgmg
+  posturl: science-mom-s-guide-to-water-part-7
   category: Water
-  folder: images/SMG2
+  folder: images/SMG7
   foldables:
-   - SMG2-8.5x11.pdf
-   - SMG2-11x17.pdf
-   - SMG2-A4.pdf
-   - SMG2-A3.pdf
-
-- title: Science Mom's Guide to Water Part 3
-  id: 4OgcPI7S8_o
-  posturl: science-mom-s-guide-to-water-part-3
-  category: Water
-  folder: images/SMG3
-  foldables:
-   - SMG3-8.5x11.pdf
-   - SMG3-11x17.pdf
-   - SMG3-A4.pdf
-   - SMG3-A3.pdf
-
-- title: Science Mom's Guide to Water Part 4
-  id: 4Y7SWqUJJ9A
-  posturl: science-mom-s-guide-to-water-part-4
-  category: Water
-  folder: images/SMG4
-  foldables:
-   - SMG4-8.5x11.pdf
-   - SMG4-11x17.pdf
-   - SMG4-A4.pdf
-   - SMG4-A3.pdf
-
-- title: Science Mom's Guide to Water Part 5
-  id: KPjp2qg8SA4
-  posturl: science-mom-s-guide-to-water-part-5
-  category: Water
-  folder: images/SMG5
-  foldables:
-   - SMG5-8.5x11.pdf
-   - SMG5-11x17.pdf
-   - SMG5-A4.pdf
-   - SMG5-A3.pdf
+   - SMG7-8.5x11.pdf
+   - SMG7-11x17.pdf
+   - SMG7-A4.pdf
+   - SMG7-A3.pdf
 
 - title: Science Mom's Guide to Water Part 6
   id: 5pAuxot2sEY
@@ -493,16 +451,60 @@
    - SMG6-A4.pdf
    - SMG6-A3.pdf
 
-- title: Science Mom's Guide to Water Part 7
-  id: 0gqXZJtXgmg
-  posturl: science-mom-s-guide-to-water-part-7
+- title: Science Mom's Guide to Water Part 5
+  id: KPjp2qg8SA4
+  posturl: science-mom-s-guide-to-water-part-5
   category: Water
-  folder: images/SMG7
+  folder: images/SMG5
   foldables:
-   - SMG7-8.5x11.pdf
-   - SMG7-11x17.pdf
-   - SMG7-A4.pdf
-   - SMG7-A3.pdf
+   - SMG5-8.5x11.pdf
+   - SMG5-11x17.pdf
+   - SMG5-A4.pdf
+   - SMG5-A3.pdf
+
+- title: Science Mom's Guide to Water Part 4
+  id: 4Y7SWqUJJ9A
+  posturl: science-mom-s-guide-to-water-part-4
+  category: Water
+  folder: images/SMG4
+  foldables:
+   - SMG4-8.5x11.pdf
+   - SMG4-11x17.pdf
+   - SMG4-A4.pdf
+   - SMG4-A3.pdf
+
+- title: Science Mom's Guide to Water Part 3
+  id: 4OgcPI7S8_o
+  posturl: science-mom-s-guide-to-water-part-3
+  category: Water
+  folder: images/SMG3
+  foldables:
+   - SMG3-8.5x11.pdf
+   - SMG3-11x17.pdf
+   - SMG3-A4.pdf
+   - SMG3-A3.pdf
+
+- title: Science Mom's Guide to Water Part 2
+  id: OeYYiSsPf4I
+  posturl: science-mom-s-guide-to-water-part-2
+  category: Water
+  folder: images/SMG2
+  foldables:
+   - SMG2-8.5x11.pdf
+   - SMG2-11x17.pdf
+   - SMG2-A4.pdf
+   - SMG2-A3.pdf
+
+- title: Science Mom's Guide to Water Part 1
+  id: IsvHQon2IqQ
+  posturl: science-mom-s-guide-to-water-part-1
+  category: Water
+  folder: images/SMG1
+  foldables:
+   - SMG1-8.5x11.pdf
+   - SMG1-11x17.pdf
+   - SMG1-A4.pdf
+   - SMG1-A3.pdf
 
 
 # -----------Projects------------
