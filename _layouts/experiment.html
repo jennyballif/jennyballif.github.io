@@ -2,6 +2,22 @@
 layout: default
 ---
 
+{% if page.videofeature %}
+  {% assign video_id = page.videofeature | split: "embed/" | last | split: "?" | first %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ page.title | escape }}",
+    "description": "{{ page.description | default: site.description | escape }}",
+    "thumbnailUrl": "https://img.youtube.com/vi/{{ video_id }}/hqdefault.jpg",
+    "uploadDate": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S%z' }}",
+    "embedUrl": "https://www.youtube.com/embed/{{ video_id }}",
+    "contentUrl": "https://www.youtube.com/watch?v={{ video_id }}"
+  }
+  </script>
+{% endif %}
+
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ '/free/' | relative_url }}">Free Activities</a>
   <span class="breadcrumb-sep">&rsaquo;</span>
