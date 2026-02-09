@@ -1,0 +1,190 @@
+---
+layout: default
+permalink: /404.html
+title: "Page not found"
+---
+
+<div class="error-page" data-page="404">
+  <h1>We couldn't find that page.</h1>
+
+  <p class="error-message">
+    The page you're looking for may have moved, the link might be outdated, or there could be a typo in the address.
+    No worries—use the site map below to find what you need.
+  </p>
+
+  <p class="error-url muted" id="requested-url"></p>
+
+  <h2>Site Map</h2>
+
+  <div class="sitemap-tree">
+    <div class="sitemap-branch sitemap-root">
+      <a href="/" class="btn btn-primary sitemap-btn">Home</a>
+
+      <div class="sitemap-children">
+        <div class="sitemap-branch">
+          <a href="https://sciencemom.teachable.com" class="btn btn-primary sitemap-btn" target="_blank" rel="noopener">Courses</a>
+        </div>
+
+        <div class="sitemap-branch">
+          <a href="/about/" class="btn btn-secondary sitemap-btn">About</a>
+        </div>
+
+        <div class="sitemap-branch sitemap-has-children">
+          <a href="/free/" class="btn btn-primary sitemap-btn">Free Resources</a>
+
+          <div class="sitemap-children">
+            <div class="sitemap-branch">
+              <a href="/videos/" class="btn btn-secondary sitemap-btn">Videos</a>
+            </div>
+            <div class="sitemap-branch">
+              <a href="/experiments/" class="btn btn-secondary sitemap-btn">Experiments</a>
+            </div>
+            <div class="sitemap-branch">
+              <a href="/printables/" class="btn btn-secondary sitemap-btn">Printables</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="sitemap-branch">
+          <a href="/contact/" class="btn btn-secondary sitemap-btn">Contact</a>
+        </div>
+
+        <div class="sitemap-branch">
+          <a href="/clubs/" class="btn btn-secondary sitemap-btn">Clubs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="error-actions">
+    <a id="report-broken-link" href="mailto:jenny@science.mom" class="btn btn-secondary">Report Broken Link</a>
+  </div>
+</div>
+
+<style>
+.error-page {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.error-page h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.error-url {
+  font-size: 0.875rem;
+  background: var(--surface);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  word-break: break-all;
+  margin-bottom: 2rem;
+}
+
+.error-page h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Sitemap tree */
+.sitemap-tree {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.sitemap-btn {
+  min-width: 140px;
+  justify-content: flex-start;
+}
+
+.sitemap-branch {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.sitemap-children {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+  margin-top: 0.5rem;
+}
+
+.sitemap-children .sitemap-branch {
+  position: relative;
+}
+
+.sitemap-children .sitemap-branch::before {
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  width: 0.75rem;
+  height: 2px;
+  background: var(--border);
+  transform: translateY(-50%);
+}
+
+/* Nested children (Free Resources -> Videos, etc.) */
+.sitemap-children .sitemap-children {
+  margin-left: 1.5rem;
+}
+
+.error-actions {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .sitemap-btn {
+    min-width: 120px;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .sitemap-children {
+    margin-left: 1rem;
+    padding-left: 0.75rem;
+  }
+}
+</style>
+
+<script>
+(function() {
+  // Display the requested URL
+  var urlEl = document.getElementById('requested-url');
+  if (urlEl && window.location.pathname !== '/404.html') {
+    urlEl.textContent = 'Requested URL: ' + window.location.pathname;
+  }
+
+  // Set up the report broken link email
+  var a = document.getElementById('report-broken-link');
+  if (!a) return;
+
+  var url = window.location.href;
+  var ref = document.referrer || '(none)';
+
+  var subject = 'Broken link on Science Mom';
+  var body =
+    'I hit a broken link on Science Mom:\n\n' +
+    'Broken URL: ' + url + '\n' +
+    'Referrer: ' + ref + '\n\n' +
+    'What I was trying to find:\n';
+
+  a.href =
+    'mailto:jenny@science.mom' +
+    '?subject=' + encodeURIComponent(subject) +
+    '&body=' + encodeURIComponent(body);
+})();
+</script>
