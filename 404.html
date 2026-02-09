@@ -63,7 +63,7 @@ title: "Page not found"
 
 <style>
 .error-page {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
   padding: 2rem 0;
@@ -79,6 +79,9 @@ title: "Page not found"
   color: var(--muted);
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .error-url {
@@ -89,6 +92,9 @@ title: "Page not found"
   border: 1px solid var(--border);
   word-break: break-all;
   margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .error-page h2 {
@@ -100,10 +106,11 @@ title: "Page not found"
 .sitemap-tree {
   text-align: left;
   margin-bottom: 2rem;
+  display: inline-block;
 }
 
 .sitemap-btn {
-  min-width: 140px;
+  min-width: 180px;
   justify-content: flex-start;
 }
 
@@ -112,9 +119,14 @@ title: "Page not found"
   margin-bottom: 0.5rem;
 }
 
+/* For branches with children, don't use the default connector positioning */
+.sitemap-has-children {
+  margin-bottom: 0.5rem;
+}
+
 .sitemap-children {
   margin-left: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 1.25rem;
   border-left: 2px solid var(--border);
   margin-top: 0.5rem;
 }
@@ -123,15 +135,21 @@ title: "Page not found"
   position: relative;
 }
 
-.sitemap-children .sitemap-branch::before {
+/* Horizontal connector from vertical line to button */
+.sitemap-children > .sitemap-branch::before {
   content: '';
   position: absolute;
-  left: -1rem;
+  left: -1.25rem;
   top: 50%;
-  width: 0.75rem;
+  width: 1rem;
   height: 2px;
   background: var(--border);
   transform: translateY(-50%);
+}
+
+/* For the Free Resources branch specifically - connect to the button, not the whole block */
+.sitemap-children > .sitemap-has-children::before {
+  top: 1.25rem; /* Align with the center of the button */
 }
 
 /* Nested children (Free Resources -> Videos, etc.) */
@@ -145,10 +163,32 @@ title: "Page not found"
   border-top: 1px solid var(--border);
 }
 
+/* Desktop: wider buttons */
+@media (min-width: 600px) {
+  .sitemap-btn {
+    min-width: 220px;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .sitemap-children {
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+  }
+
+  .sitemap-children > .sitemap-branch::before {
+    left: -1.5rem;
+    width: 1.25rem;
+  }
+
+  .sitemap-children > .sitemap-has-children::before {
+    top: 1.35rem;
+  }
+}
+
 /* Mobile adjustments */
 @media (max-width: 480px) {
   .sitemap-btn {
-    min-width: 120px;
+    min-width: 140px;
     font-size: 0.875rem;
     padding: 0.5rem 0.75rem;
   }
@@ -156,6 +196,15 @@ title: "Page not found"
   .sitemap-children {
     margin-left: 1rem;
     padding-left: 0.75rem;
+  }
+
+  .sitemap-children > .sitemap-branch::before {
+    left: -0.75rem;
+    width: 0.5rem;
+  }
+
+  .sitemap-children > .sitemap-has-children::before {
+    top: 1.1rem;
   }
 }
 </style>
