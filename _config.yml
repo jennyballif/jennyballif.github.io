@@ -8,6 +8,7 @@ timezone: America/Anchorage
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 permalink: /:title/
 
