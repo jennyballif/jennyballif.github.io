@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rotary Duck Race</title>
+  <style>
+    /* ── Reset / Base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    [hidden] { display: none !important; }
+    body {
+      background: #071407;
+      color: #d8f0d8;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      overflow: hidden;
+      height: 100dvh;
+      width: 100dvw;
+    }
+    #app { position: relative; width: 100%; height: 100%; }
+
+    /* ── Canvas layer ─────────────────────────────────────── */
+    #canvas-container {
+      position: absolute;
+      inset: 0;
+    }
+    #canvas-container canvas { display: block; width: 100% !important; height: 100% !important; }
+
+    /* ── Loading / selector / error screens ──────────────── */
+    .screen {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: #071407;
+      z-index: 100;
+    }
+    .screen h1 { font-size: 28px; color: #ffd700; }
+    .screen p { color: #aaccaa; }
+    .spinner {
+      width: 48px; height: 48px;
+      border: 4px solid #1a3a1a;
+      border-top-color: #ffd700;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .race-link {
+      display: block;
+      padding: 12px 20px;
+      margin: 6px 0;
+      background: rgba(0,40,0,0.8);
+      border: 1px solid rgba(100,200,100,0.3);
+      border-radius: 6px;
+      color: #d8f0d8;
+      text-decoration: none;
+      min-width: 360px;
+      transition: background 0.15s;
+    }
+    .race-link:hover { background: rgba(0,80,0,0.9); }
+    .race-link .race-name { font-weight: bold; font-size: 16px; }
+    .race-link .race-meta { font-size: 12px; color: #88aa88; margin-top: 2px; }
+    .race-link .race-official { color: #ffd700; font-size: 11px; }
+
+    /* ── UI overlay ───────────────────────────────────────── */
+    #ui-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 10;
+    }
+    #ui-overlay > * { pointer-events: auto; }
+
+    /* ── Top bar ──────────────────────────────────────────── */
+    #top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 12px;
+      background: rgba(0, 15, 0, 0.82);
+      border-bottom: 1px solid rgba(100, 200, 100, 0.2);
+    }
+    #logo-placeholder {
+      width: 52px; height: 36px;
+      background: rgba(100,100,100,0.4);
+      border: 1px solid rgba(180,180,180,0.3);
+      border-radius: 4px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 9px; color: #888; letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+    #timer {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffd700;
+      min-width: 56px;
+      letter-spacing: 1px;
+      flex-shrink: 0;
+    }
+    #controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+    }
+    #btn-play {
+      background: rgba(0,80,0,0.8);
+      border: 1px solid rgba(100,200,100,0.4);
+      color: #d8f0d8;
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 16px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    #btn-play:hover { background: rgba(0,120,0,0.9); }
+    #scrubber {
+      flex: 1;
+      accent-color: #ffd700;
+      min-width: 0;
+    }
+    #speed-select {
+      background: rgba(0,30,0,0.8);
+      border: 1px solid rgba(100,200,100,0.3);
+      color: #d8f0d8;
+      border-radius: 4px;
+      padding: 3px 6px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    #leader-display {
+      font-size: 13px;
+      color: #ffd700;
+      flex-shrink: 0;
+      min-width: 120px;
+    }
+
+    /* ── Duck selector (bottom-left) ─────────────────────── */
+    #duck-selector {
+      position: absolute;
+      bottom: 16px; left: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 15, 0, 0.82);
+      border: 1px solid rgba(100, 200, 100, 0.25);
+      border-radius: 6px;
+      padding: 8px 10px;
+    }
+    #duck-selector label { font-size: 12px; color: #88aa88; }
+    #duck-input {
+      width: 72px;
+      background: rgba(0,30,0,0.9);
+      border: 1px solid rgba(100,200,100,0.4);
+      color: #d8f0d8;
+      border-radius: 4px;
+      padding: 3px 6px;
+      font-size: 14px;
+    }
+    #duck-input::-webkit-inner-spin-button { opacity: 0.4; }
+    .duck-btn {
+      background: rgba(0,60,0,0.8);
+      border: 1px solid rgba(100,200,100,0.3);
+      color: #d8f0d8;
+      border-radius: 4px;
+      padding: 3px 10px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .duck-btn:hover { background: rgba(0,100,0,0.9); }
+    #btn-clear-duck {
+      color: #ff6644;
+      border-color: rgba(255, 100, 68, 0.3);
+    }
+    #selected-duck-info { font-size: 12px; color: #ff9977; min-width: 60px; }
+
+    /* ── Info panel (seed / course) ──────────────────────── */
+    #info-panel {
+      position: absolute;
+      bottom: 16px; left: 50%; transform: translateX(-50%);
+      background: rgba(0, 15, 0, 0.7);
+      border: 1px solid rgba(100, 200, 100, 0.15);
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 10px;
+      color: #557755;
+      white-space: nowrap;
+    }
+
+    /* ── Minimap (bottom-right) ─────────────────────────── */
+    #minimap {
+      position: absolute;
+      bottom: 16px; right: 16px;
+      border: 1px solid rgba(100, 200, 100, 0.3);
+      border-radius: 4px;
+      background: #071407;
+    }
+
+    /* ── Finish banner ───────────────────────────────────── */
+    #finish-banner {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 5, 0, 0.75);
+      z-index: 20;
+    }
+    .banner-box {
+      background: rgba(0, 20, 0, 0.95);
+      border: 2px solid #ffd700;
+      border-radius: 12px;
+      padding: 32px 48px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .banner-box h2 { font-size: 32px; color: #ffd700; }
+    .banner-box p  { font-size: 18px; color: #d8f0d8; }
+    #btn-replay {
+      background: rgba(0, 100, 0, 0.9);
+      border: 1px solid rgba(100, 200, 100, 0.5);
+      color: #d8f0d8;
+      border-radius: 6px;
+      padding: 10px 28px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    #btn-replay:hover { background: rgba(0, 140, 0, 1); }
+    .btn-download {
+      background: rgba(0, 60, 80, 0.9);
+      border: 1px solid rgba(100, 200, 220, 0.4);
+      color: #c0e8f0;
+      border-radius: 6px;
+      padding: 10px 28px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn-download:hover { background: rgba(0, 90, 120, 1); }
+    #btn-download-top {
+      background: rgba(0, 40, 60, 0.8);
+      border: 1px solid rgba(100, 200, 220, 0.3);
+      color: #a0d8e8;
+      border-radius: 4px;
+      padding: 3px 9px;
+      font-size: 12px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    #btn-download-top:hover { background: rgba(0, 70, 100, 0.9); }
+
+    /* ── Finishers panel (top-right) ─────────────────────── */
+    #finishers-panel {
+      position: absolute;
+      top: 52px; right: 16px;
+      background: rgba(0, 15, 0, 0.85);
+      border: 1px solid rgba(100, 200, 100, 0.25);
+      border-radius: 6px;
+      padding: 8px 12px;
+      min-width: 160px;
+      font-size: 12px;
+      color: #d8f0d8;
+      pointer-events: none;
+    }
+    #finishers-panel h3 {
+      font-size: 11px;
+      color: #ffd700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .finisher-row {
+      display: flex;
+      gap: 6px;
+      line-height: 1.6;
+    }
+    .finisher-place { color: #88aa88; width: 20px; text-align: right; flex-shrink: 0; }
+    .finisher-duck  { color: #d8f0d8; flex: 1; }
+    .finisher-time  { color: #88cc88; flex-shrink: 0; }
+    .finisher-row.f-gold   .finisher-duck { color: #ffd700; font-weight: bold; }
+    .finisher-row.f-silver .finisher-duck { color: #c0c0c0; }
+    .finisher-row.f-bronze .finisher-duck { color: #cd7f32; }
+
+    /* ── Duck hover tooltip ──────────────────────────────── */
+    #duck-tooltip {
+      position: fixed;
+      background: rgba(0, 0, 0, 0.88);
+      color: #ffd700;
+      border: 1px solid rgba(255, 215, 0, 0.45);
+      border-radius: 4px;
+      padding: 3px 9px;
+      font-size: 13px;
+      font-weight: bold;
+      pointer-events: none;
+      z-index: 50;
+    }
+  </style>
+  <script type="module" crossorigin src="/duckrace/assets/index-DzYi1W5a.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Loading screen (shown by default while JS bootstraps) -->
+    <div id="loading" class="screen">
+      <div class="spinner"></div>
+      <p id="loading-text">Loading…</p>
+    </div>
+
+    <!-- Race selector (no ?race= param) -->
+    <div id="race-selector" class="screen" hidden>
+      <h1>🦆 Duck Race Replays</h1>
+      <div id="race-list"></div>
+    </div>
+
+    <!-- Error screen -->
+    <div id="error-screen" class="screen" hidden>
+      <h1>Error</h1>
+      <p id="error-text"></p>
+    </div>
+
+    <!-- Game view -->
+    <div id="game" hidden>
+      <div id="canvas-container"></div>
+
+      <div id="ui-overlay">
+        <div id="top-bar">
+          <div id="logo-placeholder">LOGO</div>
+          <div id="timer">0:00</div>
+          <div id="controls">
+            <button id="btn-play">▶</button>
+            <input type="range" id="scrubber" min="0" max="300" step="0.5" value="0" />
+            <select id="speed-select">
+              <option value="0.5">0.5×</option>
+              <option value="1" selected>1×</option>
+              <option value="2">2×</option>
+            </select>
+          </div>
+          <div id="leader-display">Leader: —</div>
+          <button id="btn-download-top" title="Download finish order as CSV">⬇ Results</button>
+        </div>
+
+        <div id="duck-selector">
+          <label for="duck-input">Duck #</label>
+          <input type="number" id="duck-input" min="1" placeholder="number" />
+          <button class="duck-btn" id="btn-follow-duck">Follow</button>
+          <button class="duck-btn" id="btn-clear-duck">✕</button>
+          <span id="selected-duck-info"></span>
+        </div>
+
+        <div id="info-panel">
+          <span id="race-info"></span>
+        </div>
+
+        <div id="finishers-panel" hidden>
+          <h3>Finishers</h3>
+          <div id="finishers-list"></div>
+        </div>
+      </div>
+
+      <canvas id="minimap" width="150" height="450"></canvas>
+
+      <div id="finish-banner" hidden>
+        <div class="banner-box">
+          <h2>Race Complete!</h2>
+          <p id="winner-text"></p>
+          <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="btn-replay">Watch Again</button>
+            <button class="btn-download" id="btn-download-banner">⬇ Download Results</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

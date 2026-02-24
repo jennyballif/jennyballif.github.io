@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Science Mom",
+    "imageUrl": "https://science.mom/images/ScienceMom_large.svg",
+    "y": 400,
+    "side": "right",
+    "width": 100,
+    "height": 38
+  },
+  {
+    "name": "Rotary Club",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/rotary-international-6.svg",
+    "y": 1200,
+    "side": "left",
+    "width": 150,
+    "height": 150
+  }
+]

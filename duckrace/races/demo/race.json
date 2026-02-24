@@ -1,0 +1,11 @@
+{
+  "raceId": "demo",
+  "createdAt": "2026-02-22T23:26:56.830Z",
+  "seed": "6761cce287c5efe232f24217bf4b3a90",
+  "duckCount": 5000,
+  "timestep": 0.016666666666666666,
+  "durationSeconds": 300,
+  "checkpointIntervalSeconds": 2,
+  "courseFile": "course.json",
+  "generatorVersion": "0.1.0"
+}

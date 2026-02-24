@@ -1,0 +1,81 @@
+{
+  "id": "river1",
+  "name": "Rotary River",
+  "version": "2.0.0",
+  "bounds": { "minX": 0, "minY": 0, "maxX": 1000, "maxY": 3000 },
+  "riverHalfWidth": 85,
+
+  "centerline": [
+    { "x": 500, "y": -120 },
+    { "x": 500, "y":   80 },
+    { "x": 530, "y":  300 },
+    { "x": 630, "y":  500 },
+    { "x": 740, "y":  700 },
+    { "x": 770, "y":  900 },
+    { "x": 730, "y": 1100 },
+    { "x": 590, "y": 1280 },
+    { "x": 450, "y": 1420 },
+    { "x": 320, "y": 1580 },
+    { "x": 280, "y": 1760 },
+    { "x": 310, "y": 1940 },
+    { "x": 430, "y": 2080 },
+    { "x": 540, "y": 2220 },
+    { "x": 610, "y": 2380 },
+    { "x": 570, "y": 2560 },
+    { "x": 505, "y": 2730 },
+    { "x": 490, "y": 2900 },
+    { "x": 490, "y": 3120 }
+  ],
+
+  "flowModel": {
+    "baseSpeed": 17.4,
+    "noiseScale": 8.0,
+    "speedZones": [
+      { "yStart":   80, "yEnd":  280, "speedMultiplier": 1.40 },
+      { "yStart":  280, "yEnd":  480, "speedMultiplier": 0.65 },
+      { "yStart":  480, "yEnd":  730, "speedMultiplier": 1.45 },
+      { "yStart":  730, "yEnd":  980, "speedMultiplier": 0.70 },
+      { "yStart":  980, "yEnd": 1230, "speedMultiplier": 1.35 },
+      { "yStart": 1230, "yEnd": 1480, "speedMultiplier": 0.62 },
+      { "yStart": 1480, "yEnd": 1750, "speedMultiplier": 1.40 },
+      { "yStart": 1750, "yEnd": 2000, "speedMultiplier": 0.70 },
+      { "yStart": 2000, "yEnd": 2280, "speedMultiplier": 1.35 },
+      { "yStart": 2280, "yEnd": 2500, "speedMultiplier": 0.78 },
+      { "yStart": 2500, "yEnd": 2730, "speedMultiplier": 1.25 }
+    ]
+  },
+
+  "obstacles": [
+    { "type": "circle", "x": 460, "y":  150, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 578, "y":  250, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 515, "y":  360, "r": 16, "strength": 32 },
+    { "type": "circle", "x": 665, "y":  460, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 616, "y":  575, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 768, "y":  660, "r": 16, "strength": 32 },
+    { "type": "circle", "x": 701, "y":  770, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 819, "y":  860, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 704, "y":  955, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 788, "y": 1060, "r": 16, "strength": 32 },
+    { "type": "circle", "x": 637, "y": 1155, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 672, "y": 1245, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 480, "y": 1345, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 505, "y": 1415, "r": 16, "strength": 32 },
+    { "type": "circle", "x": 311, "y": 1530, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 354, "y": 1650, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 239, "y": 1740, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 358, "y": 1900, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 329, "y": 2020, "r": 16, "strength": 32 },
+    { "type": "circle", "x": 544, "y": 2155, "r": 14, "strength": 28 },
+    { "type": "circle", "x": 529, "y": 2310, "r": 15, "strength": 30 },
+    { "type": "circle", "x": 642, "y": 2460, "r": 16, "strength": 32 },
+
+    { "type": "circle", "x": 690, "y":  625, "r": 22, "strength": 50 },
+    { "type": "circle", "x": 295, "y": 1855, "r": 22, "strength": 50 }
+  ],
+
+  "branches": [],
+
+  "startLine":  { "x1": 415, "y1": 80,   "x2": 585, "y2": 80   },
+  "finishLine": { "x1": 400, "y1": 2750, "x2": 610, "y2": 2750 },
+  "spawnZone":  { "x1": 420, "y1": 60,   "x2": 580, "y2": 170  }
+}
