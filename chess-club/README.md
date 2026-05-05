@@ -29,11 +29,17 @@ You will see:
 
 ```js
 window.CHESS_CLUB_CONFIG = {
-  socketUrl: 'https://your-backend.onrender.com'
+  socketUrl: 'https://your-backend.onrender.com',
+  teacherPasswordEnabled: false
 };
 ```
 
-Replace `https://your-backend.onrender.com` with the URL of your own Render backend. Save the file.
+Make the following changes:
+
+- Replace `https://your-backend.onrender.com` with the URL of your own Render backend
+- Set `teacherPasswordEnabled: true` if you set a `TEACHER_PASSWORD` on your Render backend (recommended)
+
+Save the file.
 
 ---
 
@@ -50,7 +56,7 @@ Your app is now live.
 - **Students** go to your site's main URL (e.g. `https://yourschool.com`)
 - **Teacher** goes to `https://yourschool.com/teacher`
 
-Students and teacher connect to the same game using a shared Game ID that the teacher sets.
+If `teacherPasswordEnabled` is set to `true`, the teacher will be prompted for the password when they navigate to `/teacher`. Students are not prompted for anything.
 
 ---
 
@@ -59,5 +65,5 @@ Students and teacher connect to the same game using a shared Game ID that the te
 When a new version of the frontend is released:
 
 1. Download the new ZIP from this repo
-2. Edit `config.js` again with your backend URL
+2. Edit `config.js` again with your backend URL and password settings
 3. Re-upload all files to your web host
