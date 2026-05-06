@@ -6,6 +6,8 @@ These are pre-built static files. No installation or build tools required. You j
 
 The backend (the server that handles real-time communication) is set up separately. See the [chess-club-backend](https://github.com/sergeballif/chess-club-backend) repo.
 
+![Chess Club App](https://raw.githubusercontent.com/sergeballif/chess-club-backend/main/ChessApp.gif)
+
 ---
 
 ## What you need
