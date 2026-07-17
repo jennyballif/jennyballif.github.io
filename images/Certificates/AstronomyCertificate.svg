@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,0,-24508.7)">
+<svg width="100%" height="100%" viewBox="0 0 800 601" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0,-24508)">
         <g id="AstronomyCertificate" transform="matrix(0.323267,0,0,0.318718,-2389.21,18299.9)">
             <rect x="7390.81" y="19480.7" width="2474.73" height="1882.54" style="fill:white;"/>
             <clipPath id="_clip1">
@@ -162,8 +162,11 @@
                     <text x="7959.31px" y="19975.4px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">In c<tspan x="8073.1px " y="19975.4px ">o</tspan>mpletin<tspan x="8360.28px " y="19975.4px ">g</tspan> this c<tspan x="8602.02px " y="19975.4px ">o</tspan>urse<tspan x="8782.16px " y="19975.4px ">,</tspan> the<tspan x="8930.64px " y="19975.4px ">y</tspan> h<tspan x="9037.5px 9075.1px 9114.06px " y="19975.4px 19975.4px 19975.4px ">ave</tspan></text>
                     <text x="7857.15px" y="20037.2px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">demonstr<tspan x="8167.46px " y="20037.2px ">a</tspan>ted their master<tspan x="8746.66px " y="20037.2px ">y</tspan> of the middle</text>
                     <text x="7876.23px" y="20099.1px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">scho<tspan x="8024.09px " y="20099.1px ">o</tspan>l ne<tspan x="8186.05px " y="20099.1px ">x</tspan>t ge<tspan x="8361.12px " y="20099.1px ">n</tspan>er<tspan x="8466.49px " y="20099.1px ">a</tspan>tion scie<tspan x="8778.79px 8818.31px 8852.01px " y="20099.1px 20099.1px 20099.1px ">nce</tspan> st<tspan x="8982.8px " y="20099.1px ">a</tspan>ndar<tspan x="9162.45px " y="20099.1px ">d</tspan>s</text>
-                    <text x="7865.84px" y="20160.9px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">f<tspan x="7891.93px " y="20160.9px ">o</tspan>r phy<tspan x="8104.36px " y="20160.9px ">s</tspan>ic<tspan x="8189.08px " y="20160.9px ">a</tspan>l scie<tspan x="8396.61px 8436.13px 8469.83px " y="20160.9px 20160.9px 20160.9px ">nce</tspan>s and h<tspan x="8750.84px 8788.44px 8827.4px " y="20160.9px 20160.9px 20160.9px ">ave</tspan> thor<tspan x="9028.25px " y="20160.9px ">o</tspan>ughly</text>
+                    <text x="7921.4px" y="20160.9px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">f<tspan x="7947.5px " y="20160.9px ">o</tspan>r sp<tspan x="8115.77px 8153.36px 8187.07px " y="20160.9px 20160.9px 20160.9px ">ace</tspan> scie<tspan x="8375.93px 8415.44px 8449.15px " y="20160.9px 20160.9px 20160.9px ">nce</tspan> and h<tspan x="8695.27px 8732.87px 8771.83px " y="20160.9px 20160.9px 20160.9px ">ave</tspan> thor<tspan x="8972.69px " y="20160.9px ">o</tspan>ughly</text>
                     <text x="8234.31px" y="20222.7px" style="font-family:'OpenDyslexic-Regular', 'OpenDyslexic';font-size:61.84px;fill:rgb(75,9,21);">defeated Math Dad!</text>
+                </g>
+                <g transform="matrix(2.1798,0,0,1.92073,-8679,-17913.4)">
+                    <path d="M7363.99,19523.2C7371.03,19523.2 7406,19517.1 7413.15,19516.5C7438.11,19514.2 7464.96,19516.2 7488.36,19525.8C7510.43,19534.7 7523.01,19555.1 7510.58,19577.8C7496.6,19603.4 7429.64,19631.5 7429.37,19660.9C7429.2,19678.3 7457.02,19684.7 7465.53,19696.4C7483.04,19720.5 7490.65,19742.1 7456.02,19755.6C7447.93,19758.8 7439.3,19760.4 7430.72,19761.5C7418.03,19763.1 7405.33,19763.4 7392.55,19763.1C7375.99,19762.7 7359.3,19761.4 7343.03,19758.2C7325.21,19754.6 7307.32,19748.4 7291.66,19739.1C7232.23,19703.8 7227.72,19649.3 7249.52,19588.5C7276.29,19513.8 7280.05,19511.5 7363.99,19523.2Z" style="fill:none;stroke:black;stroke-width:1.52px;"/>
                 </g>
             </g>
         </g>
