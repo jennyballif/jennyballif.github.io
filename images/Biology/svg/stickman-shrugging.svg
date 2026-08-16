@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="stickman-shrugging" x="0.559" y="0" width="40" height="40" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0.559" y="0" width="40" height="40"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g>
+            <path d="M19.559,22L17.559,40" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+            <path d="M19.392,23.5C17.544,25.004 11.804,28.821 10.059,28.5C8.315,28.179 5.059,22 5.059,22" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+            <path d="M19.392,23.5C22.475,26.793 25.473,29.32 27.559,29.5C29.646,29.68 35.559,25.26 35.559,25.26" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+            <path d="M5.059,22C6.219,20.511 3.903,16.284 2.059,18.5C0.215,20.716 3.899,23.489 5.059,22Z" style="stroke:black;stroke-width:1.07px;"/>
+            <path d="M35.559,25.26C36.44,26.677 40.737,25.504 39.059,23C37.381,20.496 34.221,23.107 35.559,25.26Z" style="stroke:black;stroke-width:1.07px;"/>
+            <path d="M19.559,21.976C26.194,22.257 30.634,17.141 30.559,11.999C30.484,6.857 26.373,0.903 21.559,1C15.101,1.13 10.957,6.407 11.059,11.5C11.162,16.593 12.924,21.695 19.559,21.976Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+            <path d="M17.059,10.5C17.059,8.68 18.559,9.327 18.559,10.5C18.559,11.567 17.059,13.259 17.059,10.5Z" style="stroke:black;stroke-width:1.07px;"/>
+            <path d="M22.559,11C22.587,12.521 24.08,12.642 24.059,11.492C24.028,9.793 22.531,9.479 22.559,11Z" style="stroke:black;stroke-width:1.07px;"/>
+            <path d="M16.809,15C18.085,18.002 21.322,18.508 23.559,16.5" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+        </g>
+    </g>
+</svg>

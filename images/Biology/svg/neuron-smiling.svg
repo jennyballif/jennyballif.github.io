@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 69 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neuron-smiling" x="0.992" y="0.967" width="68" height="83" style="fill:none;"/>
+    <path d="M13.853,10.967C27.535,31.374 35.078,26.21 36.853,1.967C35.015,25.454 42.173,28.845 58.853,10.967C37.427,33.933 47.406,39.723 67.853,44.967C33.357,36.121 31.965,45.866 42.853,78.967C33.001,49.016 36.053,55.123 19.853,78.967C34.833,56.918 42.584,36.695 2.353,41.967C27.546,38.665 27.58,31.442 13.853,10.967Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+    <path d="M31.089,30.139C30.983,32.855 32.906,32.133 32.853,29.967C32.799,27.8 31.196,27.423 31.089,30.139Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M35.324,30.06C35.286,31.937 36.824,31.556 36.853,30.139C36.902,27.715 35.363,28.183 35.324,30.06Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M30.853,35.967C34.01,38.025 36.173,37.195 37.853,34.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M10.853,15.467L18.853,18.467L19.353,10.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M30.353,4.967C33.503,9.103 36.353,10.967 36.353,10.967C36.353,10.967 41.792,6.493 42.353,4.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M53.853,12.467L52.853,17.467C52.853,17.467 57.153,18.263 60.853,17.467" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M66.853,35.967C58.272,39.907 57.853,42.467 57.853,42.467C57.853,42.467 58.372,48.65 63.353,51.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M48.853,76.467C46.849,74.383 40.636,71.967 40.636,71.967C40.636,71.967 34.796,79.161 35.103,82.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M16.853,71.467C20.177,68.468 25.97,69.467 25.97,69.467L27.853,76.467" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M3.353,37.467C5.81,38.004 8.305,39.094 10.853,40.967C12.712,45.021 8.453,46 7.853,49.967" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+</svg>

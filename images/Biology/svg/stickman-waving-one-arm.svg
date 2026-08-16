@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="stickman-waving-one-arm" x="0" y="-0" width="32" height="37.5" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="-0" width="32" height="37.5"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path d="M10.166,37L10.166,21.81" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M10.166,23.191C4.934,26.578 1.998,31.354 0.5,37" style="fill:rgb(235,235,235);stroke:black;stroke-width:1px;"/>
+        <path d="M10.166,23.624C10.166,23.624 15.357,26.973 18.452,26.643C21.546,26.314 27.375,20.134 28.118,19.048" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M28.118,19.048C28.774,19.672 32.758,16.622 30.189,14.906C27.62,13.189 27.462,18.425 28.118,19.048Z" style="stroke:black;stroke-width:1px;"/>
+        <path d="M10.166,21.81C23.489,21.431 23.672,0.708 10.857,0.746C-1.959,0.784 -3.157,22.19 10.166,21.81Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M8.096,10.557C8.058,12.549 9.073,12.834 9.476,11.093C9.879,9.352 8.134,8.565 8.096,10.557Z" style="stroke:black;stroke-width:1px;"/>
+        <path d="M8.094,16.287C10.166,17.773 12.237,17.705 14.309,16.287" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M13.618,11.28C13.596,13.345 15.462,12.32 14.999,10.763C14.536,9.207 13.641,9.216 13.618,11.28Z" style="stroke:black;stroke-width:1px;"/>
+    </g>
+</svg>

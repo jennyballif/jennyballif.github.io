@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 37 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="stickman-having-eureka-moment" x="0.559" y="0" width="36" height="63" style="fill:none;"/>
+    <path d="M14.559,25L14.559,42" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M14.559,42C14.559,42 20.726,49.698 20.559,51C20.392,52.302 20.559,60 20.559,60" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M14.559,42L10.059,51L5.059,60" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M14.559,26.5L7.559,35.5L4.559,40" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M14.559,26.5C15.064,26.464 21.131,29.117 23.559,29C25.987,28.883 31.975,22.954 33.559,19.5" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    <path d="M4.559,40C5.74,41.365 4.268,46.552 2.059,44C0.457,42.149 3.378,38.635 4.559,40Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M33.251,19.5C35.11,19.359 36.934,15.233 34.068,14.5C31.202,13.767 31.392,19.641 33.251,19.5Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M32.979,14.937C33.263,13.838 34.783,12.898 35.059,12.5" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M20.559,60C20.748,61.133 26.488,62.456 26.559,59C26.631,55.544 20.37,58.867 20.559,60Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M4.978,60C5.107,62.185 10.451,62.813 10.559,60.5C10.668,58.187 4.848,57.815 4.978,60Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M14.559,24.632C21.323,24.778 26.026,18.583 26.059,12.5C26.091,6.626 21.679,0.857 15.559,1C9.261,1.147 4.486,6.604 4.059,12.5C3.641,18.268 7.425,24.478 14.559,24.632Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+    <path d="M11.059,13C10.881,14.359 12.385,14.587 12.559,13C12.733,11.413 11.237,11.641 11.059,13Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M17.559,12.816C17.46,14.589 18.738,14.32 19.059,13C19.38,11.68 17.658,11.043 17.559,12.816Z" style="stroke:black;stroke-width:1.07px;"/>
+    <path d="M12.059,18C13.916,20.274 15.981,20.514 18.326,18" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+</svg>

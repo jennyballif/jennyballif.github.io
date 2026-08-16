@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="heart" x="0" y="0.264" width="24" height="25" style="fill:none;"/>
+    <g>
+        <path d="M12,7.5C11.916,3.07 22.854,-1.247 23,6.5C23.129,13.307 12,23.5 12,23.5C12,23.5 0.699,14.745 1,7.5C1.337,-0.627 11.814,3.007 12,7.5Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+    </g>
+</svg>
