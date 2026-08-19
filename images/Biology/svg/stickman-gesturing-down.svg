@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 91 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <rect id="stickman-gesturing-down" x="0.669" y="0.5" width="90" height="53" style="fill:none;"/>
+<svg width="100%" height="100%" viewBox="0 0 97 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="stickman-gesturing-down" x="0.669" y="0.5" width="96" height="53" style="fill:none;"/>
     <path d="M10.747,1.975C8.177,2.111 5.805,2.871 4.029,4.695C0.404,8.418 0.912,14.109 5.852,16.48C7.025,17.043 8.374,17.321 9.679,17.424C12.962,17.682 16.841,16.211 18.275,13.298C20.33,9.126 17.622,1.613 10.747,1.975Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
     <path d="M9.772,17.453C9.387,23.227 9.512,29.112 9.762,34.893" style="fill:none;stroke:black;stroke-width:1.07px;"/>
     <path d="M9.569,35.075C8.304,40.914 6.718,46.812 4.691,52.494" style="fill:none;stroke:black;stroke-width:1.07px;"/>
@@ -14,11 +14,11 @@
     <path d="M14.956,9.5C15.323,9.668 15.597,9.856 15.445,10.194C15.292,10.533 14.871,10.672 14.504,10.504C14.138,10.336 14.185,10.026 14.338,9.688C14.49,9.349 14.59,9.332 14.956,9.5Z" style="stroke:black;stroke-width:1.07px;"/>
     <path d="M8.516,12.701C8.867,12.56 10.012,13.067 10.541,13.038C10.782,13.025 11.017,12.975 11.246,12.902C12.069,12.64 13.546,11.791 13.906,13.144C13.955,13.326 13.961,13.519 13.92,13.704C13.78,14.336 13.085,14.56 12.527,14.651C11.316,14.848 9.82,14.876 8.679,14.341C8.024,14.034 7.599,13.07 8.516,12.701Z" style="fill:none;stroke:black;stroke-width:1.07px;"/>
     <g transform="matrix(1,0,0,1,-289,-829.953)">
-        <text x="325.669px" y="839.467px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:10.667px;">Click to</text>
-        <text x="325.669px" y="850.453px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:10.667px;">expand each</text>
-        <g transform="matrix(10.6667,0,0,10.6667,376.784,861.44)">
+        <text x="325.669px" y="840.4px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">Click to</text>
+        <text x="325.669px" y="852.76px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">expand each</text>
+        <g transform="matrix(12,0,0,12,383.173,865.12)">
         </g>
-        <text x="325.669px" y="861.44px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:10.667px;">sample page.</text>
+        <text x="325.669px" y="865.12px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">sample page.</text>
     </g>
     <path d="M21.682,13.607C23.284,13.746 23.768,12.873 33.102,15.955" style="fill:none;stroke:black;stroke-width:0.67px;"/>
 </svg>

@@ -21,7 +21,7 @@
             <path d="M74.454,9.935C74.508,13.43 69.402,12.295 69.68,9.655C70.162,5.087 74.399,6.44 74.454,9.935Z" style="fill:none;stroke:black;stroke-width:1.07px;"/>
             <path d="M77.669,15.049C76.08,16.744 74.402,16.583 72.669,15.268" style="fill:none;stroke:black;stroke-width:1.07px;"/>
             <path d="M86.669,24.241C87.099,24.235 87.482,24.985 87.492,25.741C87.502,26.441 87.146,27.234 86.669,27.241L57.669,27.241C58.348,26.273 58.451,25.278 57.669,24.241L86.669,24.241Z" style="fill:rgb(184,184,184);stroke:black;stroke-width:1.07px;"/>
-            <ellipse cx="57.443" cy="25.741" rx="0.774" ry="1.5" style="fill:white;stroke:black;stroke-width:1.07px;stroke-dasharray:1.07,21.33,0,0,0,0;"/>
+            <ellipse cx="57.443" cy="25.741" rx="0.774" ry="1.5" style="fill:white;stroke:black;stroke-width:1.07px;"/>
             <g>
                 <path d="M10.669,6.241L10.669,37.241C7.669,37.574 4.669,37.907 1.669,38.241L1.669,6.241L10.669,6.241Z" style="fill:rgb(25,25,25);stroke:black;stroke-width:1.07px;"/>
                 <path d="M6.217,14.114C7.886,14.068 9.36,18.013 9.36,23.273C9.36,28.52 7.891,32.658 6.217,32.814C4.521,32.973 3.026,29.003 3.026,23.658C3.026,18.329 4.516,14.162 6.217,14.114Z" style="fill:rgb(25,25,25);stroke:rgb(246,0,0);stroke-width:1.07px;"/>
