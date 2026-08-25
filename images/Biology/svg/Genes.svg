@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 125 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Genes" x="0" y="0" width="124.974" height="61.091" style="fill:none;"/>
+    <path d="M45.067,11.574C43.606,10.984 39.529,13.021 37,12" style="fill:none;stroke:black;stroke-width:0.67px;"/>
+    <g transform="matrix(1,0,0,1,-680,-799)">
+        <text x="683px" y="810.4px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">only</text>
+        <text x="683px" y="822.76px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">pink</text>
+        <g transform="matrix(12,0,0,12,716.372,835.12)">
+        </g>
+        <text x="683px" y="835.12px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">petals!</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-604.5,-797.459)">
+        <text x="683px" y="810.4px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">Dominant</text>
+        <text x="683px" y="822.76px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">genes</text>
+        <text x="683px" y="835.12px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">are</text>
+        <g transform="matrix(12,0,0,12,711.008,847.48)">
+        </g>
+        <text x="683px" y="847.48px" style="font-family:'VTCLettererPro', 'VTC Letterer Pro';font-size:12px;">Bossy</text>
+    </g>
+    <path d="M67.64,13.771C71.972,13.844 69.959,15.933 74.539,15" style="fill:none;stroke:black;stroke-width:0.67px;"/>
+    <g>
+        <path d="M55.441,8.248C54.318,3.179 47.249,3.242 46.316,9.373C45.842,12.488 48.118,26.768 48.118,26.768C48.118,26.768 45.336,49.001 45.971,55.006C46.731,62.193 56.287,61.342 56.45,54.256C56.59,48.184 55.326,26.847 55.326,26.847C55.326,26.847 56.146,11.433 55.441,8.248Z" style="fill:rgb(234,181,235);"/>
+        <clipPath id="_clip1">
+            <path d="M55.441,8.248C54.318,3.179 47.249,3.242 46.316,9.373C45.842,12.488 48.118,26.768 48.118,26.768C48.118,26.768 45.336,49.001 45.971,55.006C46.731,62.193 56.287,61.342 56.45,54.256C56.59,48.184 55.326,26.847 55.326,26.847C55.326,26.847 56.146,11.433 55.441,8.248Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M56.461,18.204C52.933,17.694 49.405,17.683 45.876,18.204L45.876,22.931C49.405,23.362 52.933,23.378 56.461,22.931L56.461,18.204Z" style="fill:white;stroke:black;stroke-width:2.08px;"/>
+        </g>
+        <path d="M55.441,8.248C54.318,3.179 47.249,3.242 46.316,9.373C45.842,12.488 48.118,26.768 48.118,26.768C48.118,26.768 45.336,49.001 45.971,55.006C46.731,62.193 56.287,61.342 56.45,54.256C56.59,48.184 55.326,26.847 55.326,26.847C55.326,26.847 56.146,11.433 55.441,8.248Z" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+        <path d="M48.856,8.984C50.534,7.638 52.029,8.114 53.182,8.824C55.829,10.452 55.516,16.066 52.99,14.96C51.551,14.33 50.775,13.864 48.856,14.851C46.331,16.149 46.575,10.813 48.856,8.984Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <ellipse cx="49.25" cy="4.844" rx="2.198" ry="2.47" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <ellipse cx="49.608" cy="3.845" rx="0.627" ry="0.627" style="stroke:black;stroke-width:1.07px;"/>
+        <ellipse cx="53.646" cy="5.659" rx="2.198" ry="2.47" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <ellipse cx="54.003" cy="4.66" rx="0.627" ry="0.627" style="stroke:black;stroke-width:1.07px;"/>
+    </g>
+    <g>
+        <path d="M57.481,8.19C58.604,3.121 65.673,3.184 66.606,9.316C67.08,12.43 64.804,26.71 64.804,26.71C64.804,26.71 67.586,48.943 66.951,54.948C66.191,62.135 56.635,61.284 56.472,54.198C56.332,48.126 57.596,26.789 57.596,26.789C57.596,26.789 56.776,11.375 57.481,8.19Z" style="fill:rgb(228,206,37);"/>
+        <clipPath id="_clip2">
+            <path d="M57.481,8.19C58.604,3.121 65.673,3.184 66.606,9.316C67.08,12.43 64.804,26.71 64.804,26.71C64.804,26.71 67.586,48.943 66.951,54.948C66.191,62.135 56.635,61.284 56.472,54.198C56.332,48.126 57.596,26.789 57.596,26.789C57.596,26.789 56.776,11.375 57.481,8.19Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip2)">
+            <path d="M56.461,18.147C59.989,17.636 63.517,17.625 67.045,18.147L67.045,22.873C63.517,23.304 59.989,23.32 56.461,22.873L56.461,18.147Z" style="fill:white;stroke:black;stroke-width:2.08px;"/>
+        </g>
+        <path d="M57.481,8.19C58.604,3.121 65.673,3.184 66.606,9.316C67.08,12.43 64.804,26.71 64.804,26.71C64.804,26.71 67.586,48.943 66.951,54.948C66.191,62.135 56.635,61.284 56.472,54.198C56.332,48.126 57.596,26.789 57.596,26.789C57.596,26.789 56.776,11.375 57.481,8.19Z" style="fill:none;stroke:black;stroke-width:1.07px;"/>
+    </g>
+    <g>
+        <path d="M61.5,14.417C61.849,14.737 62.781,14.913 62.829,14.417C62.871,13.978 62.839,13.636 62.766,13.353C62.589,12.669 61.721,12.298 61.5,13C61.311,13.601 61.213,14.154 61.5,14.417Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <path d="M64.009,6.912C62.967,6.869 62.088,7.632 62.047,8.615C62.006,9.599 62.818,10.433 63.86,10.476C64.901,10.52 65.78,9.757 65.821,8.773C65.862,7.79 65.05,6.956 64.009,6.912Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <path d="M63.832,8.194C63.656,8.187 63.508,8.326 63.5,8.505C63.493,8.684 63.629,8.835 63.805,8.842C63.98,8.849 64.129,8.71 64.137,8.531C64.144,8.353 64.008,8.202 63.832,8.194Z" style="stroke:black;stroke-width:1.07px;"/>
+        <path d="M60.21,7.06C59.169,7.017 58.29,7.78 58.249,8.763C58.208,9.747 59.02,10.581 60.061,10.624C61.103,10.668 61.981,9.905 62.023,8.921C62.064,7.938 61.252,7.104 60.21,7.06Z" style="fill:white;stroke:black;stroke-width:1.07px;"/>
+        <path d="M60.274,8.247C60.042,8.237 59.846,8.432 59.836,8.682C59.825,8.931 60.004,9.142 60.236,9.152C60.467,9.161 60.663,8.966 60.674,8.717C60.684,8.467 60.505,8.256 60.274,8.247Z" style="stroke:black;stroke-width:1.07px;"/>
+    </g>
+</svg>
