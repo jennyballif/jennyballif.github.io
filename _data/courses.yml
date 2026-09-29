@@ -1,0 +1,48 @@
+# Science courses and bundles shown on /courses/, the homepage, llms.txt, and in JSON-LD.
+# path is appended to site.courses_url. Summaries follow the Teachable catalog descriptions.
+# image: 800x450 web copies live in /images/CourseThumbnails/ScienceThumbnails/web/ (made from the full-size thumbnails one folder up).
+- band: Upper elementary (grades 4–5)
+  level: Grades 4–5
+  courses:
+    - name: Chemistry Club
+      path: /p/chemistry
+      image: /images/CourseThumbnails/ScienceThumbnails/web/chemistry.jpg
+      price: 150
+      summary: 45 lessons covering atoms and molecules, chemical reactions, and the chemistry of living things, with 6 science-and-art projects.
+    - name: Earth Science
+      path: /p/earth-science
+      image: /images/CourseThumbnails/ScienceThumbnails/web/earth-science.jpg
+      summary: "New live course, January–April 2027. Classes meet Monday and Wednesday at 10 am or 12 pm EDT (students attend one), with an independent project on Fridays."
+- band: Middle school (grades 6–8)
+  level: Middle school
+  courses:
+    - name: "Biology 1: Microbiology"
+      path: /p/biology-1-microbiology
+      image: /images/CourseThumbnails/ScienceThumbnails/web/biology-1.jpg
+      price: 150
+      summary: 41 lessons covering cells, biomolecules, diversity of life, human physiology, and microbiology.
+    - name: "Biology 2: Genetics"
+      path: /p/biology-2-genetics
+      image: /images/CourseThumbnails/ScienceThumbnails/web/biology-2.jpg
+      price: 150
+      summary: 45 lessons covering heredity, genetics, and evolution.
+    - name: Astronomy
+      path: /p/astronomy
+      image: /images/CourseThumbnails/ScienceThumbnails/web/astronomy.jpg
+      price: 150
+      summary: 40 lessons covering our solar system, stars, galaxies, and space exploration.
+    - name: Geoscience
+      path: /p/geoscience
+      image: /images/CourseThumbnails/ScienceThumbnails/web/geoscience.jpg
+      price: 150
+      summary: "A 15-week course on the dynamic Earth, with units on geology, weather and atmosphere, and ecology and human interactions."
+    - name: "Physics 1: Mechanics"
+      path: /p/physics-1-mechanics
+      image: /images/CourseThumbnails/ScienceThumbnails/web/physics-1.jpg
+      price: 150
+      summary: 40 lessons covering kinematics, the laws of motion, work, and energy.
+    - name: "Physics 2: Electromagnetism"
+      path: /p/physics-2-electromagnetism
+      image: /images/CourseThumbnails/ScienceThumbnails/web/physics-2.jpg
+      price: 150
+      summary: 39 lessons covering thermodynamics, electromagnetism, fluids, and waves.

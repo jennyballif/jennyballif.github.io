@@ -17,6 +17,7 @@ headline: >-
   change--through several hands-on activities.
 modified: '2017-01-09'
 imagefeature: SMG2twitter.png
+imagealt: "Science Mom's Guide to Water, Part 2: colored water drops on waxed paper pushed with a toothpick"
 folder: SMG2
 sciencemomguideimage: SMG2coverThumbnail.png
 experiment1title: Water Drops on Waxed Paper

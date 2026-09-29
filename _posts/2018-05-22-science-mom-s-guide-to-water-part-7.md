@@ -25,6 +25,7 @@ guide3: SMG7-A4.pdf
 guide4: SMG7-A3.pdf
 fbimage: smg7fb.png
 imagefeature: smg7square.jpeg
+imagealt: "Science Mom's Guide to Water, Part 7: cartoon water droplets moving through the water cycle"
 sitemap:
   lastmod: 2020-02-10
   priority: 0.3

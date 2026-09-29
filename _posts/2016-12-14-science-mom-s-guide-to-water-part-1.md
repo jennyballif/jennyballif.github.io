@@ -17,6 +17,7 @@ modified: '2016-12-14'
 tags: experiments foldable video
 sciencemomguideimage: SMG1coverThumbnail.png
 imagefeature: SMG1square.png
+imagealt: "Science Mom's Guide to Water, Part 1: stacked bottles of yellow, blue, and green water"
 experiment1title: Gravity Defying Lid
 experiment1time: 10 - 30 min
 experiment1supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.

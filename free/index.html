@@ -2,6 +2,7 @@
 layout: default
 title: Free Resources
 permalink: /free/
+description: "Free science resources for kids: 100+ videos, step-by-step experiments, and printable foldables and worksheets from Science Mom."
 ---
 
 {% include page-header.html
@@ -40,7 +41,7 @@ permalink: /free/
     {% assign featured_video = site.data.videos | where: "category", "Water" | first %}
     {% if featured_video %}
       <a class="card card-pad" href="https://www.youtube.com/watch?v={{ featured_video.id }}" target="_blank" rel="noopener" style="color: inherit;">
-        <img class="card-thumb" src="https://img.youtube.com/vi/{{ featured_video.id }}/mqdefault.jpg" alt="" loading="lazy" />
+        <img class="card-thumb" src="https://img.youtube.com/vi/{{ featured_video.id }}/mqdefault.jpg" alt="{{ featured_video.title | escape }} video thumbnail" loading="lazy" />
         <span class="card-category">Featured Video</span>
         <h3 class="card-title">{{ featured_video.title }}</h3>
       </a>
@@ -50,7 +51,7 @@ permalink: /free/
     {% if featured_exp %}
       <div class="card card-pad">
         {% if featured_exp.image %}
-          <img class="card-thumb" src="{{ featured_exp.image | relative_url }}" alt="" loading="lazy" />
+          <img class="card-thumb" src="{{ featured_exp.image | relative_url }}" alt="{% if featured_exp.alt %}{{ featured_exp.alt | escape }}{% else %}{{ featured_exp.title | escape }} experiment{% endif %}" loading="lazy" />
         {% endif %}
         <span class="card-category">Featured Experiment</span>
         <h3 class="card-title">{{ featured_exp.title }}</h3>
@@ -63,10 +64,10 @@ permalink: /free/
       <a class="card card-pad" href="{{ featured_print.url }}" target="_blank" rel="noopener" style="color: inherit;">
         {% if featured_print.wideimage %}
           <div class="card-wideimage-scroll">
-            <img src="{{ featured_print.wideimage | relative_url }}" alt="" loading="lazy" />
+            <img src="{{ featured_print.wideimage | relative_url }}" alt="{% if featured_print.alt %}{{ featured_print.alt | escape }}{% elsif featured_print.category == 'foldable' %}Pages of the {{ featured_print.title | escape }} foldable mini-book{% else %}{{ featured_print.title | escape }} {{ featured_print.category }}{% endif %}" loading="lazy" />
           </div>
         {% elsif featured_print.image %}
-          <img class="card-thumb" src="{{ featured_print.image | relative_url }}" alt="" loading="lazy" />
+          <img class="card-thumb" src="{{ featured_print.image | relative_url }}" alt="{% if featured_print.alt %}{{ featured_print.alt | escape }}{% elsif featured_print.category == 'foldable' %}Pages of the {{ featured_print.title | escape }} foldable mini-book{% else %}{{ featured_print.title | escape }} {{ featured_print.category }}{% endif %}" loading="lazy" />
         {% endif %}
         <span class="card-category">Featured Printable</span>
         <h3 class="card-title">{{ featured_print.title }}</h3>
@@ -87,6 +88,6 @@ permalink: /free/
   </div>
 
   <div class="btn-row" style="margin-top:0;">
-    <a class="btn btn-primary" href="https://sciencemom.teachable.com/p/earth-science">Check out Earth Science</a>
+    <a class="btn btn-primary" href="{{ site.courses_url }}/p/earth-science">Check out Earth Science</a>
   </div>
 </section>

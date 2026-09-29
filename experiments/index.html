@@ -2,6 +2,7 @@
 layout: default
 title: Experiments
 permalink: /experiments/
+description: "Hands-on science experiments kids can do at home with household materials, with step-by-step writeups from Science Mom."
 ---
 
 {% include page-header.html
@@ -39,7 +40,7 @@ Quick experiments from data file
     {% for exp in site.data.experiments %}
       <div class="card card-pad">
         {% if exp.image %}
-          <img class="card-thumb" src="{{ exp.image | relative_url }}" alt="" loading="lazy" />
+          <img class="card-thumb" src="{{ exp.image | relative_url }}" alt="{% if exp.alt %}{{ exp.alt | escape }}{% else %}{{ exp.title | escape }} experiment{% endif %}" loading="lazy" />
         {% endif %}
 
         {% if exp.categories %}

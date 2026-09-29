@@ -20,7 +20,7 @@ All parameters are optional except title.
   {% endif %}
 
   {% if include.image %}
-    <img class="card-thumb" src="{{ include.image | relative_url }}" alt="" loading="lazy" />
+    <img class="card-thumb" src="{{ include.image | relative_url }}" alt="{{ include.alt | default: include.title | escape }}" loading="lazy" />
   {% endif %}
 
   {% if include.category %}

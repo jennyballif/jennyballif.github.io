@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://science.mom/#org",
+      "name": "Science Mom",
+      "url": "https://science.mom/",
+      "logo": "https://science.mom/images/ScienceMom_Logo_RGB.png",
+      "description": "Secular homeschool science courses for grades 4–8, with free videos, experiments, and printables.",
+      "email": "jenny@science.mom",
+      "founder": [{ "@id": "https://science.mom/#jenny" }, { "@id": "https://science.mom/#serge" }],
+      "sameAs": [
+        "https://www.youtube.com/sciencemom",
+        "https://www.patreon.com/sciencemom",
+        "{{ site.courses_url }}/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://science.mom/#jenny",
+      "name": "Jenny Ballif",
+      "alternateName": "Science Mom",
+      "jobTitle": "Science educator and course creator",
+      "description": "Molecular biologist with a B.S. in crop science and an M.S. in plant science.",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Utah State University" },
+      "worksFor": { "@id": "https://science.mom/#org" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://science.mom/#serge",
+      "name": "Serge Ballif",
+      "alternateName": "Math Dad",
+      "jobTitle": "Mathematician and math teacher",
+      "description": "Ph.D. in mathematics.",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "The Pennsylvania State University" },
+      "worksFor": { "@id": "https://science.mom/#org" }
+    }
+  ]
+}
+</script>

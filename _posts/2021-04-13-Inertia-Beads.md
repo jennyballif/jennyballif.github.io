@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: InertiaBeads.jpg
+imagealt: "A jar of beads with a strand of beads pouring out over the rim"
 fbimage: InertiaBeads.jpg
 title: I Can't Bead-lieve my Eyes!
 description: >-

@@ -23,10 +23,10 @@ layout: default
       <a class="card card-pad" href="{{ item.url }}" target="_blank" rel="noopener" style="color: inherit;">
         {% if item.wideimage %}
           <div class="card-wideimage-scroll">
-            <img src="{{ item.wideimage | relative_url }}" alt="" loading="lazy" />
+            <img src="{{ item.wideimage | relative_url }}" alt="{% if item.alt %}{{ item.alt | escape }}{% elsif item.category == 'foldable' %}Pages of the {{ item.title | escape }} foldable mini-book{% else %}{{ item.title | escape }} {{ item.category }}{% endif %}" loading="lazy" />
           </div>
         {% elsif item.image %}
-          <img class="card-thumb" src="{{ item.image | relative_url }}" alt="" loading="lazy" />
+          <img class="card-thumb" src="{{ item.image | relative_url }}" alt="{% if item.alt %}{{ item.alt | escape }}{% elsif item.category == 'foldable' %}Pages of the {{ item.title | escape }} foldable mini-book{% else %}{{ item.title | escape }} {{ item.category }}{% endif %}" loading="lazy" />
         {% endif %}
 
         <span class="card-category">{{ item.category | capitalize }}</span>

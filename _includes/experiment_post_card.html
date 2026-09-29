@@ -11,7 +11,7 @@ Usage:
 <a href="{{ post.url | relative_url }}" class="experiment-post-card">
   {% if thumb %}
     <div class="experiment-post-card-thumb">
-      <img src="{{ '/images/' | append: folder | append: '/' | append: thumb | relative_url }}" alt="" loading="lazy" />
+      <img src="{{ '/images/' | append: folder | append: '/' | append: thumb | relative_url }}" alt="{{ post.imagealt | default: post.title | escape }}" loading="lazy" />
     </div>
   {% endif %}
 

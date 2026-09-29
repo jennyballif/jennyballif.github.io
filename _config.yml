@@ -1,5 +1,10 @@
 title: Science Mom
-description: Hands-on science curriculum for curious kids.
+description: Secular homeschool science courses for grades 4–8, plus free videos, experiments, and printables.
+
+# Course storefront on Teachable. After switching Teachable's primary domain,
+# change this one line to "https://courses.science.mom" and every link,
+# llms.txt, and the JSON-LD update together.
+courses_url: "https://sciencemom.teachable.com"
 url: "https://science.mom"
 baseurl: ""
 timezone: America/Anchorage

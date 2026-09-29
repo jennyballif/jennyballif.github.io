@@ -28,7 +28,7 @@ layout: default
       {% if exp.categories contains category %}
         <div class="card card-pad">
           {% if exp.image %}
-            <img class="card-thumb" src="{{ exp.image | relative_url }}" alt="" loading="lazy" />
+            <img class="card-thumb" src="{{ exp.image | relative_url }}" alt="{% if exp.alt %}{{ exp.alt | escape }}{% else %}{{ exp.title | escape }} experiment{% endif %}" loading="lazy" />
           {% endif %}
 
           {% if exp.categories %}

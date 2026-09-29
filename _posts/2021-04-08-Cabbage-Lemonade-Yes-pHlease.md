@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: cabbage.jpeg
+imagealt: "Jars of red cabbage juice and lemonade in blue, pink, and yellow, next to a lemon and a red cabbage"
 fbimage: cabbage.jpeg
 title: Cabbage Lemonade?!? Yes, pHlease!
 description: >-

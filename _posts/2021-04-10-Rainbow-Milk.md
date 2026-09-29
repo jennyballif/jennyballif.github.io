@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: RainbowMilk.png
+imagealt: "Food coloring spreading in branching patterns across a plate of milk"
 fbimage: RainbowMilk.png
 title: Don't cry over spilt milk, make rainbows!
 description: >-

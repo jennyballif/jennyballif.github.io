@@ -24,6 +24,7 @@ experiment2supplies: 'Containers, balloons, Plaster of Paris, Water, Freezer'
 experiment2concepts: 'Changes of state (Chemistry), Force (Physics),'
 experiment2image: Thumbnail2.PNG
 imagefeature: TwitterSMG4.png
+imagealt: "Science Mom's Guide to Water, Part 4: a cartoon stick figure lifting an ice cube stuck to a match"
 fbimage: FBThumbnail1.png
 experiment3title: Instant Slushy
 experiment3time: 2 - 3 hours

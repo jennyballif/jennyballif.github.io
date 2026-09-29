@@ -17,6 +17,7 @@ headline: >-
 tags: Science Mom Guide
 fbimage: fbSMG5.png
 imagefeature: twitterSMG5.png
+imagealt: "Science Mom's Guide to Water, Part 5: a large burst of fire outdoors"
 videofeature: 'https://www.youtube.com/embed/KPjp2qg8SA4'
 folder: SMG5
 sciencemomguideimage: SMG5cover.png

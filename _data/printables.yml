@@ -2,6 +2,7 @@
   category: worksheet
   url: /../images/EarthScience/RockIdentification.pdf
   image: images/EarthScience/RockIdentificationThumbnail.jpg
+  alt: "Rock identification flowchart with yes-or-no questions"
 
 - title: Science Mom's Guide to Water Part 1
   category: foldable
@@ -97,24 +98,29 @@
   category: booklet
   url: https://www.patreon.com/posts/15780477
   image: images/printables/SLIMEcover.png
+  alt: "Science Mom Slime booklet cover"
   linkicon: fab fa-patreon
 
 - title: The Math Behind Spot It
   category: worksheet
   url: https://www.patreon.com/posts/math-behind-spot-19693536
   image: images/printables/spotit.jpg
+  alt: "Diagram of how Spot It! cards share symbols, next to a Spot It! game tin"
 
 - title: Island Adaptations
   category: worksheet
   url: https://www.patreon.com/posts/island-16738014
   image: images/printables/IslandAdaptations.JPG
+  alt: "Environment and Adaptations worksheet asking what kind of island an explorer would find in cold, windy, wet weather"
 
 - title: Light is Amazing
   category: worksheet
   url: https://www.patreon.com/posts/best-kind-of-15424506
   image: images/printables/light.JPG
+  alt: "Light is Amazing worksheet showing the sun lighting Earth to make day and night"
 
 - title: DNA Extraction
   category: worksheet
   url: https://www.patreon.com/posts/19908770
   image: images/printables/DNA.JPG
+  alt: "DNA Extraction worksheet with a list of materials"

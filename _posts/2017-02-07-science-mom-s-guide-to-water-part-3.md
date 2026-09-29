@@ -53,6 +53,7 @@ guide2: SMG3-11x17.pdf
 guide3: SMG3-A4.pdf
 guide4: SMG3-A3.pdf
 imagefeature: SMG3square2.png
+imagealt: "Science Mom's Guide to Water, Part 3: a row of glasses of blue, green, yellow, and red water"
 fbimage: WalkingWater.001.png
 sitemap:
   lastmod: 2020-02-10

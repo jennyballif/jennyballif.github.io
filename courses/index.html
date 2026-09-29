@@ -1,0 +1,92 @@
+---
+layout: default
+title: Science Courses
+permalink: /courses/
+description: "Secular homeschool science courses and bundles for grades 4–8: chemistry, biology, astronomy, geoscience, and physics. $150 per family per course."
+---
+
+{% include page-header.html
+   title="Science Courses"
+   intro="Secular science courses for grades 4–8. Every course has video lessons, follow-along notes, and hands-on projects. One price covers every student in your family."
+%}
+
+<style>.course-thumb{ height:auto; aspect-ratio:16/9; object-fit:cover; display:block; }</style>
+
+{% for group in site.data.courses %}
+<section class="section">
+  <h2>{{ group.band }}</h2>
+  <div class="grid grid-2">
+    {% for course in group.courses %}
+    <div class="card card-pad">
+      {%- if course.image %}
+      <a href="{{ site.courses_url }}{{ course.path }}"><img class="card-thumb course-thumb" src="{{ course.image | relative_url }}" alt="{{ course.name }} course thumbnail" width="800" height="450" loading="lazy" /></a>
+      {%- endif %}
+      <h3 class="card-title"><a href="{{ site.courses_url }}{{ course.path }}">{{ course.name }}</a></h3>
+      <p class="card-desc">{{ course.summary }}</p>
+      {% if course.price %}<p style="margin:0.45rem 0 0;"><strong>${{ course.price }}</strong> per family</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<section class="section">
+  <h2>Bundles</h2>
+  <div class="grid grid-2" style="align-items:start;">
+    {% for bundle in site.data.bundles %}
+    <div class="card card-pad">
+      {%- if bundle.image %}
+      <a href="{{ site.courses_url }}{{ bundle.path }}"><img class="card-thumb course-thumb" src="{{ bundle.image | relative_url }}" alt="{{ bundle.name }} thumbnail" width="800" height="450" loading="lazy" /></a>
+      {%- endif %}
+      <h3 class="card-title"><a href="{{ site.courses_url }}{{ bundle.path }}">{{ bundle.name }}</a></h3>
+      <p class="card-desc">{{ bundle.includes }}</p>
+      {% if bundle.price %}<p style="margin:0.45rem 0 0;"><strong>${{ bundle.price }}</strong> per family</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <p class="muted" style="margin-top:0.8rem;">Payment plans, scholarships, and $25 off for <a href="https://www.patreon.com/sciencemom">Patreon</a> members are available.</p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="{{ site.courses_url }}">Enroll on our course site</a>
+  </div>
+</section>
+
+<section class="section" style="max-width: 70ch;">
+  <h2>Teachers</h2>
+  <p>Science Mom (Jenny Ballif) is a molecular biologist with an M.S. in plant science from Utah State University. Math Dad (Serge Ballif) has a Ph.D. in mathematics from Penn State. <a href="{{ '/about/' | relative_url }}">More about us</a>.</p>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Science Mom courses",
+  "itemListElement": [
+    {%- assign pos = 0 -%}
+    {%- for group in site.data.courses -%}
+      {%- for course in group.courses -%}
+        {%- if course.path -%}
+          {%- assign pos = pos | plus: 1 -%}
+          {%- if pos > 1 %},{% endif %}
+    {
+      "@type": "ListItem",
+      "position": {{ pos }},
+      "item": {
+        "@type": "Course",
+        "name": {{ course.name | jsonify }},
+        "url": "{{ site.courses_url }}{{ course.path }}",
+        "description": {{ course.summary | jsonify }},
+        "educationalLevel": {{ group.level | jsonify }},
+        "inLanguage": "en",
+        "provider": { "@id": "https://science.mom/#org" },
+        {%- if course.price %}
+        "offers": { "@type": "Offer", "category": "Paid", "price": {{ course.price }}, "priceCurrency": "USD" },
+        {%- endif %}
+        "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Online" }
+      }
+    }
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor %}
+  ]
+}
+</script>

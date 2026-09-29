@@ -1,33 +1,23 @@
 # Robots.txt for Science Mom (science.mom)
+# All crawlers, including AI assistants and AI search, are welcome.
 
-# Welcome all crawlers
 User-agent: *
 Allow: /
 
-# AI crawlers are welcome
+# Named explicitly so the intent is clear to AI operators
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: GPTBot
-Allow: /
-
+User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: Anthropic-AI
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
 User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
-# Sitemap location
 Sitemap: https://science.mom/sitemap.xml
 
-# LLM-friendly content description
-# See https://science.mom/llms.txt for structured information about this site
+# Plain-language summary of this site: https://science.mom/llms.txt

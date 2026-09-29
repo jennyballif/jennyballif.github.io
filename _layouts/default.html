@@ -4,16 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>
-      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
-    </title>
-
-    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | default: site.description }}" />
+    <title>{% if page.url == "/" %}{{ site.title }} · Homeschool Science Courses, Grades 4–8{% elsif page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
-    {% seo %}
+    {% seo title=false %}
+    {% if page.url == "/" or page.url == "/about/" or page.url == "/courses/" %}{% include schema-org.html %}{% endif %}
 
     <!-- GDPR Cookie Consent + Analytics -->
     <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>

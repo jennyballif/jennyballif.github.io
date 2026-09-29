@@ -7,6 +7,7 @@
   supplies: Water; Cup; Plastic lid or piece of cardboard or cardstock.
   concepts: Balanced forces(Physics); Pressure(Physics); Cohesion of water(Chemistry).
   image: images/SMG1/Thumbnail1.png
+  alt: "An upside-down cup of blue water held closed by a plastic lid"
   vidlinks:
     - name: Science Mom's Guide to Water Part 1
       url: https://www.youtube.com/watch?v=IsvHQon2IqQ
@@ -26,6 +27,7 @@
   supplies: Water; Jar with metal ring or cup and rubberband; Screen or mesh cloth; Lid or cardboard.
   concepts:  Balanced forces(Physics); Pressure(Physics); Cohesion and surface tension of water(Chemistry).
   image: images/SMG1/Thumbnail2.png
+  alt: "An upside-down jar of blue water with a mesh screen over the mouth, and the water staying inside"
   vidlinks:
     - name: Science Mom's Guide to Water Part 1
       url: https://www.youtube.com/watch?v=IsvHQon2IqQ
@@ -45,6 +47,7 @@
   supplies: Water of different temperatures; Identical-sized clear cups; Food coloring;  Flat lid or cardstock.
   concepts:  Density(Physics); Thermohaline circulation(Ecology); Lake turnover(Ecology).
   image: images/SMG1/Thumbnail3.png
+  alt: "Two stacked pairs of bottles: in one, yellow and blue water stay in separate layers; in the other, they have mixed to green"
   vidlinks:
     - name: Science Mom's Guide to Water Part 1
       url: https://www.youtube.com/watch?v=IsvHQon2IqQ
@@ -63,6 +66,7 @@
   supplies: Water; Waxed Paper; Dropper; Food Coloring; Toothpick; Soap;
   concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
   image: images/SMG2/SMG2a.png
+  alt: "Colored water drops beading up on waxed paper, pushed around with a toothpick"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -81,6 +85,7 @@
   supplies: Water; Coin; Dropper;
   concepts: Surface Tension of Water (Chemistry)
   image: images/SMG2/SMG2b.png
+  alt: "A dropper adding blue water to a tall dome of water on a coin"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -99,6 +104,7 @@
   supplies: Water; Bowl or cup; Concentrated Dish Soap; Pepper
   concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
   image: images/SMG2/SMG2c.png
+  alt: "Ground pepper pushed out to the edges of a bowl of blue water"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -117,6 +123,7 @@
   supplies: Water; Paper; Scissors; Concentrated Dish Soap;
   concepts: Surface Tension of Water (Chemistry); Surfactants (Chemistry)
   image: images/SMG2/SMG2d.png
+  alt: "A small folded paper boat floating on water"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -135,6 +142,7 @@
   supplies: Water; Bowl or cup; Pin
   concepts: Surface Tension of Water (Chemistry);
   image: images/SMG2/SMG2e.png
+  alt: "A pin floating on the surface of a cup of blue water"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -153,6 +161,7 @@
   supplies: Water; Bowl or cup; Paperclip
   concepts: Surface Tension of Water (Chemistry);
   image: images/SMG2/SMG2f.png
+  alt: "A paperclip floating on the surface of water in a clear cup"
   vidlinks:
     - name: Science Mom's Guide to Water Part 2
       url: https://www.youtube.com/watch?v=OeYYiSsPf4I
@@ -175,6 +184,7 @@
   concepts: >-
     Separation of compounds based on rate of movement (Chromatography), Solubility  (Chemistry), Capillary Action (Chemistry)
   image: images/SMG3/chromatography.png
+  alt: "Paper towel strips hanging from a rod, with marker ink separated into bands of color"
   vidlinks:
     - name: Science Mom's Guide to Water Part 3
       url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
@@ -194,6 +204,7 @@
   supplies: '5 cups, 4 paper towels, Water, Food Coloring'
   concepts: 'Capillary Action (Chemistry), Siphons (Physics), Gravity'
   image: images/SMG3/walkingwater.png
+  alt: "Paper towels carrying colored water between glasses, mixing blue and yellow into green"
   vidlinks:
     - name: Science Mom's Guide to Water Part 3
       url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
@@ -212,6 +223,7 @@
   supplies: 'Bendable drinking straws, Cups, Water'
   concepts: 'Siphons (Physics), Momentum (Physics), Gravity'
   image: images/SMG3/strawsiphon.png
+  alt: "Drawing of a bent straw siphoning water out over the rim of a cup"
   vidlinks:
     - name: Science Mom's Guide to Water Part 3
       url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
@@ -230,6 +242,7 @@
   supplies: 'Plastic Bottle, Plastic Tubing, Drill or knife, Glue and Tape'
   concepts: 'Siphons (Physics), Momentum (Physics), Air Pressure (Physcis), Gravity'
   image: images/SMG3/bottlefountain.png
+  alt: "Drawing of an upside-down bottle with a tube, and water spraying up inside like a fountain"
   vidlinks:
     - name: Science Mom's Guide to Water Part 3
       url: https://www.youtube.com/watch?v=4OgcPI7S8_o&t
@@ -251,6 +264,7 @@
   supplies: 'Water, Oil, Ice cube tray, Freezer'
   concepts: Density (Physics); Changes of state (Chemistry)
   image: images/SMG4/Thumbnail1.PNG
+  alt: "Drawing of two cups: an ice cube sinking in oil and an ice cube floating in water"
   vidlinks:
     - name: Science Mom's Guide to Water Part 4
       url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
@@ -270,6 +284,7 @@
   supplies: 'Containers, balloons, Plaster of Paris, Water, Freezer'
   concepts: 'Changes of state (Chemistry), Force (Physics)'
   image: images/SMG4/Thumbnail2.PNG
+  alt: "Drawing of a cracked block of ice pushing out of its container, showing how water expands as it freezes"
   vidlinks:
     - name: Science Mom's Guide to Water Part 4
       url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
@@ -289,6 +304,7 @@
   supplies: 'Bottled soda, Freezer, Ice'
   concepts: 'Supercooling of liquids (Physics and Chemistry), Changes of state (Chemistry)'
   image: images/SMG4/Thumbnail3.PNG
+  alt: "Drawing of a chilled drink poured over ice and turning into slush"
   vidlinks:
     - name: Science Mom's Guide to Water Part 4
       url: https://www.youtube.com/watch?v=4Y7SWqUJJ9A
@@ -311,6 +327,7 @@
     or tinfoil
   concepts: 'Density (Physics), Hydrophobic vs. Hydrophilic (Chemistry)'
   image: images/SMG5/Ocean.png
+  alt: "A bottle of blue water and oil tipped on its side to make waves"
   vidlinks:
     - name: Science Mom's Guide to Water Part 5
       url: https://www.youtube.com/watch?v=KPjp2qg8SA4
@@ -331,6 +348,7 @@
   concepts: >-
     Density (Physics), Chemical Reactions (Chemistry), Hydrophobic vs. Hydrophilic (Chemistry)
   image: images/SMG5/Lavalamp.png
+  alt: "A homemade lava lamp with red bubbles rising through oil in a bottle"
   vidlinks:
     - name: Science Mom's Guide to Water Part 5
       url: https://www.youtube.com/watch?v=KPjp2qg8SA4
@@ -351,6 +369,7 @@
     Paper Towel
   concepts:  'Combustion (Chemistry), Density (Chemistry)'
   image: images/SMG5/OilLamp.png
+  alt: "A lit wick floating in a layer of oil above green water in a glass"
   vidlinks:
     - name: Science Mom's Guide to Water Part 5
       url: https://www.youtube.com/watch?v=KPjp2qg8SA4
@@ -370,6 +389,7 @@
   supplies: 'salt, water, jar'
   concepts:  'evaporation, changes of state, crystals'
   image: images/SMG6/smg6salt.jpeg
+  alt: "Drawing of three cube-shaped salt crystals with the words Salt Crystals"
   vidlinks:
     - name: Science Mom's Guide to Water Part 6
       url: https://www.youtube.com/watch?v=5pAuxot2sEY
@@ -388,6 +408,7 @@
   supplies: 'salt, water, eggs, jars'
   concepts:  'density'
   image: images/SMG6/smg6egg.jpeg
+  alt: "An egg floating in the middle of a jar, between a layer of salt water and a layer of fresh water"
   vidlinks:
     - name: Science Mom's Guide to Water Part 6
       url: https://www.youtube.com/watch?v=5pAuxot2sEY
@@ -406,6 +427,7 @@
   supplies: 'alum, water, eggshells, jars'
   concepts:  'crystal formation, solutions'
   image: images/SMG6/smg6alum.jpeg
+  alt: "A purple crystal geode grown inside an eggshell"
   vidlinks:
     - name: Science Mom's Guide to Water Part 6
       url: https://www.youtube.com/watch?v=5pAuxot2sEY

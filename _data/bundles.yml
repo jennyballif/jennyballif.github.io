@@ -1,0 +1,21 @@
+# Science bundles shown on /courses/ and in llms.txt. path is appended to site.courses_url.
+- name: Middle School Science Bundle
+  path: /p/middle-school-science
+  image: /images/CourseThumbnails/ScienceThumbnails/web/middle-school-science-bundle.jpg
+  price: 720
+  includes: "All six middle school courses: Biology 1 and 2, Astronomy, Geoscience, and Physics 1 and 2."
+- name: Biology Bundle
+  path: /l/bundle/26592/biology-bundle
+  image: /images/CourseThumbnails/ScienceThumbnails/web/biology-bundle.jpg
+  price: 270
+  includes: "Biology 1: Microbiology and Biology 2: Genetics."
+- name: Earth and Space Science Bundle
+  path: /l/bundle/766314/earth-and-space-bundle
+  image: /images/CourseThumbnails/ScienceThumbnails/web/earth-space-bundle.jpg
+  price: 270
+  includes: Astronomy and Geoscience. Each course takes one semester at 3 lessons per week.
+- name: Physics Bundle
+  path: /l/bundle/489525/physics-bundle
+  image: /images/CourseThumbnails/ScienceThumbnails/web/physics-bundle.jpg
+  price: 270
+  includes: "Physics 1: Mechanics and Physics 2: Electromagnetism, a full year of physics."

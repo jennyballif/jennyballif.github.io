@@ -15,6 +15,7 @@ headline: >-
 modified: '2017-09-26'
 fbimage: smg6thumbnail.png
 imagefeature: twittersmg6.jpeg
+imagealt: "Science Mom's Guide to Water, Part 6: cartoon water molecules saying 'You remind me of me, so I like you!'"
 videofeature: 'https://www.youtube.com/embed/5pAuxot2sEY'
 folder: SMG6
 experiment1title: Salt Crystals

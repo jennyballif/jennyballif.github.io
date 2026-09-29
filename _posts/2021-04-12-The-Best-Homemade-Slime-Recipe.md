@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: slime.jpeg
+imagealt: "A child stretching a large sheet of green homemade slime"
 fbimage: slime.jpeg
 title: The best homemade slime recipe!
 description: >-

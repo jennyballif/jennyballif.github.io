@@ -8,6 +8,7 @@ sciencemom: true
 comments: true
 folder: blog
 imagefeature: ChladniSquare.jpg
+imagealt: "Salt on Chladni plates forming different patterns from sound vibrations"
 fbimage: ChladniSquare.jpg
 title: Chladni Plate - make sounds you can see!
 description: >-
