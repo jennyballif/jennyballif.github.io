@@ -54,29 +54,57 @@ CSS uses custom properties (variables) for easy theming:
 - `--bg`: Light background (#f5f8fb)
 - `--text`: Dark text (#13233a)
 
+## Courses and Bundles
+
+The course list lives in two data files. Edit these, not the pages:
+
+- `_data/courses.yml`: each science course (name, Teachable path, thumbnail, price, summary), grouped by grade band
+- `_data/bundles.yml`: each bundle (name, Teachable path, thumbnail, price, what it includes)
+
+These files feed the `/courses/` page, the course list on the homepage, `llms.txt`, and the course structured data (JSON-LD) on `/courses/`. A course with no `price` (like the live Earth Science course) shows without one.
+
+Course thumbnails are 800x450 web copies in `images/CourseThumbnails/ScienceThumbnails/web/`, made from the full-size images one folder up.
+
 ## Changing the Courses Link
 
-Currently, "Browse Courses" links to `https://sciencemom.teachable.com`.
+Every link to the Teachable course site uses one setting in `_config.yml`:
 
-When ready to switch to `https://courses.science.mom`:
-
-1. **Update nav.html**: Change the `href` in `_includes/nav.html`
-2. **Update index.html**: Search for `sciencemom.teachable.com` and replace with `courses.science.mom`
-3. **Update stub pages**: Check `/start/index.md` and `/free/index.md` for Teachable links
-
-A quick find-and-replace across the project:
+```yaml
+courses_url: "https://sciencemom.teachable.com"
 ```
-Find: sciencemom.teachable.com
-Replace: courses.science.mom
+
+After making `courses.science.mom` the primary domain in Teachable, change it to:
+
+```yaml
+courses_url: "https://courses.science.mom"
 ```
+
+Leave off the trailing slash. Commit and push, and every course link, `llms.txt`, and the structured data update together. `jekyll serve` doesn't reload `_config.yml`, so restart it to test locally. After the switch, check that an old `sciencemom.teachable.com` link redirects to the new domain.
+
+When adding a new link to the course site anywhere, write it as `{{ site.courses_url }}/p/...` rather than typing the domain.
+
+## Search and AI Visibility
+
+- **Page descriptions:** set `description:` in each page's front matter. `jekyll-seo-tag` turns it into the meta description and social previews.
+- **Page titles:** set in `_layouts/default.html` ("Page · Science Mom"; the homepage has its own). `{% seo title=false %}` keeps the plugin from adding a second title.
+- **Structured data:** `_includes/schema-org.html` describes the business and founders. It loads on the homepage, About, and Courses pages.
+- **llms.txt:** a plain-language summary of the site for AI assistants. Its course and bundle lists come from the data files above.
+- **robots.txt:** allows all crawlers, including AI crawlers.
+- **Image descriptions (alt text):** add `alt:` to entries in `_data/experiments.yml` and `_data/printables.yml`, and `imagealt:` to experiment posts. If they're missing, a description is built from the title.
 
 ## File Structure
 
 ```
-├── _config.yml          # Jekyll configuration
+├── _config.yml          # Jekyll configuration (includes courses_url)
+├── _data/
+│   ├── courses.yml      # Science courses (feeds /courses/, homepage, llms.txt)
+│   ├── bundles.yml      # Course bundles
+│   ├── experiments.yml  # Quick experiments
+│   └── printables.yml   # Printables
 ├── _includes/
 │   ├── nav.html         # Site navigation
-│   └── footer.html      # Site footer
+│   ├── footer.html      # Site footer
+│   └── schema-org.html  # Business and founder structured data
 ├── _layouts/
 │   └── default.html     # Base HTML template
 ├── assets/
@@ -84,6 +112,9 @@ Replace: courses.science.mom
 │   └── js/main.js       # JavaScript (minimal)
 ├── images/              # Legacy assets (DO NOT MODIFY)
 ├── index.html           # Homepage
+├── courses/index.html   # Courses and bundles page
+├── llms.txt             # Site summary for AI assistants
+├── robots.txt           # Crawler rules
 ├── start/index.md       # Start Here page
 ├── free/index.md        # Free Resources page
 ├── activities/index.md  # Activities page
@@ -99,3 +130,4 @@ This site is configured for GitHub Pages. Push to the `master` branch to deploy.
 The site uses only GitHub Pages-compatible plugins:
 - `jekyll-feed` - RSS feed generation
 - `jekyll-seo-tag` - SEO meta tags
+- `jekyll-sitemap` - sitemap.xml
